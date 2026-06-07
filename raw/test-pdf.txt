@@ -1,0 +1,22 @@
+Space Data Center Power Budget Analysis
+Published by: Orbital Systems Research Institute, 2025.
+This report analyzes power budget constraints for orbital data centers.
+Space-based computing facilities face unique thermal and power challenges.
+Without atmospheric convection all waste heat must be radiated to space.
+Radiative cooling sets a hard limit on power density per unit surface area.
+Solar panels in LEO receive approximately 1.4 kilowatts per square meter.
+Panel efficiency is typically 20 percent yielding 280 watts per square meter.
+A one megawatt data center requires roughly 3600 square meters of solar panels.
+Eclipse periods in LEO last up to 36 minutes per 90-minute orbit.
+Battery storage must bridge eclipse gaps for continuous operation.
+Radiators at 300 Kelvin reject approximately 450 watts per square meter.
+A one megawatt facility requires 2200 square meters of radiator surface.
+Higher temperatures improve heat rejection but reduce electronics reliability.
+Space data centers are technically feasible at small scales today.
+Economic viability requires launch costs below 200 dollars per kilogram.
+Thermal management is the primary engineering constraint at scale.
+SpaceX Starship targets 10 to 100 dollars per kilogram fully reusable.
+Further research on deployable radiator systems is strongly recommended.
+This concludes the Space Data Center Power Budget Analysis report.
+
+

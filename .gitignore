@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V7
+.Trashes
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Python (for matplotlib chart scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node (for Playwright MCP and Marp CLI)
+node_modules/
+
+# Raw source files are tracked; large binaries are not
+*.pdf
