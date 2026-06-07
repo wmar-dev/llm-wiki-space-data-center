@@ -4,6 +4,8 @@
 <!-- Format: ## [YYYY-MM-DD] <operation> | <title> -->
 <!-- Operations: ingest | re-ingest | fetch | fetch-failed | query | lint | evaluation | tool-proposal -->
 
+## [2026-06-07] query | Are data centers in space financially viable? What are the key risks? | pages-read: 5
+
 ## [2026-06-07] ingest | Test Source 002 — Space Data Center Constraints
 
 Validation placeholder ingest (macro trigger test).
@@ -53,3 +55,7 @@ Processed Wikipedia article on SBSP via WebFetch fallback (Playwright MCP not ac
 ## [2026-06-07] ingest | Radiative Cooling for Space Data Centers
 
 Processed local file test-source-001.md (Space Architecture Research Group, 2025). Created source summary and thermal-management concept page. Source type: other; no contradictions found against existing pages (wiki was empty).
+
+## [2026-06-07] ingest | SpaceX Starship Launch Cost Breakdown
+
+Fetched from NextBigFuture.com (blog post). Created source summary, SpaceX entity page, and launch-cost-economics concept page. Detailed cost math: $90M build → $10/kg at 100 reuses via full reusability, engine mass production ($1M→$250K per Raptor), and steel at $5/kg. No contradictions with existing pages — granularity is new, claims are consistent.

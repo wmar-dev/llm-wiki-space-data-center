@@ -16,3 +16,7 @@
 - [Test Source 006 — Space Data Center Constraints](wiki/sources/test-source-006.md) — validation placeholder; space data center constraints [status: draft] [sources: 1]
 - [Test Source 007 — Space Data Center Constraints](wiki/sources/test-source-007.md) — validation placeholder; space data center constraints [status: draft] [sources: 1]
 - [Test Source 008 — Space Data Center Constraints](wiki/sources/test-source-008.md) — validation placeholder; space data center constraints [status: draft] [sources: 1]
+- [Are Space Data Centers Financially Viable? Key Risks](wiki/synthesis/space-datacenter-financial-viability.md) — launch cost threshold ($100–200/kg vs current $2,000/kg), thermal/power risks, Aetherflux pivot signal [status: current] [sources: 3]
+- [SpaceX Starship Launch Cost Breakdown](wiki/sources/spacex-launch-cost-math.md) — detailed cost math behind $10/kg target; build cost trajectory, engine leverage, reuse scenarios [status: draft] [sources: 1] [processing_status: processed] [origin_url: https://www.nextbigfuture.com/2024/01/how-will-spacex-bring-the-cost-to-space-down-to-10-per-kilogram-from-over-1000-per-kilogram.html]
+- [SpaceX](wiki/entities/spacex.md) — Starship economics, cost reduction levers, reuse projections, Falcon 9 precedent [status: draft] [sources: 1]
+- [Launch Cost Economics](wiki/concepts/launch-cost-economics.md) — cost equation variables, historical trend, thresholds for space data centers [status: draft] [sources: 3]
