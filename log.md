@@ -72,6 +72,8 @@ Fetched via Playwright. Created source summary. Key data: 40K tracked objects, 1
 
 ## [2026-06-07] query | fundamental limit on number of objects in space | pages-read: 3
 
+## [2026-06-07] query | what orbit would space data centers be put in | pages-read: 5
+
 ## [2026-06-07] ingest | SpaceX Starship Launch Cost Breakdown
 
 Fetched from NextBigFuture.com (blog post). Created source summary, SpaceX entity page, and launch-cost-economics concept page. Detailed cost math: $90M build → $10/kg at 100 reuses via full reusability, engine mass production ($1M→$250K per Raptor), and steel at $5/kg. No contradictions with existing pages — granularity is new, claims are consistent.
