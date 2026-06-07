@@ -58,6 +58,20 @@ Processed local file test-source-001.md (Space Architecture Research Group, 2025
 
 ## [2026-06-07] query | detailed cost breakdown of SpaceX Starship | pages-read: 4
 
+## [2026-06-07] fetch | https://en.wikipedia.org/wiki/Kessler_syndrome
+
+## [2026-06-07] fetch | https://en.wikipedia.org/wiki/Space_debris
+
+## [2026-06-07] ingest | Kessler Syndrome (Wikipedia)
+
+Fetched via Playwright. Created source summary and orbital-capacity-limits concept page. Key data: 72K satellite threshold; two LEO bands already past critical density; three Kessler regimes.
+
+## [2026-06-07] ingest | Space Debris (Wikipedia)
+
+Fetched via Playwright. Created source summary. Key data: 40K tracked objects, 128M <1 cm debris pieces, 8,000 tons total mass, 85% LEO pollution.
+
+## [2026-06-07] query | fundamental limit on number of objects in space | pages-read: 3
+
 ## [2026-06-07] ingest | SpaceX Starship Launch Cost Breakdown
 
 Fetched from NextBigFuture.com (blog post). Created source summary, SpaceX entity page, and launch-cost-economics concept page. Detailed cost math: $90M build → $10/kg at 100 reuses via full reusability, engine mass production ($1M→$250K per Raptor), and steel at $5/kg. No contradictions with existing pages — granularity is new, claims are consistent.
