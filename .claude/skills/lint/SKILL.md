@@ -1,7 +1,6 @@
 ---
-version: 1.0.0
-last_updated: 2026-06-07
-failure_modes: []
+name: lint
+description: Health-checks the wiki for structural issues (orphaned pages, broken cross-references, missing frontmatter), surfaces findings with proposed fixes, and triggers macro self-evaluation at ingest milestones. Use after accumulating several sources, when wiki quality is in question, or to run a periodic health check.
 ---
 
 # Lint Skill

@@ -1,7 +1,6 @@
 ---
-version: 1.0.0
-last_updated: 2026-06-07
-failure_modes: []
+name: ingest
+description: Processes a source document (local file or URL) into wiki pages, updates the index and log, and appends a self-evaluation entry. Use when the researcher wants to add a new source to the wiki, ingest a document, or refresh an existing source.
 ---
 
 # Ingest Skill
@@ -51,7 +50,7 @@ format comment. Then proceed to Step 1.
 
 **If the input is a URL:**
 
-1. Fetch the page using Playwright MCP (`browser_navigate` + `browser_snapshot`).
+1. Fetch the page using Playwright MCP (`playwright:browser_navigate` + `playwright:browser_snapshot`).
 2. If Playwright fails: retry once. If still failing: fall back to `curl -L <url>`.
 3. If all fetch attempts fail, OR if the fetched content is <100 words of useful text
    or contains paywall/login markers (e.g., "Sign in to read", "Subscribe to continue"):

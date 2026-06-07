@@ -1,7 +1,6 @@
 ---
-version: 1.0.0
-last_updated: 2026-06-07
-failure_modes: []
+name: query
+description: Searches the wiki, synthesizes a cited answer from accumulated pages, and optionally files the answer back as a new wiki page. Use whenever the researcher asks an analytical question about space data center prospects.
 ---
 
 # Query Skill
@@ -70,7 +69,7 @@ Do not read more than 5 pages in this step. If more are needed, run
 
 **If no relevant pages were found in Steps 1–2:**
 
-1. Fetch a relevant source using Playwright MCP (`browser_navigate` + `browser_snapshot`).
+1. Fetch a relevant source using Playwright MCP (`playwright:browser_navigate` + `playwright:browser_snapshot`).
 2. **On Playwright failure:** retry once. If still failing, fall back to
    `curl -L <url>`. If both fail:
    - Log: `## [YYYY-MM-DD] fetch-failed | <url> — <reason>`
