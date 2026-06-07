@@ -1,11 +1,11 @@
 ---
 name: query
-description: Searches the wiki, synthesizes a cited answer from accumulated pages, and optionally files the answer back as a new wiki page. Use whenever the researcher asks an analytical question about space data center prospects.
+description: Searches the wiki, synthesizes a cited answer from accumulated pages, and files the answer back as a new wiki page. Use whenever the researcher asks an analytical question about space data center prospects.
 ---
 
 # Query Skill
 
-Search the wiki, synthesize a cited answer, and optionally file the answer back
+Search the wiki, synthesize a cited answer, and automatically file the answer back
 as a new wiki page.
 
 **Trigger**: `/query <natural language question>`
@@ -135,31 +135,24 @@ The researcher runs the script to produce the PNG.
 
 ---
 
-### Step 6 — File-back prompt
+### Step 6 — File back
 
-Offer to file the answer as a new wiki page:
+Automatically write the answer as a new wiki page with full YAML frontmatter:
 
-> "This answer covers [topic]. Should I file it as a new wiki page at
-> `wiki/synthesis/<slug>.md`?"
+```yaml
+---
+title: "..."
+type: "synthesis"       # or "comparison" for tables
+sources:
+  - "<raw-filename-1>"
+  - "<raw-filename-2>"
+status: "current"
+created: "YYYY-MM-DD"
+last_updated: "YYYY-MM-DD"
+---
+```
 
-**If the researcher confirms:**
-
-1. Write the page with full YAML frontmatter:
-   ```yaml
-   ---
-   title: "..."
-   type: "synthesis"       # or "comparison" for tables
-   sources:
-     - "<raw-filename-1>"
-     - "<raw-filename-2>"
-   status: "current"
-   created: "YYYY-MM-DD"
-   last_updated: "YYYY-MM-DD"
-   ---
-   ```
-2. Add an entry to `index.md`.
-
-**If the researcher declines:** do not write any file; still proceed to Step 7.
+Then add an entry to `index.md`.
 
 ---
 

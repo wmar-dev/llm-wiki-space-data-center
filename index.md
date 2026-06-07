@@ -20,3 +20,4 @@
 - [SpaceX Starship Launch Cost Breakdown](wiki/sources/spacex-launch-cost-math.md) — detailed cost math behind $10/kg target; build cost trajectory, engine leverage, reuse scenarios [status: draft] [sources: 1] [processing_status: processed] [origin_url: https://www.nextbigfuture.com/2024/01/how-will-spacex-bring-the-cost-to-space-down-to-10-per-kilogram-from-over-1000-per-kilogram.html]
 - [SpaceX](wiki/entities/spacex.md) — Starship economics, cost reduction levers, reuse projections, Falcon 9 precedent [status: draft] [sources: 1]
 - [Launch Cost Economics](wiki/concepts/launch-cost-economics.md) — cost equation variables, historical trend, thresholds for space data centers [status: draft] [sources: 3]
+- [SpaceX Starship Cost Breakdown](wiki/synthesis/spacex-starship-cost-breakdown.md) — detailed cost breakdown: build trajectory, component costs, reuse scenarios, propellant floor, ops costs [status: current] [sources: 3]
