@@ -18,6 +18,9 @@ __pycache__/
 .venv/
 venv/
 
+# Playwright MCP
+.playwright-mcp/
+
 # Node (for Playwright MCP and Marp CLI)
 node_modules/
 
