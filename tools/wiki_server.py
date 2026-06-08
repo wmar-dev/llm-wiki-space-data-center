@@ -125,12 +125,24 @@ _LIVE_RELOAD_JS_TMPL = """
 # Core rendering helpers
 # ---------------------------------------------------------------------------
 
+def expand_wikilinks(text: str) -> str:
+    # Convert [[wiki/path/to/page.md]] to [label](/wiki/path/to/page) markdown links.
+    def replace(m: re.Match) -> str:
+        raw = m.group(1).strip()
+        url = ("/" + raw) if not raw.startswith("/") else raw
+        if url.endswith(".md"):
+            url = url[:-3]
+        label = Path(raw).stem.replace("-", " ").replace("_", " ")
+        return f"[{label}]({url})"
+    return re.sub(r"\[\[([^\]]+)\]\]", replace, text)
+
+
 def render_markdown(fs_path: Path) -> str:
     if not fs_path.exists():
         raise FileNotFoundError(fs_path)
     if fs_path.stat().st_size > MAX_FILE_BYTES:
         raise OverflowError("File exceeds 5 MB limit")
-    text = fs_path.read_text(encoding="utf-8")
+    text = expand_wikilinks(fs_path.read_text(encoding="utf-8"))
     md = markdown.Markdown(extensions=MD_EXTENSIONS)
     return md.convert(text)
 
