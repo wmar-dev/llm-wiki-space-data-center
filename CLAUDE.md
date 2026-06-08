@@ -31,6 +31,11 @@ at `specs/003-local-wiki-server/plan.md`.
 <!-- Fill in as conventions emerge through the first ingest sessions. -->
 <!-- Reference: specs/001-space-datacenter-analysis/contracts/skill-lint.md -->
 
+## Answer Open Questions Workflow
+
+<!-- Fill in as conventions emerge through the first answer-open-questions sessions. -->
+<!-- Reference: .claude/skills/answer-open-questions/SKILL.md -->
+
 ## Schema Evolution Notes
 
 <!-- Fill in as conventions emerge through the first ingest sessions. -->
