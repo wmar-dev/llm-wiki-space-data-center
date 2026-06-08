@@ -278,6 +278,8 @@ def build_nav(current_url_path: str, wiki_root: Path) -> List[NavEntry]:
     entries: List[NavEntry] = []
     is_home = current_url_path in ("/", "")
     entries.append(NavEntry("Index", "/", is_home))
+    is_summary = current_url_path in ("/summary", "/summary.md", "/SUMMARY", "/SUMMARY.md")
+    entries.append(NavEntry("Summary", "/summary", is_summary))
 
     wiki_dir = wiki_root / "wiki"
     if wiki_dir.is_dir():
@@ -348,6 +350,8 @@ class WikiHandler(BaseHTTPRequestHandler):
             self._serve_mtime()
         elif url_path in ("/log", "/log.md"):
             self._serve_root_md("log.md", url_path)
+        elif url_path in ("/summary", "/summary.md", "/SUMMARY", "/SUMMARY.md"):
+            self._serve_root_md("SUMMARY.md", url_path)
         elif url_path in ("/llm-wiki", "/llm-wiki.md"):
             self._serve_root_md("llm-wiki.md", url_path)
         elif url_path.startswith("/wiki"):
@@ -386,7 +390,7 @@ class WikiHandler(BaseHTTPRequestHandler):
 
     def _serve_mtime(self):
         root = self.config.wiki_root
-        candidates = [root / "wiki", root / "index.md", root / "log.md", root / "llm-wiki.md"]
+        candidates = [root / "wiki", root / "index.md", root / "log.md", root / "SUMMARY.md", root / "llm-wiki.md"]
         max_mtime = 0.0
         for p in candidates:
             if p.is_file():
