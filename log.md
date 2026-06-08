@@ -122,6 +122,34 @@ Web search aggregation. Key finding: thermoelectrics are not a substitute for ra
 
 Fetched from aggregated web sources. Created source summary and concept page. Key data: TJ solar cells >85% after 1yr; Li-ion >30K LEO cycles; typical LEO sat design life 5-8yr.
 
+## [2026-06-07] query | do we have enough launch sites for a space data center | pages-read: 1
+
+Total gap; fetched Wikipedia Spaceport article. Key finding: US launch sites already congested as of January 2025 before any data center launches; 12+ countries operate orbital sites. Binding constraint for GW-scale is cadence and regulatory throughput, not site count.
+
+## [2026-06-07] query | launches required to put a data center in space | pages-read: 4
+
+Partial gap: wiki has area data (3,600m² solar, 2,200m² radiators for 1MW) and payload capacities, but no direct satellite mass figures. Mass estimates derived as inference from iROSA benchmarks and published solar array/radiator mass densities. Key result: 1MW node needs 1-4 launches; 5GW constellation needs 175-590 Starship launches.
+
+## [2026-06-07] query | companies working on space data centers | pages-read: 3
+
+Partial gap: fetched Wikipedia Space Data Center article. New findings: Starcloud (YC-backed, H100 in orbit Nov 2025), Blue Origin TeraWave (5,400 sats), SpaceX FCC filing (Jan 2026), Edge Aerospace ESA contract (May 2026), Lonestar (lunar), Aetherflux renamed to Cowboy Space Corporation. Updated aetherflux.md and starcloud.md entity pages.
+
+## [2026-06-07] query | workload types best suited for space data centers | pages-read: 3
+
+Full coverage from three pages: latency synthesis (workload viability table), Scientific American (AI/GPU targeting, Starcloud H100), Orbital (Nvidia Space-1). Key findings: Earth observation is best fit; AI training is the investor bet; 5-6yr chip refresh is a constraint; carbon claim contested.
+
+## [2026-06-07] query | latency of a space data center vs terrestrial cloud | pages-read: 2
+
+Partial gap: orbital regime synthesis had LEO/GEO propagation estimates but no real-world measured latency. Fetched Wikipedia satellite internet page; Starlink 45ms RTT at 550km is the best proxy. Synthesized two-leg compute model and workload viability table.
+
+## [2026-06-07] query | theoretical limit on solar cell efficiency for space | pages-read: 2
+
+Total gap for theoretical limits; fetched Wikipedia Shockley-Queisser limit page. Key data: single-junction limit 33.16%, infinite-junction 68.7% at 1-sun AM0, 86.8% under concentration. Ingested as shockley-queisser-limit-wikipedia.md; synthesized with adjacent solar cell pages.
+
+## [2026-06-07] query | current solar cell efficiency for space applications | pages-read: 5
+
+Partial gap: degradation rates and technology comparison well-covered; absolute AM0 efficiency percentages for commercial TJ cells not confirmed in wiki sources. Wikipedia fetch (solar cell efficiency, multi-junction solar cell) provided context on Si AM0 (~14%) and record terrestrial TJ (39.5% NREL). Open question flagged in synthesis.
+
 ## [2026-06-07] ingest | SpaceX Starship Launch Cost Breakdown
 
 Fetched from NextBigFuture.com (blog post). Created source summary, SpaceX entity page, and launch-cost-economics concept page. Detailed cost math: $90M build → $10/kg at 100 reuses via full reusability, engine mass production ($1M→$250K per Raptor), and steel at $5/kg. No contradictions with existing pages — granularity is new, claims are consistent.

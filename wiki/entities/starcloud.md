@@ -13,9 +13,19 @@ last_updated: "2026-06-07"
 **Type**: Company
 **Sector**: Space data centers / orbital compute
 
+**Funding**: Y Combinator-backed
+
 ## Overview
 
-Starcloud has launched a 60 kg satellite equipped with an NVIDIA H100 GPU and projects building a 5 GW orbital data center by 2035. The company claims orbital solar-powered data centers produce 10× lower carbon emissions than land-based facilities powered by natural gas generators. — [[wiki/sources/scientific-american-space-datacenters.md]] *(news_article)*
+Starcloud is a Y Combinator-backed startup that deployed a 60 kg satellite equipped
+with an NVIDIA H100 GPU in November 2025 — claiming to be the "first company to
+train an LLM in space." It projects building a 5 GW orbital data center constellation
+of ~88,000 satellites by 2035, and has announced plans for Bitcoin mining in orbit.
+[[wiki/sources/space-data-center-wikipedia.md]] *(other)*
+
+The company claims orbital solar-powered data centers produce 10× lower carbon
+emissions than land-based facilities powered by natural gas generators.
+[[wiki/sources/scientific-american-space-datacenters.md]] *(news_article)*
 
 ## Contested Claim
 
