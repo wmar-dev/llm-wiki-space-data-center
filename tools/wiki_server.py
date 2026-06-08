@@ -33,6 +33,7 @@ class ServerConfig:
     wiki_root: Path = PROJECT_ROOT
     live_reload: bool = True
     poll_interval_ms: int = 2000
+    project_title: str = "Wiki"
 
 
 @dataclass
@@ -122,6 +123,19 @@ _LIVE_RELOAD_JS_TMPL = """
 
 
 # ---------------------------------------------------------------------------
+# Project title
+# ---------------------------------------------------------------------------
+
+def read_project_title(wiki_root: Path) -> str:
+    claude_md = wiki_root / "CLAUDE.md"
+    if claude_md.exists():
+        for line in claude_md.read_text(encoding="utf-8").splitlines():
+            if line.startswith("# "):
+                return line[2:].strip()
+    return "Wiki"
+
+
+# ---------------------------------------------------------------------------
 # Core rendering helpers
 # ---------------------------------------------------------------------------
 
@@ -191,7 +205,7 @@ def page_shell(title: str, body: str, nav: List[NavEntry], config: ServerConfig)
         f"<title>{title}</title>\n"
         f"<style>{_CSS}</style>\n"
         f"</head>\n<body>\n"
-        f"<nav>\n  <h2>Wiki</h2>\n  <ul>\n{nav_items}\n  </ul>\n</nav>\n"
+        f"<nav>\n  <h2>{config.project_title}</h2>\n  <ul>\n{nav_items}\n  </ul>\n</nav>\n"
         f"<main>\n{body}\n</main>\n"
         f"{reload_js}"
         f"</body>\n</html>"
@@ -380,7 +394,11 @@ def main():
         t = threading.Thread(target=_watch_source, args=(os.path.abspath(__file__),), daemon=True)
         t.start()
 
-    config = ServerConfig(port=args.port, live_reload=not args.no_reload)
+    config = ServerConfig(
+        port=args.port,
+        live_reload=not args.no_reload,
+        project_title=read_project_title(PROJECT_ROOT),
+    )
     run_server(config)
 
 
