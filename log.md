@@ -6,6 +6,8 @@
 
 ## [2026-06-08] query | how many satellites can we fit in GEO orbit? | pages-read: 4 | enrichment: fetched geo-orbital-slots-capacity.md (The Conversation, Summit Ridge Group, ITU Hub, UCS) | new pages: wiki/sources/geo-orbital-slots-capacity.md, wiki/synthesis/geo-orbit-satellite-capacity.md
 
+## [2026-06-08] query | how is the Kessler limit calculated? Can we calculate it ourselves with code? | pages-read: 4 | new pages: wiki/synthesis/kessler-limit-calculation.md, wiki/comparisons/kessler-limit-calculator.py
+
 ## [2026-06-08] query | isn't there a fundamental issue of being limited by how many objects you can put into space? | pages-read: 4 | answered from existing synthesis pages: orbital-capacity-fundamental-limit.md, space-datacenter-max-gw-capacity.md
 
 ## [2026-06-07] query | what is the max GW capacity that we can put into space? | pages-read: 4
