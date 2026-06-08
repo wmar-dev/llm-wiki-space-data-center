@@ -188,3 +188,11 @@ Unresolved: ISL routing variability for sub-50ms interactive workloads; annual l
 ## [2026-06-07] ingest | SpaceX Starship Launch Cost Breakdown
 
 Fetched from NextBigFuture.com (blog post). Created source summary, SpaceX entity page, and launch-cost-economics concept page. Detailed cost math: $90M build → $10/kg at 100 reuses via full reusability, engine mass production ($1M→$250K per Raptor), and steel at $5/kg. No contradictions with existing pages — granularity is new, claims are consistent.
+
+## [2026-06-08] answer | hardware refresh penalty — 3 open questions answered | pages-updated: 1 | sources-ingested: 3
+
+Answered 3 open questions from wiki/synthesis/hardware-refresh-penalty-space-compute.md:
+1. On-orbit GPU refresh via visiting vehicles — partial answer: OOS technically mature (Orbital Express, MEV, Hubble) but GPU module swap not yet demonstrated; cost/logistics unvalidated
+2. Sovereign/defense workload justification — answered: yes, for workloads where data residency and physical isolation dominate; defense procurement already active (Space Force $2.29B SDN, $4.16B ABMS awards)
+3. Inference threshold for very large models — answered: ~1T parameters is the inflection point where memory bandwidth saturates and frontier chips become necessary for production inference
+Remaining open question added: per-kg cost of robotic GPU module replacement vs full satellite replacement

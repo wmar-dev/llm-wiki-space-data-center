@@ -6,9 +6,12 @@ sources:
   - "orbital-startup-economics-register-2026.md"
   - "satellite-component-lifetimes.md"
   - "xai-colossus-wikipedia.md"
+  - "on-orbit-satellite-servicing.md"
+  - "military-applications-orbital-data-centers.md"
+  - "trillion-parameter-inference-frontier-chips.md"
 status: "current"
 created: "2026-06-07"
-last_updated: "2026-06-07"
+last_updated: "2026-06-08"
 ---
 
 # Will the Hardware Refresh Penalty Make Space Compute Uncompetitive?
@@ -134,15 +137,31 @@ Inference: A more defensible orbital compute investment thesis pivots toward
 in-orbit data locality and regulatory independence dominate, and chip generation is
 secondary. Neither Orbital nor Starcloud has publicly framed their pitch this way.
 
-## Open Questions
+## Answered Questions
 
-- Can orbital hardware be partially refreshed by visiting vehicles (Starship, Cygnus)?
-  No source in the wiki addresses on-orbit GPU replacement logistics or cost.
-- Does a sovereign or defense workload (nuclear C2, imagery intelligence) justify
-  accepting the training penalty in exchange for orbital security guarantees?
-- At what point does inference serving on very large deployed models (>1T parameter
-  class) become sufficiently compute-intensive that frontier chips matter even for
-  inference?
+### 1. On-Orbit Hardware Refresh via Visiting Vehicles
+
+On-orbit satellite servicing (OOS) is technically mature — demonstrated by DARPA's Orbital Express (2007, autonomous), five Hubble servicing missions (1993–2009, crewed), and Northrop Grumman's Mission Extension Vehicle (2019, robotic). The Aerospace Corporation notes that satellites designed for OOS could upgrade their hardware every few years. SpaceX Starship's 9m payload bay and on-orbit refueling capability provide a logistics backbone for visiting-vehicle servicing. ALATYR is developing the BYLD robotic system for in-orbit assembly and maintenance of orbital data centers. [[wiki/sources/on-orbit-satellite-servicing.md]]
+
+However, no mission has yet demonstrated GPU or compute-module replacement on orbit. The logistics and cost of partial hardware refresh for orbital data centers remain unvalidated. The most plausible path is robotic module swap via Starship or a purpose-built servicing vehicle, but this adds launch costs and complexity that may not close economically versus launching a replacement satellite.
+
+Open question: What is the per-kg cost of robotic GPU module replacement via visiting vehicle versus full satellite replacement?
+
+### 2. Sovereign and Defense Workloads
+
+A sovereign or defense workload (nuclear C2, imagery intelligence) does justify accepting the training penalty in exchange for orbital security guarantees, under specific conditions. Orbital data centers offer physically isolated compute (air-gapped by vacuum), which is the most secure environment for sensitive workloads. Military applications include ISR processing, missile warning data fusion, secure communications routing, and space domain awareness. [[wiki/sources/military-applications-orbital-data-centers.md]] *(news article)*
+
+The U.S. Space Force's $2.29B Space Data Network Backbone award and $4.16B Space-Based Airborne Moving Target Indicator award to SpaceX demonstrate that defense demand for orbital infrastructure is active and funded. New Space Economy concludes that near-term military use is more likely in processing and coordination than in weapons control, and that defense procurement will likely begin through hybrid commercial/government models.
+
+Inference: For workloads where data residency, physical isolation, and survivability dominate the requirement set — nuclear command and control, classified imagery processing — the hardware refresh penalty is secondary to the security guarantee. Orbital startups targeting defense contracts (EDGX, Star Nations, ALATYR) frame their value proposition around sovereign compute, not chip-generation parity.
+
+### 3. Inference Threshold for Very Large Models
+
+Frontier chips matter for inference when models exceed approximately 1 trillion parameters. At this scale, memory bandwidth becomes the dominant constraint on inference throughput, not compute capacity. NVIDIA's Rubin GPU (HBM4, 22 TB/s) provides 2.75x the memory bandwidth of Blackwell (8 TB/s), reducing the GPU count for 1T-parameter inference from ~32 Blackwell GPUs to ~22 Rubin GPUs — a 31% hardware reduction. [[wiki/sources/trillion-parameter-inference-frontier-chips.md]] *(news article)*
+
+Cerebras demonstrated that serving a 1T-parameter MoE model (Kimi K2.6) at 981 tokens/second required wafer-scale architecture with on-chip SRAM — achieving 6.7x the speed of GPU-based alternatives. This validates that at trillion-parameter scale, inference is hardware-bound and frontier chips provide measurable advantage.
+
+Inference: The threshold is ~1 trillion parameters. Below this, inference on 2–3 generation-old chips is viable (throughput sufficient). At and above 1T parameters, memory bandwidth saturation makes frontier chips economically necessary for production inference serving. As deployed models grow past this threshold (trending toward 10T+ parameters by 2028–2029), the inference penalty for older orbital hardware will become material even for inference workloads.
 
 ## Related Pages
 
