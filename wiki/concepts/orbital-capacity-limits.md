@@ -4,9 +4,10 @@ type: "concept"
 sources:
   - "kessler-syndrome-wikipedia.md"
   - "space-debris-wikipedia.md"
+  - "nasa-ntrs-20170003818.pdf"
 status: "current"
 created: "2026-06-07"
-last_updated: "2026-06-07"
+last_updated: "2026-06-08"
 ---
 
 # Orbital Capacity Limits
@@ -61,7 +62,19 @@ Any orbital data center deployment would add significant mass and cross-sectiona
 
 [[wiki/sources/kessler-syndrome-wikipedia.md]] *(other)*
 
+## Quantitative Collision Flux Framework (NASA ORDEM 3.0)
+
+NASA's Orbital Debris Engineering Model (ORDEM 3.0) operationalizes the Kessler spatial density equations to compute actual collision probabilities for specific satellite designs and orbits. Key results from the underlying algorithm paper [[wiki/sources/nasa-ntrs-20170003818-debris-risk-algorithms.md]]:
+
+- Collision flux = spatial density × relative velocity × cross-sectional area. Larger structures face proportionally higher collision probability.
+- For circular orbits, flux between two populations peaks when inclinations are supplementary (i₁ + i₂ ≈ 180°) — the counter-rotating, potentially coplanar regime where relative velocities are highest (~14 km/s combined).
+- SSO orbits (~98°) place a satellite near the high-flux ridge relative to equatorial/mid-inclination debris: 98° + 82° = 180°. Starcloud's proposed SSO dawn-dusk orbit is therefore in the highest-flux inclination regime.
+- Singular density values (infinite probability density at periapsis/apoapsis) are resolved by ORDEM by averaging over distributions of orbital elements — this is the correct approach, not bounding box averaging.
+
+Inference: A space data center in SSO at 550 km with cross-section 100× a typical cubesat faces ~100× the collision probability, compounded by the unfavorable inclination geometry relative to the existing debris population.
+
 ## Related pages
 
 - [[wiki/sources/kessler-syndrome-wikipedia.md]]
 - [[wiki/sources/space-debris-wikipedia.md]]
+- [[wiki/sources/nasa-ntrs-20170003818-debris-risk-algorithms.md]]

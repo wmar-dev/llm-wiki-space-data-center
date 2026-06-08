@@ -227,3 +227,11 @@ Company founding white paper claiming 40 MW space cluster costs $8.2M vs $167M t
 ## [2026-06-08] contradiction | wiki/synthesis/space-datacenter-financial-viability.md vs novaspace-orbital-data-centers-white-paper.txt and starcloud-white-paper.txt
 
 Novaspace finds space 2.7× more expensive than terrestrial (at $1,000/kg launch). Starcloud claims space is 20× cheaper (at $30/kg). Divergence traced entirely to launch cost assumptions; both conclusions internally consistent under their own assumptions.
+
+## [2026-06-08] fetch | https://ntrs.nasa.gov/api/citations/20170003818/downloads/20170003818.pdf
+
+Downloaded via curl (Playwright not needed for direct PDF URL). Saved to raw/nasa-ntrs-20170003818.pdf (248 KB).
+
+## [2026-06-08] ingest | Debris Risk Computation Algorithms (NASA NTRS 20170003818)
+
+Peer-reviewed NASA technical paper presenting algorithms for ORDEM 3.0 debris risk model. Key finding for space data centers: SSO orbits (~98°) fall in the highest-flux inclination regime (supplementary to equatorial/mid-inclination debris); collision probability scales linearly with cross-sectional area. Updated orbital-capacity-limits concept page with quantitative ORDEM framework.

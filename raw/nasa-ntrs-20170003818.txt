@@ -1,0 +1,861 @@
+ALGORITHMS FOR THE COMPUTATION OF DEBRIS RISK
+Mark J. Matney (1)
+(1)
+
+NASA Orbital Debris Program Office, Mail Code XI4-9E, NASA Johnson Space Center, 2101 NASA Parkway, Houston
+Texas, USA, 77058, mark.matney-1@nasa.gov
+
+ABSTRACT
+
+Determining the risks from space debris involve a number
+of statistical calculations. These calculations inevitably
+involve assumptions about geometry - including the
+physical geometry of orbits and the geometry of satellites.
+A number of tools have been developed in NASA’s
+Orbital Debris Program Office to handle these
+calculations; many of which have never been published
+before. These include algorithms that are used in NASA’s
+Orbital Debris Engineering Model ORDEM 3.0, as well as
+other tools useful for computing orbital collision rates and
+ground casualty risks. This paper presents an introduction
+to these algorithms and the assumptions upon which they
+are based.
+
+1
+
+INTRODUCTION
+
+Computation of collisions and other long-term behaviours
+of orbiting objects are often computed using statistical
+tools. That is because it is often difficult to predict where
+a particular satellite will be at some time far into the future,
+especially the detailed position within its orbit. Instead,
+we rely on the location probability of a satellite at any
+particular time in the future. This information is computed
+in terms of probability distributions in the relevant
+parameters, which can be converted to spatial density.
+Spatial density is a useful quantity, because it can be
+converted directly into collision probability under the
+assumptions of kinetic gas theory. This assumes that
+orbiting objects have dimensions much smaller than the
+scale of the changes in the spatial density. Under such
+conditions, the flux of a distribution of objects can be
+computed as
+
+𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓 = 𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠 𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑 ∗ 𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣
+
+(1)
+
+𝑁𝑁𝑁𝑁𝑁𝑁𝑁𝑁𝑁𝑁𝑁𝑁 𝑜𝑜𝑜𝑜 𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐
+= 𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓 ∗ 𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎
+∗ 𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡
+
+(2)
+
+And number of collisions is
+
+where “area” is the area of the orbiting object. In order for
+this relation to hold, the area/size of the satellite must be
+much smaller than the scale over which the spatial density
+varies. In this paper, we will discuss cases where this
+assumption breaks down, and how to compute the
+collision rate in those cases.
+For much of the work in this paper, we will assume that
+objects orbit in idealized Kepler orbits. In reality, the
+effects of atmospheric drag, the non-spherical gravity of
+the Earth, and the effects of the gravity of the Sun and
+Moon mean that this assumption is only an approximation.
+
+2
+
+KESSLER EQUATION
+
+Kessler [1] used a spatial density equation to compute the
+collision rates of Jupiter’s moons. These equations have
+been used uncounted times since then to compute the
+collision probabilities of debris striking Earth-orbiting
+satellites. In order to develop the tools for this paper, we
+must first re-derive the Kessler equations, but in a way that
+opens up other possibilities for computation. Note that
+many of the equations used in this section parallel those in
+Dennis [2].
+The probability distribution function (PDF) of a periodic
+parameter can be computed using the localized time rate
+of change of that parameter. For instance, for any periodic
+parameter x,
+
+𝑝𝑝(𝑥𝑥)𝑑𝑑𝑑𝑑 ∝
+
+𝑑𝑑𝑑𝑑
+|𝑥𝑥̇ |
+
+(3)
+
+For example, the radial velocity of a Kepler orbit is
+
+𝜇𝜇 �(𝑟𝑟𝐴𝐴 − 𝑟𝑟)(𝑟𝑟 − 𝑟𝑟𝑃𝑃 )
+𝑎𝑎
+𝑟𝑟
+
+𝑟𝑟̇ (𝑟𝑟) = ±�
+
+(4)
+
+where a is the semi-major axis, µ the gravitational
+constant, and rA and rP are the apoapsis and periapsis radii,
+respectively. The radius of a satellite oscillates between
+rA and rP during each orbit period, so we can apply
+equation 3 to determine the normalized PDF of the orbit
+radius over a long period of time.
+
+𝑝𝑝(𝑟𝑟)𝑑𝑑𝑑𝑑 =
+
+𝑟𝑟 𝑑𝑑𝑑𝑑
+
+(5)
+
+𝜋𝜋 𝑎𝑎 �(𝑟𝑟𝐴𝐴 − 𝑟𝑟)(𝑟𝑟 − 𝑟𝑟𝑃𝑃 )
+
+ascending node is assumed to be uniformly distributed, the
+longitude distribution is simply
+
+𝑝𝑝(𝜙𝜙) 𝑑𝑑𝑑𝑑 =
+
+Unlike the approximation used by Kessler, there is an
+exact analytic solution to the integral of this equation.
+
+� 𝑝𝑝(𝑟𝑟 ′ ) 𝑑𝑑𝑟𝑟 ′
+
+(6)
+
+�(𝑟𝑟𝐴𝐴 − 𝑟𝑟)(𝑟𝑟 − 𝑟𝑟𝑃𝑃 )
+𝜋𝜋 𝑎𝑎
+1
+2(𝑎𝑎 − 𝑟𝑟)
+− 𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎 �
+� + 𝐶𝐶
+𝜋𝜋
+𝑟𝑟𝐴𝐴 − 𝑟𝑟𝑃𝑃
+=
+
+𝑑𝑑𝑑𝑑 = 𝑟𝑟 2 cos(𝜆𝜆) 𝑑𝑑𝑑𝑑 𝑑𝑑𝑑𝑑 𝑑𝑑𝑑𝑑
+
+(10)
+
+The spatial density is, then
+
+Kessler used the assumption that the ascending node and
+argument of periapsis of an orbit are uniformly distributed
+from 0° to 360°. This is a good assumption for many types
+of orbits, especially if averaging over long periods of time.
+A similar formula for PDF of the latitude λ can be
+computed for an orbit with inclination i, assuming that the
+argument of periapsis is uniformly distributed. This
+equation is applicable for sin2(λ) ≤ sin2(i) (the PDF is zero
+otherwise)
+
+𝑐𝑐𝑐𝑐𝑐𝑐(𝜆𝜆) 𝑑𝑑𝑑𝑑
+
+𝜌𝜌(𝑟𝑟, 𝜆𝜆, 𝜙𝜙) =
+
+=
+∗
+
+𝑝𝑝(𝑟𝑟) 𝑑𝑑𝑑𝑑 𝑝𝑝(𝜆𝜆) 𝑑𝑑𝑑𝑑 𝑝𝑝(𝜙𝜙) 𝑑𝑑𝑑𝑑
+𝑑𝑑𝑑𝑑
+1
+
+2𝜋𝜋 3 𝑟𝑟𝑟𝑟�𝑠𝑠𝑠𝑠𝑛𝑛2 (𝑖𝑖) − 𝑠𝑠𝑠𝑠𝑛𝑛2 (𝜆𝜆)
+1
+
+�(𝑟𝑟𝐴𝐴 − 𝑟𝑟)(𝑟𝑟 − 𝑟𝑟𝑃𝑃 )
+
+For completeness, the velocity components are given by
+the radial velocity equation 4, and by
+
+(7)
+
+𝑣𝑣𝜙𝜙 (𝑟𝑟, 𝜆𝜆) =
+
+This equation can also be integrated analytically
+
+1
+𝑠𝑠𝑠𝑠𝑠𝑠(𝜆𝜆)
+� 𝑝𝑝(𝜆𝜆′ ) 𝑑𝑑𝜆𝜆′ = − 𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎 �
+�
+𝜋𝜋
+𝑠𝑠𝑠𝑠𝑠𝑠(𝑖𝑖)
++ 𝐶𝐶
+
+(8)
+
+These latitude equations are used to compute the re-entry
+risk to populations on the ground for satellites decaying in
+an uncontrolled manner. Equation 8 is used to compute
+the fraction of time a satellite spends at each latitude,
+which will correspond to the probability the satellite will
+re-enter at that location. Combined with a model of how
+humans are distributed on the Earth, an estimate of the
+average density of people beneath a particular orbit can be
+computed [3].
+Because the
+
+(11)
+
+and is valid for radius rP ≤ r ≤ rA and latitude sin2(λ) ≤
+sin2(i), otherwise the density is zero. This is equivalent to
+Kessler’s spatial density equation [1].
+
+𝜋𝜋 �𝑠𝑠𝑠𝑠𝑛𝑛2 (𝑖𝑖) − 𝑠𝑠𝑠𝑠𝑛𝑛2 (𝜆𝜆)
+
+The third parameter is the longitude φ.
+
+(9)
+
+In order to compute the spatial density, we need the
+equation for a small element of volume in spherical
+coordinates
+
+Of course, this only applies for r between rP and rA; the
+PDF is zero otherwise. This radial equation is useful in
+computing how much time a satellite spends between two
+altitudes for computing equivalent spatial density.
+
+𝑝𝑝(𝜆𝜆)𝑑𝑑𝑑𝑑 =
+
+𝑑𝑑𝑑𝑑
+2𝜋𝜋
+
+1 𝜇𝜇 𝑟𝑟𝐴𝐴 𝑟𝑟𝑃𝑃 cos(𝑖𝑖)
+�
+𝑟𝑟
+𝑎𝑎 cos(𝜆𝜆)
+
+𝑣𝑣𝜆𝜆 (𝑟𝑟, 𝜆𝜆)
+
+(12)
+
+(13)
+
+1 𝜇𝜇 𝑟𝑟𝐴𝐴 𝑟𝑟𝑃𝑃
+cos(𝑖𝑖) 2
+�
+1−�
+=± �
+�
+𝑟𝑟
+𝑎𝑎
+cos(𝜆𝜆)
+3
+
+THE TRUE ANOMALY PDF
+
+It is a good point in this discussion to introduce a very
+useful equation that describes the PDF for position within
+a Kepler orbit, using the true anomaly ν. Using equation
+3 for the time rate of change of the true anomaly,
+
+𝑝𝑝(𝜈𝜈) 𝑑𝑑𝑑𝑑 =
+
+(1 − 𝑒𝑒 2 )3/2
+𝑑𝑑𝑑𝑑
+2𝜋𝜋 (1 + 𝑒𝑒 cos(𝜈𝜈))2
+
+(14)
+
+What is so useful about this equation is that there is no
+need to integrate over mean anomaly and convert to true
+anomaly at each step using Kepler’s equation in order to
+solve for the time spent at each location. We can now
+simply integrate over the more “natural” geometric true
+anomaly and apply this weighting function.
+So, consider a satellite A moving along its orbit through a
+spatial density of another satellite B. The position of
+satellite A is a function of the true anomaly, as well as
+other parameters of satellite A’s orbit, which we will
+define as 𝑟𝑟⃗(ν). It will also have a three-dimensional
+velocity vector dependent on its position in the orbit
+�⃗𝐴𝐴 (𝑟𝑟⃗(ν)). Using the spatial density of object B, ρB, and its
+𝑉𝑉
+�⃗𝐵𝐵 which are both a function of position 𝑟𝑟⃗(ν), the
+velocity 𝑉𝑉
+two can be combined to find the integrated flux on A from
+B due to its travels through B’s spatial density
+2𝜋𝜋
+
+𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓 =
+
+(15)
+
+�⃗𝐵𝐵 �𝑟𝑟⃗(𝜈𝜈)� − 𝑉𝑉
+�⃗𝐴𝐴 �𝑟𝑟⃗(𝜈𝜈)��
+� �𝑉𝑉
+0
+
+∗ 𝜌𝜌𝐵𝐵 �𝑟𝑟⃗(𝜈𝜈)� 𝑝𝑝𝐴𝐴 (𝜈𝜈) 𝑑𝑑𝑑𝑑
+
+One technique is to deliberately choose a small finite
+“box” in space, and compute the average spatial density.
+This has the effect of “blurring” the distribution so that the
+“infinities” go away. Using equations 6 and 8, a precise
+analytical solution for this “averaged” spatial density can
+be computed. When the “box” is between radii r1 and r2,
+λ1
+and
+λ2,
+the
+and
+between
+latitudes
+“averaged” spatial density is
+
+〈𝜌𝜌(𝑟𝑟, 𝜆𝜆, 𝜙𝜙)〉
+�(𝑟𝑟𝐴𝐴 − 𝑟𝑟)(𝑟𝑟 − 𝑟𝑟𝑃𝑃 )
+= �
+𝜋𝜋 𝑎𝑎
+𝑟𝑟
+1
+2(𝑎𝑎 − 𝑟𝑟) 2
+− 𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎 �
+��
+𝑟𝑟𝐴𝐴 − 𝑟𝑟𝑃𝑃 𝑟𝑟
+𝜋𝜋
+1
+
+∗
+
+(16)
+
+𝜆𝜆
+
+𝑠𝑠𝑠𝑠𝑠𝑠(𝜆𝜆) 2
+1
+��
+�− 𝜋𝜋 𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎 �
+𝑠𝑠𝑠𝑠𝑠𝑠(𝑖𝑖) 𝜆𝜆
+1
+
+2𝜋𝜋 3
+3
+)
+))
+3 (𝑟𝑟2 − 𝑟𝑟1 )(sin(𝜆𝜆2 − sin(𝜆𝜆1
+
+One problem with computing this way is that the
+averaging “box” is not clearly defined.
+A more self-consistent way to handle these infinite values
+is to make use of the fact that we are often dealing with
+families of orbits with a distribution of orbital parameters.
+
+Note that the norm of the difference between the two
+vector velocity terms is simply the relative speed of the
+two objects at that point in space.
+
+In Matney and Kessler [4], Divine’s [5] meteoroid model
+was reformulated to implement these distributions in
+orbital parameters.
+
+Equation 15 only needs to have a way to the handle the
+spatial density of object B and its velocity to solve the flux
+equation. Much of the rest of this paper consists of
+methods of determining ρB for a variety of different types
+of orbits.
+
+𝜌𝜌(𝑟𝑟, 𝜆𝜆, 𝜙𝜙, 𝑟𝑟𝑃𝑃 , 𝑟𝑟𝐴𝐴 , 𝑖𝑖) 𝑑𝑑𝑑𝑑𝑃𝑃 𝑑𝑑𝑟𝑟𝐴𝐴 𝑑𝑑𝑑𝑑
+𝐷𝐷(𝑟𝑟𝑃𝑃 , 𝑟𝑟𝐴𝐴 , 𝑖𝑖) 𝑑𝑑𝑑𝑑𝑃𝑃 𝑑𝑑𝑟𝑟𝐴𝐴 𝑑𝑑𝑑𝑑
+
+�⃗𝐵𝐵
+Note that in general there are several velocity values 𝑉𝑉
+associated with each location 𝑟𝑟⃗(𝜈𝜈). As described in
+Kessler [1], the total flux will be computed for each
+velocity case and averaged to get the total flux.
+
+4
+
+AVERAGING THE KESSLER EQUATION
+
+It has long been recognized that at the periapsis and
+apoapsis, and at the northernmost and southernmost
+latitudes of an orbit, the PDFs and the corresponding
+spatial density gives infinite values. PDFs often have this
+property, and as long as the integrals of the PDF are finite
+(which these are), this does not introduce any unrealistic
+behaviour.
+However, if undertaking a numerical
+integration of equation 15 and you encounter an infinite
+density, this could result in an incorrect flux.
+
+=
+∗
+
+(17)
+
+2𝜋𝜋 3 𝑟𝑟𝑟𝑟�𝑠𝑠𝑠𝑠𝑛𝑛2 (𝑖𝑖) − 𝑠𝑠𝑠𝑠𝑛𝑛2 (𝜆𝜆)
+1
+
+�(𝑟𝑟𝐴𝐴 − 𝑟𝑟)(𝑟𝑟 − 𝑟𝑟𝑃𝑃 )
+
+D(rP,rA,i) represents the PDF that describes how the
+satellite or satellites are distributed in orbital elements,
+either because they represent a family of objects, or the
+time average of a single satellite as its orbit evolves over
+time. Note that the orbit distribution can be in terms of
+any similar combination of orbital elements appropriate to
+describe the system of interest. For instance, we could use
+rP, e (the orbit eccentricity), and i, which is the distribution
+used by the NASA ORDEM3.0 Engineering Model.
+Equation 11 actually represents the special case of
+equation 17 where the orbit distribution PDF consists of
+Dirac delta functions in the orbital elements.
+
+The reason why equation 17 is superior to equation 16 is
+that the averaging is now correctly computed over a
+known distribution of orbit elements. By integrating over
+orbit elements, the probability of having an orbit where the
+density at a point in space has exactly an infinite value
+(such as r = rP) becomes vanishingly small, and the infinite
+values of the spatial density are replaced by finite values.
+For an example of how distributions of orbits would be
+implemented, consider a simplified version using the
+radial density equation 5. Assume a semi-major axis of
+1.0, and an eccentricity of 0.5, such that the periapsis is 0.5
+and the apoapsis is 1.5. Now consider a similar case, with
+fixed apoapsis at 1.5, but with a uniform distribution of
+periapses from rP1 = 0.4 to rP2= 0.6. The radial density
+equation would be
+
+𝑝𝑝(𝑟𝑟)𝑑𝑑𝑑𝑑
+
+(18)
+
+𝑀𝑀𝑀𝑀𝑀𝑀𝑀𝑀𝑀𝑀𝑀𝑀𝑀𝑀(𝑟𝑟𝑃𝑃2 ,𝑟𝑟)
+
+=�
+∗�
+
+𝑀𝑀𝑀𝑀𝑀𝑀𝑀𝑀𝑀𝑀𝑀𝑀𝑀𝑀(𝑟𝑟𝑃𝑃1 ,𝑟𝑟)
+
+𝑟𝑟 𝑑𝑑𝑑𝑑
+
+𝐷𝐷�𝑟𝑟𝑝𝑝 �
+
+� 𝑑𝑑𝑟𝑟𝑃𝑃
+𝜋𝜋 𝑎𝑎 �(𝑟𝑟𝐴𝐴 − 𝑟𝑟)(𝑟𝑟 − 𝑟𝑟𝑃𝑃 )
+
+Note that the limits of integration must be adjusted to
+make sure rP ≤ r. Fig. 1 shows the radial PDFs of these
+two cases. Note that when the radial PDF is computed by
+integrating over a distribution of periapses, the infinite
+value of the PDF near perigee goes away and the new PDF
+remains finite. For the full 3D density or PDF, all of the
+infinite values disappear when distributions over the
+orbital elements are considered.
+
+case with fixed periapsis 0.5 and apoapsis 1.5. The
+orange curve has the same apoapsis, but with a uniform
+distribution of periapses between 0.4 and 0.6. The blue
+curve has infinite values at periapsis and apoapsis, but
+the orange curve has finite PDF values throughout the
+periapsis region.
+For practical numerical computation, integration of
+equation 17 over a distribution in orbital elements can still
+result in computing points with an infinite value of
+density. It is suggested that the integral be evaluated using
+the Second Euler-Maclaurin summation formula [6]. One
+can always break up any integral into the sum of multiple
+integrals such that the infinite values are at the limits of
+each sub-integration. This numerical technique samples
+points arbitrarily close to the limits of integration, yet
+avoids evaluating the troublesome points right at the
+limits.
+
+5
+
+VARIATIONS ON THE KESSLER EQUATION
+
+One problem that arises with Kessler’s equation is when
+the orbit in question is circular. Then the radial equation
+5 becomes a Dirac delta function. While accurate, this is
+not a very useful equation. A more useful form is to
+assume that one or more satellites are distributed in
+circular orbits with some semi-major axis distribution,
+given as a density per unit altitude.
+
+𝑝𝑝(𝑟𝑟)𝑑𝑑𝑑𝑑 = 𝐷𝐷(𝑎𝑎) 𝑑𝑑𝑑𝑑 = 𝐷𝐷(𝑟𝑟) 𝑑𝑑𝑑𝑑
+
+(19)
+
+This results in the following useful spatial density
+equation for a distribution of purely circular orbits
+𝜌𝜌(𝑟𝑟, 𝜆𝜆, 𝜙𝜙) =
+
+𝐷𝐷(𝑟𝑟)
+
+(20)
+
+2𝜋𝜋 2 𝑟𝑟 2 �𝑠𝑠𝑠𝑠𝑛𝑛2 (𝑖𝑖) − 𝑠𝑠𝑠𝑠𝑛𝑛2 (𝜆𝜆)
+
+One could use this density in equation 15 to integrate the
+flux point-by-point. However, it is also possible to
+integrate this flux in a different way.
+Consider two circular orbits oriented in such a way that
+the ascending nodes are uniformly distributed relative to
+one another. This only requires that at least one of the two
+orbits has randomized nodes; for instance one orbit can be
+polar with fixed ascending node, while the other is not and
+has randomized nodes over time.
+
+Figure 1. These two curves show the radial PDFs for the
+two cases described in the text. The blue curve is for the
+
+Given the two inclinations i1 and i2, and the two ascending
+nodes Ω1 and Ω2, the angle α between the two planes is
+computed by taking the dot product of the two angular
+momentum vectors
+
+cos(𝛼𝛼) = ℎ�1 ∙ ℎ�2
+= (sin(𝑖𝑖1 ) sin(𝛺𝛺1 ) 𝑥𝑥� − sin(𝑖𝑖1 ) cos(𝛺𝛺1 ) 𝑦𝑦�
++ cos(𝑖𝑖1 ) 𝑧𝑧̂)
+∙ (sin(𝑖𝑖2 ) sin(𝛺𝛺2 ) 𝑥𝑥� − sin(𝑖𝑖2 ) cos(𝛺𝛺2 ) 𝑦𝑦�
++ cos(𝑖𝑖2 ) 𝑧𝑧̂)
+= cos(𝑖𝑖1 ) cos(𝑖𝑖2 )
++ sin(𝑖𝑖1 ) sin(𝑖𝑖2 ) cos(𝛺𝛺1 − 𝛺𝛺2 )
+= cos(𝑖𝑖1 ) cos(𝑖𝑖2 )
++ sin(𝑖𝑖1 ) sin(𝑖𝑖2 ) cos(ΔΩ)
+
+(21)
+
+where K is the incomplete elliptical integral of the first
+kind. This expression is similar to that computed by Su &
+Kessler [7]. Fig. 2 shows a plot of this analytic flux
+expression for the full range of possible inclinations. Note
+that a high-flux “ridge” exists when the sum of that two
+inclinations equals 180° (the angles are supplementary).
+This is the case where the two orbits can be coplanar and
+counter-rotating (depending on the ascending nodes).
+This creates an infinite spatial density problem when
+performing numerical calculations.
+
+So the angle between the orbit planes is a function of the
+two inclinations, and the difference between the ascending
+nodes. For our random node case, we simply integrate ∆Ω
+from 0 to 2π to sample all possible orientations.
+One further trick is to realize that we can place one orbit
+in the x-y plane with “inclination” zero, and the second
+orbit tilted with “inclination” α. If all the orbits involved
+are circular orbits, the “ascending node” of the “inclined”
+orbit is irrelevant, so we can treat this case as a circular
+orbit with “inclination” zero at “latitude” zero
+encountering another orbit with “inclination” α.
+Assuming our “inclined” orbit has altitude distribution
+D(r), the other circular orbit “sees” density (cf. equation
+20)
+𝜌𝜌 =
+
+𝐷𝐷(𝑟𝑟)
+2𝜋𝜋 2 𝑟𝑟 2 sin(𝛼𝛼)
+
+(22)
+
+To compute the flux, the relative velocity is
+𝜇𝜇
+𝑣𝑣𝑅𝑅𝑅𝑅𝑅𝑅 = � �(1 − cos(𝛼𝛼))2 + (sin(𝛼𝛼))2
+𝑟𝑟
+𝜇𝜇
+= � �2 − 2 cos(𝛼𝛼)
+𝑟𝑟
+
+(23)
+
+So, the flux integral would be
+𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓
+
+= �
+
+2𝜋𝜋
+
+0
+
+(24)
+𝐷𝐷(𝑟𝑟)
+2
+2𝜋𝜋 𝑟𝑟 2 sin(𝛼𝛼)
+
+𝜇𝜇
+∗ � �2 − 2 cos(𝛼𝛼) 𝑑𝑑(ΔΩ)
+𝑟𝑟
+𝐷𝐷(𝑟𝑟) 𝜇𝜇
+= 2 2 � 2√2
+𝜋𝜋 𝑟𝑟 𝑟𝑟
+−2 sin(𝑖𝑖1 ) sin(𝑖𝑖2 )
+𝐾𝐾 �
+�
+1 + cos(𝑖𝑖1 ) cos(𝑖𝑖2 ) − sin(𝑖𝑖1 ) sin(𝑖𝑖2 )
+∗
+�1 + cos(𝑖𝑖1 ) cos(𝑖𝑖2 ) − sin(𝑖𝑖1 ) sin(𝑖𝑖2 )
+
+Figure 2. This chart shows the relative flux between two
+sets of circular orbits with inclinations i1 and i2. There is
+a high-flux “ridge” when the two inclination angles are
+supplementary, which corresponds to the case where the
+two orbits can be coplanar and counter-rotating.
+Whenever the angle between the orbit planes approaches
+zero, the sin(α) term in the denominator drives up the
+spatial density. Therefore, there should be a similar highdensity “ridge” for i1 = i2. In that case, the orbits can be
+co-rotating and coplanar. However, in the special analytic
+case with circular orbits, the relative velocity drops to
+zero, and the product of the relative velocity with the
+infinite density results in a finite flux. However, any
+eccentricity at all will introduce a similar “ridge” along the
+i1 = i2 line where the flux values approach infinity. As
+above, the solution to this problem is to compute spatial
+density with a distribution in inclination values.
+
+6
+
+THE 2D DENSITY
+
+The discussion in the last section introduces another useful
+idea, that of describing the PDF within an orbit plane. In
+this case, we preserve the assumption that the argument of
+perigee is uniformly distributed, but now the ascending
+node is fixed. Because the orbit is a 2D distribution, we
+use an areal density function, assembled from equation 5.
+
+The areal density for an elliptical orbit will be
+
+Σ(𝑟𝑟) =
+=
+
+𝑝𝑝(𝑟𝑟)
+2𝜋𝜋 𝑟𝑟
+
+The local 3D density is
+(25)
+
+1
+
+Similarly, for a collection of circular orbits with
+distribution D(r) with altitude
+
+𝐷𝐷(𝑟𝑟)
+2𝜋𝜋 𝑟𝑟
+
+(27)
+
+𝛿𝛿
+sin(𝜉𝜉)
+
+(28)
+
+and the path length of A through the disc is
+
+2𝜋𝜋 2 𝑎𝑎 �(𝑟𝑟𝐴𝐴 − 𝑟𝑟)(𝑟𝑟 − 𝑟𝑟𝑃𝑃 )
+Σ(𝑟𝑟) =
+
+Σ
+𝛿𝛿
+
+𝜌𝜌 =
+
+(26)
+
+𝐿𝐿 =
+
+Using the period of satellite A, τA, the flux for each transit
+through the disc will be
+
+This distribution is “disc” that would look like a common
+CD or DVD, with a large “hole” in the center for r < rP.
+We can choose the “disc” orbit B as being in the x-y plane.
+The other orbit A will cross the disc twice (unless they are
+coplanar), and the flux is computed at each crossing.
+The encounter geometry is shown in Fig. 3. For
+calculation purposes, the “disc” of orbit B is temporarily
+assumed to have a small thickness δ, much smaller than
+the scale of the orbits, but much larger than the size of the
+satellites. The relative velocity is obtained by subtracting
+the velocity of B from A. This is the velocity in the frame
+where B has zero local velocity. This results in an angle ξ
+that the relative velocity makes to the B orbit plane.
+
+𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹 = 𝜌𝜌
+
+𝐿𝐿
+Σ 1
+𝛿𝛿
+=
+𝜏𝜏𝐴𝐴 𝛿𝛿 𝜏𝜏𝐴𝐴 sin(𝜉𝜉)
+𝜎𝜎
+=
+𝜏𝜏𝐴𝐴 sin(𝜉𝜉)
+
+(29)
+
+Where the temporary thickness δ disappears from the
+equation. The total flux is computed by summing over the
+flux at the two points where orbit A transits the “disc”.
+In actuality, there are two radial velocities in the disc at
+any point (equation 4) corresponding to the inbound and
+outbound cases for B, and will, in general, result in
+different ξ values. The relative velocity and the flux will
+need to be computed for each case and the results averaged
+for each plane crossing. The total flux is then the sum of
+the fluxes for each of the two plane crossings.
+
+7
+
+THE GENERALIZED ORBIT CASE
+
+The discussions so far have dealt with distributions that
+are randomized in argument of perigee or ascending node,
+or where one satellite or another is in a circular orbit. How
+is the flux handled between two orbits with fixed nodes
+where the only parameter randomized is the position in the
+orbit?
+
+Figure 3. This is the geometry of the case described in
+section 6. The “disc” of object B’s orbit has a small
+thickness δ. In the lower panel, the same encounter
+geometry is show from the locally stationary frame of
+object B. In this frame the relative velocity 𝑣𝑣⃗𝑅𝑅𝑅𝑅𝑅𝑅 makes
+an angle ξ with respect to the disc.
+
+To handle this case, we take a page from the collision
+avoidance community.
+They actually follow an
+uncertainty covariance associated with an object around
+its orbit. If we could “smear” out that probability ellipse
+over time, the orbit probability distribution and spatial
+density would look something like a long “fuzzy
+caterpillar” in space. The “thickness” of this “caterpillar”
+could be thought to represent the differences between a
+pure Kepler orbit and a real orbit, uncertainty in the orbit
+elements, or perhaps just a tool to create a spatial density
+much larger than the satellites themselves.
+The first thing we will need is the linear density of a
+satellite along its orbit ℒ. This is computed using the
+following relation
+
+1
+ℒ(𝜈𝜈) 𝑉𝑉(𝜈𝜈) =
+𝜏𝜏
+
+(30)
+
+where V(ν) is the speed of the satellite at true anomaly ν
+and τ is the period of the orbit. This comes from the fact
+that if the object has one object in it, we ought to see that
+object once per orbit period.
+Using the equation for the speed of an orbit as a function
+of r,
+
+for NASA’s Orbital Debris Program Office.
+The use of distributions of orbital elements (section 4) has
+allowed the ability to compute accurate fluxes for NASA’s
+ORDEM3.0 model, especially near GEO where the
+ascending node of the satellites cannot be assumed to be
+uniformly distributed.
+While sometimes these
+computations are slow, we are always finding ways to
+increase their speed and accuracy.
+9
+
+REFERENCES
+
+(31)
+
+1. Kessler, D.J., (1981). Derivation of the Collision
+Probability between Orbiting Objects: the Lifetimes of
+Jupiter’s Outer Moons, Icarus 48, 39-48.
+
+This equation represents the number of satellites per unit
+length along a stretch of orbit at position ν averaged over
+time. The linear density is lower near periapsis where the
+orbit velocity is higher, and higher near apoapsis.
+
+2. Dennis, N.G., (1972). Probabilistic Theory and
+Statistical Distribution of Earth Satellites, Journal of
+the British Interplanetary Society 25, 333-376.
+
+ℒ(𝜈𝜈) =
+
+√1 − 𝑒𝑒 2
+
+2𝜋𝜋 𝑎𝑎 �1 + 2𝑒𝑒 cos(𝜈𝜈) + 𝑒𝑒 2
+
+The next step is to add the “caterpillar fuzz” along this
+orbit. This is accomplished by adding a symmetric 2D
+normal distribution perpendicular to the orbit with
+standard deviation σ much smaller than the scale of the
+orbit but much larger than the satellites themselves.
+
+ρ(r⃗) =
+
+ℒ(𝜈𝜈)
+−‖𝑟𝑟⃗ − 𝑞𝑞⃗(𝑟𝑟⃗)‖2
+𝐸𝐸𝐸𝐸𝐸𝐸
+�
+�
+2𝜋𝜋 𝜎𝜎 2
+2 𝜎𝜎 2
+
+(32)
+
+Here the vector 𝑞𝑞⃗(𝑟𝑟⃗) is the point along the orbit closest to
+the point 𝑟𝑟⃗, and the term ‖𝑟𝑟⃗ − 𝑞𝑞⃗(𝑟𝑟⃗)‖ represents the
+perpendicular distance from the orbit to point 𝑟𝑟⃗. In
+general, it must be computed numerically.
+
+As with the other densities discussed in this chapter, the
+density in equation 32 can be used in computing flux in
+equation 15. Experience has shown that numerically
+calculating the flux using equation 32 is extremely
+computer intensive if integrated over time, because only
+during specific geometries do two orbits usually overlap
+enough to give non-trivial “caterpillar” density.
+One last thought – these distributions form a hierarchy. If
+we summed over many arguments of perigee, the
+“caterpillar” distribution would look very much like the
+2D “disc” distribution. If we tilted the 2D “disc” and
+rotated it around all possible ascending nodes, the
+resulting density would be the Kessler spatial density.
+
+8
+
+CONCLUSIONS
+
+The discussions in this paper have dealt with some tools to
+make accurate flux calculations for a variety of
+assumptions. Hopefully, many of these will provide
+useful tools for the space debris community, as they have
+
+3. Opiela, J.N. & Matney, M.J., (2003), Improvements to
+NASA’s Estimations of Ground Casualties from
+Reenternig Space Objects, In Proceedings from the 54th
+International Astronautical Congress of the
+International
+Astronautical
+Federation,
+the
+International Academy of Astronautics, and the
+International Institute of Space Law, 29 September – 3
+October, Bremen, Germany, IAC-03-IAA.5.4.03.
+4. Matney, M.J. & Kessler, D.J. (1996), A Reformulation
+of Divine’s Interplanetary Model, In Physics,
+Chemistry, and Dynamics of Interplanetary Dust (Eds.
+Bo A.S. Gustafson & M. S. Hanner), ASP Conference
+Series 104, 15-18.
+5. Divine, N. (1993), Five Populations of Interplanetary
+Meteoroids, Journal of Geophysical Research 98(E9),
+17029-17048.
+6. Press, W.H., Teukolsky, S.A., Vetterling, W.T., &
+Flannery, B.P. (1992), Numerical Recipes in Fortran
+77, Cambridge University Press, Cambridge, UK, pp.
+135-140
+7. Su, S-Y. & Kessler, D.J., (unknown year), On the
+Collisions Probability Integral between Two Orbiting
+Objects, Internal NASA Document, NASA Johnson
+Space Center, Houston, TX.
+
+
