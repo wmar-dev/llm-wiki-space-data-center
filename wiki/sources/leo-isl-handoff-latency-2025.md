@@ -6,6 +6,7 @@ sources:
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
+origin_url: "Synthesized from academic papers (2025-2026) on LEO ISL latency"
 ---
 
 # LEO ISL Handoff and Latency Research

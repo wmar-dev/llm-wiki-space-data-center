@@ -6,6 +6,11 @@ sources:
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
+origin_url:
+  - "MDPI Applied Sciences: Thermal Control of CubeSat Electronics Using Thermoelectrics (2023)"
+  - "MDPI Energies: Thermoelectric Generators on Satellites (2016)"
+  - "ECSS-E-HB-31-01 Part 11A"
+  - "ScienceDirect: Integrated photothermal–thermoelectric–radiative cooling system for deep-space energy harvesting (2025)"
 ---
 
 # Thermoelectric and Seebeck Effect Applications for Space

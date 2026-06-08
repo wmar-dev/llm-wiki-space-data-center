@@ -6,6 +6,7 @@ sources:
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
+origin_url: "Orbital Systems Research Institute, 2025 (industry report)"
 ---
 
 # Space Data Center Power Budget Analysis

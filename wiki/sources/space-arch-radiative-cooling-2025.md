@@ -6,6 +6,7 @@ sources:
 status: "stale"
 created: "2026-06-07"
 last_updated: "2026-06-07"
+origin_url: "Space Architecture Research Group, 2025 (industry report)"
 ---
 
 # Radiative Cooling for Space Data Centers

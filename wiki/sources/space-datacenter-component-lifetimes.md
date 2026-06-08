@@ -8,6 +8,12 @@ sources:
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
+origin_url:
+  - "MDPI (2025)"
+  - "JAXA satellite component data"
+  - "NASA VES16 database"
+  - "Aerospace Corporation reports"
+  - "Various academic sources"
 ---
 
 # Space Data Center Component Lifetime Analysis

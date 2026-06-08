@@ -6,6 +6,9 @@ sources:
 status: "current"
 created: "2026-06-08"
 last_updated: "2026-06-08"
+origin_url:
+  - "GeekWire: Starcloud plans its next moves after training first AI model in space (Dec 2025)"
+  - "TechCrunch: Starcloud raises $170M Series A to build data centers in space (Mar 2026)"
 domain_relevance: "primary"
 ---
 
