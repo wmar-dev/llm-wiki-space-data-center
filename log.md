@@ -4,6 +4,12 @@
 <!-- Format: ## [YYYY-MM-DD] <operation> | <title> -->
 <!-- Operations: ingest | re-ingest | fetch | fetch-failed | query | lint | evaluation | tool-proposal -->
 
+## [2026-06-08] fetch | https://www.nss.org/settlement/nasa/spaceresvol2/thermalmanagement.html
+
+## [2026-06-08] ingest | Thermal Management in Space (NSS Space Resources Vol. 2)
+
+NASA/NSS Space Resources Volume 2 foundational planning document on space thermal management. Key additions: Liquid Droplet Radiator (10–100× power-to-mass advantage over solid radiators; <100 kg total for 1 MW vs. 1,300 kg aluminum heat pipe); Belt Radiator concept; aluminum heat pipe at 5 kg/m²; laser power transmission survey. Updated thermal-management concept page with LDR and Belt Radiator sections. No contradictions with existing pages.
+
 ## [2026-06-08] fetch | https://www.nasa.gov/blogs/stationreport/2015/01/14/
 
 ## [2026-06-08] ingest | ISS Station Report: ETCS Loop B Ammonia Leak Alarm, January 14, 2015

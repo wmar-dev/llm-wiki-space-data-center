@@ -6,6 +6,7 @@ sources:
   - "orbital-ai-factory-heat-management.md"
   - "nasa-iss-atcs-overview.txt"
   - "nasa-smallsat-thermal-control-soa.md"
+  - "nss-space-resources-thermal-management.md"
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
@@ -58,6 +59,27 @@ From NASA's 2026 SmallSat State-of-the-Art survey [[wiki/sources/nasa-smallsat-t
 | AMDROHP deployable radiators | ~3-5 | JPL development; oscillating heat pipes in 3U CubeSat; precursor to large deployable panels |
 
 **Key gap**: MLI is unreliable at CubeSat scale due to deployer compression. AMDROHP (TRL ~3-5) is the active development path for next-generation deployable radiators. No single SmallSat thermal technology scales to MW without redesign.
+
+## Advanced Radiator Concepts
+
+### Liquid Droplet Radiator (LDR)
+
+Replaces the solid radiating surface with a controlled stream of 100-μm fluid droplets expelled into space and then recaptured. NASA/NSS Space Resources Vol. 2 claims a **10–100× power-to-mass advantage** over solid surface radiators [[wiki/sources/nss-space-resources-thermal-management.md]] *(industry report)*.
+
+Worked example (1 MW thermal rejection, 100 kW nuclear plant at ~10% efficiency):
+
+| Technology | Area | Mass |
+|---|---|---|
+| Aluminum heat pipe radiator | 256 m² | 1,300 kg |
+| LDR (DC-705 vacuum oil) | — | ~24 kg fluid / <100 kg total |
+
+At ~13× system-level mass reduction, LDR would substantially close the gap between current ~19 kg/m² areal density and NASA's <6 kg/m² target. However, the source predates modern flight qualification work and does not cite current TRL.
+
+Open question: What is the current TRL for Liquid Droplet Radiators, and what engineering barriers remain to flight qualification for MW-scale loads?
+
+### Belt Radiator
+
+Ultrathin solid surfaces coated with low vapor pressure liquids; surface tension maintains continuous heat transfer without the droplet capture hardware that LDR requires. Less mass advantage than LDR but mechanically simpler.
 
 ## Sources
 
