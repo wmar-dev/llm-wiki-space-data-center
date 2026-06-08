@@ -106,11 +106,10 @@ requests — this is the lowest-latency scenario since no uplink is required.
   a ground station's field of view?
 - Can ISL-connected constellations deliver consistent sub-50 ms compute latency for
   interactive workloads, or does ISL routing add too much variability?
-- How does the LEO latency advantage over GEO translate to specific commercial use
-  cases? Which workloads would migrate from terrestrial cloud to LEO first?
 
 ## Related Pages
 
 - [[wiki/synthesis/space-datacenter-orbital-regime.md]]
 - [[wiki/sources/satellite-internet-latency-wikipedia.md]]
 - [[wiki/sources/arxiv-2302-08952-leo-edge-failures.md]]
+- [[wiki/synthesis/leo-latency-commercial-use-cases.md]]

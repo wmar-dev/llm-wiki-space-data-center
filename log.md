@@ -4,6 +4,12 @@
 <!-- Format: ## [YYYY-MM-DD] <operation> | <title> -->
 <!-- Operations: ingest | re-ingest | fetch | fetch-failed | query | lint | evaluation | tool-proposal -->
 
+## [2026-06-07] query | At what reuse cadence does Starship reach $200/kg? | pages-read: 3
+
+## [2026-06-07] query | Is there a viable business model at 100 kW scale? | pages-read: 3
+
+## [2026-06-07] query | How does LEO latency advantage translate to specific commercial use cases? | pages-read: 3
+
 ## [2026-06-07] query | Will the hardware refresh penalty make space compute uncompetitive? | pages-read: 4
 
 ## [2026-06-07] query | Are data centers in space financially viable? What are the key risks? | pages-read: 5

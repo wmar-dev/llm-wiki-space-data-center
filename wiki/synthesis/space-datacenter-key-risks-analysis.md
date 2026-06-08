@@ -130,7 +130,12 @@ See also: [[wiki/synthesis/orbital-capacity-fundamental-limit.md]] [[wiki/concep
 
 ## Open Questions
 
-- At what reuse cadence and flight rate does Starship actually reach $200/kg? No public commitment.
 - What is the maximum radiator area practically deployable on an orbital platform given launch mass constraints?
 - How do SEU error rates affect application-layer reliability for compute-intensive workloads (AI inference, HPC)?
-- Is there a viable business model at 100 kW scale, or does the unit economics only work at MW scale where the engineering is undemonstrated?
+
+## Related Pages
+
+- [[wiki/synthesis/starship-200kg-reuse-cadence.md]]
+- [[wiki/synthesis/space-datacenter-100kw-unit-economics.md]]
+- [[wiki/synthesis/spacex-starship-cost-breakdown.md]]
+- [[wiki/synthesis/space-datacenter-financial-viability.md]]
