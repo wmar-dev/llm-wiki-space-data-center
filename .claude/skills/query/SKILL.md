@@ -65,20 +65,31 @@ Do not read more than 5 pages in this step. If more are needed, run
 
 ---
 
-### Step 3 — Gap detection
+### Step 3 — Gap detection and source enrichment
 
-**If no relevant pages were found in Steps 1–2:**
+Assess coverage from the pages read in Step 2, then automatically fetch and ingest
+any sources needed to improve the answer — regardless of whether some pages were found.
 
-1. Fetch a relevant source using Playwright MCP (`playwright:browser_navigate` + `playwright:browser_snapshot`).
-2. **On Playwright failure:** retry once. If still failing, fall back to
-   `curl -L <url>`. If both fail:
+**A. Total gap** (no relevant pages found):
+1. Identify 1–3 external URLs highly relevant to the question.
+2. For each URL, fetch using `playwright:browser_navigate` + `playwright:browser_snapshot`. On Playwright failure: retry once, then fall back to WebFetch / `curl -L <url>`. If all fetch attempts fail:
    - Log: `## [YYYY-MM-DD] fetch-failed | <url> — <reason>`
-   - Notify the researcher.
-   - Do not proceed with ingest.
-   - Answer with "Open question: <question> — no relevant sources found" and stop.
-3. Run the `/ingest` skill on the fetched source (this creates the wiki page and
-   updates `index.md`).
-4. Re-run this query from Step 1 (the re-query counts as a fresh operation).
+   - Skip that URL and try the next candidate.
+3. For each successfully fetched source, run the full ingest workflow (save to `raw/<slug>.md`, create wiki pages, update `index.md`, log).
+4. If at least one source was ingested, re-run this query from Step 1 as a fresh operation. If all fetches failed, answer with "Open question: <question> — no relevant sources found" and stop.
+
+**B. Partial gap** (some pages found but coverage is incomplete for the question):
+1. Identify 1–3 external URLs that would fill specific coverage gaps.
+2. Fetch and ingest each one using the same procedure as (A) above — do not prompt the researcher.
+3. Proceed to Step 4 using both the originally read pages and any newly created wiki pages.
+
+**C. Full coverage** (existing pages fully address the question):
+Proceed directly to Step 4.
+
+**Coverage is partial when any of the following are true:**
+- The question has a sub-topic for which no wiki page has a relevant claim
+- The most recent source cited in relevant pages is >6 months old for a fast-moving topic
+- The synthesis would contain more than 2 "Open question:" labels
 
 ---
 
@@ -173,7 +184,8 @@ The `pages-read: N` count makes SC-006 compliance verifiable from the log.
 - 1 read: `index.md`
 - ≤5 reads: relevant wiki pages
 - 0–1 tool invocations: `tools/search.sh` (only if >5 candidates or zero results)
-- 0–1 Playwright fetch: only if gap-detection triggers
-- Total target: ≤7 file reads per query (excluding any ingest triggered by gap-detection)
+- 0–3 fetches: source enrichment (Step 3B/3A) — each fetch counts as one unit
+- Each enrichment ingest: follows ingest skill token budget (≤8 reads)
+- Total target for query synthesis: ≤7 file reads (excluding enrichment ingests)
 
-If the budget is exceeded, append a tool-gap observation to `wiki/meta/evaluations.md`.
+If the synthesis budget is exceeded, append a tool-gap observation to `wiki/meta/evaluations.md`.
