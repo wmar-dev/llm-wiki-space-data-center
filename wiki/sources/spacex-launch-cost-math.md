@@ -39,7 +39,16 @@ This article provides a detailed cost breakdown for SpaceX Starship, tracking ho
 | 5 reuses (2024-25) | $90M | 5 | $28M | ~200 t | ~$90 |
 | 10 reuses (2025-26) | $50M | 10 | $12M | ~200 t | ~$25 |
 | 100 reuses (2027-28) | $20M | 100 | $2.2M | ~220 t | ~$10 |
-| Future expendable | $2M | 1 | $4M | ~300 t | ~$15 |
+| Future expendable | $2M† | 1 | $4M | ~300 t | ~$15 |
+
+†**Future expendable caveat**: The $2M build cost is the most speculative figure in
+this table. It assumes Starship reaches mature mass production at high volume — a
+curve that has not yet been validated. The logic: at full production, Raptor engines
+drop to ~$250K each ($10M for 39), raw stainless steel is already ~$1.5M per stack,
+and remaining assembly costs fall to ~$0.5M. The expendable variant also gains ~300 t
+payload (vs ~200 t reusable) by eliminating landing legs, grid fins, heat shield, and
+return propellant reserve — which is why $/kg still falls to ~$15 even without reuse.
+This scenario is a theoretical floor, not a near-term projection.
 
 ## Related pages
 
