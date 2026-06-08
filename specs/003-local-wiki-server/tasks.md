@@ -8,7 +8,7 @@ description: "Task list for Local Wiki Server implementation"
 
 **Prerequisites**: plan.md, spec.md, research.md, data-model.md, contracts/http-api.md, quickstart.md
 
-**Tests**: No automated test suite — this is a single-file dev utility. Validation is manual per quickstart.md scenarios.
+**Tests**: Automated unit tests in `tools/test_wiki_server.py` (`uv run tools/test_wiki_server.py`) plus manual validation per `quickstart.md` scenarios.
 
 **Organization**: Tasks grouped by user story for independent implementation and testing.
 
@@ -19,7 +19,7 @@ description: "Task list for Local Wiki Server implementation"
 
 ## Path Conventions
 
-Single-file utility at `tools/wiki_server.py`. Support files at project root (`Makefile`, `requirements.txt`).
+Single-file utility at `tools/wiki_server.py`. Support files at project root (`Makefile`). Test file at `tools/test_wiki_server.py`. Dependencies declared inline in both scripts via `uv` script block.
 
 ---
 
@@ -27,10 +27,10 @@ Single-file utility at `tools/wiki_server.py`. Support files at project root (`M
 
 **Purpose**: Project initialization — files and dependencies that must exist before any code is written.
 
-- [x] T001 [P] Create `Makefile` at project root with `serve` target (`python3 tools/wiki_server.py`) and `PORT` override (`make serve PORT=9000`)
+- [x] T001 [P] Create `Makefile` at project root with `serve` target (`uv run tools/wiki_server.py`) and `PORT` override (`make serve PORT=9000`)
 - [x] T002 [P] Create `requirements.txt` at project root listing `markdown>=3.5`
 
-**Checkpoint**: `make serve` target exists; `pip3 install -r requirements.txt` installs the one dependency.
+**Checkpoint**: `make serve` target exists; `uv run tools/wiki_server.py --help` auto-installs the dependency and displays usage.
 
 ---
 

@@ -19,7 +19,7 @@ import urllib.parse
 try:
     import markdown
 except ImportError:
-    print("Error: 'markdown' package not installed. Run: pip3 install markdown", file=sys.stderr)
+    print("Error: 'markdown' package not installed. Run: uv run tools/wiki_server.py", file=sys.stderr)
     sys.exit(1)
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -201,6 +201,10 @@ def parse_frontmatter(text: str) -> tuple[dict, str]:
     return metadata, body
 
 
+def _looks_like_url(value: str) -> bool:
+    return value.startswith(("http://", "https://", "ftp://"))
+
+
 def render_metadata(metadata: dict) -> str:
     """Render frontmatter metadata as a styled info box."""
     if not metadata:
@@ -226,7 +230,18 @@ def render_metadata(metadata: dict) -> str:
         parts.append(f'<span class="meta-sources">Sources: {src_list}</span>')
     origin = metadata.get("origin_url", "")
     if origin:
-        parts.append(f'<span class="meta-origin"><a href="{origin}" target="_blank" rel="noopener">Source URL →</a></span>')
+        if isinstance(origin, list):
+            items = []
+            for item in origin:
+                if _looks_like_url(item):
+                    items.append(f'<a href="{item}" target="_blank" rel="noopener">{item}</a>')
+                else:
+                    items.append(item)
+            parts.append(f'<span class="meta-origin">Sources: {"; ".join(items)}</span>')
+        elif _looks_like_url(origin):
+            parts.append(f'<span class="meta-origin"><a href="{origin}" target="_blank" rel="noopener">Source URL →</a></span>')
+        else:
+            parts.append(f'<span class="meta-origin">{origin}</span>')
     if not parts:
         return ""
     return f'<div class="meta-box">{" · ".join(parts)}</div>\n'

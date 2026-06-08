@@ -10,7 +10,7 @@ This guide proves the feature works end-to-end. Run each scenario after implemen
 ## Prerequisites
 
 - Python 3.8 or later installed (`python3 --version`)
-- One-time dependency install: `pip3 install markdown`
+- One-time dependency install: `uv run tools/wiki_server.py --help` (auto-installs `markdown`)
 - A terminal open at the project root
 
 ---
@@ -22,7 +22,7 @@ make serve
 # or with a custom port:
 make serve PORT=9000
 # or directly:
-python3 tools/wiki_server.py
+uv run tools/wiki_server.py
 ```
 
 **Expected terminal output**:
@@ -57,8 +57,8 @@ Press Ctrl+C to stop.
 
 ## Scenario 4: Port Conflict Reporting (FR-006)
 
-1. Start the server: `python3 tools/wiki_server.py`
-2. Without stopping it, open a second terminal and run: `python3 tools/wiki_server.py`
+1. Start the server: `uv run tools/wiki_server.py`
+2. Without stopping it, open a second terminal and run: `uv run tools/wiki_server.py`
 3. **Expected**: The second invocation prints a clear error message (e.g., `Error: port 8000 is already in use`) and exits immediately. It does not silently hang.
 
 ---

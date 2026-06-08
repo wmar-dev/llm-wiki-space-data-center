@@ -6,7 +6,7 @@
 
 ## Summary
 
-Build a single-file Python development server (`tools/wiki_server.py`) that renders the project's markdown wiki files as HTML and serves them at `http://localhost:8000`. The server whitelists the `wiki/` directory plus root-level wiki companion files, rewrites internal markdown links, and includes a lightweight JS polling mechanism for live reload on file changes. One-time dependency: `pip3 install markdown`.
+Build a single-file Python development server (`tools/wiki_server.py`) that renders the project's markdown wiki files as HTML and serves them at `http://localhost:8000`. The server whitelists the `wiki/` directory plus root-level wiki companion files, rewrites internal markdown links, and includes a lightweight JS polling mechanism for live reload on file changes. Dependency auto-installed via `uv run`.
 
 ## Technical Context
 
@@ -16,7 +16,7 @@ Build a single-file Python development server (`tools/wiki_server.py`) that rend
 
 **Storage**: N/A — read-only access to existing wiki markdown files on disk
 
-**Testing**: Manual validation per `quickstart.md` scenarios; no automated test suite for a single-file dev utility
+**Testing**: Automated unit tests in `tools/test_wiki_server.py` (run with `uv run tools/test_wiki_server.py`) plus manual validation per `quickstart.md` scenarios
 
 **Target Platform**: macOS + Linux (developer's local machine, localhost only)
 
