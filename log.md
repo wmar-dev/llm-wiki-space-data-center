@@ -4,6 +4,8 @@
 <!-- Format: ## [YYYY-MM-DD] <operation> | <title> -->
 <!-- Operations: ingest | re-ingest | fetch | fetch-failed | query | lint | evaluation | tool-proposal -->
 
+## [2026-06-07] query | what is the max GW capacity that we can put into space? | pages-read: 4
+
 ## [2026-06-07] query | At what reuse cadence does Starship reach $200/kg? | pages-read: 3
 
 ## [2026-06-07] query | Is there a viable business model at 100 kW scale? | pages-read: 3

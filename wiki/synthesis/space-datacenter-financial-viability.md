@@ -54,5 +54,10 @@ Structures of the scale required (thousands of m² of panels and radiators) have
 
 ## Open Questions
 
-- What is the maximum radiator area practically deployable on an orbital platform given launch mass constraints and deployment complexity? [[wiki/concepts/thermal-management.md]]
 - What price premium (if any) would orbital compute command over terrestrial alternatives, and for which workloads? No source in the current wiki addresses the demand side of the economics.
+
+## Related Pages
+
+- [[wiki/synthesis/space-datacenter-max-gw-capacity.md]]
+- [[wiki/synthesis/space-datacenter-key-risks-analysis.md]]
+- [[wiki/synthesis/starship-200kg-reuse-cadence.md]]

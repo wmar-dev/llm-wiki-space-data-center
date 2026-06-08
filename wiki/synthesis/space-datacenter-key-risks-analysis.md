@@ -130,7 +130,6 @@ See also: [[wiki/synthesis/orbital-capacity-fundamental-limit.md]] [[wiki/concep
 
 ## Open Questions
 
-- What is the maximum radiator area practically deployable on an orbital platform given launch mass constraints?
 - How do SEU error rates affect application-layer reliability for compute-intensive workloads (AI inference, HPC)?
 
 ## Related Pages
@@ -139,3 +138,4 @@ See also: [[wiki/synthesis/orbital-capacity-fundamental-limit.md]] [[wiki/concep
 - [[wiki/synthesis/space-datacenter-100kw-unit-economics.md]]
 - [[wiki/synthesis/spacex-starship-cost-breakdown.md]]
 - [[wiki/synthesis/space-datacenter-financial-viability.md]]
+- [[wiki/synthesis/space-datacenter-max-gw-capacity.md]]
