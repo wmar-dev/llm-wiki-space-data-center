@@ -54,7 +54,7 @@ general-purpose competitor to terrestrial cloud.
 - LEO satellites experience **~5,000 charge-discharge cycles per year** (eclipse every
   90 minutes), vs ~365 for terrestrial UPS systems
 - NASA limits depth of discharge to **35%** to preserve battery life
-- A 2026 arXiv paper (first of its kind) directly links compute workload scheduling to
+- A [2026 arXiv paper](https://arxiv.org/abs/2603.04372) (first of its kind) directly links compute workload scheduling to
   physical battery degradation — the degradation model is not yet incorporated into
   orbital data center designs
 - Battery replacement at every 5–7 years adds significant lifecycle cost
