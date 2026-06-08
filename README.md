@@ -22,7 +22,7 @@ the business case only becomes compelling below $10–50/kg. Starship targets $1
 but has achieved only a 55% orbital launch success rate as of late 2025, and full reuse
 has not been validated at commercial cadence. The CEO of the most prominent orbital data
 center startup (Orbital, a16z-backed) has stated publicly that viability requires
-**~$10/kg** — a 700× reduction from today's rates.
+**\~$10/kg** — a 700× reduction from today's rates.
 
 For context: xAI built its 150 MW Colossus AI supercomputer in 122 days. The US
 terrestrial sector adds 2–3 GW of new data center capacity per year. Starcloud's entire
