@@ -3,6 +3,7 @@
 <!-- Content catalog. Updated on every ingest and query file-back. -->
 <!-- Format: - [Title](wiki/type/slug.md) — one-line summary [status: current] [sources: N] -->
 
+- [Thermal Management: Engineering Scale Gap or Physics Breakthrough Needed?](wiki/synthesis/thermal-management-scale-vs-breakthrough.md) — physics understood; 1 MW has a design path; GW scale hits mass-efficiency wall (19 kg/m² → needs <6 kg/m²); cooling is least mature critical enabler [status: current] [sources: 4]
 - [Radiative Cooling for Space Data Centers](wiki/sources/space-arch-radiative-cooling-2025.md) — thermal radiation as the only heat rejection mechanism; 450 W/m² at 300K; 1 MW needs ~2,200 m² [status: stale] [sources: 1] [ingest_count: 2]
 - [Thermal Management in Space Data Centers](wiki/concepts/thermal-management.md) — radiative cooling fundamentals, area-to-power relationship, design implications [status: current] [sources: 2]
 - [Space-Based Solar Power (Wikipedia)](wiki/sources/space-based-solar-power.md) — shared constraints with space data centers; Aetherflux pivot Dec 2025; launch cost benchmarks [status: draft] [sources: 1] [origin_url: https://en.wikipedia.org/wiki/Space-based_solar_power] [domain_relevance: primary]
@@ -90,3 +91,4 @@
 - [Commercial Laser ISL Terminals for LEO — Market Survey (May 2025)](wiki/sources/satsearch-isl-terminals-2025.md) — 15 commercial OISL products; CACI CICADA 150 Mbps baseline; Voyager 400+ Gbps high end; no FCC coordination needed [status: current] [sources: 1] [origin_url: https://blog.satsearch.co/2025-05-01-15-laser-communications-systems-for-inter-satellite-links-isls-in-leo-that-you-can-buy-in-may-2025]
 - [COTS vs. Radiation-Hardened Computing in Space](wiki/concepts/cots-vs-rad-hard-computing.md) — H100 TRL 6-7 in orbit; 10⁻³-10⁻⁴ SEU/device/day; rad-hard 5-10yr behind; mitigation stack needed; 4nm more vulnerable [status: current] [sources: 4]
 - [Data Downlink Throughput as a Space Data Center Constraint](wiki/concepts/space-datacenter-downlink-throughput.md) — 18-72 TB/day per sat with optical; AIRSAT-02 120 Gbps/1.58 TB per pass; inference workloads compress well; training checkpoint exfiltration constrained [status: current] [sources: 4]
+- [ISS-Derived Scissors-Beam Mechanisms for Space Data Center Thermal Management](wiki/synthesis/iss-scissors-beam-thermal-mechanisms.md) — scissors-beam deployable radiators; ISS heritage; 140-160 m² per assembly; 2-4 assemblies per 1 MW node; 19 kg/m² mass constraint [status: current] [sources: 3]
