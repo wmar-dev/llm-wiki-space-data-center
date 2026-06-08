@@ -5,6 +5,7 @@ sources:
   - "orbital-ai-factory-heat-management.md"
   - "sciopen-space-datacenter-thermal.md"
   - "space-arch-radiative-cooling-2025.md"
+  - "nasa-iss-atcs-overview.txt"
 status: "current"
 created: "2026-06-08"
 last_updated: "2026-06-08"

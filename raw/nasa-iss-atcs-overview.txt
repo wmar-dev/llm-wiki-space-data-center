@@ -1,0 +1,610 @@
+IDS Business Support,
+Communications and
+Community Affairs
+P.O. Box 516
+St. Louis, MO 63166
+
+Active Thermal Control System (ATCS) Overview
+
+EEATCS (5A-12A.1)/EATCS (12A.1+)
+
+Active Thermal Control System Architecture
+Most of the Station's many systems produce waste heat, which needs to be transferred from the
+ISS to space to achieve thermal control and maintain components at acceptable temperatures.
+An Active Thermal Control System (ATCS) is required to achieve this heat rejection function
+when the combination of the ISS external environment and the generated heat loads exceeds the
+capabilities of the Passive Thermal Control System to maintain temperatures. An ATCS uses a
+mechanically pumped fluid in closed-loop circuits to perform three functions: heat collection,
+heat transportation, and heat rejection. Waste heat is removed in two ways, through cold plates
+and heat exchangers, both of which are cooled by a circulating ammonia loops on the outside of
+the station. The heated ammonia circulates through large radiators located on the exterior of the
+Space Station, releasing the heat by radiation to space that cools the ammonia as it flows through
+the radiators. .
+The ATCS consists of the Internal Active Thermal Control System (IATCS), External Active
+Thermal Control System (EATCS), the Photovoltaic Thermal Control System (PVTCS) and the
+Early External Active Thermal Control System (EEATCS). The IATCS consists of loops that
+circulate water through the interior of the U.S. Destiny Laboratory module to collect the excess
+heat from electronic and experiment equipment and distributes this heat to the Interface Heat
+Exchangers for transfer to the EATCS. At assembly complete, there will be nine separate ITCS
+water loops in the U.S. and International Partner pressurized modules.
+The Photovoltaic Thermal Control System (PVTCS) consists of ammonia loops that collect
+excess heat from the Electrical Power System (EPS) components in the Integrated Equipment
+Assembly (IEA) on P4 and eventually S4 and transport this heat to the PV radiators (located on
+P4, P6, S4 and S6) where it is rejected to space. The PVTCS consist of ammonia coolant, eleven
+coldplates, two Pump Flow Control Subassemblies (PFCS) and one Photovoltaic Radiator
+(PVR).
+1
+
+The External Active Thermal Control System (EATCS), activated for the first time on this
+mission, consists of ammonia loops to collect heat from the Interface Heat Exchangers and
+external electronic equipment mounted on coldplates and transports it to the S1 and P1 radiators
+where it is rejected to space. In lieu of using the EATCS initially, the station hardware has been
+cooled by the Early External Active Thermal Control System (EEATCS). The EEATCS has
+provided heat rejection capability rejection capability for the U.S. Laboratory Interface Heat
+Exchangers(IFHX) since assembly flight 5A through 12a.1.
+The EEATCS is the temporary system used to collect, transport, and reject waste heat from
+habitable volumes on the International Space Station (ISS). The EEATCS collects heat from the
+Interface Heat Exchangers (IFHX) located on the U.S. Laboratory module, circulates the
+working fluid, anhydrous ammonia, via the Pump and Flow Control Subassembly (PFCS), and
+rejects heat to space via two orthogonally oriented stationary radiators.
+
+Internal Active Thermal Control System (IATCS)
+The purpose of the U.S. Destiny Laboratory ITCS is to maintain equipment within an allowable
+temperature range by collecting, transporting, and rejecting waste heat. The ITCS uses water
+because it is an efficient thermal transport fluid and is safe inside a habitable module. The
+IATCS is a closed loop system that provides a constant coolant supply to equipment, payloads
+and avionics to maintain proper temperature.
+The U.S. Laboratory contains two independent loops, a Low Temperature Loop (LTL) and a
+Moderate Temperature Loop (MTL). This approach allows for segregation of the heat loads,
+simplifies heat load management, and provides redundancy in case of equipment failure. The
+LTL is designed to operate at 40° F (4° C) and service systems equipment requiring low
+temperatures, such as the Environmental Control and Life Support System (ECLSS) Common
+Cabin Air Assembly (CCAA) and some payload experiments. The LTL contains approximately
+16.64 gallons (63 liters) of fluid. The MTL nominally operates at 63° F (17° C) and provides
+most of the cooling for systems equipment (i.e. avionics) and payload experiments. The MTL
+contains approximately 52.83 gallons (200 liters) of fluid. The IATCS loops can be configured
+and operated as a single loop. This capability is used for a variety of purposes, including the
+reduction of wear on the pumps, reduction of pump power usage, or to compensate for a pump
+failure.
+
+Photovoltaic Thermal Control System (PVTCS)
+The PVTCS consist of ammonia coolant, eleven coldplates, two Pump Flow Control
+Subassemblies (PFCS) and one Photovoltaic Radiator (PVR). The coldplate subassemblies are
+an integral part of IEA structural framework. Heat is transferred from the IEA orbital
+replacement unit (ORU) electronic boxes to the coldplates via fine interweaving fins located on
+both the coldplate and the electronic boxes. The fins add lateral structural stiffness to the
+coldplates in addition to increasing the available heat transfer area. The PFCS is the heart of the
+thermal system. It consists of all the pumping capacity, valves and controls required to pump the
+heat transfer fluid to the heat exchanges and radiator, and regulate the temperature of the thermal
+control system ammonia coolant. The PVTCS can dissipate 6,000 Watts of heat per orbit on
+average and is commanded by the IEA computer. Each PFCS consumes 275 Watts during
+2
+
+normal operations and measures approximately 40 inches (101.6 cm) by 29 inches (73.7 cm) by
+19 inches (48.3 cm), weighing 235 pounds (106.7 kilograms).
+The PVR – the radiator – is deployable on orbit and comprised of two separate flow paths
+through seven panels. Each flow path is independent and is connected to one of the two PFCSs
+on the IEA. In total, the PVR can reject up to 14 kW of heat into deep space. The PVR weighs
+1,633 pounds (740.7 kilograms) and when deployed measures 10.24 feet (3.12 meters) by 44.62
+feet (13.6 meters). When the ISS assembly is complete, there will be a total of four PVRs, one
+for each PV module (S4, P4, P6, S6).
+
+Early External Active Thermal Control System (EEATCS)
+Function
+Since the U.S. Laboratory became operational before the permanent External Active Thermal
+Control System (EATCS) was assembled, a temporary external cooling system was needed.
+External cooling from the Russian segment is not possible because there are no operational
+interfaces between the U.S. On-orbit Segment (USOS) and the Russian On-orbit Segment (ROS)
+thermal systems. Instead, a modified version of the Photovoltaic Thermal Control System
+(PVTCS) called the Early External Active Thermal Control System (EEATCS) acts as a
+temporary thermal system. The EEATCS consists of two independent, simultaneously operating
+ammonia cooling loops (ACL). These loops transport heat loads from the Interface Heat
+Exchanger (IFHX) located on the Laboratory module's aft endcone to the radiators located on
+truss segment P6. The EEATCS is needed until the permanent EATCS is activated. Once the
+permanent EATCS becomes operational on mission, the EEATCS will be deactivated. After
+deactivation, portions of the EEATCS will be used as spare components for the PVTCS loops.
+Hardware
+Pump & Flow Control System (PFCS)
+Each external loop contains a Pump & Flow Control System (PFCS) which contains most of the
+controls and mechanical systems that drive the EEATCS. There are 2 pumps per PFCS which
+circulate ammonia throughout the external coolant loops and a Flow Control Valve (FCV) which
+mixes cold radiator flow and warm IFHX return flow to regulate the temperature of the ammonia
+in the loop. The PFCS also contains the primary ammonia accumulator, which provides limited
+ammonia leakage makeup, protection against thermal expansion of the ammonia, and a net
+positive suction head greater than the minimum required to prevent pump cavitations.
+Additionally, all manner of pressure, temperature, flow, and quantity sensors used by the
+EEATCS are part of the PFCS.
+Radiators
+
+3
+
+The EEATCS radiator ORU is a direct flow, deployable and retractable radiator system with two
+independent cooling loops. The EEATCS radiator consists of seven radiator panels, the
+deploy/retract mechanism, support structure, and the necessary plumbing. The EEATCS radiator
+has two channels (A & B) that acquire heat from the Lab Low Temperature (LT) and Moderate
+Temperature (MT) Loop Interface Heat Exchanger (IFHX) via liquid anhydrous ammonia. The
+ammonia flows from the PFCS to the associated IFHX, to the EEATCS radiator manifold tubes,
+across the radiator panels and back to the PFCS. The radiator panels reject the excess heat to
+space via two non-articulating EEATCS radiator ORUs: one AFT (Trailing) and one Starboard
+(Normal). The two radiator ORUs are located on the P6 Long Spacer Truss Segment. The
+radiator measures 10.24 feet (3.12 meters) by 44.62 feet (13.6 meters).
+Interface Heat Exchanger (IFHX)
+The Interface Heat Exchanger (IFHX) units accomplish heat transfer from the IATCS water
+coolant loops to the external ammonia coolant loops. At assembly complete configuration of the
+ISS, 10 interface heat exchangers will be in operation to provide heat transfer from the IATCS
+loops of the various habitable modules to the two external ammonia coolant loops. The IFHX
+units are located on the U.S. Laboratory, Node 2, and Node 3.
+
+4
+
+External Active Thermal Control System (EATCS) Overview
+
+The EATCS provides heat rejection capabilities for all U.S. pressurized modules and the main
+power distribution electronics on S0, S1 and P1. The system uses a single-phase anhydrous
+ammonia as its working fluid for its high thermal capacity and wide range of operating
+temperatures. Ammonia has an extremely low freezing point of -107 degrees ° F (-77 °C) at
+standard atmospheric pressure. The EATCS is comprised of two independent loops labeled loop
+A on S1 (Starboard) and Loop B on P1 (Port). The independent loops were designed so that a
+failure in one would not take down the entire EATCS system. Both loops are physically
+separated to prevent orbital debris from taking out the lines and the fluid transport lines are
+buried within the truss structure. If a loop does go down, the EATCS operates at a reduced
+capacity. Each loop collects heat from up to five Interface Heat Exchangers (IFHXs) mounted
+on the Node 2, U.S. Destiny Laboratory, and Node 3 as well as externally mounted coldplates.
+Most of the cold plates and plumbing to the pressurized modules are located on the S0 center
+truss. The EATCS is designed to provide 35 kW of heat rejection per loop for a total capability
+of 70 kW. The EATCS also provides ammonia re-supply capability to the Photovoltaic Thermal
+Control Systems (PVTCS) located on P4, P6, S4 and S6. All EATCS components are located
+outside the pressurized volumes to prevent crew contact with ammonia.
+At assembly complete, each ammonia loop will supply coolant to five Interface Heat Exchangers
+(IFHX) and five cold plates (three Direct Current-to-Direct Current Units (DDCUs) and two
+Main Bus Switch Units (MBSUs)). Two MBSU cold plates, each designed to remove 495 watts
+at 80 lbs/hr. Three DDCU cold plates are each designed to remove 694 watts at 125 lbs/hr. The
+cold plate interfaces with the component base-plate via radiant fins. IFHXs transfer thermal
+5
+
+energy from the Internal Thermal Control System’s (ITCS) water based coolant to the ETCS
+anhydrous ammonia coolant. Ammonia supply temperature is currently set at 37 °F (2.8 °C)
+The ITCS supply temperature varies as a function of the modules’ thermal load. IFHX can
+isolate and bypass the IFHX core on the ammonia side in the event a cold slug is detected at the
+pump outlet to prevent ITCS coolant from freezing.
+Key Components:
+The External Active Thermal Control System (EATCS) is the primary permanent active heat
+rejection system on ISS. It acquires, transports, and rejects excess heat from all U.S. and
+International Partner modules except the Russian modules. The EATCS contains two ammonia
+coolant loops, which cool equipment on the S0, S1, and P1 truss segments. Capable of rejecting
+up to 70kW, the EATCS provides a substantial upgrade in heat rejection capacity from the 14kW
+capability of the Early External Active Thermal Control System (EEATCS).
+Heat Acquisition Subsystem (HAS)
+The HAS consists of the Interface Heat Exchanger (IFHX) Orbital Replacement Units (ORU),
+Main Bus Switch Unit (MBSU) and DC-to-DC Converter Unit (DDCU) cold plates ORU.
+Heat Rejection Subsystem (HRS)
+The HRS consists of the radiator ORU, which is a deployable, eight-panel system that rejects
+thermal energy via radiation. The HRS also consists of the Radiator Beam Valve Module
+(RBVM) that provides radiator isolating or venting, radiator beam which carries three radiators
+and connects to the Thermal Radiator Rotary Joint (TRRJ), which rotates to the radiator beam to
+provide radiator articulation. The EATCS allows the flow of ammonia through heat rejection
+radiators that constantly rotate to optimize cooling for the station.
+
+6
+
+Interface Heat Exchanger (IFHX)
+
+Interface Heat Exchanger (IFHX) provide the interface between the ITCS and the EATCS
+The Interface Heat Exchanger (IFHXs) provide the interface between a module’s internal TCS
+and the EATCS. The IFHXs transfer heat from the internal loops of the USOS modules to the
+EATCS ammonia loops. IFHXs are used to collect heat from USOS modules. There are five
+IFHXs for each EATCS loop. Some IFHXs are plumbed in series such that the cool ammonia
+flows through a module’s Low Temperature Loop (LTL) IFHX prior to flowing though another
+module’s Moderate Temperature Loop (MTL) IFHX.
+The IFHX units accomplish heat transfer from the IATCS water coolant loops to the external
+ammonia coolant loops. Each IFHX core utilizes a counterflow design with 45 alternating
+layers. IATCS water flows through 23 of the layers, while EATCS ammonia flows through the
+22 alternate layers in the opposite direction. These alternating layers of relatively warm water
+and relatively cold ammonia help to maximize the heat transfer between the two fluids via
+conduction and convection. The heat exchanger core is a simple flow through device with no
+command or telemetry capability. IFHXs are mounted on the Node 2, U.S. Laboratory, and
+Node 3. The U.S. Laboratory IFHXs have been connected to the EEATCS, until this flight, when
+the EEATCS ammonia fluid line quick-disconnect will be disconnected and reconnected to the
+EATCS. When Node 2 arrives on Assembly Flight 10A, it is equipped with six IFHXs designed
+to provide cooling for itself, the Columbus and Japanese Experiment Module. Node 3 also
+contains a set of IFHXs, which are connected to the EATCS when it arrives on Assembly Flight
+20A.
+At the assembly complete configuration of the ISS, 10 interface heat exchangers will be in
+operation to provide heat transfer from the IATCS loops of the various habitable modules to the
+two external ammonia coolant loops. The IFHX units will be located on the U.S. Laboratory,
+Node 2, and Node 3. Because of the highly toxic nature of ammonia, IFHX ORUs are mounted
+7
+
+external to the pressurized modules as a safety precaution. Each IFHX measures 25 inches
+(63.50 cm) by 21 inches (53.34 cm) by 8 inches (20.32 cm) and weighs about 91 pounds (41.28
+kilograms).
+Heaters
+Each EATCS loop has electrically powered heaters wrapped around the supply and return fluid
+lines on the S0 Truss to maintain the minimum operating temperature. These heaters are used
+during low heat load conditions and are turned on and off by software in the
+Multiplexer/Demultiplexer (MDMs). These heaters can be operated in closed-loop mode
+(temperature based) or open-loop mode (time based). Numerous heaters are located on the
+EATCS plumbing on the S1 (Loop A) and P1 (Loop B) truss segments to prevent ammonia
+freezing and flexible hose damage during nonoperational periods. These heaters are
+thermostatically controlled and have no software interface.
+Cold Plate
+Each ETCS loop provides cooling
+to externally mounted coldplates
+located on the S0, S1 (Loop A),
+and P1 (Loop B) truss segment.
+These coldplates contain Electrical
+Power System (EPS) equipment
+used to convert and distribute
+power to downstream ISS loads.
+Each ammonia loop contains four
+coldplates, two attached to Direct
+Current-to-Direct Current
+Converter Units (DDCUs) and two
+attached to Main Bus Switching
+Units (MBSUs). Each MBSU
+coldplate measures 37 inches
+(93.98 cm) by 33 inches (83.8 cm)
+by 20 inches (50.8 cm) and weighs about
+109 pounds (49.4 kilograms).
+
+Main Bus Switching Unit (MBSU) Coldplate
+
+8
+
+Electrical Connectors (2)
+
+Ammonia QDs (2)
+
+Direct Current-to-Direct Current Converter Units (DDCU) Cold Plate
+Each coldplate ORU is connected to the EATCS ammonia loop by self-sealing quick disconnect
+(QD) couplings and contains a finned coldplate, two or three strip heaters and temperature
+sensor. The coldplates are installed such that the fins of the coldplate are positioned adjacent to
+corresponding fins on either the DDCU or the MBSU to facilitate heat transfer by radiation
+between the cooled equipment and the coldplate. Each DDCU coldplate measures 35 inches
+(88.9 cm) by 28 inches (71.12 cm) by 31 inches (78.74 cm) inches and weighs about 96 pounds
+(43.54 kilograms).
+Pump Module (PM)
+Circulation, loop pressurization, and temperature control of the ammonia is provided by the
+Pump Module (PM). Each ammonia loop contains a Pump Module Assembly (PM) ORU to
+provide flow and accumulator functions and maintains proper temperature control at the pump
+outlet. Each PM consists of a single pump, a fixed charge accumulator, a Pump & Control Valve
+Package (PCVP) containing a firmware controller, startup heaters, isolation valves, and various
+sensors for monitoring performance. The accumulator within the PM works in concert with the
+Ammonia Tank Assembly (ATA) tanks to compensate for expansion and contraction of
+
+9
+
+The Pump Module ORU circulates liquid ammonia at a constant flowrate to a network of
+coldplates and heat exchangers located on the external trusses and U.S. modules,
+respectively.
+ammonia caused by the temperature changes and keeps the ammonia in the liquid phase via a
+fixed charge of pressurized nitrogen gas on the backside of its bellows.
+The Pump Module (PM) provides fluid pumping, fluid temperature control and system pressure
+control. The PCVP provides flow control. A single pump in the PCVP provides circulation of
+the ammonia. The Flow Control Valve (FCV) located within the PCVP regulates the temperature
+of the ammonia. The FCV mixes “cool” ammonia exiting the radiators with “warm” ammonia
+that has bypassed the radiators.
+Nominally, loop A will operate at 8,200 lb/hr and loop B at 8,900 lb/hr at 14,000 and 14,700
+revolutions per minute, respectively. For STS-116, initial activation with U.S. Laboratory IFHX
+where Loop A pump will run at 11,500 rpm, equivalent to 5,000 lb/hr while Loop B pump will
+run at 11,500 rpm which is equivalent to 5,200 lb/hr.
+The accumulator located in the PM provides auxiliary pressure control. The accumulator resides
+upstream of the PCVP in each PM ORU. The accumulator keeps the ammonia in the liquid phase
+by maintaining the pressure above the vapor pressure of ammonia and provides makeup
+ammonia in case of a leak. The accumulator works in conjunction with the ATA to absorb
+fluctuations in the fluid volume due to varying heat loads through the expansion and contraction
+of its internal bellows.
+Nominal operating pressure for the loops is 300 psia at the pump inlet; the pressure will be
+brought up to 390 psia for start up. The maximum system design pressure is 500 psia.
+Each PM measures 69 inches (175.26 cm) by 50 inches (127 cm) by 36 inches (.91 cm) inches
+and weighs about 780 pounds (353.8 kilograms).
+Low and High Pressure flow Control Monitoring
+
+10
+
+Failure Detection, Isolation and Recovery (FDIR) for high and low pressure conditions are
+monitored and issued by the S1/P1 Multiplexer/Demultiplexers (MDMs). For an over pressure,
+gaseous nitrogen pressure is relieved down to 360 psia when pump inlet pressure reaches 415
+psia (active control). The PVCP Inlet pressure, Radiator return pressure, and Bypass return
+pressure sensors are part of this system and two of three pressure readings are used to determine
+if an overpressure condition exists. The pump will shut down issued when the pump outlet
+pressure reaches 480 psia (active control). Various relief valves and burst disks at the IFHX,
+PM, and RBVM will relieve at approximately 70 psia (passive control)
+Low pressure (current limit set at 170 psia) is monitored by two methods to determine a low
+pressure condition (chooses higher of the two values to determine the limit). Low pressure
+conditions are monitored using the PVCP inlet pressure, radiator return pressure, and bypass
+return pressure sensors.
+Temperature Control
+The PCVP also maintains temperature set point control of the ammonia supplied to the HAS.
+The PCVP has a temperature control capability of 36 °F (2.2 °C) to 43 °F (6.1 °C) and it will be
+set at 37 °F ± 2 °F (2.8 °C). The temperature control method is by three way mixing valve that
+mixes flow from the radiators and the HRS Bypass. Heaters on the HRS Bypass leg provide an
+additional level of control. Heaters are used to provide fluid conditioning in the event the
+thermal load on the loop is not sufficient to maintain set point control and to support temporary
+transient events. Total heater power of 1.8 kW is split across two heater strips mounted on the
+HRS bypass lines (900 watts each).
+Pump outlet over temperature protection is provided by a Firmware Controller (FWC) in the
+PCVP that uses three PCVP outlet sensors to determine an over temp condition and issues zero
+pump speed. The S1/P1 MDMs use the PM outlet sensor to determine an over temp condition
+and pull power from the Solenoid Driver Output (SDO) card providing power to the PM.
+Current limit is set at 65 °F (18.33 °C). Freeze Protection in the IFHX is detected by the PCVP
+firmware which shuts down the pump (first leg). When an under temperature condition is
+detected by the S1/P1 MDMs, it will pull power from the SDO card providing power to the PM
+(second leg). Under temperature detected by the S0 1,2 MDMs pulls power from the utility rail
+(third leg, leaves many things without power). The current limit is set at 35 °F (1.67 °C).
+
+11
+
+Fluid Supply
+
+Ammonia re-supply capability for the EATCS and the eight PVTCS located on P6, P4, S4 and
+S6 is provided by the Ammonia Tank Assembly (ATA).
+Each ammonia loop contains an ATA ORU to contain the heat transfer fluid (liquid ammonia)
+used by the EATCS loops. There is one ATA per loop located on the zenith side of the S1 (Loop
+A) and P1 (Loop B) truss segments. The ATA ORU will be used to fill the EATCS loop on
+startup, to supply makeup fluid to the system, to act as an accumulator in concert with the PM
+accumulator and provide the
+capability to vent the
+ammonia loops by way of a
+connection to an external
+non-propulsive vent. Each
+ATA primarily consists of
+two bellows ammonia tanks
+pressurized by an external
+nitrogen source, two internal
+survival heaters and two sets
+of quantity, differential
+pressure, absolute pressure
+and temperature sensors. The
+ATAs are isolatable and
+replaceable on orbit.
+Multilayer Insulation (MLI)
+applied to the exterior
+surfaces of the ORU is
+provided to guard against
+excessive heat loss. The ATA
+ORU is protected against
+Micro-Meteoroid/Orbital
+Debris (MM/OD) by
+shielding on the exterior of each tank and the ORU itself. Each ATA measures 79 inches
+12
+
+(200.66 cm) by 46 inches(116.84 cm) by 55 inches (139.7 cm) inches and weighs about 1,120
+pounds (508.02 kilograms).
+The ATA in combination with the Nitrogen Tank Assembly (NTA) provide fluid supply and
+primary system pressure control. A single ATA was launched on Flights 9A and 11A (ITS S1
+and P1) with approximately 640 lbm ammonia in each ATA, 320 lbm per tank. ATA provides
+necessary plumbing connection to the ammonia vent system via the vent panel. Supply to
+outboard trusses is provided through the vent panel. The ATA acts as the primary accumulator
+for the EATCS in concert with the NTA. If required, it can also be used to replenish the PVTCS
+fluid lines.
+Each ammonia loop
+contains a NTA ORU to
+provide storage for the
+high pressure nitrogen
+used for controlled
+pressurization of the
+ATA. The NTA mounts to
+the S1 (Loop A) and P1
+(Loop B) truss segments
+and is connected to the
+ATA by self-sealing QDs.
+Each NTA ORU primarily
+consists of a nitrogen
+tank, a gas pressure
+regulating valve (GPRV),
+isolation valves and
+survival heaters. The
+nitrogen tank provides a
+storage volume for the
+high-pressure gaseous nitrogen, while the GPRV provides a pressure control function as well as
+nitrogen isolation and over pressure protection of downstream components. The NTA provides
+the necessary pressure to move the ammonia out of the ATA. The single high-pressure tank
+containing nitrogen at 2,500 psia (@70 °F, ground fill) and uses the GPRV to supply continuous
+pressure up to 390 psia in one psia increments. A back-up mechanical valve limits the maximum
+nitrogen pressure to 416 psia. The GPRV provides pressure control as well as high-pressure
+nitrogen isolation and overpressure protection of downstream components. The NTA has venting
+capabilities and over pressure controls. Each NTA measures 64 inches (162.56 cm) by 36
+inches (91.44) by 30 inches (76.2 cm) inches and weighs about 460 pounds (208.65 kilograms).
+Fluid Lines and Quick Disconnects (QD):
+Fluid lines and external QDs provide the transportation path from the truss segments to the
+IFHXs. Connections between segments are made with flex hoses and QDs. There are flex hoses
+and QDs between each truss, and between the S0 truss and the various IFHXs.
+
+13
+
+Heat Rejection System
+
+Heat Rejection System
+(HRS) Radiator during
+deployment testing at
+Lockheed Martin Missiles
+and Fire Control.
+
+Heat collected by the EATCS ammonia loops is radiated to space by two sets of rotating radiator
+wings—each composed of three separate radiator ORUs. Each radiator ORU is composed of
+eight panels, squib units, squib unit firmware controller, Integrated Motor Controller Assemblies
+(IMCAs), instrumentation, and QDs. Each Radiator ORU measures 76.4 feet (23.3 meters) by
+11.2 feet (3.4 meters) and weighs 2,475 pounds (1,122.64 kilograms)
+Each ammonia loop
+contains one radiator
+wing comprised of
+three Radiator ORUs
+mounted on the
+Radiator Beam and
+six Radiator Beam
+Valve Modules
+(RBVM)and one
+Thermal Radiator
+Rotary Joint (TRRJ).
+The Radiator ORUs
+utilize anhydrous
+ammonia to reject
+heat from the EATCS.
+Each Radiator ORU
+contains a deployment
+mechanism and eight
+radiator panels. The
+deployment
+mechanism allows the Radiator ORU to be launched in a stowed configuration and deployed on
+orbit. Each radiator ORU can be remotely deployed and retracted.
+
+14
+
+Each individual radiator has two
+separate coolant flow paths. Each
+flow path flows through all eight
+radiator panels. Each panel’s
+flow path has eleven flow tubes
+for a total of 22 Inconel flow
+tubes or passages (11 passages
+per flow path) per radiator panel;
+flow tubes are freeze tolerant.
+Flow tubes are connected along
+the edge of each panel by
+manifolds. Flex hoses connect
+the manifold tubes between
+panels. Each panel has a white
+(Z-93) coating which provides
+optimum thermo-optical
+properties to maximize heat
+rejection. Flow tube
+arrangement is designed to minimize ammonia freezing in the radiator.
+
+Shown here is
+the flow path in
+one of the panels
+of the Radiator
+
+There are two
+RBVMs (one
+per flow path)
+that allow or
+prevent the
+transfer of
+ammonia to
+and from the
+radiator panels.
+
+Each radiator path contains one Radiator Beam Valve Module (RBVM) as a part of the
+radiator wing. Six RBVMs are mounted on the radiator beams on the S1 and P1 truss segments.
+Two RBVMs service each radiator ORU. Each RBVM consists of an isolation relief valve, an
+isolation valve, an Integrated Motor Controller Assembly (IMCA), QDs, and pressure and
+temperature sensors. The RBVM controls the transfer of ammonia between the Radiator
+Assembly ORU and the rest of the EATCS loop. Each RBVM contains sensors to monitor
+absolute pressure, temperature and valve position within the ORU. Remote control venting of the
+radiator fluid loop is also available through the RBVM to facilitate radiator replacement and
+prevent freezing of the ATCS coolant during contingency operations. The RBVM provides flow
+path isolation in the event that a panel suffers micro-meteoroid damage. Leak isolation FDIR
+functions are controlled by the S1/P1 MDMs monitoring large leaks via the STR/PTR MDMs.
+Additionally, the RBVM provides automatic pressure relief when the EATCS is over
+15
+
+pressurized. Each RBVM weighs about 50 pounds (22.68 kilograms) and measures 24 inches
+(60.96 cm) by 20 inches (50.8 cm) x 5.4 inches (13.72 cm).
+The rotation capability for each radiator assembly is provided through a Thermal Radiator
+Rotary Joint (TRRJ). The TRRJ provides power, data, and liquid ammonia transfer to the
+rotating radiator beam while providing structural support for the radiator panels. Each TRRJ is
+composed of the following: a bearing assembly, two Rotary Joint Motor Controllers (RJMCs),
+two Drive Lock Assemblies (DLAs), a Flex Hose Rotary Coupler (FHRC), and a Power and
+Data Transfer Assembly (PDTA). The bearing assembly is the rotary interface and primary
+structural component of the TRRJ. The RJMCs provide control for the DLA system, which
+provides joint rotation and joint locking capability. The FHRC consists of four flex hoses, two
+supply and two return. The PDTA provides the data and power paths for transfer to and from the
+radiator beam.
+
+Thermal Radiator Rotary Joint (TRRJ) provides controlled rotation of the EATCS radiators,
+allows the transfer of power, data, and ammonia across the rotating interface, and provides the
+structural support between the S1/P1 truss segments and the associated radiator wing assembly.
+TRRJ ORU provides rotation capability to the Radiator Beam to optimize the thermal
+environment of the radiators and to maximize heat rejection capability and prevent freezing in
+the radiator manifolds. Rotation angles are determined via the Radiator Goal Angle Calculation
+(RGAC) algorithm which commands the Radiator Beam to put the radiators either “edge to the
+sun” during isolation phase of the orbit or “face to the Earth” during the eclipse phase. The
+RGAC ensures the radiators stay cold enough so the heat can be rejected but warm enough so
+that the ammonia does not freeze. There is a temperature goal of –40 °F at the radiator outlet.
+The FHRC provides the transfer of liquid ammonia across the rotary joint and is capable of
+rotating 230 degrees, at ±115 degrees from its neutral position. (software command limit is
+±105°); with a variable rotation speed of 0 to 45 degrees-per-minute. Each TRRJ measures
+16
+
+approximately 5.6 feet (1.7 meters) by 4.6 feet (1.4 meters) by 4.3 feet (1.3 meters) and weighs
+927 pounds (420.5 kilograms),
+System Performance Overview
+Loop A and B operate at slightly different flow rates mainly due to differing system hydraulic
+resistance layout. . Actual heat rejection will need to be planned and coordinated between all
+modules so as not to exceed the EATCS total heat rejection capability of 70 kW (at assembly
+complete), including S1/P1/S0 mounted electrical equipment.
+Software
+Thermal Control System (TCS) software is used to control and monitor the system. The TCS
+software executes actions such as system startup, loop reconfiguration, and valve positioning for
+flow and temperature control automatically or via commands from crew laptops or ground
+workstations. Telemetry from the various temperature, pressure, flow, and quantity sensors is
+monitored by TCS software and displayed on crew laptops or ground workstations. In addition,
+Fault Detection, Isolation, and Recovery (FDIR) software is used to monitor the performance of
+the TCS and, if there is a problem, alert the crew and flight controllers. In some cases, FDIR
+software initiates recovery actions.
+EATCS Activation
+With the solar arrays attached by the shuttle Atlantis' crew in September, NASA is ready with
+STS-116 to start generating enough power so that the permanent cooling system can be brought
+on line. NASA will have to bring up the permanent electrical power distribution system on line
+first before activating EATCS. The goal is to power up the MBSUs, route power through them
+to the cooling system and gets that system activated before the MBSUs can overheat. The
+EATCS has never been tested as an entire integrated system in its on-orbit configuration.
+However, NASA and Boeing engineers did conduct an entire loop test, but it did not have a
+rotating Radiator.
+During STS-116/Assembly flight 12A.1, during the second and third spacewalks, the EATCS is
+activated as part of the entire reconfiguration. There are two major power domains, 1/4 and 2/3.
+During EVA 2, the 2/3 power domain reconfiguration takes place and loop B is activated and
+then on EVA 3, the 1/4 power domain reconfiguration takes place and loop A is activated. Both
+power-on and power-off are major reconfigurations, when half the station power is turned off for
+periods of time. NASA has implemented a large number of procedures to account for the
+situation where they are zero-fault tolerate. The key to each EVA is activation of the pump
+modules and getting the system started for the first time. Assuming a nominal activation, there
+are approximately 24 procedure steps to activate the EATCS for the first time.
+Preparations to activate the EATCS start when the ground filled nitrogen pad is vented from the
+center radiators and the rest of the system (to be vented after STS-116 reaches orbit). The
+system is presently pressured with about 80 psia of nitrogen. The next step will be to introduce
+ammonia into the system with only one radiator ORU per loop plumbed, which will take several
+hours. Filling and activating the system will be one of the major challenges that mission
+controllers and engineers will face. Activation will take about an hour for each loop. If there
+17
+
+were an anomaly during filling such as pressure begins to drop like a leak, then the entire
+reconfiguration would be interrupted. Mission controllers have thoroughly rehearsed their
+procedures to identify any potential leaks in the system. Some minor leaks are possible. Early
+activation will provide cooling to the MBSUs and DDCUs (their respective cold plates) on S1,
+S0 and P1. The activation sequence also allows for a through checkout of the EATCS loops prior
+to connecting the U.S. Destiny Laboratory IFHX to the EATCS. The US Laboratory IFHXs will
+continue to be cooled via the Early External Active Thermal Control System (EEATCS) located
+on P6 Long Spacer.
+During the 12A.1 stage, EVAs will be conducted to connect the U.S. Laboratory IFHXs to the
+EATCS. After the IFHXs are connected to the EATCS, the EEATCS will enter a dormancy
+phase.
+On Assembly Mission 10A/STS-120, the two remaining radiator ORUs per wing are deployed
+and filled. Node 2 end-cones are connected to the EATCS via the starboard and port, boom trays
+located on the forward end of S0. Pump shut down will be required. All six IFHXs on Node 2
+receive cooling from the EATCS: two for Node 2, two for Attached Pressurized Module (APMColumbus), and two for Japanese Experiment Module (JEM-Kibo). The APM and JEM IFHXs
+remain in a bypassed and isolated configuration to prevent accidental freezing of the water side
+core of the IFHXs.
+On Assembly Flight 20A/STS-132, the Node 3 end-cone is connected to the EATCS via jumpers
+from the US Laboratory aft end-cone. A bypass line with an isolation valve on the US
+Laboratory Aft end-cone allows the fluid circuit to be completed prior to Node 3 arrival. Upon
+Node 3 arrival, the end-cone connection and activation the bypass-Isolation valves on US Lab
+end-cone are closed. This mission completes the EATCS loop architecture.
+Boeing engineers in Huntington Beach, Calif. designed the EATCS as well as S0, S1 and P1
+which contains most of the EATCS hardware. Major subcontractors to Boeing were Hamilton
+Sundstrand (PCVP, coldplates, core for heat exchanger), Honeywell (tanks, accumulator,
+RBVMs), Lockheed Martin (radiators) and Marotta (valves).
+
+18
+
+Component Reference Drawings
+
+Component locations on S1/P1
+
+Component locations on S1/P1
+
+19
+
+

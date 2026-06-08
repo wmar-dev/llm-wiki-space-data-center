@@ -4,6 +4,10 @@
 <!-- Micro evaluations: appended by the ingest skill after each source is processed. -->
 <!-- Macro evaluations: appended by the lint skill when ingest count reaches a multiple of 10. -->
 
+- [2026-06-08 ingest] NASA ATCS overview: primary-source areal density (14.2 kg/m² panel-level) is better than the ~19 kg/m² figure in existing pages; system-level density including pumps/tanks/joints is higher — both figures are valid at different scopes
+- [2026-06-08 ingest] Read 0 additional wiki pages (all 4 relevant pages were in context from prior query session); stayed within 8-read budget with no search.sh needed
+- [2026-06-08 ingest] TRRJ rotary joint mechanism confirmed as the source of "gimbaled panels for sun avoidance" cited in Orbital AI Factory — closes an implicit open question in the scissors-beam synthesis
+
 <!-- Micro format:
 - [YYYY-MM-DD ingest] <brief observation about token usage, contradiction, or tool gap>
 -->

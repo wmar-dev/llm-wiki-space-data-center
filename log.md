@@ -4,6 +4,10 @@
 <!-- Format: ## [YYYY-MM-DD] <operation> | <title> -->
 <!-- Operations: ingest | re-ingest | fetch | fetch-failed | query | lint | evaluation | tool-proposal -->
 
+## [2026-06-08] ingest | ISS Active Thermal Control System (ATCS) Overview (NASA/Boeing)
+
+Primary NASA/Boeing technical reference for ISS thermal control hardware. EATCS confirmed at 70 kW total (474 m² radiator area, 14.2 kg/m² panel areal density); TRRJ rotary joint is the gimbaling mechanism behind sun-avoidance in data center proposals; ammonia validated as external coolant. Updates thermal-management concept page with primary-source areal density data.
+
 ## [2026-06-08] query | ISS-derived scissors-beam mechanisms in relation to thermal management | pages-read: 4
 
 ## [2026-06-08] ingest | Bongers & Torres (2023) "Orbital Debris and the Market for Satellites" — Ecological Economics, peer-reviewed primary source; 72,090 satellite threshold; $11.5B/yr social cost; economic Kessler precedes physical
