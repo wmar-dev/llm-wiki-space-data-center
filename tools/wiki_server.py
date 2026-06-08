@@ -102,6 +102,23 @@ th { background: #f6f8fa; font-weight: 600; }
 tr:nth-child(even) { background: #f6f8fa; }
 hr { border: none; border-top: 1px solid #e1e4e8; margin: 24px 0; }
 img { max-width: 100%; }
+.meta-box {
+  background: #f1f8ff; border: 1px solid #c8e1ff; border-radius: 6px;
+  padding: 12px 16px; margin-bottom: 24px; font-size: 13px; color: #586069;
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+}
+.meta-type { font-weight: 600; color: #0075ca; }
+.meta-status {
+  padding: 2px 8px; border-radius: 12px; font-size: 11px;
+  font-weight: 600; text-transform: uppercase;
+}
+.meta-draft { background: #fff3cd; color: #856404; }
+.meta-current { background: #d4edda; color: #155724; }
+.meta-stale { background: #f8d7da; color: #721c24; }
+.meta-contested { background: #f8d7da; color: #721c24; }
+.meta-date { color: #6a737d; }
+.meta-sources { color: #6a737d; }
+.meta-sources code { font-size: 12px; }
 """
 
 _LIVE_RELOAD_JS_TMPL = """
@@ -151,14 +168,77 @@ def expand_wikilinks(text: str) -> str:
     return re.sub(r"\[\[([^\]]+)\]\]", replace, text)
 
 
-def render_markdown(fs_path: Path) -> str:
+def parse_frontmatter(text: str) -> tuple[dict, str]:
+    """Strip YAML frontmatter delimited by --- and return (metadata, body)."""
+    cleaned = text.lstrip("\n")
+    if not cleaned.startswith("---"):
+        return {}, text
+    end = cleaned.find("---", 3)
+    if end == -1:
+        return {}, text
+    yaml_block = cleaned[3:end].strip()
+    body = cleaned[end + 3:].lstrip("\n")
+    metadata = {}
+    current_list_key = None
+    for line in yaml_block.split("\n"):
+        s = line.strip()
+        if not s:
+            continue
+        if s.startswith("- "):
+            if current_list_key:
+                val = s[2:].strip().strip("\"").strip("'")
+                metadata.setdefault(current_list_key, []).append(val)
+            continue
+        if ":" in s:
+            key, _, value = s.partition(":")
+            key = key.strip()
+            value = value.strip().strip("\"").strip("'")
+            if value:
+                metadata[key] = value
+                current_list_key = None
+            else:
+                current_list_key = key
+    return metadata, body
+
+
+def render_metadata(metadata: dict) -> str:
+    """Render frontmatter metadata as a styled info box."""
+    if not metadata:
+        return ""
+    parts = []
+    t = metadata.get("type", "")
+    if t:
+        parts.append(f'<span class="meta-type">{t.replace("_", " ").title()}</span>')
+    s = metadata.get("status", "")
+    if s:
+        parts.append(f'<span class="meta-status meta-{s}">{s}</span>')
+    c = metadata.get("created", "")
+    u = metadata.get("last_updated", "")
+    if c:
+        parts.append(f'<span class="meta-date">Created: {c}</span>')
+    if u:
+        parts.append(f'<span class="meta-date">Updated: {u}</span>')
+    sources = metadata.get("sources", [])
+    if isinstance(sources, str):
+        sources = [sources]
+    if sources:
+        src_list = ", ".join(f"<code>{x}</code>" for x in sources)
+        parts.append(f'<span class="meta-sources">Sources: {src_list}</span>')
+    if not parts:
+        return ""
+    return f'<div class="meta-box">{" · ".join(parts)}</div>\n'
+
+
+def render_markdown(fs_path: Path) -> tuple[str, dict]:
     if not fs_path.exists():
         raise FileNotFoundError(fs_path)
     if fs_path.stat().st_size > MAX_FILE_BYTES:
         raise OverflowError("File exceeds 5 MB limit")
     text = expand_wikilinks(fs_path.read_text(encoding="utf-8"))
+    metadata, body = parse_frontmatter(text)
     md = markdown.Markdown(extensions=MD_EXTENSIONS)
-    return md.convert(text)
+    html = md.convert(body)
+    return html, metadata
 
 
 def rewrite_md_links(html: str) -> str:
@@ -307,7 +387,7 @@ class WikiHandler(BaseHTTPRequestHandler):
 
     def _render(self, fs_path: Path, url_path: str):
         try:
-            body = render_markdown(fs_path)
+            body, metadata = render_markdown(fs_path)
         except FileNotFoundError:
             self._text(404, f"Page not found: {url_path}")
             return
@@ -315,7 +395,10 @@ class WikiHandler(BaseHTTPRequestHandler):
             self._text(413, "File too large (> 5 MB).")
             return
         body = rewrite_md_links(body)
-        title = extract_title(body, fs_path.stem)
+        title = metadata.get("title") or extract_title(body, fs_path.stem)
+        meta_html = render_metadata(metadata)
+        if meta_html:
+            body = meta_html + body
         nav = build_nav(url_path, self.config.wiki_root)
         self._html(200, page_shell(title, body, nav, self.config))
 
