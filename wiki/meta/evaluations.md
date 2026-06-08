@@ -4,6 +4,12 @@
 <!-- Micro evaluations: appended by the ingest skill after each source is processed. -->
 <!-- Macro evaluations: appended by the lint skill when ingest count reaches a multiple of 10. -->
 
+- [2026-06-08 ingest] ISS ammonia leak blog post: partial fetch (archive teaser only); content thin but sufficient for operational risk page — future ingests of ISS incident reports may need direct article URL rather than date-archive URL
+- [2026-06-08 ingest] Source adds non-technical operational context (ammonia toxicity, METOX false-positive rate, Loop A/B redundancy in practice) not present in the engineering-focused ATCS overview; no contradiction with existing pages
+- [2026-06-08 ingest] Read 2 wiki pages (ATCS overview + scissors-beam synthesis) plus index; within 8-read budget; no search.sh needed
+- [2026-06-08 ingest] NASA SmallSat SOA: WebFetch returned a summarized view (not raw HTML); TRL table and mission examples captured; no search.sh needed — index scan sufficient to identify 1 concept page to update
+- [2026-06-08 ingest] MLI failure mode at CubeSat scale (deployer compression) is new claim not in any prior page — relevant gap for data center hardware that may use CubeSat-heritage insulation
+- [2026-06-08 ingest] AMDROHP (TRL ~3-5) is the clearest forward-looking technology path for deployable radiators; worth tracking as it matures toward flight qualification
 - [2026-06-08 ingest] NASA ATCS overview: primary-source areal density (14.2 kg/m² panel-level) is better than the ~19 kg/m² figure in existing pages; system-level density including pumps/tanks/joints is higher — both figures are valid at different scopes
 - [2026-06-08 ingest] Read 0 additional wiki pages (all 4 relevant pages were in context from prior query session); stayed within 8-read budget with no search.sh needed
 - [2026-06-08 ingest] TRRJ rotary joint mechanism confirmed as the source of "gimbaled panels for sun avoidance" cited in Orbital AI Factory — closes an implicit open question in the scissors-beam synthesis

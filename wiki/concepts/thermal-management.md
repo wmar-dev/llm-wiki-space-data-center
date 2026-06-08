@@ -5,6 +5,7 @@ sources:
   - "space-arch-radiative-cooling-2025.md"
   - "orbital-ai-factory-heat-management.md"
   - "nasa-iss-atcs-overview.txt"
+  - "nasa-smallsat-thermal-control-soa.md"
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
@@ -38,6 +39,25 @@ Inference: Radiator area scales linearly with power load at constant temperature
 Current large-scale deployable radiator designs achieve ~140-160 m² per assembly (22-23 m × 6-7 m) using ISS-derived scissors-beam mechanisms, with total effective areas of ~1,700-2,000 m² for a 1 MW thermal load [[wiki/sources/orbital-ai-factory-heat-management.md]] *(industry_report)*. Larger areas are structurally feasible but face tradeoffs with launch mass, deployment complexity, and micrometeoroid vulnerability.
 
 **Areal density (primary source)**: The ISS EATCS radiator ORUs (each 23.3 m × 3.4 m, 1,122.6 kg) achieve ~14.2 kg/m² at the panel level [[wiki/sources/nasa-iss-atcs-overview.md]] *(industry_report)*; PVTCS panels reach ~17.5 kg/m². System-level density (including pumps, tanks, rotary joints, and plumbing) is substantially higher. NASA targets <6 kg/m² for future deployable radiator systems to enable MW-scale orbital facilities.
+
+## Technology TRL Landscape (SmallSat to Large-Sat)
+
+From NASA's 2026 SmallSat State-of-the-Art survey [[wiki/sources/nasa-smallsat-thermal-control-soa.md]] *(industry_report)*:
+
+| Technology | TRL | Notes for data center applications |
+|------------|-----|-------------------------------------|
+| Optical coatings (Z-93, FEP) | 9 | Degrade over mission life; BOL/EOL modeling required for 5–10yr lifetimes |
+| MLI insulation | 9 (large) / 4-6 (CubeSat) | Compresses in deployers; edge effects short performance at small scale |
+| Thermal straps (pyrolytic graphite) | 7-8 | High conductivity; first flew on ASTERIA 2017 |
+| Heat pipes | 9 | No power required; capillary driven |
+| Phase change materials | 6-8 | Paraffin at 20–60°C, 140–280 kJ/kg; smooths transients from variable GPU workloads |
+| Kapton heaters | 7-9 | −200°C to 300°C; most common active SmallSat technology |
+| Cryocoolers | 7-9 (mature) | LM MICRO1-1: 1U, 0.35 kg, 15W at TRL 7-9; not practical at MW thermal loads |
+| Thermoelectric coolers | 7-9 | Add net heat (I²R); not viable for primary rejection |
+| Pumped fluid loops | 7-9 | ISS EATCS heritage; primary approach for MW scale |
+| AMDROHP deployable radiators | ~3-5 | JPL development; oscillating heat pipes in 3U CubeSat; precursor to large deployable panels |
+
+**Key gap**: MLI is unreliable at CubeSat scale due to deployer compression. AMDROHP (TRL ~3-5) is the active development path for next-generation deployable radiators. No single SmallSat thermal technology scales to MW without redesign.
 
 ## Sources
 

@@ -4,6 +4,16 @@
 <!-- Format: ## [YYYY-MM-DD] <operation> | <title> -->
 <!-- Operations: ingest | re-ingest | fetch | fetch-failed | query | lint | evaluation | tool-proposal -->
 
+## [2026-06-08] fetch | https://www.nasa.gov/blogs/stationreport/2015/01/14/
+
+## [2026-06-08] ingest | ISS Station Report: ETCS Loop B Ammonia Leak Alarm, January 14, 2015
+
+NASA blog post (partial fetch — archive teaser only). Documents the January 14, 2015 ETCS Loop B ammonia leak false alarm at ISS: crew evacuated US Segment per emergency protocol; incident resolved as false positive from METOX canister off-gassing. Adds operational risk context (ammonia toxicity, sensor false-positive rate, Loop A/B redundancy) to the ISS thermal system picture.
+
+## [2026-06-08] ingest | NASA SmallSat SOA: Thermal Control (Chapter 7, May 2026)
+
+NASA Small Spacecraft Institute official TRL survey for all SmallSat thermal technologies. Key additions: TRL table (heaters 7-9, cryocoolers 7-9, pumped loops 7-9, AMDROHP ~3-5); MLI failure mode at CubeSat scale (deployer compression); coating BOL/EOL degradation requirement for 5-10yr missions. Updated thermal-management concept page with full TRL landscape.
+
 ## [2026-06-08] ingest | ISS Active Thermal Control System (ATCS) Overview (NASA/Boeing)
 
 Primary NASA/Boeing technical reference for ISS thermal control hardware. EATCS confirmed at 70 kW total (474 m² radiator area, 14.2 kg/m² panel areal density); TRRJ rotary joint is the gimbaling mechanism behind sun-avoidance in data center proposals; ammonia validated as external coolant. Updates thermal-management concept page with primary-source areal density data.
