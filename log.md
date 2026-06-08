@@ -269,3 +269,5 @@ Peer-reviewed NASA technical paper presenting algorithms for ORDEM 3.0 debris ri
 ## [2026-06-08] concept | COTS vs Rad-Hard Computing — H100 TRL 6-7 in orbit; mitigation stack required; 4nm more vulnerable; SEU 10⁻³-10⁻⁴/device/day; long-term TID survival unvalidated
 
 ## [2026-06-08] concept | Data Downlink Throughput — 18-72 TB/day per sat with optical; AIRSAT-02 120 Gbps benchmark; inference workloads compress well; ISL relay via Starlink as architecture option
+
+## [2026-06-08] lint | 6 errors, 0 warnings, 0 info — all errors fixed (broken raw/ source filename references corrected in 5 pages)

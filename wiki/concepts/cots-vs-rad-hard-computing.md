@@ -5,7 +5,7 @@ sources:
   - "nvidia-h100-radiation-analysis-2025.md"
   - "orbital-datacenter-technical-analysis-2026.md"
   - "arxiv-2302-08952-leo-edge-failures.md"
-  - "space-datacenter-component-lifetimes.md"
+  - "satellite-component-lifetimes.md"
 status: "current"
 created: "2026-06-08"
 last_updated: "2026-06-08"

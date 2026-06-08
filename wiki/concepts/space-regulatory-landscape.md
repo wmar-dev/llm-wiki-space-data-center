@@ -4,7 +4,7 @@ type: "concept"
 sources:
   - "faa-part-450-licensing-2026.md"
   - "geo-orbital-slots-capacity.md"
-  - "bongers-2026-space-economics-survey.md"
+  - "1-s2.0-S0265964626000202-main.txt"
 status: "current"
 created: "2026-06-08"
 last_updated: "2026-06-08"

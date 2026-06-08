@@ -5,7 +5,7 @@ sources:
   - "arxiv-2302-08952-leo-edge-failures.md"
   - "arxiv-2603-04372-leo-battery-aging.md"
   - "nasa-ntrs-iss-battery-dod.md"
-  - "on-orbit-satellite-servicing.md"
+  - "on-orbit-satellite-servicing-wikipedia.md"
   - "on-orbit-servicing-refueling-2026.md"
   - "faa-part-450-licensing-2026.md"
   - "caltech-sspp-mission-lessons.md"
