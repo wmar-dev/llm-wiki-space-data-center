@@ -58,18 +58,27 @@ Classify broken cross-references as **Error** severity.
 
 ---
 
-### Step 3 — Classify all issues
+### Step 3 — Check origin_urls resolve
 
-Combine findings from Steps 1 and 2 into three groups:
+Scan all source summary pages (`wiki/sources/*.md`) for `origin_url` in frontmatter.
+For each one found, use `webfetch` to verify the URL returns a 2xx status.
+
+Classify dead or redirecting URLs as **Warning** severity with type `broken-origin-url`.
+
+---
+
+### Step 4 — Classify all issues
+
+Combine findings from Steps 1, 2, and 3 into three groups:
 
 - **Error**: `orphan-filesystem`, `orphan-index`, `missing-frontmatter`,
   `broken-sources`, broken cross-refs
-- **Warning**: `stale`, `contested` (with no Dispute section)
+- **Warning**: `stale`, `contested` (with no Dispute section), `broken-origin-url`
 - **Info**: `no-sources`, any other advisory findings
 
 ---
 
-### Step 4 — Generate lint report
+### Step 5 — Generate lint report
 
 Output a structured summary:
 
@@ -103,21 +112,22 @@ Wiki is healthy. No errors, warnings, or info items found.
 
 ---
 
-### Step 5 — Propose fixes for Error-severity issues
+### Step 6 — Propose fixes for Error-severity and Warning issues
 
-For each Error, propose one or two options:
+For each Error or Warning, propose one or two options:
 
-| Error type | Proposed fixes |
+| Issue type | Proposed fixes |
 | ---------- | -------------- |
 | `orphan-filesystem` | (A) Add index entry for the page, or (B) Delete the orphaned page |
 | `orphan-index` | Remove the dangling index entry |
 | Broken cross-ref | (A) Remove the broken `[[...]]` ref, or (B) Create a stub page at the target path |
 | `missing-frontmatter` | Add default values for missing fields |
 | `broken-sources` | (A) Remove the invalid filename from `sources[]`, or (B) Locate the correct file in `raw/` |
+| `broken-origin-url` | (A) Search the source domain for the correct URL and update `origin_url`, or (B) Remove the `origin_url` field |
 
 ---
 
-### Step 6 — Apply fixes (if researcher confirms)
+### Step 7 — Apply fixes (if researcher confirms)
 
 For each Error where the researcher confirms a fix:
 
@@ -130,7 +140,7 @@ Do not modify Warning or Info items unless the researcher explicitly requests it
 
 ---
 
-### Step 7 — Macro self-evaluation trigger
+### Step 8 — Macro self-evaluation trigger
 
 Count ingest-only log entries (excluding re-ingest):
 
@@ -167,7 +177,7 @@ Also log: `## [YYYY-MM-DD] evaluation | macro-N-sources`
 
 ---
 
-### Step 8 — Log entry
+### Step 9 — Log entry
 
 Append to `log.md`:
 

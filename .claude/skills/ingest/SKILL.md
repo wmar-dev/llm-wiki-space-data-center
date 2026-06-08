@@ -198,7 +198,20 @@ Credibility-weighted assessment: [which claim is better supported and why]
 
 ---
 
-### Step 8 — Update index.md
+### Step 8 — Verify origin_url resolves
+
+After writing wiki pages, if the source summary page has an `origin_url` set:
+
+1. Fetch the URL using `webfetch` or a HEAD request.
+2. If the URL returns a non-2xx status (e.g., 404, 410, 403):
+   - Notify the researcher: `origin_url returned <status> — may need a corrected URL.`
+   - Attempt to search for the correct URL by searching the page title on the source domain.
+   - If a working URL is found, update `origin_url` before proceeding.
+3. If the URL resolves successfully, continue.
+
+---
+
+### Step 9 — Update index.md
 
 For every wiki page written or modified in Step 6, add or update its index entry:
 
@@ -212,7 +225,7 @@ For every wiki page written or modified in Step 6, add or update its index entry
 
 ---
 
-### Step 9 — Update log.md
+### Step 10 — Update log.md
 
 Append:
 
@@ -224,7 +237,7 @@ Append:
 
 ---
 
-### Step 10 — Micro self-evaluation
+### Step 11 — Micro self-evaluation
 
 Append ≤3 brief observations to `wiki/meta/evaluations.md`:
 
@@ -242,7 +255,7 @@ evaluations triggered by the lint skill.
 
 ---
 
-### Step 11 — Finalize
+### Step 12 — Finalize
 
 Set the source metadata in `index.md`:
 - `processing_status: processed` (or `chunked` if Step 3 applied)
