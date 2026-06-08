@@ -1,4 +1,7 @@
-# Skill: answer-open-questions
+---
+name: answer-open-questions
+description: Scans the wiki for unresolved open questions, researches answers via web search, ingests relevant sources, and updates wiki pages to convert open questions into cited claims.
+---
 
 # Answer Open Questions Skill
 
@@ -28,19 +31,24 @@ cycle.
 
 ### Step 1 — Scan for open questions
 
-Search the wiki for all occurrences of "Open question:" across all page types:
+Search the wiki for occurrences of "Open question:" inline labels and `## Open Questions` section headings across all page types:
 
 ```bash
-# Use rg directly for precision
-rg -n "Open question:" wiki/
+# Inline format: "Open question:" anywhere in a line
+# Section format: list items under "## Open Questions" heading
+rg -n "Open question:|^## Open Questions$" wiki/
 ```
+
+After grep, for each file containing `## Open Questions`, read the page and
+extract the bullet items (`- ` prefix) under that heading — each is an open
+question.
 
 Parse each match. For each result, capture:
 - **File path** (e.g., `wiki/concepts/thermal-management.md`)
 - **Line number** (exact line of the match)
-- **Full text** of the open question (read the surrounding paragraph if the label
-  spans multiple lines - the open question text is everything from "Open question:"
-  to the next blank line, heading, or end of the section)
+- **Full text** of the open question (inline: everything from "Open question:"
+  to the next blank line, heading, or end of the section; section-format: the
+  full bullet item under `## Open Questions`)
 - **Page type** (concept, synthesis, entity - from frontmatter `type:` field)
 - **Existing sources** on that page (from frontmatter `sources[]`)
 
