@@ -6,6 +6,40 @@
 
 ## [2026-06-07] query | Are data centers in space financially viable? What are the key risks? | pages-read: 5
 
+## [2026-06-07] query | key risks for commercial space data centers — deep research synthesis | pages-read: 5
+
+## [2026-06-07] ingest | arxiv:2302.08952 — LEO edge computing failure taxonomy
+
+Fetched via WebFetch (Playwright not active). Abstract only; quantitative radiation figures in PDF body not independently verified. Status: draft.
+
+## [2026-06-07] ingest | arxiv:2603.04372 — LEO battery aging from compute workloads
+
+Fetched via WebFetch. First physics-informed model linking compute scheduling to battery degradation. March 2026 preprint.
+
+## [2026-06-07] ingest | NASA NTRS 20160012048 — ISS battery DoD constraints
+
+Fetched via WebFetch. Key finding: 35% DoD maximum for Ni-H2 batteries in LEO. Authoritative primary source.
+
+## [2026-06-07] ingest | SciOpen 2025 — Thermal management technologies for space data centers
+
+Fetched via WebFetch. Peer-reviewed. Key finding: current systems validated to tens of kW only; three scaling constraints identified.
+
+## [2026-06-07] ingest | NASA STMD — iROSA roll-out solar arrays
+
+Fetched via WebFetch. Key data: >28 kW/panel; 6 panels → >250 kW ISS total; motorless boom deployment.
+
+## [2026-06-07] ingest | Caltech SSPP — first in-space mission lessons
+
+Fetched via WebFetch. Key findings: two deployment anomalies (wire-snag, secondary jam) not seen in lab; space solar cells 100× terrestrial cost.
+
+## [2026-06-07] ingest | The Register Apr 2026 — Orbital startup economics
+
+Fetched via WebFetch. CEO Euwyn Poon admits launch economics not yet viable; 100 kW sweet spot; a16z funded.
+
+## [2026-06-07] ingest | Scientific American — Data Centers in Space
+
+Fetched via WebFetch. Covers Google Suncatcher, Starcloud, China Xingshidai; introduces Saarland University contested carbon claim.
+
 ## [2026-06-07] ingest | Test Source 002 — Space Data Center Constraints
 
 Validation placeholder ingest (macro trigger test).
@@ -58,9 +92,9 @@ Processed local file test-source-001.md (Space Architecture Research Group, 2025
 
 ## [2026-06-07] query | detailed cost breakdown of SpaceX Starship | pages-read: 4
 
-## [2026-06-07] fetch | https://en.wikipedia.org/wiki/Kessler_syndrome
+## [2026-06-07] fetch | <https://en.wikipedia.org/wiki/Kessler_syndrome>
 
-## [2026-06-07] fetch | https://en.wikipedia.org/wiki/Space_debris
+## [2026-06-07] fetch | <https://en.wikipedia.org/wiki/Space_debris>
 
 ## [2026-06-07] ingest | Kessler Syndrome (Wikipedia)
 
