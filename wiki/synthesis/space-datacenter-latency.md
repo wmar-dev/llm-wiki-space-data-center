@@ -3,7 +3,6 @@ title: "Space Data Center Latency vs. Terrestrial Cloud"
 type: "synthesis"
 sources:
   - "satellite-internet-latency-wikipedia.md"
-  - "space-datacenter-orbital-regime.md"
   - "arxiv-2302-08952-leo-edge-failures.md"
   - "leo-isl-handoff-latency-2025.md"
 status: "current"

@@ -4,7 +4,7 @@ type: "synthesis"
 sources:
   - "kessler-syndrome-wikipedia.md"
   - "space-debris-wikipedia.md"
-  - "orbital-systems-power-budget-2025.md"
+  - "orbital-systems-power-budget-2025.txt"
   - "orbital-startup-economics-register-2026.md"
   - "nasa-irosa-solar-arrays.md"
 status: "current"

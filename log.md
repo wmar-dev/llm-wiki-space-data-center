@@ -168,6 +168,10 @@ Total gap for theoretical limits; fetched Wikipedia Shockley-Queisser limit page
 
 Partial gap: degradation rates and technology comparison well-covered; absolute AM0 efficiency percentages for commercial TJ cells not confirmed in wiki sources. Wikipedia fetch (solar cell efficiency, multi-junction solar cell) provided context on Si AM0 (~14%) and record terrestrial TJ (39.5% NREL). Open question flagged in synthesis.
 
+## [2026-06-07] lint | 0 errors, 0 warnings, 0 info (after fixing 48 broken-sources)
+
+Fixed 48 broken-sources errors: 17 filename corrections (Group A), 7 wiki-internal refs removed from sources[] (Group B), 6 stub raw files created for Wikipedia sources (Group C), and cleaned 18 other dangling refs across entity/synthesis pages.
+
 ## [2026-06-07] answer | answered 7 open questions across 9 wiki pages
 
 Resolved questions:

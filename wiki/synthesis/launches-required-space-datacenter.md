@@ -2,8 +2,8 @@
 title: "How Many Launches Would It Take to Put a Data Center in Space?"
 type: "synthesis"
 sources:
-  - "orbital-systems-power-budget-2025.md"
-  - "spacex-launch-cost-math.md"
+  - "orbital-systems-power-budget-2025.txt"
+  - "spacex-launch-cost-analysis.md"
   - "orbital-startup-economics-register-2026.md"
   - "space-data-center-wikipedia.md"
   - "nasa-irosa-solar-arrays.md"

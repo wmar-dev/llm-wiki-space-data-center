@@ -5,7 +5,7 @@ sources:
   - "shockley-queisser-limit-wikipedia.md"
   - "space-based-solar-power.md"
   - "caltech-sspp-mission-lessons.md"
-  - "space-datacenter-component-lifetimes.md"
+  - "satellite-component-lifetimes.md"
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"

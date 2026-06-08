@@ -2,7 +2,7 @@
 title: "At What Reuse Cadence Does Starship Reach $200/kg?"
 type: "synthesis"
 sources:
-  - "spacex-launch-cost-math.md"
+  - "spacex-launch-cost-analysis.md"
   - "orbital-startup-economics-register-2026.md"
 status: "current"
 created: "2026-06-07"

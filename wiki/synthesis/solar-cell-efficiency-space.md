@@ -4,7 +4,7 @@ type: "synthesis"
 sources:
   - "space-based-solar-power.md"
   - "caltech-sspp-mission-lessons.md"
-  - "space-datacenter-component-lifetimes.md"
+  - "satellite-component-lifetimes.md"
   - "nasa-irosa-solar-arrays.md"
 status: "current"
 created: "2026-06-07"

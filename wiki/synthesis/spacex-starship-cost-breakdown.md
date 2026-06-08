@@ -2,9 +2,7 @@
 title: "SpaceX Starship Cost Breakdown"
 type: "synthesis"
 sources:
-  - "spacex-launch-cost-math.md"
-  - "launch-cost-economics.md"
-  - "spacex.md"
+  - "spacex-launch-cost-analysis.md"
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"

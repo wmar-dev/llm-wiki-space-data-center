@@ -4,7 +4,7 @@ type: "synthesis"
 sources:
   - "scientific-american-space-datacenters.md"
   - "orbital-startup-economics-register-2026.md"
-  - "space-datacenter-component-lifetimes.md"
+  - "satellite-component-lifetimes.md"
   - "xai-colossus-wikipedia.md"
 status: "current"
 created: "2026-06-07"

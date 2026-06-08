@@ -2,10 +2,8 @@
 title: "What Orbit Would Space Data Centers Be Put In?"
 type: "synthesis"
 sources:
-  - "orbital-systems-power-budget-2025.md"
+  - "orbital-systems-power-budget-2025.txt"
   - "space-based-solar-power.md"
-  - "aetherflux.md"
-  - "launch-cost-economics.md"
   - "kessler-syndrome-wikipedia.md"
 status: "current"
 created: "2026-06-07"

@@ -4,7 +4,7 @@ type: "source_summary"
 sources:
   - "satellite-component-lifetimes.md"
   - "space-based-solar-power.md"
-  - "orbital-systems-power-budget-2025.md"
+  - "orbital-systems-power-budget-2025.txt"
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"

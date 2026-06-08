@@ -4,7 +4,6 @@ type: "synthesis"
 sources:
   - "kessler-syndrome-wikipedia.md"
   - "space-debris-wikipedia.md"
-  - "orbital-capacity-limits.md"
   - "megaconstellations-kessler-risk-2026.md"
 status: "current"
 created: "2026-06-07"

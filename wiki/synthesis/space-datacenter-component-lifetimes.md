@@ -2,9 +2,9 @@
 title: "What Is the Lifetime of Various Components That Make Up a Space Data Center?"
 type: "synthesis"
 sources:
-  - "space-datacenter-component-lifetimes.md"
+  - "satellite-component-lifetimes.md"
   - "space-based-solar-power.md"
-  - "orbital-systems-power-budget-2025.md"
+  - "orbital-systems-power-budget-2025.txt"
   - "on-orbit-servicing-refueling-2026.md"
 status: "current"
 created: "2026-06-07"

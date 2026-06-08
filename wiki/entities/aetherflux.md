@@ -3,7 +3,6 @@ title: "Aetherflux / Cowboy Space Corporation"
 type: "entity"
 sources:
   - "space-based-solar-power.md"
-  - "space-data-center-wikipedia.md"
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
