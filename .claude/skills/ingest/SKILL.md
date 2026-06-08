@@ -111,16 +111,7 @@ Record `source_type` in the source metadata to be stored in the `index.md` entry
 
 ---
 
-### Step 5 — Discuss key takeaways
-
-Before writing wiki pages, briefly discuss the 2–5 most notable findings from the
-source with the researcher. This is a conversational step — summarise what the source
-says that is new, surprising, or relevant to the space data center analysis. The
-researcher may redirect or add context before pages are written.
-
----
-
-### Step 6 — Write wiki pages
+### Step 5 — Write wiki pages
 
 **Read `index.md` first.** Identify existing pages related to this source's content.
 Read at most 5 of those pages (SC-006 token budget). If more than 5 pages are relevant,
@@ -172,7 +163,7 @@ Label unanswerable gaps: `Open question: <question>`
 
 ---
 
-### Step 7 — Contradiction check
+### Step 6 — Contradiction check
 
 Compare new claims from this source against existing `current` and `contested` pages
 just read in Step 6.
@@ -198,7 +189,7 @@ Credibility-weighted assessment: [which claim is better supported and why]
 
 ---
 
-### Step 8 — Verify origin_url resolves
+### Step 7 — Verify origin_url resolves
 
 After writing wiki pages, if the source summary page has an `origin_url` set:
 
@@ -211,7 +202,7 @@ After writing wiki pages, if the source summary page has an `origin_url` set:
 
 ---
 
-### Step 9 — Update index.md
+### Step 8 — Update index.md
 
 For every wiki page written or modified in Step 6, add or update its index entry:
 
@@ -225,7 +216,7 @@ For every wiki page written or modified in Step 6, add or update its index entry
 
 ---
 
-### Step 10 — Update log.md
+### Step 9 — Update log.md
 
 Append:
 
@@ -237,7 +228,7 @@ Append:
 
 ---
 
-### Step 11 — Micro self-evaluation
+### Step 10 — Micro self-evaluation
 
 Append ≤3 brief observations to `wiki/meta/evaluations.md`:
 
@@ -255,7 +246,7 @@ evaluations triggered by the lint skill.
 
 ---
 
-### Step 12 — Finalize
+### Step 11 — Finalize
 
 Set the source metadata in `index.md`:
 - `processing_status: processed` (or `chunked` if Step 3 applied)

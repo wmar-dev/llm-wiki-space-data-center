@@ -60,13 +60,12 @@ Load skill `.claude/skills/ingest/SKILL.md` for full details. Summary:
 2. **Duplicate detection** — check index.md; mark existing pages `stale` on re-ingest
 3. **Chunking** — split sources >6000 words into ≤3000-word chunks
 4. **Credibility assessment** — classify as `peer_reviewed` / `industry_report` / `news_article` / `blog_post` / `other`
-5. **Discuss takeaways** — converse with researcher before writing
-6. **Write pages** — always a source_summary; add entity/concept pages as warranted
-7. **Contradiction check** — compare with existing pages; flag disagreements
-8. **Update index.md** — add/update catalog entries
-9. **Update log.md** — append ingest entry
-10. **Micro self-evaluation** — append ≤3 observations to `wiki/meta/evaluations.md`
-11. **Finalize** — set `processing_status: processed` in index.md
+5. **Write pages** — always a source_summary; add entity/concept pages as warranted
+6. **Contradiction check** — compare with existing pages; flag disagreements
+7. **Update index.md** — add/update catalog entries
+8. **Update log.md** — append ingest entry
+9. **Micro self-evaluation** — append ≤3 observations to `wiki/meta/evaluations.md`
+10. **Finalize** — set `processing_status: processed` in index.md
 
 Budget: ≤8 file reads per ingest.
 

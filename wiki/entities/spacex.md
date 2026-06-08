@@ -44,9 +44,20 @@ Based on [[wiki/sources/spacex-launch-cost-math.md]] *(blog post)*
 
 Falcon 9 boosters now routinely fly 20+ times, with certification underway for 40 reuses and a goal of 100. This demonstrated reuse curve underpins the Starship projections. However, Falcon 9 is fundamentally limited to ~30–40% of build cost per flight because its upper stage is expended [[wiki/sources/spacex-launch-cost-math.md]] *(blog post)* — Starship's full reuse eliminates this floor.
 
+## Competitive Position in Orbital Data Centers
+
+A May 2026 Novaspace industry analysis of 13+ orbital compute players finds SpaceX is the **only company approaching full vertical integration** outside China's CASC ecosystem. [[wiki/sources/novaspace-orbital-data-centers-2026.md]] *(industry_report)*
+
+This creates a structural dependency dynamic: most orbital compute competitors (Blue Origin TeraWave, Starcloud, Orbital, etc.) are likely to depend on SpaceX as their **primary launch provider**, even though SpaceX is simultaneously a direct competitor in the orbital data center market. Novaspace identifies this as a key structural constraint shaping the competitive landscape.
+
+The parallel dependency: most players also depend on **NVIDIA** as their default compute hardware supplier — NVIDIA is the de facto chip provider for the ecosystem and holds a similar choke-point position.
+
+Inference: SpaceX's dual role as both infrastructure provider and competitor gives it a structural advantage that is difficult for other players to replicate. The only near-peer is CASC (China), which operates within a state-coordinated ecosystem.
+
 ## Related pages
 
 - [[wiki/sources/spacex-launch-cost-math.md]]
+- [[wiki/sources/novaspace-orbital-data-centers-2026.md]]
 - [[wiki/concepts/launch-cost-economics.md]]
 - [[wiki/sources/orbital-systems-power-budget-2025.md]]
 - [[wiki/synthesis/space-datacenter-financial-viability.md]]
