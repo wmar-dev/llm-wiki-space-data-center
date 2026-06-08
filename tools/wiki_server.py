@@ -325,6 +325,24 @@ class WikiHandler(BaseHTTPRequestHandler):
 
 
 # ---------------------------------------------------------------------------
+# Dev-mode: restart server process when this file changes
+# ---------------------------------------------------------------------------
+
+def _watch_source(script_path: str):
+    import time
+    mtime = os.path.getmtime(script_path)
+    while True:
+        time.sleep(1)
+        try:
+            new_mtime = os.path.getmtime(script_path)
+        except OSError:
+            continue
+        if new_mtime != mtime:
+            print(f"\nSource changed — restarting...", flush=True)
+            os.execv(sys.executable, [sys.executable] + sys.argv)
+
+
+# ---------------------------------------------------------------------------
 # Server startup
 # ---------------------------------------------------------------------------
 
@@ -353,8 +371,15 @@ def run_server(config: ServerConfig):
 def main():
     parser = argparse.ArgumentParser(description="Local wiki server")
     parser.add_argument("--port", type=int, default=8000, help="Port to listen on (default: 8000)")
-    parser.add_argument("--no-reload", action="store_true", help="Disable live reload")
+    parser.add_argument("--no-reload", action="store_true", help="Disable wiki live reload")
+    parser.add_argument("--dev", action="store_true", help="Restart server when wiki_server.py changes")
     args = parser.parse_args()
+
+    if args.dev:
+        import threading
+        t = threading.Thread(target=_watch_source, args=(os.path.abspath(__file__),), daemon=True)
+        t.start()
+
     config = ServerConfig(port=args.port, live_reload=not args.no_reload)
     run_server(config)
 
