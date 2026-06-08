@@ -3,7 +3,8 @@ title: "Thermal Management in Space Data Centers"
 type: "concept"
 sources:
   - "space-arch-radiative-cooling-2025.md"
-status: "stale"
+  - "orbital-ai-factory-heat-management.md"
+status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
 ---
@@ -33,7 +34,7 @@ Inference: Radiator area scales linearly with power load at constant temperature
 - Higher operating temperatures allow more heat rejection per unit area (T⁴ dependence), but raise reliability concerns for electronics
 - Two-sided radiators or deployable panels can increase effective area without proportional structural mass
 
-Open question: What is the maximum radiator area practically deployable on an orbital platform given launch mass and deployment complexity constraints?
+Current large-scale deployable radiator designs achieve ~140-160 m² per assembly (22-23 m × 6-7 m) using ISS-derived scissors-beam mechanisms, with total effective areas of ~1,700-2,000 m² for a 1 MW thermal load [[wiki/sources/orbital-ai-factory-heat-management.md]] *(industry_report)*. The current state-of-the-art aerial density for deployable radiators is ~19 kg/m², with NASA targeting <6 kg/m² for future missions [[wiki/sources/orbital-ai-factory-heat-management.md]]. Larger areas are structurally feasible but face tradeoffs with launch mass, deployment complexity, and micrometeoroid vulnerability.
 
 ## Sources
 

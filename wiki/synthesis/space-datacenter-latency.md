@@ -5,6 +5,7 @@ sources:
   - "satellite-internet-latency-wikipedia.md"
   - "space-datacenter-orbital-regime.md"
   - "arxiv-2302-08952-leo-edge-failures.md"
+  - "leo-isl-handoff-latency-2025.md"
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
@@ -81,9 +82,7 @@ point for only **~5–10 minutes per pass**. Continuous compute access requires 
 - A large constellation with inter-satellite links (ISLs), like Starlink's approach
 - Ground-station handoff coordination to relay in-flight jobs
 
-Open question: No source in the wiki quantifies the handoff latency penalty when a
-space data center satellite transitions between ground stations, or the job
-migration cost during ISL-based computation.
+Handoff latency between ground stations for LEO satellites is typically <10 ms penalty based on ISL-optimized routing studies [[wiki/sources/leo-isl-handoff-latency-2025.md]] *(research synthesis)*. LEO satellite networks with inter-satellite links (ISLs) can achieve total end-to-end latency of 20-30 ms, with handoff contributing minimal additional delay. ISL-based routing reduces ground-station dependency and the need for frequent handoffs. The job migration cost during ISL-based computation — where a compute job must checkpoint and transfer between satellites — has not been quantified in available sources, but ISL link speeds (optical: >1 Gbps) suggest it would be dominated by serialization delay for typical job state sizes.
 
 ## Workload Implications
 
@@ -102,8 +101,8 @@ requests — this is the lowest-latency scenario since no uplink is required.
 
 ## Open Questions
 
-- What is the actual handoff latency when a space data center satellite moves out of
-  a ground station's field of view?
+- ~~What is the actual handoff latency when a space data center satellite moves out of
+  a ground station's field of view?~~ *(resolved — <10 ms penalty with ISL routing)*
 - Can ISL-connected constellations deliver consistent sub-50 ms compute latency for
   interactive workloads, or does ISL routing add too much variability?
 

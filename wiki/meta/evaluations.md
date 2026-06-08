@@ -11,6 +11,7 @@
 - [2026-06-07 ingest] PDF ingest: pdf-extract.sh succeeded on first try; read 2/8 files; solar output figure (280 W/m²) new — thermal figures corroborate prior source; no search needed.
 - [2026-06-07 ingest] Read 2/8 allowed files (index.md + source); no search tool needed; created 2 pages (source summary + concept); wiki was empty so no contradiction check possible.
 - [2026-06-07 ingest] SpaceX cost math: fetched URL via curl (Playwright not available); read 4 related wiki pages; created 3 pages (source summary + entity + concept) addressing earlier macro finding to improve ingest quality; no contradictions found.
+- [2026-06-07 answer] answer-open-questions: Researched 7 open questions via parallel web search + 4 deep fetches; created 6 new source pages with full frontmatter; updated 9 wiki pages; fixed 1 mislabeled pseudo-question. 2 questions remain partially unresolvable (no known public studies). Budget: 7 web searches, 4 deep fetches, ~25 file operations — within reason but near the upper end for a single workflow.
 
 ## [2026-06-07] Evaluation — macro-10-sources
 

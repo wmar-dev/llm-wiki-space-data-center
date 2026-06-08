@@ -5,6 +5,7 @@ sources:
   - "kessler-syndrome-wikipedia.md"
   - "space-debris-wikipedia.md"
   - "orbital-capacity-limits.md"
+  - "megaconstellations-kessler-risk-2026.md"
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
@@ -54,7 +55,7 @@ Inference: The 72,000 figure is likely an upper bound for small Starlink-class s
 
 ## Implications for Space Data Centers
 
-Open question: The ~72,000 satellite threshold does not account for the larger mass and cross-section of orbital data centers. A single data center facility (potentially hundreds of tons) represents far more collision risk per object than a Starlink-sized satellite. Any orbital data center deployment would need to budget against this shared physical limit.
+The ~72,000 satellite threshold is calibrated for Starlink-class objects (~260 kg, ~11 m² cross-section). A single orbital data center (potentially 41-88 tons for 1 MW, with correspondingly larger cross-section) would consume far more of the available collision-risk budget per object. Viasat analysis shows that even one-third of a single mega-constellation accounts for ~90% of close approaches between active satellites [[wiki/sources/megaconstellations-kessler-risk-2026.md]] *(industry report)*. Large passive objects (100+ ton data centers) with reduced maneuverability would disproportionately contribute to the debris environment. Mitigation would require: (1) operation below 600 km for natural debris cleaning, (2) active collision avoidance systems, and (3) end-of-life deorbit capability.
 
 ## Related pages
 

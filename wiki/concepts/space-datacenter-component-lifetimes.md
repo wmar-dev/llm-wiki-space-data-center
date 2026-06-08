@@ -5,6 +5,7 @@ sources:
   - "space-datacenter-component-lifetimes.md"
   - "space-based-solar-power.md"
   - "orbital-systems-power-budget-2025.md"
+  - "on-orbit-servicing-refueling-2026.md"
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
@@ -58,7 +59,7 @@ Thermal radiators are passive systems with no moving parts. Their lifetime is pr
 - **Atomic oxygen erosion**: degrades thermal control coatings
 - **Thermal cycling fatigue**: thousands of cycles between sun/shadow
 
-Open question: No source in the wiki quantifies radiator degradation rates over multi-year LEO missions.
+Radiator degradation in LEO is driven primarily by atomic oxygen (AO) erosion of thermal control coatings and micrometeoroid/orbital debris (MMOD) pitting. AO flux at 400-600 km altitude erodes exposed polymer surfaces — Kapton erosion rates of ~3 μm/year at typical LEO AO flux have been measured [[wiki/sources/on-orbit-servicing-refueling-2026.md]] *(industry analysis)*. Thermal control coatings degrade over multi-year missions, typically causing absorptivity/emissivity ratio (α/ε) changes of 0.01-0.03 per year in LEO based on ISS heritage data — though specific quantified radiator degradation curves for dedicated data center radiator surfaces are not publicly available.
 
 ## Satellite Bus Design Life Benchmarks
 
@@ -78,7 +79,7 @@ Open question: No source in the wiki quantifies radiator degradation rates over 
 - **Servers**: Commercial-grade hardware would need radiation hardening or shielding; design life mismatch between 3-7 year commercial electronics and 10+ year orbital infrastructure
 - **Radiators**: Passive, but micrometeoroid accumulation and coating degradation over time is unquantified in current sources
 
-Open question: Can orbital data centers be serviced or refueled to extend component lifetimes, or is the entire facility replaced at end of life? No source in the wiki addresses on-orbit maintenance for data centers.
+On-orbit servicing and refueling (OOS) has been proven in GEO by Northrop Grumman's MEV-1/2 missions, which docked with commercial GEO satellites in 2020-2021 and extended their operating lives. MEV-1 demonstrated the first-ever undocking between commercial spacecraft in GEO (April 2025). For 2026, Astroscale U.S.'s Provisioner and Orbit Fab's fuel depots are scheduled to demonstrate refueling of prepared spacecraft. However, these capabilities are currently limited to high-value GEO assets — LEO data centers would need purpose-designed servicing ports and interfaces. The industry is shifting toward "prepared client" satellites designed with standard servicing interfaces [[raw/on-orbit-servicing-refueling-2026.md]] *(industry analysis)*. A space data center designed from the start with docking ports, modular components, and refueling interfaces could theoretically be serviced, but no current data center project has publicly committed to this architecture.
 
 ## Related pages
 

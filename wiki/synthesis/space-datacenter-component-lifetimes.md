@@ -5,6 +5,7 @@ sources:
   - "space-datacenter-component-lifetimes.md"
   - "space-based-solar-power.md"
   - "orbital-systems-power-budget-2025.md"
+  - "on-orbit-servicing-refueling-2026.md"
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
@@ -56,7 +57,7 @@ Passive thermal radiators have no moving parts. Lifetime is limited by:
 - Atomic oxygen erosion (degrades thermal control coatings)
 - Thermal cycling fatigue (thousands of sun/shadow transitions)
 
-Open question: No source in the wiki quantifies radiator degradation rates over multi-year LEO missions.
+Radiator degradation rates in LEO are driven by atomic oxygen erosion (~3 μm/year for Kapton at typical LEO flux), micrometeoroid pitting, and thermal cycling fatigue. ISS heritage data suggests α/ε ratio changes of 0.01-0.03/year for thermal control coatings. Dedicated long-duration studies of deployable radiator degradation at data-center scale are absent from the public literature [[wiki/sources/on-orbit-servicing-refueling-2026.md]].
 
 ## Satellite Bus Design Life Benchmarks
 
@@ -80,7 +81,7 @@ Open question: No source in the wiki quantifies radiator degradation rates over 
 | Commercial electronics | 3-7 years | TID, wearout |
 | Radiators | ~10 years (unquantified) | Micrometeoroid pitting, coating degradation |
 
-Open question: Can orbital data centers be serviced or refueled to extend component lifetimes, or is the entire facility replaced at end of life? No source in the wiki addresses on-orbit maintenance for data centers.
+On-orbit servicing (OOS) for GEO satellites is demonstrated — MEV-1/2 have provided years of life extension since 2020. For 2026, Astroscale's Provisioner and Orbit Fab's depots target Space Force refueling demonstrations. LEO data centers would require purpose-designed servicing interfaces; no existing project has committed to this architecture. The industry trend is toward "prepared client" satellites with standard servicing ports [[wiki/sources/on-orbit-servicing-refueling-2026.md]]. Orbit Fab's RAFTI port is becoming the de facto refueling interface.
 
 ## Related pages
 

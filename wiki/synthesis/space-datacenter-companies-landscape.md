@@ -6,6 +6,7 @@ sources:
   - "scientific-american-space-datacenters.md"
   - "orbital-startup-economics-register-2026.md"
   - "space-based-solar-power.md"
+  - "blue-origin-terawave-2026.md"
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
@@ -70,9 +71,7 @@ operational AI compute in orbit.
 
 - Unveiled a constellation of ~5,400 satellites for "high-throughput networking"
 - Positioned as space infrastructure rather than explicitly as compute [[wiki/sources/space-data-center-wikipedia.md]] *(other)*
-- Open question: Whether TeraWave is a space data center constellation or a
-  communications infrastructure play — the distinction is not yet clear from
-  available sources.
+- **Resolved**: TeraWave is a communications infrastructure play, not a space data center. Blue Origin's FCC filing (Jan 2026) and press release describe it as an "advanced communications infrastructure" providing symmetrical data speeds up to 6 Tbps for enterprise, data center, and government connectivity [[wiki/sources/blue-origin-terawave-2026.md]] *(news article)*. The constellation (5,280 LEO + 128 MEO) serves as high-capacity backhaul between terrestrial data centers, not as orbital compute. Deployment begins Q4 2027.
 
 ## National Programs
 
@@ -111,8 +110,7 @@ operational AI compute in orbit.
 
 - What specifically is Xingshidai running, and at what scale?
 - Has Starcloud generated revenue from its H100-in-orbit satellite?
-- Is Blue Origin's TeraWave genuinely a compute constellation or a communications
-  infrastructure play?
+- ~~Is Blue Origin's TeraWave genuinely a compute constellation or a communications infrastructure play?~~ *(resolved — communications infrastructure)*
 - What is OpenAI's actual involvement, if any?
 - Are there additional companies not yet covered (Lumen Orbit, others reported
   in trade press after mid-2026)?

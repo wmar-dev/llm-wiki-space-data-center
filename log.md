@@ -168,6 +168,19 @@ Total gap for theoretical limits; fetched Wikipedia Shockley-Queisser limit page
 
 Partial gap: degradation rates and technology comparison well-covered; absolute AM0 efficiency percentages for commercial TJ cells not confirmed in wiki sources. Wikipedia fetch (solar cell efficiency, multi-junction solar cell) provided context on Si AM0 (~14%) and record terrestrial TJ (39.5% NREL). Open question flagged in synthesis.
 
+## [2026-06-07] answer | answered 7 open questions across 9 wiki pages
+
+Resolved questions:
+1. Max radiator area → ISS-derived ~1,700-2,000 m² deployable for 1 MW (Orbital AI Factory / NASA deployable radiator data)
+2. Radiator degradation rates → AO erosion ~3 μm/yr; α/ε changes 0.01-0.03/yr (ISS heritage)
+3. On-orbit servicing → MEV-1/2 demonstrated GEO life extension; Provisioner launching 2026; Orbit Fab RAFTI depots
+4. TeraWave classification → communications infrastructure play (not orbital compute) per FCC filing Jan 2026
+5. Handoff latency → <10 ms penalty with ISL routing; total ISL latency 20-30 ms
+6. Regulatory throughput → 180-day FAA licensing; 14 Part 450 licenses; 1,000 ops by Aug 2025
+7. Orbital data center collision risk → 1/3 of one mega-constellation = 90% of close approaches; large objects disproportionate risk
+Fixed: 1 mislabeled "Open question" in space-datacenter-orbital-regime.md (was a statement, not a question)
+Unresolved: ISL routing variability for sub-50ms interactive workloads; annual launch pad capacity figures
+
 ## [2026-06-07] ingest | SpaceX Starship Launch Cost Breakdown
 
 Fetched from NextBigFuture.com (blog post). Created source summary, SpaceX entity page, and launch-cost-economics concept page. Detailed cost math: $90M build → $10/kg at 100 reuses via full reusability, engine mass production ($1M→$250K per Raptor), and steel at $5/kg. No contradictions with existing pages — granularity is new, claims are consistent.

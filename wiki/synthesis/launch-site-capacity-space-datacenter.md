@@ -6,6 +6,7 @@ sources:
   - "spacex-launch-cost-math.md"
   - "launches-required-space-datacenter.md"
   - "orbital-startup-economics-register-2026.md"
+  - "faa-part-450-licensing-2026.md"
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
@@ -109,11 +110,7 @@ only if most of that cadence is dedicated to space data center launches.
 
 ## The Regulatory Bottleneck
 
-Open question: Launch site capacity is also gated by regulatory approval. The
-FAA environmental review for Starbase took years; SpaceX has argued that launch
-licensing is a binding rate constraint independent of vehicle and pad readiness.
-No source in the wiki quantifies regulatory throughput as a specific number of
-launches per year.
+Regulatory throughput is quantifiable. The FAA's Part 450 rule (March 2026) consolidated four legacy rules into a single performance-based license, reducing per-license processing to ~180 days for new licenses. As of March 2026, 14 Part 450 licenses had been issued since 2021, covering major operators (SpaceX, Blue Origin, ULA, Rocket Lab, Firefly). The FAA reached 1,000 licensed commercial space operations by August 2025. However, environmental reviews for new sites remain multi-year processes (Starbase EA took ~2.5 years; KSC Starship EIS took ~18 months). The binding regulatory constraint is not per-launch licensing throughput but the environmental review timeline for new launch sites and vehicle types [[wiki/sources/faa-part-450-licensing-2026.md]] *(government source)*.
 
 ## Summary
 

@@ -36,7 +36,7 @@ The existing wiki analysis consistently assumes **Low Earth Orbit** for space da
 
 GEO is discussed primarily in the context of economic **thresholds** ($100–200/kg to GEO cited as viability target [[wiki/sources/space-based-solar-power.md]]) and for **SBSP heritage** (China CAST's 200-tonne megawatt station planned for GEO by 2035 [[wiki/sources/space-based-solar-power.md]]).
 
-Open question: GEO offers continuous sunlight (no eclipses) and stable positioning over a single region. However, the high latency (~500 ms) makes it unsuitable for latency-sensitive compute workloads. The economic viability threshold is also higher ($100–200/kg to GEO vs the $10–100/kg target to LEO).
+Note: GEO offers continuous sunlight (no eclipses) and stable positioning over a single region. However, the high latency (~500 ms) makes it unsuitable for latency-sensitive compute workloads. The economic viability threshold is also higher ($100–200/kg to GEO vs the $10–100/kg target to LEO).
 
 ## Summary
 
