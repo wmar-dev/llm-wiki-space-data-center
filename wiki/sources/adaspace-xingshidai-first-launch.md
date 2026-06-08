@@ -6,7 +6,7 @@ sources:
 status: "current"
 created: "2026-06-08"
 last_updated: "2026-06-08"
-origin_url: "https://www.datacenterdynamics.com/en/news/adaspace-launches-first-12-satellites-for-leo-constellation-xingshidai/"
+origin_url: "https://www.datacenterdynamics.com/en/news/chinas-adaspace-orbits-first-12-ai-cloud-satellites-of-2800-strong-constellation/"
 domain_relevance: "primary"
 ---
 

@@ -224,6 +224,9 @@ def render_metadata(metadata: dict) -> str:
     if sources:
         src_list = ", ".join(f"<code>{x}</code>" for x in sources)
         parts.append(f'<span class="meta-sources">Sources: {src_list}</span>')
+    origin = metadata.get("origin_url", "")
+    if origin:
+        parts.append(f'<span class="meta-origin"><a href="{origin}" target="_blank" rel="noopener">Source URL →</a></span>')
     if not parts:
         return ""
     return f'<div class="meta-box">{" · ".join(parts)}</div>\n'
