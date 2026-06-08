@@ -6,9 +6,10 @@ sources:
   - "space-data-center-wikipedia.md"
   - "orbital-startup-economics-register-2026.md"
   - "scientific-american-space-datacenters.md"
+  - "xai-colossus-naddod.md"
 status: "current"
 created: "2026-06-07"
-last_updated: "2026-06-07"
+last_updated: "2026-06-08"
 ---
 
 # xAI Colossus Capacity and Comparison to Space Data Center Ambitions
@@ -21,9 +22,10 @@ company can build on the ground, fast, at extreme scale.
 
 | Metric | Current (mid-2026) | Target / Planned |
 |---|---|---|
-| Peak power draw | **~150 MW** | ~300 MW (implied by 30 MW solar = 10%) |
+| Peak power draw | **~150–200 MW** | ~1 GW (Phase 2) |
+| GPU count | **~450,000** (100k H100 + H200s) [[wiki/sources/xai-colossus-naddod.md]] | **~1 million** (GB200 NVL72 Phase 2) |
+| Model mix | H100 (Phase 1), H200 (Phase 1B) | GB200 NVL72 racks (72 GPUs/rack) [[wiki/sources/xai-colossus-naddod.md]] |
 | Compute target | — | "Nearly **2 GW** of compute power" (Dec 2025 announcement) |
-| GPU count | Not disclosed | **1 million GPUs** (announced target) |
 | Location | Memphis, Tennessee | Third building purchased Dec 2025 |
 | Build time | **122 days** (June → Dec 2024) | — |
 | Power source | Methane gas generators (≥33 by May 2025) + planned solar | 30 MW solar (10% of total) |
@@ -32,7 +34,9 @@ company can build on the ground, fast, at extreme scale.
 
 **Ambiguity note**: "Nearly 2 GW of compute power" may refer to electrical capacity
 or a compute performance metric (e.g., exaFLOPS-equivalent); the Wikipedia article
-does not clarify the unit.
+does not clarify the unit. NADDOD analysis [[wiki/sources/xai-colossus-naddod.md]] *(industry report)*
+indicates Phase 2 is targeting ~1 GW electrical with GB200 NVL72 racks, suggesting
+the "2 GW" figure is more likely a compute-performance metric than electrical capacity.
 
 ## Comparison: Colossus vs. Space Data Center Projects
 
@@ -95,10 +99,10 @@ is irrelevant to those use cases.
 
 ## Open Questions
 
-- What is the actual GPU count and model mix in Colossus as of mid-2026? Wikipedia
-  does not confirm the H100/H200 breakdown or current total.
-- Does xAI's 2 GW expansion refer to electrical capacity or a compute performance
-  measure? The distinction matters for comparing against orbital targets.
+- ~~What is the actual GPU count and model mix in Colossus as of mid-2026? Wikipedia
+  does not confirm the H100/H200 breakdown or current total.~~ *(resolved — ~450,000 GPUs: 100k H100 + H200s in Phase 1B; GB200 NVL72 planned for Phase 2)*
+- ~~Does xAI's 2 GW expansion refer to electrical capacity or a compute performance
+  measure? The distinction matters for comparing against orbital targets.~~ *(resolved — likely compute-performance metric; Phase 2 electrical target is ~1 GW per NADDOD)*
 - How does Colossus's power consumption trajectory affect grid capacity in the
   Memphis/Tennessee Valley region — and does grid saturation create a relative
   advantage for space solar at some future scale?

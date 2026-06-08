@@ -43,7 +43,7 @@ Both scale linearly with power [[wiki/concepts/thermal-management.md]].
 
 Real-world examples from the wiki:
 - **Starcloud**: 60 kg satellite with NVIDIA H100 GPU (deployed November 2025) [[wiki/sources/space-data-center-wikipedia.md]] *(other)*
-- **Orbital**: 100 kW satellite described as "roughly four refrigerators" in size [[wiki/sources/orbital-startup-economics-register-2026.md]] *(news_article)*; Orbital's solar array is "~two halves of a tennis court" (~130 m²)
+- **Orbital**: 100 kW satellite described as "roughly four refrigerators" in size [[wiki/sources/orbital-startup-economics-register-2026.md]] *(news_article)*; Orbital's solar array is "~two halves of a tennis court" (~130 m²). **Wet mass**: Not publicly disclosed — no figure found after dedicated search as of June 2026 *(unresolved)*.
 
 For a demo-scale satellite:
 - **Launch count: 1** — a Falcon 9 rideshare or dedicated small-lift launch is sufficient
@@ -130,9 +130,9 @@ assessment that "the economics of launch don't quite work yet"
 
 ## Open Questions
 
-- What is the actual wet mass of the Orbital 100 kW satellite? The "four
+- ~~What is the actual wet mass of the Orbital 100 kW satellite? The "four
   refrigerators" description gives size but not mass; no source in the wiki
-  provides this figure.
+  provides this figure.~~ *(unresolved — no public wet mass figure found for Orbital's 100 kW satellite design after dedicated search; a16z-backed startup has not disclosed satellite mass specifications)*
 - Can a 1 MW data center satellite be designed as a monolithic structure that
   survives launch loads, or does it require orbital assembly?
 - At what Starship reuse cadence does the launch supply to support gigawatt-scale

@@ -191,6 +191,17 @@ Fetched from NextBigFuture.com (blog post). Created source summary, SpaceX entit
 
 ## [2026-06-08] answer | hardware refresh penalty — 3 open questions answered | pages-updated: 1 | sources-ingested: 3
 
+## [2026-06-08] answer | companies / xAI / launches — 5 open questions answered | pages-updated: 3 | sources-ingested: 3
+
+Answered 5 open questions across 3 wiki pages:
+1. (companies-landscape) Xingshidai scale — resolved: 8B param AI models on 2,800-satellite constellation; first 12 launched
+2. (companies-landscape) Starcloud revenue — resolved: no public revenue; 18 customers on Kepler; likely pre-revenue
+3. (companies-landscape) OpenAI involvement — resolved: Altman personal interest only; no formal initiative; no longer active
+4. (xai-colossus) GPU count and model mix — resolved: ~450k GPUs (100k H100 + H200s); GB200 NVL72 in Phase 2
+5. (xai-colossus) 2 GW ambiguity — resolved: likely compute-performance metric; electrical Phase 2 is ~1 GW
+1 unresolved (launches-required): Orbital wet mass — no public figure found after dedicated search
+Ingested 3 new sources: adaspace-xingshidai-first-launch, xai-colossus-naddod, starcloud-revenue-openai-orbital-data-centers
+
 Answered 3 open questions from wiki/synthesis/hardware-refresh-penalty-space-compute.md:
 1. On-orbit GPU refresh via visiting vehicles — partial answer: OOS technically mature (Orbital Express, MEV, Hubble) but GPU module swap not yet demonstrated; cost/logistics unvalidated
 2. Sovereign/defense workload justification — answered: yes, for workloads where data residency and physical isolation dominate; defense procurement already active (Space Force $2.29B SDN, $4.16B ABMS awards)

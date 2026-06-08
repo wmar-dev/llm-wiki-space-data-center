@@ -7,9 +7,11 @@ sources:
   - "orbital-startup-economics-register-2026.md"
   - "space-based-solar-power.md"
   - "blue-origin-terawave-2026.md"
+  - "adaspace-xingshidai-first-launch.md"
+  - "starcloud-revenue-openai-orbital-data-centers.md"
 status: "current"
 created: "2026-06-07"
-last_updated: "2026-06-07"
+last_updated: "2026-06-08"
 ---
 
 # Companies Working on Space-Based Data Centers — Landscape
@@ -31,6 +33,10 @@ concepts at varying levels of maturity.
 
 Starcloud is the furthest along on hardware — the only entity confirmed to have
 operational AI compute in orbit.
+
+- **Business**: 18 customers on Kepler Communications network; two business models (on-orbit edge compute for other spacecraft, eventual terrestrial cloud competition) [[wiki/sources/starcloud-revenue-openai-orbital-data-centers.md]] *(news article)*
+- **Revenue**: No public revenue figures disclosed; likely pre-revenue [[wiki/sources/starcloud-revenue-openai-orbital-data-centers.md]] *(inference)*
+- **Funding**: $170M raised at ~$1.1B valuation [[wiki/sources/starcloud-revenue-openai-orbital-data-centers.md]] *(news article)*
 
 ### Orbital
 
@@ -77,8 +83,14 @@ operational AI compute in orbit.
 
 ### China — Xingshidai
 
-- Operating space data center constellation (status: active)
-- No further details confirmed in wiki sources [[wiki/sources/scientific-american-space-datacenters.md]] *(news_article)*
+- **Company**: AdaSpace (Beijing, founded 2020)
+- **Status**: First 12 satellites launched (2025); 2,800-satellite constellation planned
+- **AI capability**: Each satellite runs an 8 billion parameter AI model on-orbit [[wiki/sources/adaspace-xingshidai-first-launch.md]] *(news article)*
+- **Inter-satellite**: 100 Gbps optical laser communication links [[wiki/sources/adaspace-xingshidai-first-launch.md]] *(news article)*
+- **Bus platform**: XingShengLi-100; construction started end of 2023
+- **Positioning**: Indigenous Chinese development (parallel to DeepSeek) for a "Global Space AI Computing Network"
+
+Xingshidai is the only confirmed operational AI-in-orbit constellation beyond Starcloud's single-satellite demo.
 
 ### EU — ASCEND / Edge Aerospace
 
@@ -91,7 +103,7 @@ operational AI compute in orbit.
 |---|---|---|
 | Lonestar | Lunar surface data backup | Hardware deployed March 2025 |
 | University of Pennsylvania | Tether-based architecture | Research; presented AIAA SciTech Jan 2026 |
-| OpenAI | Interest in space infrastructure | Referenced, no details confirmed |
+| OpenAI | Personal interest (Altman), no formal initiative | Referenced, no longer active early 2026 [[wiki/sources/starcloud-revenue-openai-orbital-data-centers.md]] |
 
 ## Maturity Comparison
 
@@ -108,10 +120,10 @@ operational AI compute in orbit.
 
 ## Open Questions
 
-- What specifically is Xingshidai running, and at what scale?
-- Has Starcloud generated revenue from its H100-in-orbit satellite?
+- ~~What specifically is Xingshidai running, and at what scale?~~ *(resolved — 8B param AI models on 2,800-satellite Xingshidai constellation; first 12 launched)*
+- ~~Has Starcloud generated revenue from its H100-in-orbit satellite?~~ *(resolved — no public revenue figures; 18 customers on Kepler; likely pre-revenue)*
 - ~~Is Blue Origin's TeraWave genuinely a compute constellation or a communications infrastructure play?~~ *(resolved — communications infrastructure)*
-- What is OpenAI's actual involvement, if any?
+- ~~What is OpenAI's actual involvement, if any?~~ *(resolved — Altman personal interest only; no formal initiative; no longer active early 2026)*
 - Are there additional companies not yet covered (Lumen Orbit, others reported
   in trade press after mid-2026)?
 
