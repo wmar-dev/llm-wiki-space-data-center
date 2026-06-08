@@ -14,17 +14,22 @@ grid dependency. At the right launch cost, this could make orbital compute cheap
 watt than terrestrial data centers in power-constrained markets.
 
 **The gating variable is launch cost.** At current rates (~$7,000/kg), a 1 MW orbital
-facility costs hundreds of millions just to launch — before any hardware. The economic
-viability threshold is $100–200/kg; Starship targets $10–100/kg but has achieved only a
-55% orbital launch success rate as of late 2025, and full reuse has not been validated
-at commercial cadence. The CEO of the most prominent orbital data center startup
-(Orbital, a16z-backed) has publicly acknowledged "the economics don't quite work yet."
+facility costs hundreds of millions just to launch — before any hardware. The headline
+"viability threshold" of $100–200/kg is misleading: at $200/kg, launch cost alone equals
+the entire terrestrial all-in build cost, leaving no margin for satellite hardware or
+operations. Genuine competitive parity with terrestrial data centers requires **$50–100/kg**;
+the business case only becomes compelling below $10–50/kg. Starship targets $10–100/kg
+but has achieved only a 55% orbital launch success rate as of late 2025, and full reuse
+has not been validated at commercial cadence. The CEO of the most prominent orbital data
+center startup (Orbital, a16z-backed) has stated publicly that viability requires
+**~$10/kg** — a 700× reduction from today's rates.
 
 For context: xAI built its 150 MW Colossus AI supercomputer in 122 days. The US
 terrestrial sector adds 2–3 GW of new data center capacity per year. Starcloud's entire
 2035 orbital target (5 GW) equals roughly two years of US terrestrial growth. Orbital
-compute is most plausibly a **specialized complement** — for Earth observation processing,
-jurisdiction-independent compute, and global-coverage workloads — rather than a
+compute is most plausibly a **specialized complement** — for Earth observation processing
+onboard (data already in orbit), maritime and remote-industry users without cloud
+proximity, jurisdiction-independent compute, and global-coverage workloads — rather than a
 general-purpose competitor to terrestrial cloud.
 
 ---
@@ -33,8 +38,9 @@ general-purpose competitor to terrestrial cloud.
 
 ### 1. Launch Cost — The Gating Variable (Critical)
 
-- Viability threshold: **$100–200/kg**; current rate: **~$7,000/kg**
-- Starship reusable target: **$10–100/kg**, requiring 70–100 reuse cycles per vehicle
+- Headline threshold ($100–200/kg) makes space data centers *possible*; competitive parity
+  with terrestrial requires **$50–100/kg**; compelling economics require **$10–50/kg**
+- Current rate: **~$7,000/kg**; Starship target: **$10–100/kg**, requiring 10–100 reuse cycles
 - As of late 2025, Starship has a 55% orbital success rate; booster catch and full
   upper-stage reuse are still under validation
 - Even optimistic projections place the threshold crossing at **2029–2035**
@@ -109,7 +115,8 @@ general-purpose competitor to terrestrial cloud.
 Not all workloads are equal candidates. The clearest case for orbital compute is
 data that is *already in orbit*:
 
-- **Earth observation / remote sensing** — process imagery onboard; eliminate downlink
+- **Earth observation / remote sensing** — process imagery onboard; eliminate downlink (clearest near-term revenue)
+- **Maritime and remote-industry users** — ships, offshore rigs, polar stations >1,000 km from cloud regions; LEO latency competitive with long-haul fiber; Starlink adoption demonstrates willingness to pay
 - **AI/GPU batch training** — tolerates 90+ ms round-trip latency; power cost benefit
 - **Jurisdiction-free / sovereign compute** — no territorial data law applies in orbit
 - **Sun-synchronous persistent workloads** — constant solar exposure eliminates eclipse cycling
@@ -142,3 +149,6 @@ Key synthesis pages:
 - [Solar Cell Efficiency](wiki/synthesis/solar-cell-efficiency-space.md)
 - [Theoretical Efficiency Limits](wiki/synthesis/theoretical-solar-cell-efficiency-limit-space.md)
 - [Terrestrial Baseline (xAI, global capacity)](wiki/synthesis/terrestrial-datacenter-capacity-baseline.md)
+- [LEO Latency vs. Commercial Use Cases](wiki/synthesis/leo-latency-commercial-use-cases.md)
+- [100 kW Unit Economics](wiki/synthesis/space-datacenter-100kw-unit-economics.md)
+- [Starship $200/kg Reuse Cadence](wiki/synthesis/starship-200kg-reuse-cadence.md)
