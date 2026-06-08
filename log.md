@@ -4,6 +4,8 @@
 <!-- Format: ## [YYYY-MM-DD] <operation> | <title> -->
 <!-- Operations: ingest | re-ingest | fetch | fetch-failed | query | lint | evaluation | tool-proposal -->
 
+## [2026-06-07] query | Will the hardware refresh penalty make space compute uncompetitive? | pages-read: 4
+
 ## [2026-06-07] query | Are data centers in space financially viable? What are the key risks? | pages-read: 5
 
 ## [2026-06-07] query | key risks for commercial space data centers — deep research synthesis | pages-read: 5

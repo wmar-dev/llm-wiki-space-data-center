@@ -132,8 +132,6 @@ higher altitude and thus marginally higher latency.
 
 ## Open Questions
 
-- Will the hardware refresh penalty (5–6 year chip replacement) make space compute
-  uncompetitive against rapid terrestrial GPU iteration cycles?
 - Is the carbon emissions claim (Saarland vs. Starcloud) resolvable — and does
   the answer depend on the specific launch vehicle and energy source?
 - Are there sovereign or defense workloads (jurisdiction-free compute, nuclear C2)
@@ -141,6 +139,7 @@ higher altitude and thus marginally higher latency.
 
 ## Related Pages
 
+- [[wiki/synthesis/hardware-refresh-penalty-space-compute.md]]
 - [[wiki/synthesis/space-datacenter-latency.md]]
 - [[wiki/sources/scientific-american-space-datacenters.md]]
 - [[wiki/sources/orbital-startup-economics-register-2026.md]]

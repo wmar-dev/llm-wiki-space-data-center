@@ -167,7 +167,25 @@ Then add an entry to `index.md`.
 
 ---
 
-### Step 7 — Log entry
+### Step 7 — Open question cleanup
+
+For each wiki page read in Step 2, check whether its `## Open Questions` section
+contains a question that the new synthesis page answers (fully or substantially).
+
+**For each answered open question found:**
+1. Remove that bullet from the `## Open Questions` list in the source page.
+2. If the source page has a `## Related Pages` section, add a wiki link to the new
+   synthesis page there. If no `## Related Pages` section exists, add one.
+3. If removing the question leaves the `## Open Questions` section empty, remove the
+   section heading too.
+
+**Matching rule:** A source open question is considered answered if the new synthesis
+page's title or content directly addresses it. Partial answers (new page adds data
+but leaves sub-questions open) do not qualify — leave those questions in place.
+
+---
+
+### Step 8 — Log entry
 
 Append to `log.md`:
 
