@@ -2,7 +2,7 @@
 title: "How Many Launches Would It Take to Put a Data Center in Space?"
 type: "synthesis"
 sources:
-  - "test-pdf.md"
+  - "orbital-systems-power-budget-2025.md"
   - "spacex-launch-cost-math.md"
   - "orbital-startup-economics-register-2026.md"
   - "space-data-center-wikipedia.md"
@@ -33,7 +33,7 @@ a very different number of launches.
 ### Physical Scale of a Space Data Center
 
 A reference **1 MW orbital facility** requires
-[[wiki/sources/test-pdf.md]] *(industry_report)*:
+[[wiki/sources/orbital-systems-power-budget-2025.md]] *(industry_report)*:
 - Solar panels: **~3,600 m²** (at 280 W/m² output, 20% efficiency, 1,400 W/m² LEO input)
 - Thermal radiators: **~2,200 m²** (at 450 W/m², 300 K)
 
@@ -140,7 +140,7 @@ assessment that "the economics of launch don't quite work yet"
 
 ## Related Pages
 
-- [[wiki/sources/test-pdf.md]]
+- [[wiki/sources/orbital-systems-power-budget-2025.md]]
 - [[wiki/synthesis/spacex-starship-cost-breakdown.md]]
 - [[wiki/concepts/launch-cost-economics.md]]
 - [[wiki/sources/orbital-startup-economics-register-2026.md]]

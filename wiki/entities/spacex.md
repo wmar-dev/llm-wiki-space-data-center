@@ -48,5 +48,5 @@ Falcon 9 boosters now routinely fly 20+ times, with certification underway for 4
 
 - [[wiki/sources/spacex-launch-cost-math.md]]
 - [[wiki/concepts/launch-cost-economics.md]]
-- [[wiki/sources/test-pdf.md]]
+- [[wiki/sources/orbital-systems-power-budget-2025.md]]
 - [[wiki/synthesis/space-datacenter-financial-viability.md]]

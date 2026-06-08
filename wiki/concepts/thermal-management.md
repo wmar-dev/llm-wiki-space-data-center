@@ -2,7 +2,7 @@
 title: "Thermal Management in Space Data Centers"
 type: "concept"
 sources:
-  - "test-source-001.md"
+  - "space-arch-radiative-cooling-2025.md"
 status: "stale"
 created: "2026-06-07"
 last_updated: "2026-06-07"
@@ -37,4 +37,4 @@ Open question: What is the maximum radiator area practically deployable on an or
 
 ## Sources
 
-- [[wiki/sources/test-source-001.md]] *(industry_report)*
+- [[wiki/sources/space-arch-radiative-cooling-2025.md]] *(industry_report)*

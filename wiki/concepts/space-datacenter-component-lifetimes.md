@@ -4,7 +4,7 @@ type: "concept"
 sources:
   - "space-datacenter-component-lifetimes.md"
   - "space-based-solar-power.md"
-  - "test-pdf.md"
+  - "orbital-systems-power-budget-2025.md"
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
@@ -42,7 +42,7 @@ Li-ion is the current standard for space energy storage.
 | Equivalent mission life | 5-7 years | 15-20 years |
 | Typical depth of discharge | 20-40% | 60-80% |
 
-Batteries cycling multiple times per day degrade faster than terrestrial equivalents [[wiki/sources/space-datacenter-component-lifetimes.md]] [[wiki/sources/test-pdf.md]].
+Batteries cycling multiple times per day degrade faster than terrestrial equivalents [[wiki/sources/space-datacenter-component-lifetimes.md]] [[wiki/sources/orbital-systems-power-budget-2025.md]].
 
 ## Electronics and Computing Hardware
 
@@ -84,4 +84,4 @@ Open question: Can orbital data centers be serviced or refueled to extend compon
 
 - [[wiki/sources/space-datacenter-component-lifetimes.md]]
 - [[wiki/sources/space-based-solar-power.md]]
-- [[wiki/sources/test-pdf.md]]
+- [[wiki/sources/orbital-systems-power-budget-2025.md]]

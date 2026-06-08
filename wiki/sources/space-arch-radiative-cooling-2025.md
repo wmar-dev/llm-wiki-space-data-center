@@ -2,7 +2,7 @@
 title: "Radiative Cooling for Space Data Centers"
 type: "source_summary"
 sources:
-  - "test-source-001.md"
+  - "space-arch-radiative-cooling-2025.md"
 status: "stale"
 created: "2026-06-07"
 last_updated: "2026-06-07"

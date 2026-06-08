@@ -2,7 +2,7 @@
 title: "Thermal Constraints for Space Data Centers"
 type: "synthesis"
 sources:
-  - "test-source-001.md"
+  - "space-arch-radiative-cooling-2025.md"
 status: "stale"
 created: "2026-06-07"
 last_updated: "2026-06-07"
@@ -20,8 +20,8 @@ On Earth, data centers shed heat through airflow or liquid cooling. In space, th
 
 The key quantitative constraint is the radiator area required per unit of power:
 
-- A radiator at ~300 K rejects approximately **450 W/m²** [[wiki/sources/test-source-001.md]] *(industry_report)*
-- A **1 MW** data center therefore requires approximately **2,200 m²** of radiator surface area [[wiki/sources/test-source-001.md]] *(industry_report)*
+- A radiator at ~300 K rejects approximately **450 W/m²** [[wiki/sources/space-arch-radiative-cooling-2025.md]] *(industry_report)*
+- A **1 MW** data center therefore requires approximately **2,200 m²** of radiator surface area [[wiki/sources/space-arch-radiative-cooling-2025.md]] *(industry_report)*
 
 Inference: Radiator area scales linearly with power load at constant operating temperature, making the structural mass and deployable surface area of radiators the binding constraint on space data center scale.
 

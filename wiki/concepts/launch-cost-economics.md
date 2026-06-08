@@ -3,7 +3,7 @@ title: "Launch Cost Economics"
 type: "concept"
 sources:
   - "spacex-launch-cost-analysis.md"
-  - "test-pdf.txt"
+  - "orbital-systems-power-budget-2025.txt"
   - "space-based-solar-power.md"
 status: "draft"
 created: "2026-06-07"
@@ -12,7 +12,7 @@ last_updated: "2026-06-07"
 
 # Launch Cost Economics
 
-Launch cost — measured in $/kg to orbit — is the single largest variable determining space data center financial viability. The consensus threshold for economic viability is $100–200/kg [[wiki/sources/space-based-solar-power.md]] *(other)* [[wiki/sources/test-pdf.md]] *(industry_report)*.
+Launch cost — measured in $/kg to orbit — is the single largest variable determining space data center financial viability. The consensus threshold for economic viability is $100–200/kg [[wiki/sources/space-based-solar-power.md]] *(other)* [[wiki/sources/orbital-systems-power-budget-2025.md]] *(industry_report)*.
 
 ## Historical Trend
 
@@ -67,7 +67,7 @@ Falcon 9's partial reuse (booster only, upper stage expended) cannot push below 
 | $10–100/kg | Transformative — 1 MW facility launch costs drop to $1-10M |
 | <$10/kg | Disruptive — launch costs become minor line item |
 
-Threshold from [[wiki/sources/space-based-solar-power.md]] [[wiki/sources/test-pdf.md]]; projections from [[wiki/sources/spacex-launch-cost-math.md]].
+Threshold from [[wiki/sources/space-based-solar-power.md]] [[wiki/sources/orbital-systems-power-budget-2025.md]]; projections from [[wiki/sources/spacex-launch-cost-math.md]].
 
 ## Related pages
 

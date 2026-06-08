@@ -2,7 +2,7 @@
 title: "Space Data Center Power Budget Analysis"
 type: "source_summary"
 sources:
-  - "test-pdf.txt"
+  - "orbital-systems-power-budget-2025.txt"
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
@@ -14,7 +14,7 @@ last_updated: "2026-06-07"
 **Source type**: industry_report
 **Processing status**: processed
 **Ingest count**: 1
-**Extracted from**: raw/test-pdf.pdf → raw/test-pdf.txt
+**Extracted from**: raw/orbital-systems-power-budget-2025.pdf → raw/orbital-systems-power-budget-2025.txt
 
 ## Summary
 

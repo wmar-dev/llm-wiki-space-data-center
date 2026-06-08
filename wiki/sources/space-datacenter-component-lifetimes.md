@@ -4,7 +4,7 @@ type: "source_summary"
 sources:
   - "satellite-component-lifetimes.md"
   - "space-based-solar-power.md"
-  - "test-pdf.md"
+  - "orbital-systems-power-budget-2025.md"
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
@@ -36,4 +36,4 @@ Aggregated data on the lifetime of key satellite components in LEO and GEO envir
 
 - [[wiki/concepts/space-datacenter-component-lifetimes.md]]
 - [[wiki/sources/space-based-solar-power.md]]
-- [[wiki/sources/test-pdf.md]]
+- [[wiki/sources/orbital-systems-power-budget-2025.md]]

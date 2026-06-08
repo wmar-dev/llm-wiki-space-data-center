@@ -43,6 +43,6 @@ This article provides a detailed cost breakdown for SpaceX Starship, tracking ho
 
 ## Related pages
 
-- [[wiki/sources/test-pdf.md]] — industry report citing Starship $10–100/kg target
+- [[wiki/sources/orbital-systems-power-budget-2025.md]] — industry report citing Starship $10–100/kg target
 - [[wiki/entities/spacex.md]]
 - [[wiki/concepts/launch-cost-economics.md]]

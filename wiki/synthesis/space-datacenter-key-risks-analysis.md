@@ -3,7 +3,7 @@ title: "Key Risks for Commercial Space Data Centers — Research Analysis"
 type: "synthesis"
 sources:
   - "space-based-solar-power.md"
-  - "test-pdf.txt"
+  - "orbital-systems-power-budget-2025.txt"
   - "spacex-launch-cost-math.md"
   - "space-datacenter-component-lifetimes.md"
   - "kessler-syndrome-wikipedia.md"

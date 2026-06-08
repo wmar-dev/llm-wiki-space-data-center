@@ -2,7 +2,7 @@
 title: "What Orbit Would Space Data Centers Be Put In?"
 type: "synthesis"
 sources:
-  - "test-pdf.md"
+  - "orbital-systems-power-budget-2025.md"
   - "space-based-solar-power.md"
   - "aetherflux.md"
   - "launch-cost-economics.md"
@@ -20,7 +20,7 @@ last_updated: "2026-06-07"
 
 The existing wiki analysis consistently assumes **Low Earth Orbit** for space data centers:
 
-- **Power budget**: The 1 MW reference facility is sized for LEO conditions: 1.4 kW/m² solar input, ~36-minute eclipses per 90-minute orbit [[wiki/sources/test-pdf.md]] *(industry_report)*
+- **Power budget**: The 1 MW reference facility is sized for LEO conditions: 1.4 kW/m² solar input, ~36-minute eclipses per 90-minute orbit [[wiki/sources/orbital-systems-power-budget-2025.md]] *(industry_report)*
 - **Aetherflux precedent**: The only well-funded company to pivot toward orbital data centers (Dec 2025) was building a LEO laser constellation [[wiki/entities/aetherflux.md]] — their data center architecture inherits this LEO design
 - **Launch economics**: Falcon Heavy delivers to LEO at ~$1,500/kg vs ~$2,000/kg to GEO [[wiki/concepts/launch-cost-economics.md]]. The gap will grow as Starship targets $10–100/kg primarily to LEO.
 - **Latency**: LEO round-trip latency (~5–25 ms) is compatible with real-time cloud and edge computing. GEO (~500 ms) would exclude most commercial workloads.
@@ -28,7 +28,7 @@ The existing wiki analysis consistently assumes **Low Earth Orbit** for space da
 
 ### LEO Challenges
 
-- **Power intermittency**: 36-minute eclipses require battery/fuel cell storage, adding mass and cycling degradation [[wiki/sources/test-pdf.md]] *(industry_report)*
+- **Power intermittency**: 36-minute eclipses require battery/fuel cell storage, adding mass and cycling degradation [[wiki/sources/orbital-systems-power-budget-2025.md]] *(industry_report)*
 - **Debris density**: LEO has 85% of tracked space debris [[wiki/sources/kessler-syndrome-wikipedia.md]]; the 900–1,000 km band is already past critical density
 - **Orbital maintenance**: Station-keeping and collision-avoidance maneuvers consume propellant
 
@@ -53,7 +53,7 @@ Inference: The first generation of orbital data centers will likely be deployed 
 
 ## Related pages
 
-- [[wiki/sources/test-pdf.md]]
+- [[wiki/sources/orbital-systems-power-budget-2025.md]]
 - [[wiki/entities/aetherflux.md]]
 - [[wiki/sources/space-based-solar-power.md]]
 - [[wiki/concepts/launch-cost-economics.md]]

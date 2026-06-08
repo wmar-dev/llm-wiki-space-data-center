@@ -4,7 +4,7 @@ type: "synthesis"
 sources:
   - "seebeck-thermoelectrics-space.md"
   - "thermal-management.md"
-  - "test-pdf.md"
+  - "orbital-systems-power-budget-2025.md"
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
@@ -45,7 +45,7 @@ Thermoelectric generators (TEGs) convert temperature gradients into electricity:
 
 In vacuum, the only heat rejection mechanism is thermal radiation via the Stefan-Boltzmann law [[wiki/concepts/thermal-management.md]]. A thermoelectric device does not change this — it merely moves or converts heat before it reaches the radiator. The waste heat still must be radiated away:
 
-> For a 1 MW facility: ~2,200 m² of radiator surface at 300 K [[wiki/sources/test-pdf.md]] *(industry_report)*
+> For a 1 MW facility: ~2,200 m² of radiator surface at 300 K [[wiki/sources/orbital-systems-power-budget-2025.md]] *(industry_report)*
 
 ## Advanced Research: PT-TE-RC Systems
 
@@ -67,4 +67,4 @@ Inference: For a MW-scale space data center in LEO, the waste heat load is so la
 
 - [[wiki/sources/seebeck-thermoelectrics-space.md]]
 - [[wiki/concepts/thermal-management.md]]
-- [[wiki/sources/test-pdf.md]]
+- [[wiki/sources/orbital-systems-power-budget-2025.md]]
