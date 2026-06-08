@@ -161,8 +161,6 @@ commons.
   Kessler capacity ceiling in GW terms?
 - Can ITU frequency and orbital slot coordination accommodate 50,000+ data center
   satellites, independent of the Kessler debris constraint?
-- Is there a stable GEO capacity regime for space data centers (no Kessler risk, but
-  higher latency) that could supplement LEO?
 
 ## Related Pages
 
@@ -172,3 +170,4 @@ commons.
 - [[wiki/synthesis/space-datacenter-financial-viability.md]]
 - [[wiki/synthesis/terrestrial-datacenter-capacity-baseline.md]]
 - [[wiki/concepts/thermal-management.md]]
+- [[wiki/synthesis/geo-orbit-satellite-capacity.md]]

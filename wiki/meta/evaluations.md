@@ -14,6 +14,7 @@
 - [2026-06-07 answer] answer-open-questions: Researched 7 open questions via parallel web search + 4 deep fetches; created 6 new source pages with full frontmatter; updated 9 wiki pages; fixed 1 mislabeled pseudo-question. 2 questions remain partially unresolvable (no known public studies). Budget: 7 web searches, 4 deep fetches, ~25 file operations — within reason but near the upper end for a single workflow.
 - [2026-06-08 answer] answer-open-questions: Researched 3 open questions via 4 web searches + 3 deep fetches; created 3 source summary pages; updated 1 synthesis page; 1 question partially resolved (OOS technically mature but GPU swap not demonstrated). Remaining gap: per-kg cost of robotic GPU module replacement.
 - [2026-06-08 answer] answer-open-questions: Researched 5 open questions via 4 web searches + 2 deep fetches; created 3 source summary pages; updated 3 synthesis pages; resolved 5 questions (Xingshidai scale, Starcloud revenue, OpenAI involvement, Colossus GPU count, 2 GW ambiguity); 1 unresolved (Orbital wet mass — no public data found). Budget: 4 web searches, 2 deep fetches, ~20 file ops — efficient.
+- [2026-06-08 query] GEO slot capacity: partial gap — wiki had Kessler/LEO coverage but no GEO-specific figures; fetched 4 web sources; key finding: GEO constrained by ITU frequency coordination (~1,800 slots) not collision physics; 580 active satellites vs ~1,800 capacity; resolved open question in max-gw-capacity page.
 
 ## [2026-06-07] Evaluation — macro-10-sources
 
