@@ -207,3 +207,19 @@ Answered 3 open questions from wiki/synthesis/hardware-refresh-penalty-space-com
 2. Sovereign/defense workload justification — answered: yes, for workloads where data residency and physical isolation dominate; defense procurement already active (Space Force $2.29B SDN, $4.16B ABMS awards)
 3. Inference threshold for very large models — answered: ~1T parameters is the inflection point where memory bandwidth saturates and frontier chips become necessary for production inference
 Remaining open question added: per-kg cost of robotic GPU module replacement vs full satellite replacement
+
+## [2026-06-08] fetch | https://nova.space/wp-content/uploads/2026/05/Novaspace_Orbital-Data-Centers_White-Paper.pdf
+
+## [2026-06-08] ingest | Novaspace: Orbital Data Centers White Paper (May 2026)
+
+Neutral consultancy white paper covering rationale, use case maturity, architecture tradeoffs, cost modeling (1 GW space = $46B vs $17B terrestrial even optimistically), competitive landscape (13+ players, SpaceX only vertically integrated), and building block readiness. Cooling flagged as least mature enabler. Key contradiction logged with Starcloud cost model.
+
+## [2026-06-08] fetch | https://starcloudinc.github.io/wp.pdf
+
+## [2026-06-08] ingest | Starcloud: Why We Should Train AI in Space (Sep 2024)
+
+Company founding white paper claiming 40 MW space cluster costs $8.2M vs $167M terrestrial at $30/kg launch — the inverse of Novaspace's conclusion. Key design differentiators: SSO dawn-dusk orbit (eliminates battery risk), thin-film solar cells, modular container architecture. Contradiction with financial viability synthesis and Novaspace logged.
+
+## [2026-06-08] contradiction | wiki/synthesis/space-datacenter-financial-viability.md vs novaspace-orbital-data-centers-white-paper.txt and starcloud-white-paper.txt
+
+Novaspace finds space 2.7× more expensive than terrestrial (at $1,000/kg launch). Starcloud claims space is 20× cheaper (at $30/kg). Divergence traced entirely to launch cost assumptions; both conclusions internally consistent under their own assumptions.

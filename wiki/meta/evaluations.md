@@ -45,3 +45,7 @@ ingest-count-at-trigger: N
 
 **Highest-impact improvement**: <proposed action and rationale>
 -->
+
+- [2026-06-08 ingest] Novaspace: read index + 0 existing pages (search not needed; all relevant pages known from context). Used 1 fetch + 1 PDF extract. Well within budget.
+- [2026-06-08 ingest] Starcloud: company white paper directly contradicts Novaspace cost model — key variable is launch cost ($30/kg vs $1,000/kg). SSO orbit selection in 2024 paper pre-empts the battery degradation problem identified in the 2026 arXiv paper; connection flagged in both pages.
+- [2026-06-08 ingest] Both ingests updated 4 shared pages (financial-viability, launch-cost-economics, spacex entity, starcloud entity) — managing shared page updates sequentially avoided conflicts.

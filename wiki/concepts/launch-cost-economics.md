@@ -5,9 +5,11 @@ sources:
   - "spacex-launch-cost-analysis.md"
   - "orbital-systems-power-budget-2025.txt"
   - "space-based-solar-power.md"
+  - "novaspace-orbital-data-centers-white-paper.txt"
+  - "starcloud-white-paper.txt"
 status: "draft"
 created: "2026-06-07"
-last_updated: "2026-06-07"
+last_updated: "2026-06-08"
 ---
 
 # Launch Cost Economics
@@ -17,7 +19,7 @@ Launch cost — measured in $/kg to orbit — is the single largest variable det
 ## Historical Trend
 
 | Era | Vehicle | $/kg to LEO |
-|---|---|---|
+| --- | --- | --- |
 | Space Shuttle (1981-2011) | STS | ~$54,500 |
 | Pre-reuse (2010s) | Falcon 9 expendable | ~$2,700 |
 | Partial reuse (2020s) | Falcon 9 reusable | ~$1,500 |
@@ -37,7 +39,7 @@ Launch cost per kg is determined by three variables:
 Build cost is amortized over the number of flights. This is the primary lever:
 
 | Scenario | Build Cost | Reuses | Amortized/Fl | $/kg (200 t payload) |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Expendable | $90M | 1 | $90M | $450 |
 | Low reuse | $90M | 5 | $18M | $90 |
 | Medium reuse | $50M | 10 | $5M | $25 |
@@ -60,7 +62,7 @@ Falcon 9's partial reuse (booster only, upper stage expended) cannot push below 
 ## Thresholds for Space Data Centers
 
 | $/kg Regime | Implication |
-|---|---|
+| --- | --- |
 | >$500/kg | Prohibitive — only specialized gov/mil payloads |
 | $200–500/kg | Marginal — some niche orbital compute possible |
 | $100–200/kg | Viability threshold — space data centers approach competitive |
@@ -69,8 +71,24 @@ Falcon 9's partial reuse (booster only, upper stage expended) cannot push below 
 
 Threshold from [[wiki/sources/space-based-solar-power.md]] [[wiki/sources/orbital-systems-power-budget-2025.md]]; projections from [[wiki/sources/spacex-launch-cost-math.md]].
 
+## Scenario Analysis: What Launch Cost Implies for 1 GW Data Center Economics
+
+Two independent industry sources model radically different outcomes depending on assumed launch cost:
+
+| Source | Launch cost assumed | 1 GW DC / 5 yr (space) | 1 GW DC / 5 yr (terrestrial) | Verdict |
+| --- | --- | --- | --- | --- |
+| Novaspace (May 2026) | ~$1,000/kg ("near future") | $46 Bn | $17 Bn | Space 2.7× more expensive |
+| Novaspace (May 2026) | ~$150/kg ("distant future") | ~$14 Bn | $17 Bn | Approaching parity |
+| Starcloud (Sep 2024) | ~$30/kg (next-gen reusable) | ~$205M (scaled from 40 MW) | ~$4.2 Bn (scaled from 40 MW) | Space ~20× cheaper |
+
+The entire disagreement between these two sources — one a neutral consultancy, one a company promoting its own concept — is traceable to a single variable: the assumed launch cost. At $1,000/kg, space loses badly. At $30/kg, space wins decisively. The key empirical question is which trajectory Starship (or a successor) actually achieves and when.
+
+[[wiki/sources/novaspace-orbital-data-centers-2026.md]] *(industry_report)* | [[wiki/sources/starcloud-white-paper-2024.md]] *(industry_report)*
+
 ## Related pages
 
 - [[wiki/entities/spacex.md]]
 - [[wiki/sources/spacex-launch-cost-math.md]]
+- [[wiki/sources/novaspace-orbital-data-centers-2026.md]]
+- [[wiki/sources/starcloud-white-paper-2024.md]]
 - [[wiki/synthesis/space-datacenter-financial-viability.md]]
