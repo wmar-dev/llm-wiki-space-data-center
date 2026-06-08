@@ -6,6 +6,7 @@ sources:
 status: "draft"
 created: "2026-06-07"
 last_updated: "2026-06-07"
+origin_url: "https://www.nextbigfuture.com/2024/01/how-will-spacex-bring-the-cost-to-space-down-to-10-per-kilogram-from-over-1000-per-kilogram.html"
 ---
 
 # SpaceX Starship Launch Cost Breakdown

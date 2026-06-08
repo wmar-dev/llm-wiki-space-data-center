@@ -6,6 +6,7 @@ sources:
 status: "current"
 created: "2026-06-08"
 last_updated: "2026-06-08"
+origin_url: "https://venturebeat.com/technology/cerebras-says-its-chips-run-a-trillion-parameter-ai-model-nearly-7-times-faster-than-gpu-clouds"
 ---
 
 # Trillion-Parameter Inference and the Case for Frontier Chips

@@ -6,6 +6,7 @@ sources:
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
+origin_url: "https://www.viasat.com/content/dam/us-site/corporate/documents/Viasat_White_Paper_Managing_Mega-Constellation_Risks_in_LEO_Updated_Nov_22.pdf"
 ---
 
 # Managing Mega-Constellation Risks in LEO

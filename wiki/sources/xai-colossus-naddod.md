@@ -6,7 +6,7 @@ sources:
 status: "current"
 created: "2026-06-08"
 last_updated: "2026-06-08"
-origin_url: "https://naddod.com/blog/why-xai-is-building-the-worlds-fastest-supercomputer-colossus"
+origin_url: "https://www.naddod.com/blog/xai-colossus-2-ushering-in-the-gigawatt-era-of-ai-supercomputing"
 domain_relevance: "supporting"
 ---
 

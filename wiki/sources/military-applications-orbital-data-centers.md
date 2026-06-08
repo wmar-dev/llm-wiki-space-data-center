@@ -6,6 +6,7 @@ sources:
 status: "current"
 created: "2026-06-08"
 last_updated: "2026-06-08"
+origin_url: "https://newspaceeconomy.ca/2026/06/04/what-are-the-potential-military-applications-of-orbital-data-centers/"
 ---
 
 # Military Applications of Orbital Data Centers

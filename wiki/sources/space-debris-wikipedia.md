@@ -6,6 +6,7 @@ sources:
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
+origin_url: "https://en.wikipedia.org/wiki/Space_debris"
 ---
 
 # Space Debris (Wikipedia)

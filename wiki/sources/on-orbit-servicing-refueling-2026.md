@@ -6,6 +6,7 @@ sources:
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
+origin_url: "https://newspaceeconomy.ca/2026/03/31/on-orbit-servicing-and-refueling-breakthrough-market-or-perpetual-promise/"
 ---
 
 # On-Orbit Servicing and Refueling — 2026 Analysis

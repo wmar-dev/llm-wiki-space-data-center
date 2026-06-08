@@ -6,6 +6,7 @@ sources:
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
+origin_url: "https://www.blueorigin.com/news/blue-origin-introduces-terawave-space-based-network-for-global-connectivity"
 ---
 
 # Blue Origin TeraWave 2026

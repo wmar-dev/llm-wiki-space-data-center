@@ -6,6 +6,7 @@ sources:
 status: "current"
 created: "2026-06-07"
 last_updated: "2026-06-07"
+origin_url: "https://www.faa.gov/newsroom/faa-streamlines-commercial-space-license-approvals"
 ---
 
 # FAA Part 450 Licensing Streamline
