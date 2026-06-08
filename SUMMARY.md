@@ -18,7 +18,7 @@ has not been validated at commercial cadence. The CEO of the most prominent orbi
 center startup (Orbital, a16z-backed) has stated publicly that viability requires
 **\~$10/kg** — a 700× reduction from today's rates.
 
-For context: xAI built its 150 MW Colossus AI supercomputer in 122 days. The US
+For context: xAI built its ~200 MW Colossus AI supercomputer (~450,000 GPUs) in 122 days. Meanwhile, China's AdaSpace has already launched 12 AI-inference satellites (Xingshidai constellation, 2,800 planned), proving that on-orbit AI compute is operational today — though at trivial scale relative to terrestrial capacity. The US
 terrestrial sector adds 2–3 GW of new data center capacity per year. Starcloud's entire
 2035 orbital target (5 GW) equals roughly two years of US terrestrial growth. Orbital
 compute is most plausibly a **specialized complement** — for Earth observation processing
@@ -99,7 +99,7 @@ general-purpose competitor to terrestrial cloud.
 | **Google Suncatcher** | Feasibility study | Demo 2027; needs <$200/kg by 2035 | Google |
 | **SpaceX** | FCC filing (Jan 2026) | Millions of satellites w/ compute | Self-funded |
 | **Blue Origin TeraWave** | Announced | ~5,400 satellite constellation | Blue Origin |
-| **China Xingshidai** | Operating | Unknown scale | State-backed |
+| **China Xingshidai** (AdaSpace) | 12 sats on-orbit | 2,800 planned; 8B param AI on-orbit | State-backed |
 | **Lonestar** | Hardware deployed | Lunar data backup (Mar 2025) | VC-backed |
 
 ---
@@ -146,3 +146,11 @@ Key synthesis pages:
 - [LEO Latency vs. Commercial Use Cases](wiki/synthesis/leo-latency-commercial-use-cases.md)
 - [100 kW Unit Economics](wiki/synthesis/space-datacenter-100kw-unit-economics.md)
 - [Starship $200/kg Reuse Cadence](wiki/synthesis/starship-200kg-reuse-cadence.md)
+- [xAI Colossus vs. Space Data Centers](wiki/synthesis/xai-colossus-vs-space-datacenters.md)
+- [Hardware Refresh Penalty](wiki/synthesis/hardware-refresh-penalty-space-compute.md)
+- [Orbital Capacity Fundamental Limit](wiki/synthesis/orbital-capacity-fundamental-limit.md)
+- [SpaceX Starship Cost Breakdown](wiki/synthesis/spacex-starship-cost-breakdown.md)
+- [Seebeck Effect Heat Dissipation](wiki/synthesis/seebeck-effect-heat-dissipation.md)
+- [Max GW Capacity](wiki/synthesis/space-datacenter-max-gw-capacity.md)
+- [Component Lifetimes](wiki/synthesis/space-datacenter-component-lifetimes.md)
+- [Thermal Constraints](wiki/synthesis/thermal-constraints-space-datacenters.md)
