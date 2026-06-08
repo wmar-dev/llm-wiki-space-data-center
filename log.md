@@ -247,3 +247,25 @@ Downloaded via curl (Playwright not needed for direct PDF URL). Saved to raw/nas
 ## [2026-06-08] ingest | Debris Risk Computation Algorithms (NASA NTRS 20170003818)
 
 Peer-reviewed NASA technical paper presenting algorithms for ORDEM 3.0 debris risk model. Key finding for space data centers: SSO orbits (~98°) fall in the highest-flux inclination regime (supplementary to equatorial/mid-inclination debris); collision probability scales linearly with cross-sectional area. Updated orbital-capacity-limits concept page with quantitative ORDEM framework.
+
+## [2026-06-08] query | are there more concepts we should research? | pages-read: 0 (index audit) | new pages: wiki/synthesis/concepts-research-gaps.md
+
+## [2026-06-08] ingest | NVIDIA H100 Radiation Analysis (New Space Economy, Nov 2025) — H100 not rad-hard; 4nm TID-vulnerable; no SEL defense; mitigation stack required; rad-hard 5-10yr behind commercial
+
+## [2026-06-08] ingest | China 120 Gbps Satellite-to-Ground Laser Downlink (CGTN, Jan 2026) — AIRSAT-02; 120 Gbps peak; 12.656 Tbits per 108-sec pass; 500mm aperture Pamir Plateau station; >93% link success
+
+## [2026-06-08] ingest | Orbital Data Centers Technical Analysis 2026 (Space Investments) — Starcloud-1 H100 in orbit TRL 6-7 (Nov 2025); Starlink 42 PB/day; DLR OSIRIS 10-100 Gbps; hydrogen-rich shielding approach
+
+## [2026-06-08] ingest | Commercial Laser ISL Terminals LEO Market Survey (Satsearch, May 2025) — 15 OISL products; CACI CICADA 150 Mbps baseline; Voyager 400+ Gbps; laser ISL requires no FCC/ITU coordination
+
+## [2026-06-08] concept | Radiation Environment and SEU/TID — from existing wiki sources; three damage mechanisms; SAA; COTS shielding quantitative data; 5-6yr TID replacement cadence
+
+## [2026-06-08] concept | Eclipse Cycling and Power Budget — from existing wiki sources; 37-40% LEO eclipse; 35% DoD limit; compute drives degradation; SSO dawn-dusk tradeoff; $60M battery cost at 1 MW
+
+## [2026-06-08] concept | On-Orbit Servicing — from existing wiki sources; MEV GEO life extension demonstrated; compute swap not demonstrated; LEO economics unfavorable; 2035+ estimate
+
+## [2026-06-08] concept | Space Regulatory Landscape — FAA Part 450; FCC; ITU 7-yr advance filing; ITAR/EAR; FCC 5-yr deorbit rule
+
+## [2026-06-08] concept | COTS vs Rad-Hard Computing — H100 TRL 6-7 in orbit; mitigation stack required; 4nm more vulnerable; SEU 10⁻³-10⁻⁴/device/day; long-term TID survival unvalidated
+
+## [2026-06-08] concept | Data Downlink Throughput — 18-72 TB/day per sat with optical; AIRSAT-02 120 Gbps benchmark; inference workloads compress well; ISL relay via Starlink as architecture option
