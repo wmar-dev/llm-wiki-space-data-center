@@ -122,6 +122,14 @@ Web search aggregation. Key finding: thermoelectrics are not a substitute for ra
 
 Fetched from aggregated web sources. Created source summary and concept page. Key data: TJ solar cells >85% after 1yr; Li-ion >30K LEO cycles; typical LEO sat design life 5-8yr.
 
+## [2026-06-07] query | global data center capacity and projected terrestrial growth | pages-read: 0
+
+Total gap; fetched Wikipedia Data center article. Key data: 1,136 hyperscale sites; US 17GW (2022)→35GW (2030); IEA projects global consumption doubles to 945TWh by 2030. Key finding: Starcloud's 5GW 2035 target equals ~2 years of US terrestrial growth; orbital is a specialized complement, not a capacity competitor.
+
+## [2026-06-07] query | xAI Colossus capacity vs space data center ambitions | pages-read: 2
+
+Total gap; fetched Wikipedia xAI article. Key data: Colossus 150MW peak, ≥33 gas generators, 122-day build, 1M GPU target, 2GW compute expansion Dec 2025. Key finding: terrestrial hyperscale scaling 10-100× faster than orbital; strongest remaining case for space is data-in-orbit workloads, not cost or carbon.
+
 ## [2026-06-07] query | do we have enough launch sites for a space data center | pages-read: 1
 
 Total gap; fetched Wikipedia Spaceport article. Key finding: US launch sites already congested as of January 2025 before any data center launches; 12+ countries operate orbital sites. Binding constraint for GW-scale is cadence and regulatory throughput, not site count.
