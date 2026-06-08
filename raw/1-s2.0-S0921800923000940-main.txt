@@ -1,0 +1,1860 @@
+Ecological Economics 209 (2023) 107831
+
+Contents lists available at ScienceDirect
+
+Ecological Economics
+journal homepage: www.elsevier.com/locate/ecolecon
+
+Analysis
+
+Orbital debris and the market for satellites✩
+Anelí Bongers, José L. Torres ∗
+Department of Economics, University of Málaga, Málaga, Spain
+
+ARTICLE
+JEL classification:
+D62
+Q53
+L80
+Keywords:
+Outer space
+Satellites
+Launches
+Debris
+Risk of collision
+Kessler syndrome
+
+INFO
+
+ABSTRACT
+This paper studies the economic consequences of orbital debris for commercial outer-space activities. Spacecraft
+launches and other outer-space human activities produce pollution (i.e., orbital debris), which represent a
+hazardous negative externality increasing the risk of collision and the destruction of satellites. We regard outer
+space as a global common resource, where firms operating satellites maximize profits and do not internalize
+the social cost of orbital pollution. We develop a dynamic investment model for satellites and simulate the
+calibrated model to estimate how debris affects the optimal quantity of satellites and launches, and the number
+of satellites destroyed by collisions. We find that the optimal quantity of satellites is a negative function of the
+amount of debris. The paper derives a simple expression for the maximum number of satellites to prevent the
+Kessler syndrome. For the baseline calibration of the model, the estimated threshold for the maximum number
+of satellites in orbit is about 72,000. The model is simulated to study the effects of a decline in the launch
+cost and the increasing number of satellites per launch.
+
+1. Introduction
+Although the human exploration and economic exploitation of the
+outer space are quite recent (the first successful launch of a humanmade spacecraft occurred in 1957), a number of market failures are
+arising at rocket speed as the commercial, military, and scientific activities in space are continuously expanding. Outer space is an example of
+an extra-terrestrial common resource. No agent (national government
+or international organization) has authority over the property rights of
+space, with the exception of spacecraft ownership; therefore, human
+activities in space, including commercial ones, are not subject to any
+centralized regulation or property rights. In this (non-)regulatory environment, outer space exhibits the characteristics of a global common
+resource and hence is subject to comparable economic failures to other
+international commons on the Earth (i.e., fisheries in international
+waters, the atmosphere, or Antarctica). A large number of countries
+
+has signed several treaties and principles regarding human activities in
+the outer space. The first international agreement that has established a
+list of basic principles to regulate human activity outside planet Earth
+is the Outer Space Treaty (OST).1 However, the principles instituted
+in the OST represent a set of basic rules with a very limited scope
+to which countries pursuing activities in outer space are subject, and
+it cannot be considered as a fully operational regulatory framework
+but one in which the ‘‘first come, first serves’’ principle dominates.
+The consequences of this lack of regulation were clearly expressed by
+Hardin (1968), who pointed out that ‘‘ Freedom in a commons brings
+ruin to all’’. Nevertheless, Ostrom (2010) demonstrated the possibility
+of avoiding the ‘‘tragedy of the commons’’ without privatization or
+government regulation. However, Weinzierl et al. (2016) show that the
+conditions for the kind of cooperation proposed by Ostrom are absent
+in the space.
+
+✩ We thank Dimitrios Pontikakis, Benedetto Molinari, three anonymous referees and the Editor for very useful comments and suggestions on a previous version
+of the paper. The authors acknowledge the financial support from the Spanish Ministry of Science, Innovation and Universities, Spain through grant PID2019107161GB-C33. A. Bongers acknowledges financial support from Junta de Andalucía, Spain through grant PAIDI-2020-21-00853. Funding for open access charge:
+Universidad de Málaga/CBUA.
+∗ Corresponding author.
+E-mail address: jtorres@uma.es (J.L. Torres).
+1
+The exact denomination of the OST is the ‘‘Treaty on Principles Governing the Activities of States in the Exploration and Use of Outer Space, including the
+Moon and Other Celestial Bodies’’. The OST enumerates the basic principles for human activity in outer space to be followed by nations (not private companies as
+the Treaty was signed in 1967, when only governments had the technology and financial resources to access space), including freedom of access and exploration,
+no sovereignty, and peaceful purposes. The basic principles of the OST were later extended by other additional four treaties, together with other agreements
+and conventions on more specific issues, including orbital debris. The full list of treaties can be found in https://www.unoosa.org/oosa/en/ourwork/spacelaw/
+treaties.html. These treaties and agreements have been ratified by a large number of states, except the Moon agreement, which has been ratified by only 18
+states to this day.
+
+https://doi.org/10.1016/j.ecolecon.2023.107831
+Received 29 August 2022; Received in revised form 7 February 2023; Accepted 23 March 2023
+Available online 30 March 2023
+0921-8009/© 2023 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/bync-nd/4.0/).
+
+Ecological Economics 209 (2023) 107831
+
+A. Bongers and J.L. Torres
+
+(2015). Adilov et al. (2015) developed a Salop-type model (Salop,
+1979), for comparing the optimal number of launches in a decentralized
+versus a centralized market. They found that the numbers of satellites
+and launches are higher than the social optimum as firms do not
+take into account the negative externality of debris generated by their
+activities in space. Given that the negative externality affects all firms,
+there is under-investment in debris mitigation technologies. Adilov
+et al. (2018) used a net present value approach to determine that
+the threshold level of debris for economic viability is lower than the
+‘‘Kessler syndrome’’ level identified by Kessler and Cour-Palais (1978).
+They found an initial positive relationship between launches and debris, to replace satellites destroyed, the relationship being negative
+after a threshold level of debris is reached. Macauley (2015) presented
+different technological strategies to mitigate debris generation and/or
+collision risk, including maneuvering capability, graveyarding capability and shielding. Klima et al. (2016) used a game theory approach
+whereby spacefaring agencies have the option of implementing costly
+active debris removal interventions that benefit all spacefaring agents
+or waiting for other agents carry out the work. Grzelka and Wagner
+(2019) developed a model containing property rights and instruments
+to incentivize ex ante increases in satellite quality, and collective
+or individual debris take-back interventions. Béal et al. (2020) compared the non-cooperative Nash equilibrium with a tax on launches
+to finance debris mitigation, with the welfare optimal traffic under a
+centralized tax. They found that, under a centralized tax, the traffic
+is increased and the debris mitigation cost is reduced compared with
+the non-cooperative scenario. Rouillon (2020) considered a model with
+a constant rate of satellite launches and concluded that the number
+of satellites is an inverted-U shape function of the launch rate. Rao
+et al. (2020) developed a model with infinity-lived satellites to study
+the implications of Pigouvian taxation consisting of an international
+orbital-use fee. Adilov et al. (2020) simulated the quantity of orbital
+debris under different policies, including a launch tax, voluntary debris
+mitigation, and active debris removal policies. Guyot and Rouillon
+(2022) study an environment where satellite operators make choices
+about the design of satellites while in-orbit servicing firms supply
+efforts to remove space debris. Finally, Bernhard et al. (2023) use a
+dynamic game to assess the impact of satellite mega-constellations on
+space debris and explore alternative taxation schemes for financing
+active debris removal policies.
+The contribution of this paper to the literature is twofold, focusing
+on two key issues not previously addressed by the literature, that can be
+summarized in the following two research questions. First, what is the
+cost of the negative externality created by orbital debris? Second, what
+is the maximum number of satellites to prevent the Kessler syndrome?
+With the aim at answering the previous two research questions, this
+paper develops a model based on the standard neoclassical dynamic
+investment model to explore the consequences of orbital debris for
+the optimal number of satellites and launches, and the implications
+of launch cost declines and an increasing number of satellites per
+launch. It is assumed a perfect competitive environment in which firms
+maximize profits by choosing the optimal number of satellites launches.
+Given the characteristics of the outer-space market, in which there
+is no supervisory authority, the optimal number of satellites depends
+on the risk of destruction through collision with debris. The model is
+solved for a decentralized economy, in which the negative externality
+arising from debris is not internalized by firms, under two alternative
+scenarios representing different stages of space exploration. First, we
+consider an initial stage in human outer-space activities in which the
+amount of debris is small enough that the probability of collision is
+practically zero. In this scenario, firms maximize the sum of discounted
+profits without considering any externalities provoked by their activity.
+Second, we consider a second stage in which the amount of debris starts
+to be large enough to lead to a non-negligible probability of collision
+and in which this risky environment is incorporated into the firm’s
+maximization problem. However, pollution in space shows a crucial
+
+The economic analysis of outer space is attracting increasing attention from scholars, although it is still too early to refer to a new research
+field as outer space economics. The foundations for the economics of
+outer space were constructed by O’Neill (1977) and Sandler and Shulze
+(1981). See Weinzierl (2018) for a review of the development of the
+space economy. O’Neill (1977) was the first to study the feasibility
+of space human colonies from an economic perspective. The pathbreaking contribution by Sandler and Shulze (1981) enumerated and
+studied a number of economic issues related to commercial and other
+activities in outer space, including broadband, rights over the geostationary orbit, and the risk of collision. An earlier work by Snow (1975)
+developed a model for communication satellite capacity. Although the
+first human activities in outer space were carried out by nations, given
+the initial technological and financial barriers, private companies are
+progressively gaining importance. Indeed, a large variety of industries
+are expected to be developed in the near future, additional to the
+industries that are already well established (broadcasting and communications services, positioning services, Earth observation, etc.), other
+than military and scientific activities. Commercial activities in space
+generate around $300 billion in annual revenues (Weinzierl, 2018).
+Industries such as space manufacturing of special goods for customers
+on Earth using microgravity, vacuum and extreme temperatures (Patel,
+2019), in-space manufacturing and maintenance and repair services
+(Prater et al., 2018), asteroid mining (Ross, 2002), and space tourism
+(Peeters, 2010), among others, are expected to be developed in the
+foreseeable future, further congesting outer space and generating more
+space pollution.
+One of the issues that has attracted attention from academics in
+different disciplines is the market failure leading to the generation
+of space debris.2 Debris is a type of space pollution than could have
+dramatic consequences for commercial and other activities in outer
+space (Liou and Johnson, 2006). Launching satellites and carrying out
+other operations in orbit generate debris that can collide with operational artificial satellites, with fatal consequences in some cases. Even
+small debris with little mass can have catastrophic consequences for
+the affected spacecraft due to high velocities. On the other hand, space
+debris is self-propagating, as collisions between pieces of debris create
+more debris. This is the so-called ‘‘Kessler syndrome’’ representing a
+scenario of collisions in cascade (Kessler and Cour-Palais, 1978). Debris
+is generated from different sources, including parts of launch vehicles
+and rocket bodies, non-functional satellites, the breaking-up of satellites
+and rocket bodies, and even tools lost by astronauts, but also by natural
+sources.3
+Seminal papers studying the economic consequences of orbit debris
+are Adilov, Alexander and Cunningham (2015, 2018) and Macauley
+
+2
+As defined by NASA, ‘‘orbital debris is any human-made object in orbit
+that no longer serves a useful purpose, including spacecraft fragments and
+retired satellites’’.
+3
+The main cause of in-orbit explosions is related to residual fuel that
+remains in the tanks of rockets’ upper stages or derelict satellites abandoned
+in orbit. The extreme conditions in outer space quickly cause mechanisms and
+devices to deteriorate, leading to leaks mixing fuel components, which provoke
+accidental explosions that break-up rocket bodies and other spacecraft, and
+generate a large number of fragments that travel around the initial orbit at
+hyper-velocity (above 10,000 kilometer per hour). Besides such accidental
+break-ups, spacecraft interceptions by surface-launched missiles have been a
+major contributor in the recent past. Four countries, the US, Russia, China
+and India have conducted direct-ascend anti-satellite tests. A single event,
+the intentional destruction of the Chinese Feng-Yun 1C satellite by a missile
+in January 2007, increased the trackable space debris population by 30%
+(OECD, 2020). Most debris (around 85%) is at a Low Earth Orbit (LEO)
+altitude (below 2000 kilometers), with peak concentration around an altitude
+of 700–900 km (NASA, 2020). Nevertheless, the environment in the outer
+space is in continuous transformation. For instance, new launches of satellite
+constellations (such as the Starlink network) will transform significantly the
+environment at low Earth orbit (LEO).
+
+2
+
+Ecological Economics 209 (2023) 107831
+
+A. Bongers and J.L. Torres
+
+Human activity in space provokes a negative externality (a kind
+of pollution) related to launches and other activities in orbit. This
+pollution takes the form of human-produced space debris (or junk).
+Debris poses a danger to operating satellites as they can be damaged
+or destroyed by collisions. The model considers the average probability
+of destruction of a satellite through a collision with space debris. This
+reduces the expected profits from launching a satellite. The destruction
+risk depends on the probability of a hit times the amount of debris.
+Therefore, in each period, the number of operational satellites can
+be reduced in the figure resulting from the destruction risk times the
+number of satellites. The average probability of collision used in this
+paper is an important simplification assumption in the model, as this
+probability varies with orbital altitude and the size of the objects.
+On the other hand, probability of collision also depends whether the
+debris at risk of collision is trackable or not. Contrary to other types of
+pollution on Earth, pollution in outer space presents two main distinct
+characteristics. First, this type of outer-space pollution has a direct
+negative affect on the stock of capital assets of firms in this market.
+Second, pollution is self-propagating, which could result in an explosive
+path that makes human activities in the Earth’s orbits impractical (the
+Kessler syndrome).
+
+difference from pollution on Earth: space junk has a negative impact
+on firms’ stock of capital assets.
+We find that debris has a negative impact on the equilibrium
+quantity of satellites compared with an ideal outer-space environment
+with no debris. The parameters of the model are calibrated to the
+present conditions observed in outer space. We measure forgone satellite services as the cost of this negative externality. The estimated
+relationship between launches and debris resulting from the calibrated
+model is negative. We derive a simple expression for the maximum
+number of satellites that can be inserted into orbit to prevent the Kessler
+syndrome. This threshold value for the number of satellites is a function
+of the physical parameters, resulting in a value of around 72,000
+satellites for the baseline calibration. Nevertheless, this figure should
+be taken with caution, as this is an average number for the different
+orbits and it depends on the base line calibration of the model. Orbits
+have different level of congestion, available volumetric space, debris
+concentration, atmospheric drag, satellites of different volume and
+mass, etc. The calibrated model is used to carry out several simulations
+to investigate the consequences of a reduction in the launch costs,
+and an increase in the number of satellites per launch. As expected,
+as the launch cost decreases or the number of satellites per launch
+increases, the optimal number of satellites increases up to the threshold
+for the Kessler syndrome. Increased activity in the space also causes an
+increase in the amount of debris and the number of satellites destroyed
+by collision, reducing the economic benefits of the per satellite launch
+cost reduction. The social cost of debris is estimated at around $11.5
+billions annually.
+The structure of the rest of the paper is as follows. Section 2 presents
+a simple economic model for satellites based on the standard dynamic
+investment model extended to consider the negative externality from
+orbital debris. Section 3 calibrates the physical and economic parameters of the model. Section 4 uses the calibrated model to simulate
+alternative scenarios and estimate the cost of the externality from
+debris. Finally, Section 5 concludes.
+
+2.1. Model setup
+We assume a competitive market with 𝑁 identical firms launching
+and operating satellites. Infinity-lived firms operating in outer space
+maximize the sum of the discounted profits (the present value of future
+receipts, 𝑉𝑖,0 ), defined as 𝛱𝑖,𝑡 , for 𝑖 = 1, … , 𝑁.
+max 𝑉𝑖,0 = 𝐸𝑡
+
+∞ (
+)𝑡
+∑
+1
+𝛱𝑖,𝑡
+1+𝑟
+𝑡=0
+
+(1)
+
+where 𝐸𝑡 is the expectation operator, 1∕(1 + 𝑟) is the discount factor,
+and 𝑟 is the interest rate, which is assumed to be constant. Firm 𝑖 profits
+are defined as,
+
+2. An economic model for satellites
+
+𝛱𝑖,𝑡 = 𝑃𝑡 𝑠𝑖,𝑡 − 𝑐𝑖 𝑙𝑖,𝑡
+
+We consider a market for satellite services (communications, broadcasting, Earth observation, weather and climate monitoring, geographical positioning, etc.). Although a large number of human-made objects
+in orbit are military or scientific-purpose spacecraft, we focus on commercial activity as outer space is moving from a government-run to a
+private firm-managed but state regulated environment (see Weinzierl
+and Acocella, 2016; Weinzierl, 2018; BryceTech, 2022).4 The incipient
+exploration of outer space, given the initial technological and cost
+barriers, was conducted by states, but, in the last decades, the private
+sector has expanded significantly, and new types of business with a
+higher private presence are expected to be developed in the future. We
+assume a competitive market in which infinite-lived space-operating
+firms maximize the sum of discounted profits from satellite services.5
+To increase the number of satellites in orbit, additional investment in
+launches is necessary. We assume that the launching cost includes all
+the costs of manufacturing a satellite and the launching vehicle, the
+cost of the launch, and the operating cost during the life-span of the
+satellite.6
+
+(2)
+
+where 𝑃𝑡 is the market price, 𝑠𝑖,𝑡 is the number of satellites in orbit
+by firms 𝑖, 𝑙𝑖,𝑡 is the number of launches by firms 𝑖, and 𝑐𝑖 represents
+the cost per launch. For simplicity, we assume that 𝑐𝑖 is exogenously
+given and that space operating firms have perfect-foresight. The total
+number of operational satellites in orbit is given by 𝑆𝑡 = 𝑁𝑠𝑖,𝑡 .7
+Satellites produces services for consumers on Earth. We assume that
+the technology function for satellite services producing revenues for
+the industry is given by 𝑃𝑡 𝑆𝑡 = 𝐴𝑡 𝑆𝑡𝛼 . The parameter 𝛼 (0 < 𝛼 < 1)
+represents the elasticity of satellite services with respect to the quantity
+of satellites, which is assumed to be lower than one indicating the
+existence of decreasing returns given the demand for satellite services.
+𝐴𝑡 is a measure of productivity, representing technological change in
+the production of satellite services, which it is assumed to be exogenous
+and identical for all the firms.
+Since firms are price-takers under perfect competition, the marginal
+income for an extra satellite equals the market price given by,
+𝑃𝑡 = 𝐴𝑡 𝑆𝑡𝛼−1
+
+4
+The number of satellites operated by private-firms related to governments
+is increasing, but the overall budgets for space activities are still predominantly
+government, being the US government the leading operator. However, governmental decisions are difficult to be modeled as they are motivated by a set of
+non-economic factors other than profit-maximization.
+5
+The assumption that economic agents are infinite-lived is standard in
+economics, meaning that, in each moment of time, economic agents take
+decisions considering their impact in the future.
+6
+For the sake of simplicity it is assumed that operating cost is a fixed cost.
+It is true that in case of collision, lifespan is reduced and also the operating
+cost should be reduced. However, given that probability of collision is already
+small, we abstract for introducing such complexity into the model.
+
+(3)
+
+which is also the demand function.
+The stock of operational satellites in orbit in period 𝑡 + 1 by firms 𝑖
+follows the law of motion,
+𝑠𝑖,𝑡+1 = (1 − 𝛿𝑠 )𝑠𝑖,𝑡 + 𝜂𝑙𝑖,𝑡 − 𝑥𝑖,𝑡
+
+(4)
+
+where 0 < 𝛿𝑠 < 1 is the physical depreciation rate of satellites, and 𝑥𝑖,𝑡 is
+the number of satellites of firm 𝑖 destroyed by collision with debris in
+
+7
+Given the heterogeneity in the characteristics of satellites (i.e., mass and
+volume), the model considers the number of a representative satellite.
+
+3
+
+Ecological Economics 209 (2023) 107831
+
+A. Bongers and J.L. Torres
+
+every period. Physical depreciation refers to the number of satellites
+that each period ends their operational lifetime. The parameter 𝜂
+represents the number of satellites per successful launch. Failures or
+accidental explosions of satellites during the launch are also included
+in this parameter. In practice, the value of this parameter is increasing
+over time, as micro-satellites’ design and more powerful launch systems
+increase the number of satellites that can be inserted into orbit with
+the same launch rocket. Nevertheless, for simplicity, it is assumed that
+the quantity of satellites per launch is one in the baseline scenario
+(i.e., every satellite inserted into orbit is considered to be a launch).
+Total number of launches are 𝐿𝑡 = 𝑁𝑙𝑖,𝑡 and the total number of
+satellites destroyed by collision with debris is given by 𝑋𝑡 = 𝑁𝑥𝑖,𝑡 .
+Therefore, the total stock of operational satellites in orbit in period 𝑡+1
+follows the law of motion,
+𝑆𝑡+1 = (1 − 𝛿𝑠 )𝑆𝑡 + 𝜂𝐿𝑡 − 𝑋𝑡
+
+where 𝛾 > 0 is the amount of new debris generated by the destruction
+of a satellite, 𝜔 > 0 is the amount of debris generated per launch,
+0 < 𝜒 < 1 is the percentage of derelict satellites that remains in
+the orbit, and 𝜐 > 0 is the quantity of new debris generated by selfcollisions. As above, we assume that the probability of collision is
+proportional to the quantity of debris. It is assumed that the debris
+generated per launch include explosions and fragmentations produced
+by last-stages rockets. The parameter 𝛿𝑑 (0 < 𝛿𝑑 < 1) represents the
+decay rate of debris. This decay rate mainly depends on atmospheric
+drag and therefore, is a function of the altitude of the orbit. The higher
+the altitude (with respect to the Earth) of the orbit, the lower the
+decay rate. Additionally, non-functional satellites (end-of-life satellites)
+represents a type of debris if they are not removed from orbit. Usually,
+abandoned satellites can be removed from their orbits in two different
+ways, depending on their altitude, by using the last available fuel. They
+can be moved to a graveyard orbit at the end of their operational life to
+avoid collisions with operational satellites and the generation of new
+debris if their altitude is high. If their altitude is low, they can be sent
+back down to a disposal orbit where the atmospheric drag reduces their
+altitude until they burn up on reentry into the Earth’s atmosphere, or,
+if they survive the burning, to the spacecraft cemetery located in the
+South Pacific Ocean (a mid-point between New Zealand, the Antarctica,
+and Chile). However, some dead satellites do not have such capacity
+(they have run out of gas) and remain in their initial orbit. This is
+represented by the term 𝜒𝛿𝑠 𝑆𝑡 , where the parameter 𝜒 represents the
+fraction of non-operational satellites that remain in the initial orbit and
+are not moved to a graveyard orbit (for the case of geosynchronous
+spacecraft) or to a disposal orbit (for low orbit satellites) at the end of
+their operational life.9 Finally, collisions among debris can also considered, represented by the term 𝜐𝜃𝐷𝑡2 , where the probability of collision
+(𝜃𝐷𝑡 ) multiplies the stock of debris. Expression (8) can be extended
+by including additional exogenous factors producing debris, such as
+military tests with direct-ascending anti-satellite (ASAT) missiles.
+Next, we use the model to study two scenarios that can represent
+two stages in the exploration and exploitation of outer space: the first
+stage, representing the early space race, during which little space debris
+was generated and the risk of collision was negligible, and the present
+second stage, during which the quantity of debris is significant and a
+positive, albeit small, risk of collision exists. In this second stage, firms
+that operate satellites are aware of the risk of collision and include the
+costs of the possible destruction of satellites in their profit maximization
+decisions.
+
+(5)
+
+We follow Farinella and Cordelli (1991), and assume that the collision rate is proportional to the product of debris and operating
+satellites. We also assume that, in the case of collision, the satellite
+is destroyed and that the collision creates a number of new pieces
+of debris. An alternative way of modeling the probability of collision
+was provided by Letizia et al. (2017). Here, we assume that the total
+quantity of destroyed satellites is given by,
+𝑋𝑡 = 𝜃𝐷𝑡 𝑆𝑡
+
+(6)
+
+where the term 𝜃𝐷𝑡 𝑆𝑡 results in the number of satellites destroyed in
+every period by collisions with debris. It is assumed that collisions
+only occur between an operational satellite and a piece of debris.8 This
+implies that the number of satellites of firm 𝑖 destroyed by collision
+with debris is given by
+𝑥𝑖,𝑡 = 𝜃𝐷𝑡 𝑠𝑖,𝑡
+
+(7)
+
+The proportional parameter 𝜃 > 0 represents the probability of
+collision of two objects in orbit. It is assumed that the probability of
+collision of a satellite is proportional to the quantity of debris, 𝜃𝐷𝑡 .
+When 𝜃𝐷𝑡 = 1, that is if the stock of debris is 𝐷𝑡 = 1∕𝜃, the probability
+of collision is one. If the stock of debris reaches that value, all satellites
+are destroyed by collisions in the period. Adilov et al. (2018) considered
+that this reflects the ‘‘Kessler Syndrome’’ as defined by Kessler and
+Cour-Palais (1978) and Kessler (1981), whereby space becomes physically unusable. Notice that the negative externality affecting the final
+output is modeled in a different way from the standard environmental
+externality on Earth, where it is assumed that the stock of pollution
+affects to output (productivity) or household’s utility negatively in a
+direct way. Here, the negative externality affects to the firms’ stock of
+capital assets (satellites) directly.
+Debris follows an accumulation process depending on how new
+debris is produced in each period. In modeling the debris accumulation
+process, we consider two main sources: launches and collisions. Different from any other source of pollution, the dynamics of orbital debris
+includes a self-propagating mechanism, whereby pollution generates
+additional pollution. That is, debris collides not only with satellites but
+also with other pieces of debris, producing additional debris. The law
+of motion of debris is given by,
+
+2.2. Decentralized market with no debris
+
+(8)
+
+First, we consider the case of a decentralized market in which firms
+maximize profits without considering the risk of satellite destruction
+by debris. This scenario is intended to represent the early stages of
+space exploration during which the amount of debris was very small
+and the risk of collision was near zero. This first scenario is taken as a
+benchmark for a space without congestion and externalities. The only
+risk is a natural risk of collision with natural meteoroids not considered
+in the model. With no debris, we arrive at the standard results of the
+standard neoclassical investment model.
+Each firm maximizes discounted profits (1) subject to the restriction
+of the satellite accumulation process (4) in which the number of
+
+8
+We do not consider collisions among operational satellites owned by
+different operators. Given the possibility of satellites with collision avoidance
+capabilities, debris monitoring appears crucial. Increasing Space Situational
+Awareness interventions would represent an important although partial solution to the destruction of working satellites by orbital debris. Although this
+is not a solution per se to the problem of debris, would be an important
+complement to other mitigation techniques.
+
+9
+To simplify the calibration of the model, it is assumed that there are no
+derelict satellites left in orbit, i.e., 𝜒 = 0. This assumption can be perfectly true
+in LEO orbit, where natural drag is high. On the other hand, derelict satellites
+can potentially explode creating more debris, a possibility not considered by
+the model. Also failures can occur preventing the execution of end-of-life
+disposal maneuvers. For GEO, satellites are massive and expensive and it is
+expected that they can be inserted in a disposal orbit at higher altitude.
+
+𝐷𝑡+1 = (1 − 𝛿𝑑 )𝐷𝑡 + 𝛾𝑋𝑡 + 𝜔𝐿𝑡 + 𝜒𝛿𝑠 𝑆𝑡 + 𝜐𝜃𝐷𝑡2
+
+4
+
+Ecological Economics 209 (2023) 107831
+
+A. Bongers and J.L. Torres
+
+(
+
+satellites destroyed by collision is zero (𝑥𝑖,𝑡 = 0), where 𝑆0 > 0 is given.
+The first-order conditions for optimality are,
+)𝑡+1
+(
+1
+𝛼−1
+𝐴𝑡+1 𝑆𝑡+1
+= 𝜆𝑡 − 𝜆𝑡+1 (1 − 𝛿𝑠 )
+(9)
+1+𝑟
+(
+)𝑡
+1
+𝑐 = 𝜆𝑡 𝜂
+(10)
+1+𝑟
+and the transversality condition is,
+(
+)𝑡
+1
+lim 𝜆𝑡
+𝑆𝑡 = 0
+(11)
+𝑡→∞
+1+𝑟
+where 𝜆𝑡 is the shadow price for constraint (4) under the no-debris
+no-collision risk scenario, and is given by,
+(
+)𝑡
+1
+𝑐
+(12)
+𝜆𝑡 =
+𝜂 1+𝑟
+
+𝑆𝑑 =
+
+𝑐(𝑟 + 𝛿𝑠 )
+𝜂𝐴
+
+) 1
+
+𝛿𝑠
+𝜂
+
+(
+
+(
+
+𝑐(𝑟 + 𝛿𝑠 )
+𝜂𝐴
+
+𝜆𝑡 = −𝜇𝑡
+
+(18)
+
+𝑐(𝑟 + 𝛿𝑠 + 𝜃𝐷𝑑 )
+𝜂𝐴
+
+(
+
+𝛼−1
+
+(14)
+
+𝑋 𝑑 = 𝜃𝐷𝑑
+
+It results that 𝜕𝑆 𝑛𝑑 ∕𝜕𝑐 < 0, 𝜕𝑆 𝑛𝑑 ∕𝜕𝐴 > 0, and 𝜕𝑆 𝑛𝑑 ∕𝜕𝜂 > 0.
+As the cost of launching a satellite declines, the optimal quantity of
+satellites in orbit increases. On the other hand, the stock of satellites
+depends positively on the number of satellites per launch. Notice that
+the ratio 𝑐∕𝜂 represents the average launch cost per satellite. The cost
+of launching a satellite can decline because of a decline in the cost of a
+launch or due to an increase in the number of satellites per launch. The
+increase in launch systems’ payload capacity and design changes that
+reduce the size and weight of satellites (micro-satellites) are presented
+by an increase in the parameter 𝜂.
+Equivalently, the equilibrium number of launches, which is a proportion of the optimal stock of satellites, is given by,
+𝐿𝑛𝑑 =
+
+(17)
+
+1
+) 𝛼−1
+
+(19)
+
+resulting in a (negative) function of the amount of debris. In this
+scenario as debris accumulates, a reduction in the number of satellites
+in orbit is observed, given the risk of collision and destruction. As
+long as the probability of collision is low enough, the negative impact
+of debris on satellite activity will also be very low. However, as the
+stock of debris increases, the probability of collision during the life of
+a satellite escalates, reducing the equilibrium quantity of satellites.10
+In computing the equilibrium, we rule out the possibility of the destruction of all satellites in the period, following Adilov et al. (2018).
+Therefore, we assume that 𝜃𝐷𝑡 < 1, in order to have a positive number
+of satellites in the equilibrium.
+The equilibrium quantity of satellites destroyed by collisions can
+also be expressed as a function of the risk of collision as,
+
+where the equilibrium quantity of satellites in the non-debris scenario
+(denoted by the superscript 𝑛𝑑) at any time is given by,
+(
+
+𝑐 = 𝜆𝑡 𝜂
+
+where the Lagrangian multiplier 𝜆𝑡 represents to the shadow marginal
+cost of launching a satellite, and the multiplier 𝜇𝑡 represent the shadow
+cost of a destroyed satellite (the cost of foregone space assets). The
+first-order condition (18) states that the shadow cost of launching a
+satellite is equal to the negative of the shadow cost of the loss of a
+satellite through a collision with debris. The equilibrium condition for
+the optimal number of satellites (denoted by a superscript 𝑑), at any
+time, is given by
+
+representing the discount value of additional future profits due to one
+additional launch, where the shadow marginal cost of the launch is
+equal to the discounted value of the average cost of one launch per
+new operating satellite in orbit. The shadow cost of the launch can be
+reduced by a decline in the unitary cost per launch or by increasing the
+number of satellites per launch.
+The equilibrium condition for the optimal number of satellites is
+given by,
+)
+[
+(
+)
+]
+(
+1
+𝑐
+1
+𝛼−1
+𝐴𝑡+1 𝑆𝑡+1
+=
+1−
+(1 − 𝛿𝑠 )
+(13)
+1+𝑟
+𝜂
+1+𝑟
+
+𝑆 𝑛𝑑 =
+
+1
+1+𝑟
+
+)𝑡
+
+𝑐(𝑟 + 𝛿𝑠 + 𝜃𝐷𝑑 )
+𝜂𝐴
+
+1
+) 𝛼−1
+
+(20)
+
+The relationship between the number of satellites destroyed by collisions and the quantity of debris can be positive or negative, depending
+on how debris affects the stock of satellites, given that
+𝜕𝑋 𝑑
+=𝜃
+𝜕𝐷𝑑
+
+(
+
+𝑐(𝑟 + 𝛿𝑠 + 𝜃𝐷𝑑 )
+𝜂𝐴
+
+1
+) 𝛼−1
+
++
+
+𝑐𝜃 2 𝐷𝑑
+(𝛼 − 1)𝜂𝐴
+
+(
+
+𝑐(𝑟 + 𝛿𝑠 + 𝜃𝐷𝑑 )
+𝜂𝐴
+
+2−𝛼
+) 𝛼−1
+
+≶0
+(21)
+
+whereas the first term is positive and the second is negative. The
+relationship between satellites destroyed and debris depends on the
+following condition:
+(
+)1−𝛼
+𝑐(𝑟 + 𝛿𝑠 + 𝜃𝐷𝑑 )
+𝑐𝜃𝐷𝑑
+(22)
+1≶
+(1 − 𝛼)𝜂𝐴
+𝜂𝐴
+
+) 1
+
+𝛼−1
+
+(15)
+
+that is, for a low level of debris, the relationship between the debris
+and the number of satellites destroyed by collision is positive. However,
+once the debris reaches a threshold level, the relationship turns out to
+be negative, as the optimal number of operational satellites in orbit
+declines and not all destroyed satellites are replaced. On the other hand,
+the equilibrium number of launches is given by,
+
+and hence the ratio 𝑆 𝑛𝑑 ∕𝐿𝑛𝑑 is governed by the parameters ratio 𝜂∕𝛿𝑠 .
+A reduction in launch costs will increase both the quantity of satellites
+and the number of launches proportionally, except if launch system
+technologies lead to a reduction in the number of satellites per launch
+or in the case of design changes to extend satellites’ life-span.
+2.3. Decentralized market with debris collision risk
+
+𝑑
+
+(
+
+𝐿 =
+The second stage of the human-use of outer space implies the
+existence of a significant quantity of debris generated from the previous
+stage, meaning that the risk of collision is positive. However, in this
+scenario we assume that firms do not take any action to mitigate the
+risk of collision and simply take the probability of destruction of a
+satellite as exogenously given. This myopic behavior of firms operating
+in space is justified by the nature of this market (a global commons)
+with no regulation and that a operator perceives its own launching
+behavior as a negligible factor of the risk of collision in a perfectly
+competitive market. In this scenario firms maximizes (1) subject to (4)
+and (5). The first-order conditions for optimality are,
+(
+)𝑡+1
+1
+𝛼−1
+𝐴𝑡+1 𝑆𝑡+1
+= 𝜆𝑡 − 𝜆𝑡+1 (1 − 𝛿𝑠 ) − 𝜇𝑡+1 𝜃𝐷𝑡+1
+(16)
+1+𝑟
+
+𝛿𝑠 + 𝜃𝐷𝑑
+𝜂
+
+)(
+
+𝑐(𝑟 + 𝛿𝑠 + 𝜃𝐷𝑑 )
+𝜂𝐴
+
+1
+) 𝛼−1
+
+(23)
+
+Taking the derivative of launches with respect to debris results,
+) 1
+𝑐(𝑟 + 𝛿𝑠 + 𝜃𝐷𝑑 ) 𝛼−1
+𝜂𝐴
+(
+)(
+) 2−𝛼
+(𝛿𝑠 + 𝜃𝐷𝑑 )𝑐𝜃
+𝑐(𝑟 + 𝛿𝑠 + 𝜃𝐷𝑑 ) 𝛼−1
++
+≶0
+𝜂𝐴
+(𝛼 − 1)𝜂 2 𝐴
+
+𝜕𝐿𝑑
+𝜃
+=
+𝜂
+𝜕𝐷𝑑
+
+(
+
+(24)
+
+10
+Notice that in reality, the probability of collision does not only depend
+on the amount of debris but also on whether debris are tracked or not by
+ground surveillance systems, and on the collision avoidance capabilities of the
+satellite.
+
+5
+
+Ecological Economics 209 (2023) 107831
+
+A. Bongers and J.L. Torres
+
+model, the Kessler syndrome is only avoided if 𝑆 𝑑 < 𝑆 𝐾𝑒𝑠𝑠𝑙𝑒𝑟 . Given
+the optimal number of satellites in the steady state, combining the
+economic optimality condition and the physical threshold, we find that,
+
+Table 1
+Basic data of activity in outer space.
+Successful launches
+Successful satellites launches in Earth orbit
+Satellites in Earth’s orbit
+Operating satellites
+Debris tracked by SSN
+Incidents resulting in fragmentation
+Debris > 10 cm
+Debris between 1 cm and 10 cm
+Debris between 1 mm and 1 cm
+
+6200
+13,100
+8410
+5600
+31,150
+630
+36,500
+1,000,000
+130,000,000
+
+(
+
+𝑐(𝑟 + 𝛿𝑠 + 𝜃𝐷𝑑 )
+𝜂𝐴
+
+𝐷𝑑 >
+Again, the first term is positive, whereas the second is negative.
+Operating, the sign of the relationship can be positive or negative
+depending on the amount of debris and on the probability of collision,
+
+𝜃≶
+
+𝛿𝑠 + 𝜃𝐷𝑑
+1−𝛼
+
+)(
+
+𝑐(𝑟 + 𝛿𝑠 + 𝜃𝐷𝑑 )
+𝜂𝐴
+
+(
+
+𝛿𝑠 + 𝜃𝐷𝑑
+𝜂
+
+)(
+
+(25)
+
+1
+) 𝛼−1
+
+−
+
+𝛿𝑠
+𝜂
+
+(
+
+𝑐(𝑟 + 𝛿𝑠 )
+𝜂𝐴
+
+) 1
+
+𝛼−1
+
+<0
+
+(26)
+which is negative and implies that the number of launches decreases
+as the amount of debris increases. Therefore, firms must face two
+costs from the risk of collision: the loss of operating satellites, and the
+proportion of new launches required just to replace losses.
+Finally, from the law of motion of debris we can obtain a simple
+expression for the maximum number of satellites before the Kessler
+syndrome occurs. The steady state quantity of debris, excluding selfpropagation, as a function of the quantity of satellites, is given by:
+
+𝐷𝑑 =
+
+𝜔
+𝛿 𝑆𝑑
+𝜂 𝑠
+
+(
+)
+𝛿𝑑 − 𝛾𝜃 + 𝜔𝜃
+𝑆𝑑
+𝜂
+
+(27)
+
+For the above expression to be positive (a necessary condition
+for
+( ruling) out explosive trajectories in debris), the condition 𝛿𝑑 >
+𝛾𝜃 + 𝜔𝜃
+𝑆 𝑑 must hold. This condition can be interpreted as a condi𝜂
+tion for the Kessler syndrome, similar to the one developed by Adilov
+et al. (2018). Adilov et al. (2018) derived a physical and an economic
+Kessler conditions for the quantity of orbital debris that makes space
+physically unusable and economically unprofitable, respectively, and
+showed that ‘‘the space becomes economically unprofitable before it
+becomes physically unusable’’. Here, we present a physical Kessler
+condition in term of the maximum number of satellites, given by,
+𝑆 𝐾𝑒𝑠𝑠𝑙𝑒𝑟 =
+
+𝛿𝑑
+𝜃(𝛾 + 𝜔𝜂 )
+
+(29)
+
+𝛾𝜃+ 𝜂
+
+𝑐𝜃
+
+(30)
+
+To make the model operational to carry out simulations, we proceed
+first to calibrate the parameters. Two types of parameters are present:
+physical parameters related to space and spacecraft characteristics, and
+economic parameters related to the production and profit functions.
+Given the accelerated changes in the space industry, we calibrate the
+parameters of the model to the most recent data available representing
+the exploitation of outer space at present. Table 1 shows some key data
+about human activity in the Earth’s orbits and the amount of debris,
+as estimated by the ESA (European Space Agency) in May 2022. From
+the beginning of space exploration, a total of around 6,200 successful
+launches have been realized. A launch can include more than one
+satellite or spacecraft. Indeed, the relationship between launches and
+new satellites in orbit is changing dramatically nowadays due to the
+use small and micro satellites, and to the higher power and payload
+capacity of launch systems. The number of satellites in Earth orbit is
+over 8410 of which 5600 are operational. The total number of pieces of
+debris tracked by the United States Space Surveillance Network (SSN)
+is 31,150. The number of registered incidents, including break-ups,
+explosions, collisions, or anomalous events, resulting in fragmentation
+is about 630. The biggest incident was the collision on February 10,
+2009 of an active US communications satellite (Iridium 33), with a
+defunct Russian military communications satellite (Kosmos 2251). Both
+satellites were destroyed in the collision, producing a total of around
+2,200 pieces of new tracked debris with a size of at least 5 cm (NASA,
+2007). However, the most important incident was intentional (an antisatellite military test), resulting in the destruction of the Fengyun-1C (a
+Chinese satellite) on January 1, 2011, by a kinetic weapon producing
+an estimated 3,037 pieces of new tracked debris. Most of the activity
+takes place at Low-Earth-Orbit (LEO, between 200 and 2000 km), and
+at Geostationary Orbit (GEO, at 35,786 km).
+The standard classification of orbital debris is a function of its size
+and on the technical possibility of tracking it. Projections obtained
+using different models for debris (for example, the LEO-to-GEO Environment Debris Model, LEGEND) have estimated amounts of around
+36,500 pieces of debris larger than 10 cm diameter, 1,000,000 objects
+between 1 cm and 10 cm, and over 130,000,000 fragments between
+1 mm and 1 cm. The destruction power of debris smaller than 1 cm
+is estimated to be low and non-fatal in the case of a collision with
+a representative satellite, although they can cause serious damage in
+critical systems, reducing functionality and lifespan, and even disable
+small satellites. However, debris larger than 1 cm is potentially deadly
+due to the high velocity of the impact. Therefore, for the calibration
+of the parameters of the model we consider the estimated number
+
+)1−𝛼
+
+𝑐(𝑟 + 𝛿𝑠 + 𝜃𝐷𝑑 )
+𝜂𝐴
+
+𝛿𝑑
+𝛾𝜃 + 𝜔𝜃
+𝜂
+
+3. Calibration of the model
+
+As the amount of debris increases, more satellites are destroyed
+by collision, and initially, that leads to an increases in the number
+of launches necessary to replace destroyed satellites. However, as the
+debris continues to increase, the number of launches reduces, as the
+optimal amount of satellites declines, and hence fewer destroyed satellites need to be replaced. The exact form of that relationship depends
+on the value of the parameter 𝜃.
+Comparing the two scenarios, we find that 𝑆 𝑛𝑑 > 𝑆 𝑑 ; that is, the
+risk of collision reduces the number of satellites in orbit. The larger
+the amount of debris, the smaller the optimal quantity of satellites.
+However, the number of launches could be lower or higher to replace
+the satellites that are lost through collisions. The difference 𝐿𝑑 − 𝐿𝑛𝑑 is
+given by
+𝐿𝑑 − 𝐿𝑛𝑑 =
+
+<
+
+From that condition, we conclude that the economic condition
+for the quantity of satellites is below the Kessler threshold when the
+following condition for the amount of debris holds,11
+)𝛼−1
+(
+𝛿𝑑
+− 𝑐(𝑟 + 𝛿𝑠 )
+𝜂𝐴
+𝜔𝜃
+
+Source: ESA (10 May 2022)
+
+(
+
+1
+) 𝛼−1
+
+(28)
+
+11
+This condition is only true under the simplifying assumptions introduced
+in the model. Trackability of debris, differences in orbit regimes, collision
+avoidance capabilities, are all important components which would have a great
+impact on this condition.
+
+The question here is how this physical Kessler threshold compares
+to the optimal quantity of satellites that maximizes profits. In our
+6
+
+Ecological Economics 209 (2023) 107831
+
+A. Bongers and J.L. Torres
+
+Russian military communications satellite (Kosmos 2251). On January
+22, 2013 a Russian small satellite (BLITS) was destroyed by a piece of
+debris from Fengyun-1C. On May 22, 2013, two CubeSats collided with
+debris (Ecuador’s NEE-01 Pegaso and Argentina’s CubeBug-1). A high
+number of probable collisions are avoided by maneuvering satellites
+and other spacecraft frequently. Krisko (2007) estimated an average
+number of catastrophic collisions (with a target and impactor larger
+than 10 cm) of 0.9, whereas the estimation from the DAMAGE model
+(Lewis et al., 2009) is 1.5, both for the period 1957–2006. As a result
+of these collisions, a number of pieces of debris have been generated.
+Farinella and Cordelli (1991) estimated a value of 𝜃 = 3 × 10−10 , for
+an estimated quantity of debris of 50,000.13 This means a number
+of satellite destroyed per year of 0.2, given a probability of collision
+(𝜃 × 50, 000) of 1.5 × 10−5 . Kawamoto et al. (2019) estimated that the
+current probability of collision is much higher. The total probability
+of collision of objects larger than 10 cm is around 0.1 for 800–900 km
+orbits, 0.05 for 900–1,000 km orbits, and 0.025 for 600–700 km orbits.
+Following Farinella and Cordelli (1991) we take the estimation of
+a total probability of collision of 0.2 (i.e., one fatal collision every
+5 years) as the reference, given the number of incidents observed
+during the last years (four collisions occurred in the period 1991 to
+2009), resulting in the probability of collision is 𝜃 × 𝐷 = 6.6 × 10−5 .
+Pardini and Anselmo (2014) estimate that the risk of collision in LEO
+was multiplied by 4.5 between 1980 and 2010. To calibrate the risk
+of collision, we consider the population of pieces of debris larger than
+1 cm, as they can cause deadly damage to a satellite.14 Given a total
+number of potentially hazardous pieces of debris of 1,036,500, this
+results in a value for the risk of collision parameter of 𝜃 = 6.37 × 10−11 .
+
+of pieces of debris larger than 1 cm. The calibration of the physical
+parameters is as follows (see Table 2):
+Satellite depreciation rate (𝛿𝑠 ). The extreme conditions in outer space
+and manufacturing costs determine satellites life-span in orbit. A satellite’s life-span depends on the type of satellite, and on electrical,
+mechanical, physical and gravitational factors (Gallois, 1987). An important limitation for satellites life-span is the fuel capacity. Indeed,
+some derelict satellites could still be in good conditions operationally
+and could continue to provide services but have run out of fuel, and
+therefore, cannot be moved to the target orbit. The life-span varies
+from 6 months for CubSats (miniaturized satellites) to 15 years of GEO
+satellites. For LEO satellites the life-span varies from 3 to 8 years. As
+the model is an aggregated model for any orbit, we assume an average
+lifetime of 8 years, so the annual depreciation rate for satellites is fixed
+to 0.1733.
+Debris decay rate (𝛿𝑠 ). In more than 60 years of space activities, about
+6,200 launches have resulted in some 50,000 tracked objects in orbit,
+of which about 31,000 remain in space. This figures refers to objects in
+orbit that are regularly tracked by the US Space Surveillance Network
+and maintained in its catalogue, which covers objects larger than
+about 5–10 cm in the Low-Earth Orbit (LEO) and 30 cm to 1 m at
+geostationary (GEO) altitudes. Only a small fraction – about 5600
+– are operational satellites. However, the total amount of debris is
+much larger. Estimations from the LEGEND model have reported about
+1,000,000 pieces of debris larger than 1 cm. The decay rate of debris
+depends on several factors, including the altitude, mass, area, solar
+radio flux, and geomagnetic index. The most important factor is the
+altitude due to the atmospheric drag. The Australian Space Weather
+Agency (1999) estimated that the lifetime of space objects varies from
+1 day at 200 km, 1 month at 300 km, 1 year at 400 km, 10 years at
+500 km, 100 years at 700 km, and 1000 years at 900 km (King-Hele,
+1987). On the other hand, the distribution of debris as a function of
+altitude is not homogeneous. The spatial density of debris shows that
+it is concentrated in the range 700–900 km (NASA, 2020). We use the
+average of this figure as a reference, and therefore, the average lifetime
+is estimated at around 150 years. Assuming straight-line depreciation,
+this results in an annual decay rate of 0.0067.12 This is consistent with
+the value for the general atmospheric decay parameter of 0.0062 used
+by Lewis et al. (2009) in the Fast Debris Evolution (FADE) model.
+
+Number of pieces of debris per launch (𝜔). This is the primary source of
+debris generation. This parameter includes not only expended rockets
+and other parts discarded in the process of inserting a satellite into the
+target orbit but also debris generated by explosions of launch vehicles.
+We only consider debris larger than 1 cm. Debris smaller than 1 cm
+are assumed not to cause fatal damage in the case of collision. Assuming that 75% of debris is generated by launches (and the remaining
+25% by other events, mainly anti-satellite military tests), this implies
+that launch systems are responsible for a total of 702,000 pieces of
+debris from 5990 launches during a period of 70 years. Dividing both
+figures, it results that 𝜔 = 117.2. However, this figure underestimates
+the number of pieces of debris generated by one launch, as due to
+atmospheric drag, a significant number of pieces of debris already
+produced have decayed. Farinella and Cordelli (1991) estimated this
+parameter assuming an average of two unintentional explosions per
+year, each creating a few thousand fragments of mass greater than 1
+gram, producing 70 new pieces of debris larger than 10 cm, resulting
+in a total number of new pieces of debris of 2059 larger than 1 cm.15
+Johnson et al. (2001) use the NASA Breakup model EVOLVE 4.0 to
+estimate a number of new fragments from an explosion of 238 larger
+than 10 cm, and 9,509 fragments larger than 1 cm. Lewis et al. (2009)
+estimated that the number of fragments larger than 10 cm generated by
+an explosion is 50, and that an average of 2.75 intact objects are added
+to the environment per launch. Therefore, we assume that around 150
+pieces of debris larger than 1 cm generated by each launch.
+
+Risk of collision (𝜃). In the history of activity in outer space, a number
+of collisions have been reported. Collisions can occur between pieces
+of debris themselves or between debris and operational satellites. A
+risk of collision between operating satellites also exists, but in some
+cases they can be avoided by maneuvering, although there is a large
+number of satellites with slow or not maneuver capability. Several
+collisions with human-made debris have been reported in recent years,
+but other incidents remain unknown. On February 10, 2009 an active
+US communications satellite (Iridium 33) collided with a non-operating
+
+12
+As an example, the number of cataloged pieces of debris from the
+destruction on February 10, 2009, of Kosmos 2251, was 1347. On January
+1, 2011, the cataloged pieces of debris from this satellite that remained in
+orbit amounted to 1273 pieces, that is, 94% of the initial debris, and this is a
+decay rate of around 6% in two years. Similarly, the cataloged debris from the
+destruction of Iridium 33 was 528 pieces, and the remaining debris in orbit
+was 492 pieces (a 93%) on January, 1, 2011, which represents a 7% in two
+years. The cataloged debris from the destruction of Fengyun-1C was estimated
+to be 3,037 pieces. On January 1, 2011, the cataloged debris in orbit from
+this satellite was calculated to be 2,932 pieces (97% of the initial quantity).
+Given that this satellite was destroyed in a military test on January 11, 2007,
+the decay rate is only 3% in four years. The difference is a consequence of the
+altitude of the orbit generating debris. Whereas the first incident took place at
+an altitude of 776 km, the second intentional incident occurred at an altitude
+of 860 km.
+
+13
+Farinella and Cordelli (1991) estimate the number of collisions per unit
+cross section per year as the average collision velocity (10 km/s) divided by
+the volume of the circumterrestrial shell (1800 km×6 × 108 km2 )
+14
+Krag et al. (2017) studied the loss of power of Sentinel-1 A in August
+2016 resulting from the collision with a small piece of debris of around 1 cm.
+15
+Only 3.54% of estimated pieces of debris are larger than 10 cm. The other
+96.36% are between 1 cm and 10 cm. If an explosion produces 70 pieces of
+debris larger than 10 cm, the total number of pieces of debris larger than 1
+cm is estimated to be 70/0.034=2059.
+
+7
+
+Ecological Economics 209 (2023) 107831
+
+A. Bongers and J.L. Torres
+
+Fig. 1. Satellites, launches and satellites destroyed in steady state by collision as a function of debris.
+
+Number of pieces of debris per collision (𝛾). New debris generated by
+collision varies greatly depending on the mass of the colliding objects.
+The most relevant episode was the collision on February 10, 2009, of
+a defunct Russian satellite (Kosmos 2251) and a US communication
+satellite (Iridium 33), producing an estimated total of around 2000
+cataloged pieces of debris (around 3.6% of the total debris being larger
+than 1 cm). By contrast, the number of new pieces of debris from the
+collision of Sentinel-1 A is five (Joint Space Operations Center, JSpOC).
+Farinella and Cordelli (1991) estimated this figure from the typical
+mass distribution of fragments generated by hypervelocity impacts,
+resulting in about 10,000 fragments with a mass exceeding a few grams
+in the case that the largest fragment is about 10 kilograms in mass.
+Lewis et al. (2009) found that the number of pieces of debris per
+catastrophic collision is 625 (collision with debris larger than 10 cm)
+and 25 for a damaging collision (collision with debris between 1 and
+10 cm). Given that the probability of collision is calibrated for debris
+larger than 1 cm, and that the estimated number of pieces of debris
+between 1 cm and 10 cm is 1,000,000 to an estimated number of pieces
+of debris larger than 10 cm of 36,500, using the amount of debris per
+collision estimated by Lewis et al. (2009), this implies that the number
+of pieces of debris larger than 1 cm resulting from a catastrophic
+collision is 17,748, and 710 in the case of a non-catastrophic collision.
+The NASA Standard Breakup model calculates the number of fragments
+created from the collision between two objects depending on the size
+and the mass, based on laboratory hypervelocity impact experiments.
+Johnson et al. (2001) show that results are similar from both models
+for a mass of the two objects of 1260 kg for a catastrophic collision.
+This mass is not so different from the average mass of a medium
+satellite (BryceTech, 2020). Assuming that the probability of collision
+is independent of the size of the debris, the final estimation is 1309
+pieces of debris per collision. This figure is not so different from
+the number of pieces of debris resulting from accidental explosions
+estimated previously.
+
+satellites is small relative to that of other forms of debris. Additionally,
+new international standards for spacefaring countries and firms consider the necessity of including reserve fuel for de-orbiting maneuvers.
+Therefore, it is expected that the number of derelict satellites that are
+abandoned in orbit will tend to zero over time. Hence, we assume that
+this parameter is zero to simplify the simulations.
+Fragments from debris collision (𝜐). Another source of debris generation
+is collision between pieces of debris. However, it is difficult to detect
+these collisions, except in the case of big objects such as defunct
+satellites or discarded rockets. Given that the number of large pieces
+of debris is low enough, and that in case of collision of small piece of
+debris additional fragments would be even smaller, we just assume that
+the number of fragments from debris collision is zero (no additional
+debris is produced) to simplify the model simulation. This source of new
+debris should be important in the case of the Kessler syndrome if the
+amount of debris reaches a threshold value with collisions in cascade.
+For the economic parameters, we use standard values from the
+literature. The interest rate is fixed to 4% per year (𝑟 = 0.04), whereas
+the productivity parameter is normalized to one, 𝐴 = 1. The number
+of satellites per launch is also normalized to one, 𝜂 = 1, as we
+interpret the number of launches as being equivalent to the number of
+new satellites inserted into orbit. The technological parameter for the
+satellite services production function, 𝛼, is fixed to 0.85. Finally, we
+calibrate the launch cost internally, to match the observed values for
+the number of satellites using expression (17), resulting in 𝑐 = 1.2842,
+for a quantity of satellites of 5600 and an amount of debris of 1,036,500
+pieces.
+4. Results: Quantitative simulations
+Given the benchmark calibration of the model, we can obtain the
+implicit exact relationship between debris, launches and destroyed
+satellites, as given by expressions (18) and (21). Fig. 1 plots the estimated relationship between satellites, launches, and destroyed satellites
+for an exogenous range of debris (from zero to 10×108 pieces of debris
+larger than 1 cm). The calibrated model produces a negative relationship between debris and launches, whereas the relationship of debris
+with destroyed satellites is non-monotonic, positive for a low level of
+debris and negative for a higher level of debris. As the debris increases,
+the optimal number of satellites declines. Simultaneously, the number
+of destroyed satellites increases initially. However, destroyed satellites
+
+Derelict satellites abandoned in orbit (𝜒). Defunct satellites abandoned
+in orbit are another source of orbital debris. This occurs when satellites
+run out of fuel and cannot be moved to graveyard orbits. This was
+quite a common occurrence during the first stages of space conquest.
+Abandoned satellites pose considerable risk, given their mass. Indeed,
+one of the most harmful incident was the collision of Kosmos 2251
+with Iridium 33 in February 2009. However, the number of abandoned
+8
+
+Ecological Economics 209 (2023) 107831
+
+A. Bongers and J.L. Torres
+
+Fig. 2. Maximum number of satellites sensitivity analysis (debris decay rate, number of debris per launch, debris generated per collision and debris generated per launch). Circle
+represents benchmark calibration.
+
+are not fully replaced because of the larger amount of debris, leading to
+a reduction in the number of launches. Second, given the lower number
+of launches and satellites, the number of destroyed satellites reaches a
+maximum and a further increase in the amount of debris, reduces the
+number of satellites destroyed by collisions.
+
+can be operated in the Earth’s orbit. We repeat the same calculus for a
+range of values for the number of pieces of debris per launch from zero
+(representing a debris-free launch system) to 500. Although launches
+are the primary source of debris generation, the range for the maximum
+number of satellites changes slightly. For a value of 500 pieces of debris
+per launch, the maximum number of satellites is 58,143, whereas for a
+scenario with no debris per launch, the maximum number of satellites
+is 80,352, a figure that is only slightly above the maximum number
+of satellites in the baseline scenario. A larger impact on the maximum
+number of satellites is observed when the number of pieces of debris
+per collision parameter is altered. We calculate the maximum number
+of satellites for a range of 500 to 2000 pieces of debris per collision,
+resulting in a range of 48,921 to 161,820 satellites. Finally, we study
+the sensibility of the maximum number of satellites for a range from 1
+to 30 satellites per launch. The maximum number of satellites increases
+up to 80,046, with little gains for further increases in the number of
+satellites per launch. In sum, this sensitivity analysis shows that the
+maximum capacity of the Earth’s orbit, in aggregate, is well below
+100,000 satellites for a plausible range of values of the parameters,
+a figure higher than the number of satellites at present, but not large
+enough given future projections about the number of satellites expected
+to be launched, especially big satellite constellations. However, given
+the differences among orbit regimes and satellites, this figure should be
+considered as a first approximation to the economic capacity of space
+in terms of the number of a representative satellite.
+Using the calibrated model, some simulations of interest can be
+carried out. First, we are interesting in simulating the model for an
+exogenous path of launches to determine how the increasing activity
+by inserting more satellites into orbit affects the dynamics of debris and
+the risk of collision. Second, we compute the steady state quantity of
+satellites under four alternative scenarios. Third, we simulate the model
+for a decreasing exogenous path of launching costs. Finally, we study
+the implications of increasing the number of satellites per launch.
+
+Next, we use the calibrated model to calculate threshold values for
+the quantity of satellites and debris given the present human activity
+in outer space. First, we calculate the steady state maximum quantity
+of satellites in orbit before the Kessler syndrome arises, given by
+expression (28). This results in a maximum number of 72,090 satellites.
+This figure is well above the current number of operational satellites of
+5600, but it is expected that the numbers will increase faster in the next
+years, mainly due to satellite constellations. Adilov et al. (2018) defined
+the physical Kessler condition in terms of the amount of debris, as the
+amount for which the probability of collision is one, i.e., 𝐷𝐾𝑒𝑠𝑠𝑙𝑒𝑟 =
+1∕𝜃. Given the calibration of the parameter 𝜃, the threshold amount
+of debris (larger than 1 cm) would be 1.57 × 1010 (compared with
+the current estimated value of 1,036,500 pieces of debris). However,
+the model produces an optimal quantity of satellites below one for
+an amount of debris of around 7.69 × 109 (two times lower than the
+physical threshold), confirming Adilov et al. (2018) result indicating
+that the economic Kessler syndrome will occur before the physical
+Kessler syndrome. The steady state maximum number of satellites is
+a combination of five parameters: the debris decay rate, the number of
+pieces of debris per launch, the number of pieces of debris per collision,
+the number of satellites per launch, and the parameter representing the
+risk of collision. It is worth noting that a number of relevant factors,
+such as Space Situational Awareness and improving collision avoidance
+capabilities, are not considered in our simulations and would have a
+significant impact in the determination of the maximum number of
+satellites.
+We perform a sensitivity analysis for a range of values for the first
+four parameters to investigate how the estimated steady state maximum
+number of satellites in orbit changes with respect to the benchmark
+calibration (represented by a circle). The main results are plotted in
+Fig. 2. The maximum number of satellites increases as the debris decay
+rate rises. For a range of the debris decay rate between 0.002 and 0.1,
+the range of satellites varies from 21,520 to 107,600. These figures
+demonstrate that the implementation of active debris removal policies
+could be a useful instrument to enhance the number of satellites that
+
+4.1. Exogenous path of launches
+First, we simulate the model for an exogenous path of launches to
+describe the physical properties of the model. In this scenario, there is
+no economic decision about the optimal number of launches; hence, we
+simply look at the law of motions for the stock of satellites and debris,
+9
+
+Ecological Economics 209 (2023) 107831
+
+A. Bongers and J.L. Torres
+
+Fig. 3. Satellites, launches, satellites destroyed and debris given an exogenous launch path.
+
+given an exogenous path of launches. The initial conditions represent
+space activity at present, where 𝑆0 = 5600, 𝐷0 = 1, 036, 500, 𝑋0 = 0.2,
+𝐿0 = 100, and an average number of satellites per launch of five. It is
+assumed that the number of launches (or more specifically the number
+of launched satellites) increases at a rate of 5% per year.
+Fig. 3 plots the dynamics of satellites, debris and satellite destruction depending on the exogenous path of launches. The results are
+similar to those obtained by Farinella and Cordelli (1991) using a two
+first-order differential equations model for satellites and debris. We find
+that the number of satellites increases initially, reaching a maximum,
+and then it starts to decline. This is a consequence of the increasing
+amount of debris, which grows exponentially, increasing the number
+of satellites destroyed by collision. Indeed, the number of satellites
+destroyed by collisions grows faster than the number of launches up to
+a point at which the number of satellites destroyed reaches the number
+of launches, where the model collapses.
+The right-side plot illustrates how the different sources of new
+debris changes over time. As in the case of Farinella and Cordelli
+(1991), the main source of debris generation changes from primary
+debris from launches, to the secondary debris generation source from
+collisions. This result is obtained even if we assume no additional debris
+resulting from collisions between debris, consistent with the scenario
+advanced by Kessler and Cour-Palais (1978).
+
+Table 2
+Calibration of the parameters of the model.
+
+4.2. Steady state analysis
+
+debris scenario than in an environment with no orbital debris. This is
+a considerable difference, as the risk of collision is low (the resulting
+probability of collision is 0.0014) for the estimated steady state value
+for debris of 2.25×107 , an amount that is 21 times higher than the
+present estimated amount of debris. Notwithstanding the low risk of
+collision, the estimated number of destroyed satellites is an average of
+7.97.
+
+Parameter
+
+Definition
+
+Value
+
+Physical
+
+𝛿𝑠
+𝛿𝑑
+𝜃
+𝜔
+𝛾
+𝜒
+𝜐
+
+Satellite depreciation rate
+Debris decay rate
+Risk of collision
+Number of pieces of debris per launch
+Number of pieces of debris per collision
+Fraction of derelict satellites
+Fragments from debris collision
+
+0.1733
+0.0067
+6.37×10−11
+150
+1,309
+0.00
+0.00
+
+Economic
+
+𝑐
+𝐴
+𝜂
+𝛼
+𝑟
+
+Launch cost
+Productivity parameter
+Satellites per launch
+Elasticity of satellite services
+Interest rate
+
+1.2842
+1.00
+1.00
+0.85
+0.04
+
+Table 3
+Steady state values.
+
+Next, we calculate steady state equilibrium values for the variables
+of the model for the two scenarios: no-debris, representing the initial
+stages of space exploration, and debris, representing the current situation. Of course, the steady state only exists by excluding a ‘‘Kessler
+syndrome’’ scenario of cascade collisions as this would imply that debris
+is always increasing, and therefore, a steady state only exists if 𝜃𝐷 < 1.
+Table 3 shows the steady state values for the key variables of the
+model in each scenario. Notice that in steady state, and assuming that
+exogenous shocks are zero (no change in the launch cost and satellite
+depreciation rate), the number of satellites is a constant, depending on
+the probability of collision. As expected, the equilibrium relationship
+between satellites and debris is negative, resulting in a lower quantity
+of satellites in the debris scenario than in the no-debris scenario.
+Indeed, the steady state quantity of satellites is 4.49% lower in the
+
+Variable
+
+No-debris
+
+Debris
+
+% change
+
+Satellites
+Launches
+Debris
+Destroyed satellites
+Satellite services
+
+5612
+972
+–
+–
+1537
+
+5358
+936
+2.25×107
+7.97
+1478
+
+−4.49
+−3.70
+–
+–
+−3.84
+
+The cost of the externality is calculated as forgone satellite services. Given the particular characteristic of this negative externality,
+debris leads to an underinvestment state, reducing the number of
+launches with respect to the non-debris environment. Debris increases
+the probability of destruction of capital assets in orbit, which reduces
+production and investment (new satellites launched). Compared with
+an environment with no debris, the social cost of debris is about 3.84%
+of the market, which represent a significant fraction, in spite of the low
+risk of collision at present. Weinzierl (2018) showed that commercial
+10
+
+Ecological Economics 209 (2023) 107831
+
+A. Bongers and J.L. Torres
+
+Fig. 4. Steady state values as a function of the launch cost.
+
+debris reaches a value of 9.2×109 , resulting in 40,860 satellites being
+destroyed each period. The Kessler syndrome appears (even without
+taking cascade collisions between pieces of debris into account) when
+the launch cost is zero, as all satellites are destroyed in the period
+and even a fraction of the newly launched satellites is destroyed. This
+simulation clearly illustrates that a further reduction in launch costs
+without a mitigation policy for orbital debris would lead to a long-run
+unsustainable environment in outer space.
+
+activities in space generate around $300 billion in annual revenues.
+Thus, the social cost of debris is estimated at around $11.5 billions
+annually.
+4.3. Launch cost reduction
+An important variable driving commercial activity in outer space is
+the launch cost. Indeed, the enormous cost of first-generations launch
+systems was a formidable economic barrier to the earlier exploration
+of outer space, an activity limited to countries with large economic
+and technological resources. However, as in other industries, the costs
+in the space industry have been declining over time due to learning
+and technological progress. Nowadays, private spacefaring firms are
+expanding their business, introducing new technologies and new launch
+systems designs to reduce the costs as much as possible. Therefore,
+it would be of interest to study how a cost decline will expand the
+quantity of satellites, debris, and the probability of collision. In the
+benchmark calibration of the model, the launch cost parameter was
+calibrated internally to match the observed number of satellites in orbit
+of 5600, resulting in a value of 1.2842. For this sensitivity analysis, we
+solve the model for the optimal quantity of launches for a range of
+values of the launch cost from 0.2 to the calibrated value of 1.2842
+(a range for a reduction in costs of approximately 80%). For that, we
+solve the system of equations given by (17), (18), (21) and (26) for the
+range of 𝑐 = [0.2 ∶ 1.2842].
+Fig. 4 plots the steady state values of the key variables as a function
+of the launch cost for the debris scenario. As expected, the lower the
+launch cost, the higher the number of satellites and launches. However,
+a higher number of launches also increases the quantity of debris, and
+hence, the number of satellites destroyed. We find that for a low enough
+launch cost, the number of launches is even higher than the stock
+of satellites in orbit, given the high number of satellites destroyed in
+collision with debris. This is because 𝐿𝑐 < 0, 𝐿𝑐𝑐 > 0, but 𝑆𝑐 < 0,
+𝑆𝑐𝑐 < 0, as a consequence of the increase in the risk of collision as
+more launches occurs. This scenario will have dramatic consequences
+if the removal and generation of debris do not change. With a launch
+cost that is 80% lower than the benchmark calibration for the current
+situation, the number of satellites will be around 69,957, a figure close
+to the threshold, with a slightly lower number of satellites launched
+every period (54,170 per year). The reason is that the amount of
+
+4.4. Multiple-satellite launch systems
+Finally, we investigate the implications of multiple-satellite launch
+systems. Satellite design and technology changes have progressively reduced the size and weight of satellites. Indeed, a new strategy pursued
+by spacefaring firms consists of the launching of a constellation of small
+satellites in a low orbit. On the other hand, launch systems are more
+powerful and are able to insert a heavier payload into higher orbits.
+These two factors, miniaturization and launchers capacity, increase
+the number of satellites per launch. This reduces the final cost of
+launching a satellite, as with the same rocket and launch costs, more
+than one satellite can be inserted into orbit at the same time. The
+number of satellites per launch is represented by the parameter 𝜂. In
+the benchmark calibration of the model we assumed that the number
+of satellites per launch was one. However, an increasing number of
+launches includes more than one satellite, it having become normal for
+a typical launch to include two or three standard satellites. The number
+of satellites per launch is substantially higher in the case of microsatellites. For example, during 2020, several SpaceX Falcon 9 were
+launched with a payload of 60 Starlink satellites. Here, we simulate
+the model for a range of values of the parameter 𝜂 from one to 10.
+The results from this simulation exercise are plotted in Fig. 5. The
+optimal number of satellites increases as the number of satellites per
+launch increases, as this is equivalent to a decline in the per satellite
+launch cost (for a given value of the parameter 𝑐, representing the total
+launch cost). However, the relationship between the optimal number of
+satellites and the number of satellites per launch is a convex function,
+and, for a higher enough number of satellites per launch the effects of
+further increments in the number of satellites per launch is negligible.
+Increasing the number of satellites per launch increases not only the
+number of satellites in orbit, but also the number of launches. Indeed,
+11
+
+Ecological Economics 209 (2023) 107831
+
+A. Bongers and J.L. Torres
+
+Fig. 5. Steady state as a function of the number of satellites per launch.
+
+the number of launches shows a similar path to that of satellites.
+For an average of 10 satellites per launch, the steady state number
+of satellites is 79,314, approaching the threshold value. The number
+of launches is of 11,054, with a total of 96,794 satellites destroyed
+each period, as the amount of debris reaches a value of 1.9×1010 .
+This means that all satellites plus a fraction of the new launches are
+destroyed each period. The optimal number of satellites in the steady
+state reaches a maximum close to the threshold, even if the number
+of satellites per launch increases further. A similar maximum, about
+10,000 launches (each with 10 satellites) is observed. The explanation
+is that the lower launch cost is compensated for by the higher number
+of destroyed satellites. Indeed, as both the number of launches and
+the number of satellites increases, so does the number of collisions
+(satellites destroyed). Finally, given the higher number of launches and
+the larger number of collisions, the debris increases steadily.
+
+about 72,000, a figure that is much larger than the current population
+of satellites but not so high as to prevent it from been reached in the
+near future given the expected launches of several satellite constellations containing thousands of satellites each. A sensitivity analysis is
+carried out, resulting in little variability of that threshold value. The
+consequences of launch cost declines and the increase in the number
+of satellites per launch are also investigated.
+The results show that without debris mitigation both passive and
+active policies, outer space will collapse in the near future, with the
+destruction of a large number of satellites through collisions with
+debris. Even without a further reduction in launch costs, the amount
+of debris will increase before stabilizing, reducing the optimal number
+of operating satellites with respect to the present observed figure, and
+causing the destruction of about three satellites per year. As highlighted
+in the analysis done in this paper, the economic Kessler threshold for
+the number of satellites is lower than the physical Kessler threshold,
+so we would expect that space operators are interesting in the implementation of debris mitigation strategies well before the cascade
+effect. Further analyses in this direction are needed as debris mitigation
+policies, both active and passive, must be designed and implemented
+to expand the maximum limit for the number of satellites, reduces the
+number of satellites destroyed by collisions, and mitigate the production of new debris. Finally, it is worth noting that our model is an
+aggregate approximation of the orbital market. The results presented
+here are sensitive to the altitude of the satellites. The lower the altitude,
+the fewer the negative consequences of debris, as atmospheric drag is
+a drain of orbital pollution. The altitude of new satellites, especially
+those in large satellite constellations, will be the key to predicting the
+economic implications of human activity in outer space, and hence, a
+more disaggregated model distinguishing between LEO and GEO worth
+be developed.
+
+5. Concluding remarks
+This paper presents a dynamic investment model for satellites in
+which outer space is a polluted environment presenting a risk of collision and destruction of satellites. The model considers an unregulated
+market in which orbits are a common source and human activity in
+outer space produces a negative externality in the form of space debris. Orbital debris is potentially hazardous and can destroy operating
+satellites in the case of collision. Debris is generated by launches,
+accidental explosions of rockets, anti-satellite military tests, collisions
+among debris, and collisions with satellites, among other sources. One
+of the particular characteristics of the negative externality of debris
+compared to other forms of pollution is that it affects to the stock of
+capital assets directly. This leads to an underinvestment situation with
+respect to an optimal environment with no debris.
+We use the calibrated model to evaluate alternative scenarios. First,
+we compare the current scenario with debris with an ideal benchmark
+scenario with no debris. As expected, this negative externality reduces
+the activity in the market, decreasing the number of satellites, when the
+expected loss from a satellite destruction is taken into account by firms.
+The larger the quantity of debris, the smaller the optimal quantity of
+satellites. The model produces a simple expression for the maximum
+quantity of satellites to prevent the Kessler syndrome, depending on a
+combination of parameters. Given the baseline calibration of the model,
+the estimated aggregate threshold value for the quantity of satellites is
+
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to
+influence the work reported in this paper.
+Data availability
+No data was used for the research described in the article.
+12
+
+Ecological Economics 209 (2023) 107831
+
+A. Bongers and J.L. Torres
+
+Fig. A.1. Threshold number of satellites as a function of the debris decay rate. The
+circle denotes the baseline value.
+
+Fig. A.2. Threshold number of satellites as a function of new fragments from
+debris-to-debris collisions. The circle denotes the baseline value.
+
+Appendix
+
+Operating, we get,
+(
+)
+]
+𝜔𝛿𝑠
+𝜔𝜃
+𝐷 𝛿𝑑 − 𝛾𝜃 +
+𝑆 − 𝜐𝐷 =
+𝑆
+𝜂
+𝜂
+[
+
+This appendix extends the analysis done in the paper in two directions. First, we consider alternative values for the debris decay rate. The
+debris decay rate is a key parameter to calculate the threshold for the
+quantity of satellites to prevent the economical Kessler syndrome. The
+decay rate of orbital debris depends on the altitude, where atmospheric
+drag is high for low altitude but declines for higher altitude orbits
+and on other factors (mass, area, and solar radio flux). In the baseline
+calibration, the natural debris decay rate takes a value of 0.0067.
+This is an average value for all Earth’s orbits, and it depends on the
+distribution of debris across orbits, with most debris concentrated at
+700–900 km.
+Fig. A.1 plots the relationship between the maximum number of
+satellites and the debris decay rate for a range of values between 0
+and 0.025. For a debris decay rate of zero (all debris remains forever
+in orbit), the steady-state maximum number of satellites is zero. In
+this case, the amount of debris is always increasing, rendering the
+space unusable in the long-run. As the debris decay rate becomes
+positive, also the steady-state maximum number of satellites becomes
+positive. For a debris decay rate of 0.025, the steady-state maximum
+number of satellites is 𝑆 𝐾𝑒𝑠𝑠𝑙𝑒𝑟 = 269,000). Therefore, increasing the
+debris decay rate allows expanding the usage of the space with more
+satellites. This result indicates that changes in the design of satellites
+and in launch systems to minimize the creation of debris together with
+the implementation of active debris removal policies are important
+instruments to prevent the Kessler syndrome while allowing to increase
+the number of satellites in orbit.
+Second, we extend the law of motion of debris by including the
+possibility of debris-to-debris collisions as an additional source of debris
+creation. In this case, the debris’ law of motion is given by,
+
+where the term in brackets in the left side must be positive. From that
+condition, we obtain the following threshold value for the maximum
+number of satellites now as a function of the stock of debris,
+𝑆 𝐾𝑒𝑠𝑠𝑙𝑒𝑟 =
+
+Fig. A.2 plots the maximum number of satellites for the current
+stock of debris (𝐷 = 1, 036, 500) as a function of the number of new
+fragments created by debris self collisions, 𝜐. We use a range of values
+for the parameter 𝜐 from zero (baseline case) to 10. The threshold
+number of satellites is a negative function of the number of new
+fragments created by debris-to-debris collisions.
+
+References
+Adilov, N., Alexander, P.J., Cunningham, B.M., 2015. An economic analysis of earth
+orbit pollution. Environ. Resour. Econ. 60 (1), 81–98.
+Adilov, N., Alexander, P.J., Cunningham, B.M., 2018. An economic Kessler Syndrome:
+A dynamic model of earth orbit debris. Econom. Lett. 166 (1), 79–82.
+Adilov, N., Alexander, P.J., Cunningham, B.M., 2020. The economics of orbital debris
+generation, accumulation, mitigation, and remediation. J. Space Saf. Eng. 7,
+447–450.
+Australian Space Weather Agency, 1999. Satellite Orbital Decay Calculations. Sidney,
+Australia.
+Béal, S., Deschamps, M., Moulin, H., 2020. Taxing congestion of the space commons.
+Acta Astronaut. 177, 313–319.
+Bernhard, P., Deschamps, M., Zaccour, G., 2023. Large satellite constellations and
+space debris: Exploratory analysis of strategic management of the space commons.
+European J. Oper. Res. 304, 1140–1157.
+BryceTech, 2020. Smallsats by the numbers 2020. In: Bryce Space and Technology.
+BryceTech, 2022. Start-up space. Update on Investment in Commercial Space Ventures
+2022. BryceTech, LLC.
+Farinella, P., Cordelli, A., 1991. The proliferation of orbiting fragments: a simple
+mathematical model. Sci. Glob. Secur. 2, 365–378.
+Gallois, P., 1987. Life expectancy of communication satellites. Electron. Power 33 (9),
+547–550.
+Grzelka, Z., Wagner, J., 2019. Managing satellite debris in low-earth orbit: Incentivizing
+ex ante satellite quality and ex post take-back programs. Environ. Resour. Econ.
+74 (1), 319–336.
+Guyot, J., Rouillon, S., 2022. Sustainable management of space activity in low Earth
+orbit. Manuscript.
+Hardin, G., 1968. The tragedy of the commons. Science 162, 1243–1248.
+
+𝐷𝑡+1 = (1 − 𝛿𝑑 )𝐷𝑡 + 𝛾𝑋𝑡 + 𝜔𝐿𝑡 + 𝜐𝐷𝑡2
+where 𝜐 > 0. Given that 𝑋𝑡 = 𝜃𝐷𝑡 𝑆𝑡 and that 𝐿𝑡 = (𝛿𝑠 + 𝜃𝐷𝑡 )𝑆𝑡 ∕𝜂, the
+above expression can be written as,
+𝐷𝑡+1 = (1 − 𝛿𝑑 )𝐷𝑡 + 𝛾𝜃𝐷𝑡 𝑆𝑡 +
+
+𝜔(𝛿𝑠 + 𝜃𝐷𝑡 )
+𝑆𝑡 + 𝜐𝐷𝑡2
+𝜂
+
+In steady state, the above expression we have a second-order equation for debris as a function of the quantity of satellites,
+𝛿𝑑 𝐷 = 𝛾𝜃𝐷𝑆 +
+
+𝛿𝑑 − 𝜐𝐷
+𝛾𝜃 + 𝜔𝜃
+𝜂
+
+𝜔𝛿𝑠
+𝜔𝜃
+𝑆+
+𝐷𝑆 + 𝜐𝐷2
+𝜂
+𝜂
+13
+
+Ecological Economics 209 (2023) 107831
+
+A. Bongers and J.L. Torres
+
+OECD, 2020. Space sustainability: The economics of space debris in perspective. In:
+OECD Science, Technology and Industry Policy Papers. p. 87.
+O’Neill, G.K., 1977. The High Frontier: Human Colonies in Space. Willian Morrow and
+Company, New York.
+Ostrom, E., 2010. Beyond markets and states, polycentric governance of complex
+economic systems. Am. Econ. Rev. 100 (1), 1–33.
+Pardini, C., Anselmo, L., 2014. Review of past on-orbit collisions among cataloged
+objects and examination of the catastrophic fragmentation concept. Acta Astronaut.
+100, 30–39.
+Patel, P., 2019. 4 Products to manufacture in orbit. In: IEEE Spectrum 2019.
+Peeters, W., 2010. From suborbital space tourism to commercial personal spaceflight.
+Acta Astronaut. 66, 1625–1632.
+Prater, T., Werkheiser, N., Ledbetter, F., 2018. Toward a multimaterial fabrication
+laboratory: In-space manufacturing as an enabling technology for long-endurance
+human space flight. J. Br. Interplanet. Soc. 71, 27–35.
+Rao, A., Burgess, M.G., Kaffine, D., 2020. Orbital-use fees could more than quadruple
+the value of the space industry. Proc. Natl. Acad. Sci. USA 117 (23), 12756–12762.
+Ross, S.D., 2002. Near-Earth Asteroid Mining. California Institute of Technology,
+Unpublished manuscript.
+Rouillon, S., 2020. A phsyco-economic model of low Earth orbit management. Environ.
+Resour. Econ. 77 (4), 695–723.
+Salop, S.C., 1979. Monopolistic competition with outside goods. Bell J. Econ. 10 (1),
+141–156.
+Sandler, T., Shulze, W., 1981. The economics of outer space. Nat. Resour. J. 21 (2),
+371–393.
+Snow, M.S., 1975. Investment cost minimization for communications satellite capacity:
+Refinement and application of the Chenery-Manne-Srinivasan Model. Bell J. Econ.
+6 (2), 621–643.
+Weinzierl, M., 2018. Space, the final economic frontier. J. Econ. Perspect. 32, 173–192.
+Weinzierl, M., Acocella, A., 2016. Blue origin, NASA, and new space. In: Harvard
+Business School Case n. 012-716. pp. 1–34.
+Weinzierl, M., Acocella, A., Yamazaki, M., 2016. Astroscale, space debris, and earth’s
+orbital commons. In: Harvard Business School Case n. 037-716. pp. 1–24.
+
+Johnson, N.L., Krisko, P.H., Liou, J.C., Anz-Meador, P.D., 2001. NASA’s new breakup
+model of EVOLVE 4.0. Adv. Space Res. 28 (9), 1377–1384.
+Kawamoto, S., Nagaoka, N., Hanada, T., 2019. Impact on collision probability by post
+mission disposal and active debris removal. In: First International Orbital Debris
+Conference.
+Kessler, D.J., Cour-Palais, B.G., 1978. Collision frequency of artificial satellites: The
+creation of a debris belt. J. Geophys. Res. 83 (6), 2637–2646.
+King-Hele, D., 1987. Satellite orbits in an atmosphere. In: Theory and Applications.
+Glasgow, Blackie.
+Klima, R., Bloembergen, D., Savani, R., Tuyis, K., Hennes, D., Izzo, D., 2016. Space
+debris removal: A game theoretic analysis. Games 7 (3), 20.
+Krag, H., Serrano, M., Braun, V., Kuchynka, P., Catania, M., Simiski, J., Schimmerohn, M., Marc, X., Kujiper, D., Shurmer, I., O’Connell, A., Otten, M., Muñoz, I.,
+Morales, J., Wermuth, M., McKissock, D., 2017. A 1 cm space debris impact onto
+the Sentinel-1A solar array. Acta Astronaut. 137, 434–443.
+Krisko, P., 2007. The predicted growth of the low-Earth orbit space debris environment
+- An assessment of future risk for spacecraft. J. Aerosp. Eng. 221 (6), 975–985.
+Letizia, F., Colombo, C., Lewis, H.G., Krag, H., 2017. Extending the ecog space debris
+index with fragmentation risk estimation. In: Proc. 7th European Conference on
+Space Debris, Darmstadt, Germany, 18–21 2017. published by the ESA Space Debris
+Office.
+Lewis, H.G., Swinerd, G.G., Newland, R.J., Saunders, A., 2009. The fast debris evolution
+model. Adv. Space Res. 44, 568–578.
+Liou, J.C., Johnson, N.L., 2006. Risks in space from orbiting debris. Science 311,
+340–341.
+Macauley, M.K., 2015. The economics of space debris: Estimating the costs and benefits
+of debris mitigation. Acta Astronaut. 115, 160–164.
+NASA, 2007. Detection of debris from Chinese ASAT test increases; One minor
+fragmentation event in second quarter of 2007. Orbital Debris Q. Rev. 11 (3),
+1–2.
+NASA, 2020. The tracked objects in Low Earth Orbit: 2000–2020. Orbital Debris Q.
+Rev. 24 (4), 11.
+
+14
+
+

@@ -1,0 +1,2060 @@
+Space Policy xxx (xxxx) xxx
+
+Contents lists available at ScienceDirect
+
+Space Policy
+journal homepage: www.elsevier.com/locate/spacepol
+
+The economics of outer space: Regulation, market failures, and
+industry prospects
+Anelí Bongers a, Benedetto Molinari a,b,* , Sébastien Rouillon c , José L. Torres a
+a
+
+Department of Economic Theory and History, University of Málaga, Spain
+RCEA, United States
+c
+BxSE, University of Bordeaux, France
+b
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+JEL classification:
+O33
+Q53
+Q55
+L95
+
+The past decade has witnessed a rapid expansion of human activity in Earth's orbit, elevating outer space as a
+domain of growing scientific, economic, and strategic importance. Yet this emerging sector is beset by market
+failures and regulatory gaps that hinder its growth and long-term viability: ill-defined property rights over
+extraterrestrial resources, orbital congestion, debris pollution, and the latent risk of weaponing commercial
+assets. The continued emergence of novel commercial applications is poised to amplify congestion and pollution
+frictions, bringing environmental concerns to the forefront of space policy analysis. This paper surveys foun­
+dational literature on the economics of outer space, highlighting connections to established areas of environ­
+mental, resource, and public economics. We argue that timely intervention is essential to unlock the sector’s
+economic potential and to mitigate conflict among spacefaring actors, and we identify open questions to guide
+future research in this promising and largely unexplored field.
+
+Keywords:
+Outer space
+Satellites
+Earth's orbit
+Orbital debris
+Anti-satellite weapon systems
+Space industry
+Satellite data
+
+1. Introduction
+Since the beginning of time humans have been fascinated by the
+Universe and finally, during the last half century the conquered space
+travel and today outer space has become a vital environment for com­
+mercial, scientific, and military activities. In the foreseeable future,
+humans will colonize space, extending the limits of the Earth to human
+life, and there are already some embryonic plans for creating colonies in
+the Lagrange points, the Moon, other natural satellites, and Mars.
+Spacecraft developed during the 20th Century are, in a way, equivalent
+to the wooden ships that allowed the Vikings and Christopher Columbus
+to cross the Atlantic Ocean to discover the “New World”. Technological
+progress, combined with curiosity and the need to understand and desire
+for exploration and economic exploitation of outer space, will pass over
+the economic frontiers imposed by the geophysical limits of planet
+Earth, expanding the finite endowment of natural and energy resources.
+
+This will lead to the development of new technologies and new goods
+that are impossible to produce on Earth, all leading to profound eco­
+nomic and social changes that are yet to be established.
+Although human exploration and economic exploitation of outer
+space have been relatively recent (the first human-made spacecraft
+successful launch occurred in 1957), several market failures and other
+troublesome economic, legal, and political issues have arisen at rocket
+speed as commercial, military, and scientific activities in space are in
+continuous expansion. No agent (national governments or international
+organizations) has authority over property rights of space, except
+spacecraft ownership, and therefore, human activities in space,
+excluding current commercial satellites' orbit location and electromag­
+netic spectrum in GEO orbit,1 are not subject to any centralized regu­
+lation or property rights scheme, being an example of a
+multidimensional common pool resource. As such, outer space is thus
+subject to economic failures as other international commons on the
+
+* Corresponding author. University of Málaga, Spain
+E-mail address: bmolinari@uma.es (B. Molinari).
+1
+Geostationary (GEO) orbit is a particular orbit also referred to as a (circular) geosynchronous equatorial orbit (GEO) at 35,786 km in altitude above Earth's
+equator. An object in such an orbit has an orbital period equal to Earth's rotational period, one sidereal day, and so it remains in a fixed point to the Earth. This is an
+excellent advantage for satellite communication, navigation, positioning, and weather observation. In short, Earth’ orbit is divided in Low Earth Orbit (LEO), Medium
+Earth Orbit (MEO), and GEO.
+https://doi.org/10.1016/j.spacepol.2026.101765
+Received 27 February 2025; Received in revised form 19 September 2025; Accepted 19 April 2026
+0265-9646/© 2026 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+
+Please cite this article as: Anelí Bongers et al., Space Policy, https://doi.org/10.1016/j.spacepol.2026.101765
+
+A. Bongers et al.
+
+Space Policy xxx (xxxx) xxx
+
+Earth like fisheries in international waters, high-seas sailing, atmo­
+sphere pollution, or Antarctica exploitation. However, outer space's
+physical characteristics differ from those of Earth (vacuum, near-zero
+gravity, extreme temperatures, etc.). The heterogeneity of outer space
+resources is a crucial conditioning factor that can introduce new chal­
+lenges in organizing human activities in outer space.
+The only international agreement that established a list of basic
+principles to regulate human activity outside the planet Earth is the
+“Treaty on Principles Governing the Activities of States in the Explora­
+tion and Use of Outer Space, including the Moon and Other Celestial
+Bodies”, referred to as the Outer Space Treaty (OST). The OST enu­
+merates a list of basic principles for human activity in outer space to be
+followed by nations (not private companies, as the Treaty was signed in
+1967 when only governments had the technology and financial re­
+sources to access space), including freedom of access and exploration, no
+sovereignty, and peaceful purposes. The basic principles of the OST were
+later extended by several agreements and conventions on more specific
+issues. However, the principles instituted in the OST represent a set of
+basic rules with a minimal scope to which countries pursuing activities
+in outer space are subject, and it cannot be considered a full-operational
+regulatory framework, but where the “first come, first serves” principle
+seems to dominate.
+Although the dawn of a new field in economics called “Economics of
+Outer Space” is very recent, the rising importance of outer space for
+economic and social development is beyond discussion. Nowadays,
+satellites and other spacecraft offer various critical services to Earth's
+consumers, including broadcasting and telecommunications services,
+the Internet, positioning services, Earth observation and remote sensing,
+etc., apart from scientific and vital defense and security activities.
+However, this is just the beginning of history, and several new forms of
+commercial exploitation of outer space will appear in the future with the
+development of a highly autonomous in-orbit industry.
+Given technological advances in spacecraft manufacturing and
+launching systems and the increasing presence of humans in outer space,
+outer space has become the new economic frontier [1]. In the initial
+stages, space exploration was conducted by countries, mainly by the U.S.
+and the Soviet Union, given the existing technological and financial
+barriers. However, reductions in costs, development, and access to new
+technologies have dramatically democratized access to outer space,
+increasing the number of spacefaring nations and private commercial
+operators [2]. A large variety of industries are expected to be developed
+in the near future, in addition to already well-established industries,
+other than military and scientific activities. Industries such as space
+manufacturing of unique goods for customers on Earth using micro­
+gravity, vacuum, and extreme temperatures (Patel, 2019), in-space
+manufacturing and maintenance and repair services [3], asteroid min­
+ing [4], and space tourism [5], among others, are expected to be
+developed in the foreseeable future, further congesting outer space and
+generating more space pollution. Meanwhile, the strategic value of outer
+space for defense and security issues is expanding rapidly, increasing the
+militarization and weaponization of space and transforming outer space
+into a potential battlefield for central powers.
+All these transformations raise several troublesome issues that de­
+mand attention from economists because they will have increasing
+importance for humankind's economic and social development.
+Although most of these issues are economic, outer space has yet to
+receive much attention from economists. This contrasts with other
+fields, such as law, where considerable efforts are being made to assess
+the legal implications of managing human activities in outer space.
+Human activities in outer space involve several current and incoming
+economic issues related to property rights, market regulations, orbit
+slots, congestion, pollution, and exploitation of natural resources, which
+should be addressed as soon as possible to mitigate conflicts among
+spacefaring agents and loss of welfare for the whole Earth planet.
+The seminal foundations for the economics of outer space were
+constructed by O'Neill [6] and Sandler and Schulze [7]. O'Neill [6] was
+
+the first to study the feasibility of space human colonies from an eco­
+nomic perspective. Sandler and Schulze [7] path-breaking contribution
+enumerated and studied a few economic issues related to commercial
+and other activities in outer space, including broadband spectrum, rights
+over the geostationary orbit, and the risk of collision of human-produced
+objects. However, from these seminal contributions, and perhaps sur­
+prisingly, little advancement has been observed in the economic litera­
+ture on the study of outer space and related economic issues, despite the
+critical nature of some of them as orbital congestion and pollution that
+can put at risk the very possibility of space exploration and exploitation.
+The paper reviewed advances in the economics of outer space, especially
+in relation to the pressing issues of pollution and congestion. We first
+identify a few key economic issues related to human activity in outer
+space and, second, by reviewing the literature that tackles these issues,
+including topics from regulation to pollution and from natural resources
+to defense economics. This new field of study will be somehow con­
+nected with many existing well-established economics fields, such as
+production and capital accumulation; automation and technological
+change; collective decision-making; public economics and international
+public goods; natural resources; environmental economics; national se­
+curity and defense; data for measurement of economic activity and
+policy evaluation, among others. Existing economic analysis tools and
+techniques can be applied to the study of this “new economy”, which
+shares some similar characteristics with other standard markets on Earth
+but also presents some distinct and unique features, given the physical
+characteristics of outer space, that will demand new models and alter­
+native approaches that combine economics modeling with some phys­
+ical and space models, similarly to what is observed in recent advances
+in the fields of energy, resources, and environmental economics. The
+high velocity of space technological progress and the milestones ach­
+ieved in recent decades, along with the essential economic implications
+of the outer space conquest, demand urgent attention from economists
+before market failures reach an unsolvable threshold, leading to per­
+manent welfare losses for all humanity and the dawn of political and
+security conflicts of a global nature.
+Along the rest of the paper, we will review some key selected topics
+on the economics of outer space, discussing their connection with
+existing fields in economics.2 Section 2 presents some data about the
+importance of the outer space sector from a physical and economic
+perspective. Section 3 focuses on the global regulatory framework for
+human activities in outer space and describes some characteristics of
+outer space as an extra-terrestrial global shared pool resource. Section 4
+focuses on congestion problems related to orbit and spectrum. Section 5
+explores an issue attracting more attention from economists: space
+pollution in the form of orbital debris. Section 6 reviews studies which
+apply data from Earth's observation satellites to measure economic ac­
+tivity and growth. This is a promising avenue that can dramatically
+transform how applied economics is conducted as the availability of
+economic data increases with higher frequency data and new spatial
+units. Section 7 focuses on using space for security and defense and the
+consequences of the increasing militarization of outer space. Section 8
+explores several industries, including in-orbit manufacturing, asteroid
+mining, orbital services, etc., which are incipient but with excellent
+development potential. Section 9 offers a discussion and comparative
+analysis of challenges of space industry. Finally, Section 10 collects the
+main conclusions and suggests future research directions in this prom­
+ising and highly unexplored research area.
+2. Basic data on human activity in outer space
+Human exploration of outer space started in 1957 with the first
+successful launch of an artificial satellite (Sputnik I) into orbit. This
+2
+Interstellar trade, tax, and finance literature, pioneered by [8], is deliber­
+ately not covered in this survey.
+
+2
+
+A. Bongers et al.
+
+Space Policy xxx (xxxx) xxx
+
+initial launch fueled a space race between the United States and the
+Soviet Union, the only two countries with enough financial resources to
+produce the necessary technology to insert a human-made spacecraft
+into the Earth's orbit at that time. Sixty years later, the number of
+spacefaring nations has increased to twelve. A regional space organi­
+zation, the European Space Agency (ESA), includes 22 other countries
+with indigenous launch systems. Nations with satellites have increased
+to 83, there are 13 private satellite operators, and seven private com­
+panies have their own orbital launch systems.
+All this expanding human activity in outer space has resulted in
+many human-made objects travelling at high speed in the Earth's orbit.
+Orbit is not only populated by operational satellites and other space­
+craft, as space stations, but also by derelict dead satellites, rocket bodies,
+and a large variety of orbital debris produced from launching opera­
+tions, breakup and explosion of satellites and rocket engines, collisions
+between operational satellites and orbital debris, and even fragments
+intentionally produced by anti-satellite military tests.3
+Table 1 shows some basic data about human activity in the Earth's
+orbits and the number of orbital debris, as the ESA estimated in
+December 2023. Most activity occurs at Low-Earth-Orbit (LEO, between
+200 and 2000 km) and Geostationary Orbit (GEO, at 35,786 km). Since
+the beginning of space exploration, a total of 6910 successful launches
+has been realized. This figure differs from the number of spacecrafts
+launched in orbit (about 21,620), as a launch can include more than one
+satellite or spacecraft. Indeed, the relationship between launches and
+new satellites in orbit has changed dramatically in recent years due to
+new varieties of small and micro satellites and launch systems' higher
+power and payload capacity. The number of satellites in Earth's orbit at
+May 2025 (ESA) is over 14,240, of which about 11,700 are operational.
+The total number of pieces of debris tracked by the United States Space
+Surveillance Network (SSN), including derelict satellites, rocket bodies,
+and debris fragments is 41,950, and the estimate number of debris larger
+than 10 cm by the ESA's model is of 44,700. The number of registered
+incidents, including break-ups, explosions, collisions, or anomalous
+events resulting in fragmentation, is more than 640. The most significant
+incident was the collision on February 10, 2009, of an active US com­
+munications satellite (Iridium 33) with a defunct Russian military
+communications satellite (Kosmos 2251). Both satellites were destroyed
+in the collision, producing around 2200 pieces of new tracked debris
+with a size of at least 5 cm [9]. However, the most critical incident (an
+anti-satellite military test) was intentional, resulting in the destruction
+of the Fengyun-1C (a Chinese satellite) on January 1, 2011, by a kinetic
+weapon producing an estimated 3037 pieces of new tracked debris.
+The standard classification of orbital debris depends on its size and
+the technical possibility of tracking it. Projections obtained using
+different evolutionary models for debris dynamics population (for
+
+example, the LEO-to-GEO NASA's Environment Debris Model, LEGEND,
+[10]) have estimated amounts of around 34,000 pieces of debris larger
+than 10 cm diameter, 900,000 objects between 1 cm and 10 cm, and
+over 128,000,000 fragments between 1 mm and 1 cm. The number of
+debris objects estimated by the MASTER-8 model (the ESA's Meteoroid
+and Space Debris Terrestrial Environment Reference model) is 36,500
+objects larger than 10 cm, 1,000,000 fragments greater than 1 cm to
+10 cm, and 130 million fragments greater than 1 mm to 1 cm [11]. The
+destruction power of debris smaller than 1 cm is estimated to be low and
+non-fatal in the case of a collision with a satellite. However, debris larger
+than 1 cm is potentially deadly due to the high velocity of the impact
+(between 5 and 10 km per second).
+Fig. 1 plots the number of launches per year using information
+collected from the DISCOS database and the Union of Concerned Sci­
+entists (UCS) satellite database. In the first years of space exploration,
+the number of launches increased rapidly due to the space race between
+the United States and the Soviet Union. From 1968 on, the number of
+launches stabilized and even decreased. The trend returned to be posi­
+tive from 2005, with a trend-break in the last two years (2022 and 2023)
+due to private firms’ activity and the launching of satellite
+constellations.
+Fig. 2 plots the number of satellites and other spacecrafts inserted
+into orbit. Figures differ from launch ones since each rocket can carry
+several payloads. Indeed, we can observe how the number of satellites
+per launch has dramatically increased in the last year, coinciding with
+the launch of satellite constellations. More powerful launch vehicles and
+the reduction in the size and mass of satellites explain those figures.
+Fig. 3 shows how the total number of catalogued objects in orbit has
+evolved.4 Some jumps in the number of objects can be observed in some
+years, caused by accidental break-ups, explosions, collisions, and the
+deliberate destruction of targets in anti-satellite (ASAT) tests. The
+number of SSN catalogued objects has been increasing steadily, except in
+some years, such as 1989 and 1990, coinciding with the disintegration of
+the Soviet Union, which significantly decreased the number of launches.
+However, debris creation has accelerated in the second half of the
+decade, beginning in 2010 and continuing in the last three years due to
+collisions with debris and additional ASAT tests. The number of new
+objects catalogued in orbit has increased significantly in the last two
+decades. There are three main reasons for this. First, there is an
+
+Table 1
+Data on the activity in outer space.
+Successful launches
+Successful satellite launches in Earth orbit
+Satellites in Earth's orbit
+Operational satellites
+Debris tracked by SSN
+Incidents resulting in fragmentation
+Debris >10 cm
+Debris between 1 cm and 10 cm
+Debris between 1 mm and 1 cm
+
+6910
+21,620
+14,240
+11,700
+41,950
+650
+44,700
+1,200,000
+140,000,000
+
+Fig. 1. Number of rockets launches per year (1957-2024).
+Source: UCS, DISCOS
+
+Source: ESA (May 2025)
+
+4
+The actual figure for debris is larger than the number of catalogued objects.
+The US Space Surveillance Network (SSN) can only track objects larger than 510 cm in LEO and only larger than 30 cm to 1m in GEO, and only objects with a
+known origin are catalogued.
+
+3
+
+As defined by NASA, orbital debris is any human-made object in orbit that
+no longer serves a useful purpose, including spacecraft fragments and retired
+satellites.
+3
+
+A. Bongers et al.
+
+Space Policy xxx (xxxx) xxx
+
+space industry contributed 129,9 billion dollars to the U.S. economy in
+2021 (0.6% of GDP), with 360,000 full- and part-time jobs in the private
+space industry.
+The Space Foundation [14] estimates the global space economy will
+impact 546 billion dollars in 2022, amounting to 0.63% of entire world's
+GDP. The Satellite Industry Association [15] estimates that the global
+space economy accounts for $384 billion for 2022, approximately 0.45%
+of global GDP. According to the estimates, the space economy is still a
+relatively small fraction of the whole economy quantitatively, although
+some satellite services are vital for consumers. Corrado et al. [16]
+explore the connections between space economy and economic growth,
+measuring space activity spillovers. They find that space activity spill­
+overs are of high magnitude, although with a negative trend over time.
+Adilov et al. [17] estimate the value of 3369 satellites in orbit in 2020 as
+a function of their mass and the expected cost of satellite losses by col­
+lisions. They estimate the total value for satellite assets between 181,618
+and 217,942 million dollars and expected losses between 85,97 and 103,
+15 million. Adilov et al. [18] extend previous estimations to different
+orbits, with economic losses concentrated in the low-Earth orbit (LEO).
+
+Fig. 2. Number of satellites placed into orbit (1957-2024).
+Source: UCS, DISCOS.
+
+3. Regulation of outer space: a global common pool of resources
+The first economic challenge associated with human activity in outer
+space is related to the global regulation of this environment, particularly
+concerning property rights over natural objects and other space re­
+sources. Martin-Lawson et al. [19] considers outer space an area beyond
+national jurisdiction (ABNJ) such as oceans, polar regions, and the cy­
+berspace. Although outer space has several characteristics of a global
+shared pool resource, thus making it susceptible to similar economic
+failures as the ones observed with international commons on Earth, it
+also possesses unique attributes due to its distinctly different physical
+environment, thus calling for specific regulation. In their “The Eco­
+nomics of Outer Space”, Sandler and Schulze [7] were among the firsts
+to acknowledge outer space as a common property resource and to
+survey the economic issues related to its exploitation for business
+activities.
+Regulatory challenges have been evident from the early days
+following the initial exploration of outer space, prompting the interna­
+tional community to establish the International Telecommunication
+Union (ITU) as an independent authority. Its main task was spear­
+heading the development of a body of laws and regulations for space
+activities and launches. These norms and related issues have studied
+from legal and economic perspectives in academic literature. While a
+detailed survey of the first is beyond the scope of this paper, at least a
+significant contribution is worth noting. The book “Space Law: A Trea­
+tise” by Lyall and Larsen [20], now in its second edition, provides a
+coherent and comprehensive examination of outer space from a legal
+standpoint. The treatise not only discusses the role of the ITU but also
+addresses developments across all space applications, including Low
+Earth Orbit (LEO) activities, such as space tourism and Geostationary
+Orbit (GEO) activities like telecommunications. In addition to the gen­
+eral coverage provided by international space law, there now exists a
+specific body of law known as Orbital Law, which deals with legal issues
+unique to the exploitation of Earth's orbits. As Blount [21] explains, this
+legal framework addresses resource allocations, potential conflicts, and
+established coordination mechanisms, offering a focused legal analysis
+of the challenges presented by the unique characteristics and critical
+importance of Earth's orbital environments.
+In 1967, under the auspices of the United Nations it was drafted the
+Outer Space Treaty (OST). Formally known as the “Treaty on Principles
+Governing the Activities of States in the Exploration and Use of Outer
+Space, including the Moon and Other Celestial Bodies”, until now it is
+the sole international agreement establishing a set of principles for
+regulating human activity beyond Earth, aside from ITU regulations
+concerning GEO commercial activity. The OST outlines the fundamental
+principles to adhere in space exploration by nation-states, which at the
+
+Fig. 3. Catalogued objects in orbit 1957-2024.
+Source: US Space Surveillance Network (SSN) and Space-track.org
+
+increasing number of accidental collisions between satellites and debris
+(the most important has been the collision of a commercial American
+communication satellite, the Iridium-33, with Cosmos 2251, a derelict
+Soviet Union military satellite, on February 10, 2009). Second, the
+number of ASAT tests involving the physical destruction of the target has
+increased significantly during the last two decades as the number of
+countries with this type of weapon system has expanded. Third, tracking
+technology is constantly progressing. The Space Fence radar of the
+United States Space Force (USSF), becoming operational in March 2020,
+has increased the capability of tracking and accurately measuring space
+objects. Finally, the number of new catalogued objects in orbit will
+experience significant growth in the following years with the advent of
+satellite constellations at LEO.5
+Apart from the increasing number of satellites and other spacecraft in
+orbit, the economic impact of the space industry has continued growing
+at high rates. Weinzierl [1] advanced that commercial activities in space
+generate around $300 billion in annual revenues. Whealan-George [12],
+using input-output tables for the U.S. economy, estimates an economic
+impact of the commercial space industry of approximately $38 billion,
+or 2.0% of the total U.S. GDP, accounting for 195,484 full- and part-time
+jobs for 2016. The Bureau of Economic Analysis [13] estimates that the
+
+5
+As of June 2024, the SpaceX Starlink constellation has over 6229 opera­
+tional satellites (6738 launched) from a planned total of 12,000 satellites by
+2026 (McDowell, 2024).
+
+4
+
+A. Bongers et al.
+
+Space Policy xxx (xxxx) xxx
+
+time were the only entities with the technological and financial capacity
+for it. These principles included freedom of access and exploration, a
+prohibition on claiming sovereignty and a commitment to peaceful
+purposes. Except for spacecraft ownership, property rights are explicitly
+excluded under the OST.
+While the basic principles of the OST have been expanded upon by
+subsequent agreements and conventions addressing more specific issues,
+they represent a relatively limited set of rules that govern activities in
+outer space and do not constitute a comprehensive regulatory frame­
+work. The prevailing principle “first come, first served” is revealing all
+the inadequacy of current regulations. The consequences of this regu­
+latory shortfall were already articulated by Hardin [22], who famously
+argued that “Freedom in a common brings ruin to all.” Later, Ostrom
+[23,24] demonstrated that avoiding the “tragedy of the commons” is
+possible without resorting to privatization or heavy-handed government
+regulation.
+Outer space presents an ideal setting to explore the governance
+possibilities suggested by Ostrom [24]. Macauley [25] argues that
+regulation suits specific outer space resources but not others. Weeden
+and Chow [26] explore the potential applications of Ostrom's principles
+for managing outer space to circumvent privatization and centralization.
+They advocate for adopting “adaptative governance,” as proposed by
+Dietz, Ostrom, and Stern [27]. Their research assesses the applicability
+of the eight principles outlined by Ostrom [23] to near-Earth orbit,
+which they liken to parking garages, exploring how these principles
+could be adapted to this unique context. A related issue stems from the
+need for defined sovereignty limits in space. This challenge originates
+from difficulties in establishing precise boundaries for a country's
+airspace. Theoretically, outer space begins at an altitude of approxi­
+mately 100 km (the Kármán line). However, in practice, the boundaries
+of a nation's airspace sovereignty are often determined by the range of its
+air defense capabilities. Properly regulating these limits is crucial to
+prevent future conflicts as air defense technologies evolve.
+From an economic perspective, it is crucial to recognize that the
+Outer Space Treaty (OST) currently conflicts with the planned com­
+mercial exploitation of outer space resources, such as asteroid mining.
+When the OST was initially signed, only nation-states could explore
+space and no private companies had access. Now that technological
+progress has democratized access to space, increasing the number of
+countries and companies operating satellites, the necessity for a
+comprehensive revision of the OST is compelling, with economic con­
+siderations playing a central role in shaping future regulations.
+Excluding a specific entity from using outer space is challenging, even
+though this could change with further technological advancements.
+Considering the anticipated regulation of outer space activities and the
+political dynamics involved in such regulatory processes among space­
+faring nations, examining various economic questions related to this
+issue is also crucial. Weeden and Chow [26] argued that outer space
+comprises a variety of common pool resources, each with unique char­
+acteristics that necessitate a tailored governance framework. Chow [28]
+assessed the implications of a regulatory framework for current and
+future activities in space. Property rights in outer space will be also a
+source of conflicts among central spacefaring nations. Outer space ex­
+hibits “subtractability of use” characteristic like other shared resources.
+Problems are arising with issues such as protecting human lunar heri­
+tage, which would imply property rights over the place where lunar
+missions are carried out by the U.S., the Soviet Union, and China [29]. In
+general, it remains to be seen whether the unique physical characteris­
+tics of outer space necessitate a powerful sovereign or, conversely, if
+outer space should remain a realm of minimal governance.
+
+surprisingly, the space itself. Space around the Earth is vast but not
+infinite and a pressing problem arising from under-regulation is that
+some space resources are exhausting. Present commercial and military
+activities do not distribute satellites and other spacecraft uniformly at
+different altitudes, but they are concentrated in certain orbits of high
+value where satellites remain fixed above the same position over the
+Earth. This valuable feature can be achieved by continuously reposi­
+tioning satellites with maneuvers that are costly in terms of fuel and
+operational life, or by positioning them in particular orbit slots called
+Geostationary or Geosynchronous Equatorial Orbits (GEO). Here, the
+cross-gravity of celestial bodies in the solar system combined with ve­
+locity establishes an orbital period that matches Earth's rotation period,
+thus maintaining devices constantly above the same point over Earth's
+surface without running engines. Communication, weather, and GPS are
+examples of satellites positioned in GEO orbits, which are located at an
+altitude of approximately 35,786 and have a radius of approximately
+42,157 km.
+Available slots at GEO are relatively abundant but far from infinite,
+considering that satellites require a minimum distance between each
+other to avoid electronic interferences. Moreover, fast-peace techno­
+logical progress largely increased the number of players in the market
+for satellite applications during the last two decades, now counting
+many more national space agencies beyond the ones of US and Russia,
+plus many private firms, satellite constellations, space mining firms, etc.
+In fact, space is already exhausted in some orbits, where no slots are
+available for new satellites.
+Spectrum frequencies and orbital slots are assigned by the Interna­
+tional Telecommunication Union of the United Nations (ITU). The
+allocation is done on a first-come, first-served principle, and it is costless
+and unlimited in time, except for some restrictions on the period be­
+tween the permission approval and the actual moment the satellite must
+be in orbit and operational. In addition, slot rights are given for the
+operational life of satellites, but operators typically replace old satellites
+with new ones, thus making slot rights indefinitely in practice. Although
+it establishes some rules, ITU has no actual enforcement power on
+spacefaring actors and therefore, space activities occur in a highly nonregulated market. The whole organization and regulatory environment
+are clearly unfit for present market size, number of players, and actual
+development and commercial interest in outer space activities. In this
+context, the under-regulation of outer space established in the 1960s is
+rapidly leading to overuse of resources and related environmental
+problems as expected in any tragedy-of-the-commons situation.
+From an economics perspective, the first analysis of the satellite
+market appeared in the mid-seventies, typically pursuing approaches on
+cost minimization. Snow [30], Early et al. [31], and Pritchard [32] are
+early attempts to apply economic analysis to the satellite services mar­
+ket. Snow [30] applied a model of investment cost minimization to the
+case of satellite communications. He used INTELSAT data to calibrate
+the model and obtain the optimal investment planning in satellite ca­
+pacity and replenishment times. Early et al. [31] also used INTELSAT
+data to analyze the amount of R&D required to support a satellite
+communication system and related this expenditure to determining
+hardware investment costs. The authors also provided a proper eco­
+nomic optimization to determine the most profitable station size for new
+entrants in the INTELSAT system, i.e., they compared small stations with
+lower initial cost, but higher space segment expense as opposed to
+largest stations with higher initial cost but lower space segment expense.
+Early et al. [31] were the first to acknowledge the interest in treating
+orbits and satellites with proper economic analyses, given that “The
+economic viability of these systems is no longer questioned. Instead, new
+questions relating to system optimization […] are of increasing interest”. In
+this line, Pritchard [32] provided estimations on the costs of satellite
+communications systems and some insights on minimizing such costs. In
+particular, he acknowledged the relationship between satellite systems
+costs and some satellite design features. He suggested deciding on con­
+struction design to minimize such costs, e.g., satellite lifetime and
+
+4. Congestion in outer space: the market for orbits and
+electromagnetic spectrum
+When considering outer space as an environment for business ac­
+tivity, its main resources are transmission frequencies and, perhaps
+5
+
+A. Bongers et al.
+
+Space Policy xxx (xxxx) xxx
+
+adequate radiated power.
+The possibility of congestion in outer space was first conjectured in
+the economics literature during the 1980s by Sandler and Schulze [7].
+They discussed allocation problems because of externalities and public
+goods related to outer-space activities. For example, they constructed a
+formal economic model for the optimal allocation of telecommunication
+satellites and examined the efficiency of the existing institutional
+structure. Wihlborg and Wijkman [33] also treated space as a shared
+pool of resources and conjectured about congestion problems in geo­
+stationary orbits. They suggested using market mechanisms to allocate
+resources efficiently in space and compared the first-come, first-served
+regime with right vs. auction regimes. They also argued about the effi­
+ciency of these regimes compared to the proposal to carve up space
+resources and distribute the parts among nations. At the time, there were
+few satellites in orbit, and therefore, their analysis remained theoretical
+and speculative, even though they were pioneers and forward-thinking.
+Sometime later, the view of orbits as a finite shared pool of resources
+subject to pollution and congestion was embraced in law journals.6
+Levin [34] invoked a proper economic analysis of the values of radio
+spectrum and geostationary orbits, and Levin (1984) propose a political
+economy plan to allocate orbit resources through mechanisms designed
+to introduce market incentives. Finally, Macauley [35] studied the ef­
+fects of technical change on the rationing of the usage of the electro­
+magnetic spectrum for communications satellites by the Federal
+Communications Commission (FCC).
+The debate for an efficient allocation of orbit slots and spectrum
+entirely took off in the 1990s, when the focus of the literature shifted
+from the first conjectures on market mechanisms to allocate spectrum
+efficiently and orbits to a proper treat of outer space as a shared pool of
+resources. The change of perception and the urge for regulations were
+possibly triggered by some events during the 1980s, such as the
+increasing number of telecommunication satellites in orbit, the case of
+Tonga (in 1990 the Tongan Government filed for 16 geostationary
+orbiting positions with the ITU with no intention of using them, only to
+open an auction for their annual renting), and the case of equatorial
+countries (the equatorial States raised sovereignty claims on the GEO
+over their territories in the Bogota Declaration in 1976). These events
+acknowledged the economic, environmental and social issues implied by
+human activities in outer space and stimulated a new branch of litera­
+ture. Levin [36] discusses various proposals to create an international
+commodities market for spectrum frequencies and auction off the rights
+to use them. Levin [37] extends the previous framework to the possi­
+bility of trading rights to orbital slots and spectrum. From Thompson
+[38], we learn that a few years later, space scarcity and satellite
+congestion were already taken as a starting point for a discussion on
+Earth's orbits, which, in the case of Thompson, hinged on fairness and
+ethical considerations of leaving orbit permits to market dynamics. He
+argued that the consequent price for orbital slots set in a non-regulated
+market would put orbits “out of the range of all but financial behemoths”.
+He also discusses the case of Tonga as an example of malpractice with
+space resources. While Thompson was invoking more fairness principles
+in the centralized allocation, at the same time, “an extensive economics
+literature alleges that the non-market administrative allocative procedures
+now in place are highly inefficient,” as noted by Macauley [39], who
+developed a model to estimate the economic value of communications
+satellites at geostationary orbit and the welfare cost of existing
+non-market administrative allocative procedures. Along the same line,
+Shibusawa [40] proposed a conceptual model to optimize the location of
+telecommunication satellites by maximizing social welfare in terms of
+utility as in standard economics models and accounting for the negative
+externalities of satellite congestion.
+Regarding the normative aspects of satellite congestion, Macauley
+
+[39] analyzed the welfare cost of existing non-market administrative
+allocative procedures for communications satellites at geostationary
+orbit. Macauley [41] offered an introduction to the variety of ways
+economics can contribute to understanding the value of space. She
+focused explicitly on space as a natural resource subject to scarcity and
+how its scarcity might be managed to exploit its economic benefits best.
+A more recent contribution is Adilov et al. [42], who show that
+incumbent satellite operators have incentives not to utilize a fraction of
+their assigned spectrum and orbital slots. Indeed, these operators have
+incentives to keep non-operational satellites in orbit as a barrier to entry
+for other operators, increasing prices and reducing output and social
+welfare. Adilov et al. [43] propose to issue interest-bearing performance
+bonds to provide an incentive mechanism for deorbiting satellites with
+minimal effect on firms' operating costs. A similar proposal is done by
+Brownhall et al. [44].
+Further work remains to be done in this area to study the market for
+satellites from an industrial organization and strategic commercial
+policy perspectives, considering that several private firms planned to
+insert thousands of satellites (satellite constellations) in orbit, further
+increasing congestion in LEO, the already most congested orbit.
+Oligopolistic models such as those of Guyot and Rouillon [45], Guyot,
+Rao and Rouillon [46], and Bernhard, Deschamps and Zaccour [47], or
+monopolistic competition models such as Rouillon [48] are starting
+points to assess firms’ competition in the space, where specific variables,
+such as altitude, orbital inclination, number of satellites, size of satel­
+lites, scheduled lifespan, etc., are key strategic decisions.
+5. Pollution in outer space: orbital debris
+As defined by NASA, “orbital debris is any human-made object in orbit
+that no longer serves a useful purpose, including spacecraft fragments and
+retired satellites”. Debris is a type of space pollution, with some charac­
+teristics different to other types of pollution on Earth, that could have
+dramatic consequences for commercial and other activities in outer
+space [49]. Launching satellites and carrying out other operations in
+orbit generate debris that can collide with operational satellites, with
+fatal consequences in some cases. Even small debris with little mass can
+have catastrophic consequences for the affected spacecraft due to high
+velocities. On the other hand, space debris is self-propagating, as colli­
+sions between pieces of debris create more debris. The so-called “Kessler
+syndrome” represents a scenario of collisions in a cascade [50].
+Debris is generated from different sources, including parts of launch
+vehicles and rocket bodies, non-functional satellites, the breaking-up of
+satellites and rocket bodies, and even tools lost by astronauts. Tradi­
+tional launch systems have three or four stages, each with specific en­
+gines. Initial stages usually burn in the re-entry to the atmosphere, but
+the last stages can remain in space for long periods, especially for in­
+sertions at high altitude orbit. The leading cause of in-orbit explosions is
+related to residual fuel that remains in the tanks of rockets' upper stages
+or derelict satellites abandoned in orbit. The extreme conditions in outer
+space quickly cause mechanisms and devices to deteriorate, leading to
+leaks mixing fuel components, which provoke accidental explosions that
+break up rocket bodies and other spacecraft, and generate a large
+number of fragments that travel around the initial orbit at hypervelocity (above 10,000 km per hour). Besides such accidental breakups, spacecraft interceptions by surface-launched missiles have
+recently been a significant contributor. A single event, the intentional
+destruction of the Chinese Feng-Yun 1C satellite by a missile in January
+2007, increased the trackable space debris population by 30% [51].
+Most debris (around 85%) are at a Low Earth Orbit (LEO) altitude
+(below 2000 km), with peak concentration around an altitude of
+700-900 km [52].
+Seminal papers studying the economic consequences of orbit debris
+are Adilov, Alexander and Cunningham [53,54] and Macauley [55],
+followed by Rao, Burgess and Kaffine [56] and Rouillon [57]. Leaving
+aside several differences, they have in common constructing stylized
+
+6
+The NYLS Journal of International and Comparative Law and the Michigan
+Journal of Comparative Law.
+
+6
+
+A. Bongers et al.
+
+Space Policy xxx (xxxx) xxx
+
+physical models, formalizing the dynamics of the populations of orbiting
+objects and studying the behavior of space industry players, assuming
+that they neglect their contribution to the proliferation of debris. Adilov
+et al. [53] developed a Salop-type model [58] for comparing the optimal
+number of launches in a decentralized versus a centralized market.
+Firms can enter the market by placing one satellite in orbit for the initial
+time to sell satellite services for two periods unless their satellite is
+destroyed by collision. They compare the number of launches in a
+market equilibrium relative to the social optimum and find that the
+number of satellites and launches is higher than the social optimum as
+firms do not consider the negative externality of debris generated by
+their activities in space. Given that the negative externality affects all
+firms, there is under-investment in debris mitigation technologies.
+Adilov et al. [54] construct an explicit physical model, formalizing the
+interactions between satellites and debris fragments over an infinite
+horizon. They characterize the equilibrium in perfect competition by
+assuming that firms have adaptative expectations and launch satellites if
+the expected marginal revenue is larger than expected marginal cost.
+They determined that the threshold level of debris for economic viability
+is lower than the level after which the “Kessler syndrome” occurs [50].
+Kessler and Cour-Palais [50] called for the implementation of
+different methods to reduce orbit debris, including improved engineer­
+ing designs to reduce the frequency of satellite breakups from structural
+failure and explosions in space and by reducing the number of
+non-operational satellites. Macauley [55] presented different techno­
+logical strategies to mitigate debris generation and/or collision risk,
+including maneuvering capability, grave-yarding capability and
+shielding, and argues that a launch tax system, combined with various
+ex-ante and ex-post rebates, would incentivize investment in these
+strategies. Adapting the methodology used in fisheries economics,
+Rouillon [57] focuses on the long-run stationary state of the orbital
+environment. He shows that, under given conditions, the curve repre­
+senting the long-term fleet of active satellites as a function of the launch
+rate has an inverted-U shape. The analysis confirms that firms launch too
+many satellites under perfect competition.
+The main lessons drawn from this initial literature are clear and not
+surprising. Given its nature of common pool of resources and a market
+with negative externalities in production, if output space is organized as
+a perfectly competitive market, it will display the expected excess of
+usage/quantity produces with respect to the social (Pareto) optimum.
+Hence, the current legal framework that de-facto authorizes open access
+to the Earth's orbit is rapidly leading the space industry to over-exploit
+it. Putting this in perspective with the Kessler syndrome, we are in­
+clined to worry about the risk of the space industry clogging up the
+Earth's orbit to the point of triggering a chain reaction that will even­
+tually render it unusable. However, Adilov et al. [54] and Bongers and
+Torres [59] come to a reassuring conclusion by showing that there exists
+a threshold level of debris for economic viability which is lower than the
+“Kessler syndrome” level identified by Kessler and Cour-Palais [50].
+The papers mentioned above draw some valid intuitions from theo­
+retical models. However, this first step calls for a follow-up involving the
+simulation of calibrated models to predict the evolution of the orbital
+environment and inform decision-making. The first simulations were
+provided by Klima et al. [60,61], Adilov et al. [62], Rao et al. [56], and
+Bongers and Torres [59]. Adilov et al. [62] expand and calibrate their
+model in Adilov et al. [54]. In their baseline simulation, the debris stock
+increases at an increasing rate throughout the century, faster than
+NASA's reference model projected. The authors argue that discrepancy is
+mainly due to endogenizing the behavior of the space industry by taking
+its incentives into account. Rao et al. [56] use an applied model cali­
+brated on physical and economic data from 1957 to 2015 to simulate the
+trajectories of open-access and optimal launches until 2040. Under open
+access, they project a trajectory of satellite launches increasing from
+around 50 satellites per year in 2020 to around 80 satellites per year in
+2040. This rate is around twice as fast as the social optimum. The result
+would be a further accumulation of debris in orbit over the period when
+
+it would be socially optimal to reduce the debris stock drastically. These
+results can also be used to show that the cost of inaction would be
+considerable since the net present value of the satellite industry would
+be around 600 billion dollars under open access, compared with around
+3000 billion dollars under an optimal policy. Bongers and Torres [59]
+calculate the equilibrium in a competitive market where firms launch
+and operate satellites to maximize their discounted profits, taking the
+risk of collision as exogenously given. They compare two scenarios,
+depending on whether or not there is a risk of satellite destruction by
+debris. In the steady state, they simulate that the risk of collision induces
+firms to reduce the number of launches by 3.7 per cent and the number
+of satellites in orbit by 4.5 per cent. Moreover, the fleet of satellites
+remains far below the Kessler threshold, which they estimate is equal to
+around 72,000 satellites for all low earth orbit. Nomura et al. [63] es­
+timate the likelihood of reaching the Kessler syndrome and how the
+tipping point can be delayed by removal and mitigation actions. Rao and
+Rondina [64] also study the conditions for the Kessler syndrome and
+estimate that the Earth's orbit could be unusable anytime between the
+year 2040 and the year 2184, depending on the calibration of the model.
+The model simulations are often broken down into several exogenous
+scenarios for sensitivity analysis. Adilov et al. [62] diversify their sce­
+narios, considering varying degrees of compliance with debris mitiga­
+tion guidelines, a launch tax and various levels of debris removal effort.
+For their part, Bongers and Torres [59] propose a sensitivity analysis to
+take account of two technological developments currently underway,
+namely lower launch costs and satellite miniaturization. Guyot and
+Rouillon [65] investigate how changes in the design of satellites affect
+debris dynamics, proposing a model in which, in addition to the rate of
+launches, satellite operators make design choices concerning the dura­
+bility of their satellites. Guyot and Rouillon [45] extend the previous
+analysis and construct a model where satellite operators make choices
+about the design and launch of satellites while in-orbit servicing firms
+supply efforts to remove space debris. The incentive scheme that they
+consider implementing consists in an optimal is a combination of an ad
+valorem tax, a launch tax, and a market for removal effort certificates.
+A growing body of literature has studied the role of environmental
+policies in space. Space pollution can be controlled using policy in­
+struments such as taxes or cap-and-control to mitigate emissions or by
+ex-post interventions using active debris removal (ADR) policies. Klima
+et al. [60] used a game theory approach whereby spacefaring agencies
+can implement costly active debris removal interventions that benefit all
+spacefaring agents or wait for other agents to carry out the work.
+Grzelka and Wagner [66] developed a model containing property rights
+and instruments to incentivize ex-ante increases in satellite quality and
+collective or individual debris take-back interventions. Béal, Deschamps
+and Moulin [67] compared the non-cooperative Nash equilibrium with a
+tax on launches to finance debris mitigation with the welfare of optimal
+traffic under a centralized tax. They found that, under a centralized tax,
+the traffic is increased, and the debris mitigation cost is reduced
+compared with the non-cooperative scenario. Rao et al. [56] developed
+a model with infinity-lived satellites to study the implications of
+Pigouvian taxation consisting of an international orbital-use fee. Adilov
+et al. [62] simulated the quantity of orbital debris under different pol­
+icies, including a launch tax, voluntary debris mitigation, and active
+debris removal policies.
+To avoid potential rebound effects, the managerial and technological
+solutions described above should be complemented by economic in­
+struments. Classically, the aim is to correct the externality by con­
+fronting economic agents with the actual cost of their choice. Since
+fragments cause that externality, a Pigouvian tax on debris emitted,
+reflecting the associated discounted value of future damage, would
+appear at first sight to be the most effective instrument [45]. However,
+in practice and theory, implementing a Pigouvian tax could be chal­
+lenging because the fragments generated after satellite destruction are
+not detectable by radar below a size of 10 cm and can potentially be
+responsible for cascading collisions. Furthermore, since a collision
+7
+
+A. Bongers et al.
+
+Space Policy xxx (xxxx) xxx
+
+involves two objects, liability is necessarily joint. Several second-best
+economic instruments have been discussed in the literature. The most
+common is the launch tax [45,53,55,67]. In simple settings, where firms
+confine themselves to choosing the rate at which they launch satellites, a
+launch tax proves to be effective because it allows them to internalize
+the externality induced by the fragmentation of satellites.
+As Rao et al. [56] noted, previous property is likely to fail in more
+realistic models, in which firms make choices about satellite design and
+mitigation actions. For example, a launch tax has no incentive to design
+satellites with a longer operational lifetime and/or de-orbiting capa­
+bility, even though the risk of collision depends also on satellite lifetime.
+In fact, Rao et al. [56] argued that an orbital tax would do better than a
+launch tax. Thus, under the constraint that it is not feasible to levy a
+Pigouvian tax on the debris generated by a collision, implementing an
+optimal outcome will require a combination of instruments to guide all
+the choices influencing the risk of collision and the amount of debris
+generated. Adilov et al. [43] suggest a system of interest-bearing deor­
+biting performance bonds to incentivize firms to deorbit their expended
+satellites.
+Building on the Integrated Assessment Models (IAM) from the
+environmental and climate change literature [68], integrated
+macroeconomy-space models have been developed to analyze the im­
+plications of orbital debris and optimal policy. Some initial attempts in
+this direction were Rao and Letizia [69], Rao et al. [70], Nozawa et al.
+[71], and Bongers et al. [72]. Rao and Letizia [69] combine an econo­
+metric model of space activity with a debris environment model based
+on a Particle-in-a-Box (PIB) model. Another example of IAM for orbital
+debris is the OPUS (Orbital Debris Propagators Unified with Economic
+Systems) model Rao et al. [70] developed. The model incorporates an
+astrodynamic propagator to assess the state of objects in orbit combined
+with a simple economic model to determine launch activity. The model
+is used to evaluate policy proposals for managing orbital congestion.
+Nozawa et al. [71] use a neoclassical growth model to study economic
+activity and the damage produced by orbital pollution and estimate that
+debris will cause harmful damage of approximately 1.95% of global GDP
+in 200 years if no debris is remediated. Bongers et al. [73] develop a
+partial-optimal growth model to assess the effectiveness of mitigation
+policies.
+
+data, including ex-post evaluation of public projects, political manipu­
+lation, regional favoritism, and evaluation of country sanctions, even if
+the available information was not initially designed for economic
+analysis.
+The first generation of studies used data from the Earth Observing
+System (EOS) program by the U.S., which is a space-based environ­
+mental data collection project. The data comes from the U.S. Defense
+Meteorological Satellite Program Operational Linescan System (DMSPOLS), available publicly from 1973 and, more comprehensively, from
+1992, when the digital archive was made public [78]. The original idea
+was to use night-light data as a proxy for economic activity. An early
+study by Elvidge et al. [79] used nighttime data from DMSP-OLS to es­
+timate light emissions in 21 countries and examine their relationship
+with population, economic activity, and electric power consumption.
+They found that the area lit is highly correlated with population, gross
+domestic product (GDP), and electric power consumption, even in
+highly heterogeneous countries. Sutton and Costanza [80] estimated
+that the correlation between light energy and GDP is 0.86 for U.S. states
+and extended the analysis to estimate economic activity and
+non-marketed activity globally at a one km2 resolution. Ebener et al.
+[81] used nighttime light imagery to study income distribution per
+capita at a regional sub-national level. Doll, Muller, and Morley [82]
+utilized DMSP-OLS data to estimate GDP for 11 European Union coun­
+tries and the United States with a resolution of 5 km2, finding that the
+correlation of light radiance with GDP at a regional or state level is
+above 0.9, except for France. Burchfield et al. [83] used satellite images
+to study U.S. urban development and sprawling in metropolitan areas,
+creating a grid of 8.7 billion 30 × 30 m cells for the U.S.
+Following previous initial contributions, Henderson, Storeygard, and
+Weild [84,85] developed a statistical framework for augmenting official
+income growth statistics with satellite data. Henderson et al. [84]
+identify two crucial drawbacks of using nighttime lights from space to
+measure income: i) the relationship between economic activity and
+lights is not constant across time and space, and ii) true light is imper­
+fectly measured by satellites. Henderson et al. [84,85] measure GDP
+growth for cities and subnational regions in Sub-Saharan Africa. To deal
+with those issues, Galimberti [86] developed some statistical procedures
+to extract new predictive information from the lights data for forecasting
+GDP growth across a global sample of countries and found that i) night
+lights data can be used to improve the accuracy of model-based forecasts
+and ii) the relationship between lights and economic activity is very
+different across countries.
+From 2012 onward, more accurate nightlight data are available from
+the Suomi National Polar-orbiting Partnership (NPP) satellite. This is the
+so-called VIIRS-DNB data obtained from the Joint Polar-orbiting Satel­
+lite System (JPSS), the Visible and Infrared Imaging Suite (VIIRS) Day
+Night Band (DNB). Chen and Nordhaus [87] compare estimates from
+using DMSP-OLS versus VIIRS-DNB data. They apply the two data sets to
+both US states and metropolitan statistical areas (MSAs) and find that
+both the DMSP-OLS and the VIIRS-DNB nighttime lights are more
+helpful in predicting cross-sectional GDP than predicting time-series
+GDP data and are better for prediction for MSA GDP than for state
+GDP, which is interpreted as that lights are more closely related to urban
+sectors than rural sectors.
+Apart from measuring economic activity, another application of
+those data is related to detecting measurement errors in national and
+regional accounts. Nighttime light data has fueled the debate about the
+reliability of GDP data for low- and medium-income countries. Sutton,
+Elvidge, and Ghosh [88] use satellite data for the U.S., China, India, and
+Turkey, showing that nighttime imaginary data is highly accurate in
+estimating GDP. Chen and Nordhaus [89] compare luminosity data with
+GDP at a country level, showing that both measures coincide for coun­
+tries with high-quality statistical systems. The use of satellite nighttime
+lights to assess the quality of economic statistics has also been dealt with
+by Pinkovskiy and Sala-i-Martin [90], who show that measurement er­
+rors in DMSP-OLS nighttime light data are unrelated to the measurement
+
+6. Satellites and economic data
+Another field of economics related to outer space involves using data
+collected by Earth observation satellites to measure economic activity,
+economic growth, and other types of economic analysis, such as policy
+evaluation. Earth observation satellites can measure various natural and
+human-made phenomena on Earth, including economic activity [74,
+75]. These satellites have sensors that detect artificial light, which can
+be converted into data and used as a proxy for variables such as popu­
+lation and economic activity geographical concentration. Croft [76] was
+the first to demonstrate how nighttime light information from weather
+observation satellites could be used to study population density, eco­
+nomic activity, oilfield gas flaring, and agricultural fires.
+Since Croft's seminal work, data from Earth observation satellites
+have been widely used for empirical economic analysis. Donalson and
+Storeygard [77] provide an excellent early review on advantages and
+drawbacks of satellite data for economic applications, and a more recent
+one can be found in Gibson, Olivia, and Boe-Gibson [78]. Donalson and
+Storeygard (2013) highlight how spatial remote sensing data improve
+upon traditional data in three key aspects: i) access to information that is
+difficult to obtain by other means, ii) high spatial resolution, and iii)
+broad geographic coverage. Satellite nighttime lights can be used for
+producing-subnational economic statistics, even for small rural areas,
+and for less-developed countries characterized by inaccurate and/or
+lack of statistics. Another advantage is the frequency. Satellite nighttime
+light data can be obtained daily more frequently than traditional sta­
+tistics. Gibson et al. [78], instead, lists possible applications of nighttime
+8
+
+A. Bongers et al.
+
+Space Policy xxx (xxxx) xxx
+
+errors in national accounts or household surveys. Pinkovskiy and
+Sala-i-Martin [91] use nighttime lights to compare Penn World Table
+(PWT) and World Development Indicators (WDT) data in predicting
+GDP, concluding that GDP series based on unadjusted domestic growth
+rates are better than series based on purchasing power parity adjust­
+ment. Using nighttime data, Pinkovskiy and Sala-i-Martin [91] found
+that Chinese growth in 2015 was higher than that reported by official
+statistics. By contrast, Hu and Yao [92] estimate that the elasticity of
+nighttime lights to GDP is about 1.3 (using DMSP-OLS data) and find
+that the GDP growth of China and India has been overestimated in
+official statistics based on an optimal combination of nighttime lights
+and national accounts data.
+Apart from previous studies, other dimensions remain to be explored.
+Space data can improve availability of economic data along two critical
+dimensions: frequency and spatial. Regarding the first, changes in eco­
+nomic activity growth can be detected instantaneously thanks to
+continuous remote sensing. Economic activity could be measured daily
+and then used to increase the frequency of national accounts. Business
+cycle analysis would also benefit from high frequency data. Any change
+in the cycle can be detected just in time, thus making macroeconomic
+forecasts, updating, and detection of turning points much more accurate.
+On the other hand, production data can be available at any level of
+aggregation, from cities to regions. This could be used to measure errors
+in traditional statistics by comparing and checking data reliability for
+other less-quality data, as shown by Chen and Nordhaus [89]. Finally,
+another utility of satellite Earth's observation is the detection of the
+informal economy [85,88]. The informal economy is not measured in
+official statistics, and data collected by observation satellites can be used
+to complement estimations of the underground economy. The applica­
+tions in economics extend further. National, regional, and other low
+spatial unit accounts and economic growth are not the only areas in
+which space data will have a significant role. Environmental, energy,
+and transportation economics are other fields in which space-generated
+data can contribute significantly.
+Existing data from Space are generated by Earth-observation satel­
+lites that are not explicitly designed to collect data to be used in eco­
+nomics. One step ahead could be the definition of data-collection
+characteristics for economic purposes and even designing specific sat­
+ellites for measuring economic activity and other economic purposes,
+such as policy evaluation. This opens the door to the collaboration be­
+tween economists and Space national agencies for the design, con­
+struction, calibration, and launch of a specific satellite or the inclusion of
+specific sensors in satellites for collecting economic data from the Earth
+from Space. This would revolutionize the availability of economic data
+through the possibility of generating high-frequency data on production
+growth, activity reallocation, real-time measurement of the effects of
+shocks and policies, and leading indicators of economic forecasting.
+Such advances will significantly enhance data availability for empirical
+economists, enabling the measurement of income distribution and eco­
+nomic growth at any temporal frequency and spatial unit and improving
+the reliability of measuring economic activity in another area with poor
+statistics.
+
+and doctrine among leading powers. Initially, military goals heavily
+influenced space exploration, including the origins of launch systems
+and the growing defense interest in space, given its vast potential for
+military operations. Military communications, meteorological fore­
+casting for operations, geographic positioning of combat units, control
+and guidance of precision weapon systems, surveillance and intelligence
+gathering are all indispensable for contemporary defense and warfare
+strategies. These factors have led to an increased militarization of outer
+space.
+The militarization of outer space encompasses not only passive, nonweaponized military equipment, but also includes the development of
+anti-satellite weapon systems (ASAT). Koplow [93] noted that the U.S.
+began developing ASAT weapons just weeks after the Soviet Union
+launched Sputnik I. Crucially, the traditional distinction between mili­
+tarization and weaponization blurs in outer space, where any object
+capable of maneuvering at high velocities can potentially be used as a
+weapon [94]. The militarization of space could significantly hinder the
+development of in-space industries and the implementation of policies to
+reduce orbital pollution through active debris removal. While the mere
+presence of more operational satellites contributing to the congestion of
+near-Earth orbit might seem like a direct negative impact of militari­
+zation, the strategic importance of these assets for national defense and
+warfare makes them targets for adversaries, thus potentially trans­
+forming space into a battlefield where civil spacecraft would also be
+military targets.
+From an economic perspective, the military use of outer space has
+three main implications. First, militarization and weaponization of
+space directly affect the population and dynamics of orbital debris.
+Many launches and satellites are military, contributing to the density of
+objects in orbit and debris production. Consequently, military activity in
+space is a notable source of orbital debris. Additionally, for operational
+reasons, many military satellites remain in orbit beyond their functional
+lifespan, transforming into space junk and increasing the risk of colli­
+sions with active satellites. Furthermore, a substantial number of orbital
+debris has been intentionally created by testing direct-ascent (DA) antisatellite (ASAT) weapons. These tests typically involve destroying a
+target satellite with a missile or the self-destruction of the weapon itself,
+generating a significant amount of new orbital debris. A notable incident
+was the intentional destruction of the Chinese Feng-Yun 1C satellite by a
+missile in January 2007, which increased the population of trackable
+space debris (pieces larger than 10 cm) by 30%, resulting in 3449
+catalogued fragments [51]. Up to 2010, ASAT tests accounted for about
+41% of orbital debris [95], and this percentage is much higher if the
+DA-ASAT test conducted by China in 2007 and the most recent test by
+Russia in 2021 are included. Second, the development of debris removal
+vehicles is controversial due to their dual-use potential; they can also
+function as anti-satellite (ASAT) weapons, posing an obstacle to the
+implementation of active mitigation policies aimed at reducing orbital
+pollution [96]. Indeed, any technology designed for active debris
+removal could be repurposed as a weapon since it can remove any object
+from orbit, including adversary satellites. Third, the emerging in-orbit
+services industry is similarly threatened by military considerations.
+Space services such as refueling, upgrading, maintenance, and repairs of
+satellites could be compromised. These activities require space vehicles
+that could also be utilized as ASAT weapons given their capabilities. The
+unique conditions of space mean that practically any spacecraft has the
+potential to be used as an ASAT weapon.
+[97] explored the issue of orbital debris from a behavioral economics
+perspective, examining its impact on national defense. They argued that
+orbital debris poses a significant threat to the security interests of
+spacefaring nations. Bernat [98] highlighted the growing strategic
+importance of satellites and other orbital systems, noting that this has
+led major spacefaring countries to develop advanced space weapon
+systems and specialized units for space warfare. Bongers and Torres [99]
+analyzed the implications of ASAT tests and space warfare on orbital
+debris. They employed a straightforward physical-economic model to
+
+7. Space defense
+Military and civilian satellites provide strategic advantages for se­
+curity, national defense, and warfare, making military considerations a
+pivotal aspect of human activities in outer space. The militarization of
+space began with the advent of space exploration, primarily through the
+adaptation of ballistic missiles to deploy spacecraft into orbit. The mil­
+itary use of outer space follows naturally from the unique technological
+benefits that satellites offer in terms of warfare and security. The
+deployment of space capabilities for defense enhances the military ca­
+pacity of spacefaring nations and supports arms control treaties by
+improving verification and monitoring. Moreover, military applications
+in space are crucial for modern warfare, influencing technology, tactics
+9
+
+Space Policy xxx (xxxx) xxx
+
+A. Bongers et al.
+
+satellite constellations with thousands of satellites providing internet
+access services anywhere in the world.
+Table 2 provides a concise overview of current activities in outer
+space, including their revenues and key challenges. The World Economic
+Forum and McKinsey (2024) project that the global space economy will
+reach $1.8 trillion by 2035. The largest current market segment is
+navigation/GPS, with an estimated market size of about $300 billion in
+2024, expected to grow to $700 billion by 2032 [102]. The second
+largest segment by revenue is telecommunications, projected to increase
+from $110 billion in 2025 to approximately $260 billion by 2034 [103].
+Global military space spending reached $60 billion in 2024 [104].
+Existing industries face several challenges beyond environmental
+concerns. Regulatory and legal issues, such as licensing, orbital slots,
+spectrum allocation, safety regulations, and insurance, affect all com­
+mercial space activities. In addition, certain commercial services such as
+navigation, positioning, and telecommunications have potential dualuse military applications, meaning their development is closely influ­
+enced by national space defense policies.
+
+demonstrate how anti-satellite military tests, especially those using
+direct-ascent weapons, substantially increase the likelihood of triggering
+the Kessler syndrome. While the long-term impact of low-altitude
+anti-satellite tests is mitigated by atmospheric drag, high-altitude
+direct-ascent anti-satellite tests pose a persistent threat to human ac­
+tivities in space. Their paper also simulates the long-term effects of a
+hypothetical space war, assuming the destruction of 250 satellites by the
+US and China. Such a conflict would have severe consequences. The
+interruption of high-value satellite services would disrupt everyday life,
+severely impairing military operational capacities. Without long-term
+communication, reconnaissance, GPS for drones and guided bombs,
+and even weather information, the effectiveness of modern forces would
+be drastically reduced.
+Finally, it is worth noting that the potential for conflict extends into
+outer space, which could become a future battlefield. In such a scenario,
+critical for enemy military operations, military satellites would become
+prime targets. Similarly, one's military satellites would also be at risk. A
+conflict between spacefaring nations would generate a substantial
+number of debris, posing an additional threat to any remaining opera­
+tional satellites of any country.
+
+8.2. In-orbit industry services
+
+8. The economy of outer space
+
+Since the beginning of the XXI century, new constellations of satel­
+lites are expanding the outer-space industry in many directions, from
+enhancing R&D activities and communication services, for instance,
+allowing access to the internet from any location on Earth, to creating
+new economic applications like in-orbit manufacturing with micro
+gravity, energy production and asteroids mining, and developing new
+in-orbit services not only for consumers on Earth but also for spacebased consumers like satellites maintenance and up-grading, space
+tourism, agriculture.
+We define in-orbit manufacturing as the industry to be developed in
+outer space to produce goods supplied to consumers in outer space. The
+most advanced program laying the principles of this industry is the inspace manufacturing (ISM) project at NASA [3]. Another industrial
+branch will be the spacecraft manufacturing sector, and the primary
+industry in space will be the construction of spacecraft. Initial devel­
+opment of this industry will need material from the Earth, but it could be
+the case to be transformed into an autonomous input from the Earth
+industry. Launches from the Earth will change from spacecraft manu­
+factured on the Earth to materials needed to manufacture spacecraft in
+space. In the future, this means that the space industry based on the
+Earth will translate to space, eliminating the need to launch spacecraft
+from the Earth. Repairs, upgrading hardware, and maintenance services
+
+Nowadays, the space economy is almost entirely based on commer­
+cial satellites, individual or constellations of satellites, providing ser­
+vices related to communications, broadcasting, remote sensing, geopositioning, and weather observation; plus, the spending generated by
+the defense sector for military satellites and spacecraft. All these com­
+mercial and defense activities will be expanded in the near future with
+the consolidation and the dawn of emerging industries with great po­
+tential growth. We shall analyze them in turn.
+8.1. Existing industries
+Nowadays, a total of more than 11,000 satellites is operative and
+producing a variety of critical services for transport and logistics,
+financial markets, agriculture, etc., with a market size of $630 billion in
+2023 [100]. These industries not only generate significant economic
+value on their own but also create technological spillovers that foster
+innovation in other sectors. Furthermore, scientific activities in space
+have yielded breakthroughs in material science, biology, and medicine,
+with applications ranging from drug development to advanced
+manufacturing. This market has changed recently with the advent of
+Table 2
+Existing space industry. Revenues, services, and challenges.
+Sector
+
+Current
+Revenues
+
+Core Business
+
+Examples
+
+Key challenges
+
+Telecommunications
+(GEO/LEO)
+
+$110
+billion
+
+Global connectivity,
+broadband, IoT
+
+Starlink, OneWeb, SES, HughesNet
+
+Defense & Security
+
+$60 billion
+
+Surveillance, space-based ISR,
+ASAT arms [94]
+
+military GPS, spy satellites, ASAT systems
+
+Research & Earth
+Observation
+
+$6 billion
+
+ISS, space long-range telescopes,
+biomedical experiments, weather forecast
+
+Navigation & GPS
+
+$300
+billion
+$1.2 billion
+
+Science, medicine, climate
+monitoring, remote-sensing
+data sales [101]
+Precision positioning for civil/
+military
+Suborbital and orbital
+passenger flights [5]
+Crop optimization, disaster
+warning [78]
+
+Regulatory/legal: spectrum allocation and licensing.
+Political: national security and data-sovereignty.
+Technical: bandwidth limits and latency, payload
+miniaturization.
+Regulatory/legal: share information on military
+systems among nations.
+Environmental: debris emissions.
+Military: Weaponization of space.
+Regulatory/legal: funding, data sharing agreements
+
+Space Tourism
+Agriculture &
+Environment
+monitoring
+
+$20 billion
+
+GPS, Galileo, GLONASS, BeiDou
+Blue Origin, SpaceX, Virgin Galactic
+Satellites for Earth observation
+(Copernicus, Landsat), Suomi National
+Polar-orbiting Partnership (VIIRS-DNB)
+
+10
+
+Regulatory/legal: spectrum allocation, security.
+Military: dual-use technology
+Regulatory/legal: safety, insurance and regulation of
+licenses.
+Regulatory/legal: privacy and policy (data licensing,
+confidentiality).
+Institutional: building capacity at statistical
+agencies. (Integrating novel EO data into GDP/
+agriculture stats poses methodological challenges).
+
+A. Bongers et al.
+
+Space Policy xxx (xxxx) xxx
+
+will also change the industry in the next few years, affecting the design
+and lifespan of satellites. Indeed, refueling is an essential service with
+important implications not only for the lifespan of satellites but also due
+to its role as a passive debris mitigation activity. Refueling activities will
+eliminate the problem of derelict satellites abandoned in orbit, reducing
+the negative externalities produced by debris and congestion of precious
+orbit slots.
+Guyot and Rouillon [45] consider a model with in-orbit servicing
+firms that supply efforts to remove orbital debris. They focus on the
+stationary state of the orbital environment, reducing themselves to a
+static game. Oligopolistic firms make choices about the design and
+launch of their satellites and their debris removal effort. The satellite
+industry may be interested in cleaning up the orbital environment in this
+framework. However, the size of the operating satellite fleet and the loss
+of social surplus increases with the number of actors in the market.
+
+Blue Origin, Virgin Galactic, Space Adventures, Axiom Spaces, and
+SpaceX. Zhang and Wang [115] provide a revision of a growing space
+tourism literature which has studied aspects such as motivation and
+preferences, potential demand estimation, prices and revenues evolu­
+tion, types of space tourism, etc. Common wisdom is that space tourism
+is in its infancy, as the commercial passenger flight industry was one
+Century ago. Finally, space burial is another service consisting of small
+capsules burning up in the re-entry to the atmosphere, suborbital, on the
+moon, or sent further into space. Commercial activity of space burials
+started in 1997 by the US company Celestis. However, the first space
+burial was done by NASA in 1992, containing the remains of the creator
+of Start Trek. Space burials are restricted to the remains of humans and
+pets. NASA conducted the first burial in deep space in 2006, with the
+remains of the American astronomer Clyde Tombaugh.
+8.4. In-orbit industry future challenges
+
+8.3. Other industries: natural resources, energy, and tourism
+
+Table 3 outlines three emerging in-orbit industries currently under
+development: space-based solar power (SBSP), lunar and asteroid min­
+ing, and in-orbit manufacturing and services. Although still at an early
+stage, private investment in these sectors is already significant, esti­
+mated at $1-3 billion in the energy sector (SBSP), a similar amount in
+space mining, and $2.2-3 billion in in-orbit manufacturing and services.
+Despite several remaining technical uncertainties, SBSP could reach
+a market size of about $15 billion by 2035 [116]. Expectations are even
+more ambitious for space mining, with projected market sizes poten­
+tially reaching trillions of dollars. Targeted materials include
+platinum-group metals (platinum, rhodium, iridium, etc.), which are
+extremely valuable on Earth; nickel-iron metals, which could be used for
+in-space construction; and volatiles (water, hydrogen, oxygen), which
+could serve as propellants and life-support resources for space opera­
+tions. Market potential remains highly uncertain. As an illustration,
+Asteroid 16 Psyche (about 226 km across) is estimated to contain metals
+worth $10–30 trillion at current prices. Finally, the in-orbit
+manufacturing and services industry is forecast to reach an average
+market size of $50 billion by 2040, according to several market-research
+firms.
+These emerging industries face challenges similar to those of existing
+space industries, but also additional technical and regulatory hurdles
+that must be overcome before they can become profitable. Space mining
+raises particularly complex regulatory and legal issues, especially con­
+cerning property rights over lunar or asteroid resources, as well as
+environmental concerns related to the risk of contaminating outer space.
+Even more challenging is in-orbit manufacturing and services, which
+directly intersects with military space activities because many of its
+technologies are dual-use. This issue will be discussed further in the next
+section.
+
+Apart from the in-orbit industry, we can identify a few areas that will
+change the current configuration of services produced by satellites to
+Earth customers. These areas are natural resources, energy, and tourism.
+Natural resources economics is another branch to be extended to space.
+Indeed, extracting natural resources is one of the most promising ave­
+nues for economic activity in outer space. Asteroid mining is expected to
+develop and has significant economic implications for these markets on
+Earth [4,105–107]. Space mining will increase the supply of critical
+metals on the Earth, which are limited. Weitzman [108] estimates that
+the world loss in consumption from the finiteness of Earth's resources is
+about 1 per cent compared to a trajectory with infinite mineral results.
+Several already established private companies (most of them based
+in Luxemburg) are investing in asteroid mining technologies, which will
+transform the supply of natural material, eliminating depletion of this
+non-renewable material in the Earth, removing the restriction imposed
+by the Hotelling non-renewable price equation (Hotelling, 1937). This
+would require the development of new models, introducing two crucial
+elements: cost of exploration, which presumably will be high in this
+mining industry, and the existence of an environment where resources
+are non-exhaustible, where investing in exploration will increase the
+reserves of resources, contrary to standard models of natural resources
+restricted to the Earth [109]. Several other questions emerge as to the
+property rights of the mine or asteroid.
+Some studies have been done on this area. Sommariva et al. [107]
+estimate the net present value of moon mining and how it is affected by
+the private-public partnership. Dahl et al. [110] use a model of firm
+entry to study the consequences of asteroid mining on the terrestrial
+mineral market. Fleming et al. [111] study how space mining could
+contribute to economic growth. For that, they extend the neoclassical
+growth model with space mining, breaking down the limitations of
+mineral resources on the Earth. They find that space mining could lead
+to the continued growth of metal used on Earth while limiting envi­
+ronmental costs.
+Asteroid minerals are not the only natural resource that can be
+extracted in space. The supply of energy produced in space to the Earth
+is another issue. Indeed, energy generation from the Sun is another
+promising sector currency under evaluation to be developed in space.
+This is the so-called space-based solar power (SBSP) energy system,
+consisting of spacecraft that collect solar energy, convert it into electric
+power, and transmit it to a final consumer [112]. Macauley and Davis
+[112] estimated the economic implications of space solar power as a
+source of electricity for space-based activities. In contrast, Wood and
+Gilbert [101] focus on the implications of supplying energy from SBSP to
+the Earth.
+Other industries, such as space tourism, have a potential yet to be
+calibrated [5,113,114]. Space tourism implies using space and space­
+craft for leisure and recreational purposes. Several private companies
+offer these services, including orbital and suborbital space travel, such as
+
+9. Discussion: policy challenges
+Since the beginning of the XXI century, a new era for space missions
+is rising, called New Space, in which (i) US private companies took over
+the NASA in launching rockets and placing satellites in orbit, (ii) com­
+mercial services are provided not only by individual satellites, but also
+by large satellite constellations designed to provide global cover, and
+(iii) more countries like China and Europe stepped up as reliable players
+in the space race. Weinzierl [1] effectively illustrated the paradigm shift
+of the New Space and laid down the main aspects of an analytical eco­
+nomics framework for understanding and managing the development of
+the space economy. He elaborates further by listing three main com­
+ponents that such a framework should possess: “1) establishing the market
+through decentralization of decision making […], 2) refining the market
+through policies that address market failures […], 3) tempering the market
+through regulation in pursuit of social objectives,” With current regulation
+these operators have incentives to keep non-operational satellites in
+orbit as a barrier to entry for other operators, increasing prices and
+11
+
+A. Bongers et al.
+
+Space Policy xxx (xxxx) xxx
+
+Table 3
+In-orbit industry. Current investment, business, and challenges.
+Sector
+
+Current
+Investment
+
+Expected
+market size
+
+Core Business
+
+Examples
+
+Key challenges
+
+Energy (SBSP)
+
+$1-3 billion
+
+$15 billion in
+2035
+
+Space-based solar power
+[101,112]
+
+Production of in-orbit solar energy
+
+Mineral & Asteroid
+Mining
+
+$1-3 billion
+
+Measured in
+trillion
+dollars
+
+Water, metals, and gas
+extraction, off-Earth
+resources [4,111]
+
+Moon and asteroids mining
+
+In-orbit
+Manufacturing &
+Services
+
+$2.3-3
+billion
+
+$50 billion by
+2040
+
+Microgravity materials,
+satellite servicing
+[Patel, 2019; [3]
+
+Refueling, repair, and upgrading of
+satellites. Production of optic
+fibers, pharmaceutical experiments
+
+Regulatory/legal: spectrum and orbital-use
+permissions (power beaming laws undeveloped),
+space debris policy.
+Technical: Very high costs; large-scale wireless power
+transmission (microwave/laser) and on-orbit
+assembly.
+Environmental: orbital debris from large structures,
+ground safety.
+Regulatory/legal: unsettled Outer Space Treaty vs
+Moon Treaty (resource ownership unclear). E.g. US
+law (2015) grants private rights to extracted
+resources, but some nations (Russia/China) argue
+OST prohibits it.
+Technical: extreme cost of reaching, mining,
+processing in microgravity, and transportation.
+Environmental: risk of creating new debris or
+contaminating space.
+Regulatory/legal: liability and control of a serviced
+satellite.
+Technical: complex robotics and precise docking/
+refueling in microgravity.
+Military: dual-use technology.
+
+reducing output and social welfare.
+In this novel context, the interest of economics literature gradually
+shifted from satellites congestion and optimal orbits and spectrum as­
+signments to more practical matters like mitigating the problem of space
+debris in absence of coordination, thus bringing debris pollution to the
+front seat of policy analyses about outer space, and the effects of mili­
+tarization and weaponization of space over the development of the inorbit industry where given the strategic value of space, space defense
+policy should be designed taking into account their profound implica­
+tions on commercial and scientific activities in space. In what follows,
+we analyze the main policy challenges regarding these two critical areas.
+
+services sector, they will also encourage the launch of additional satel­
+lites. Moreover, this rebound effect is likely to be rapid and robust, given
+that the space industry has entered the New Space era, characterized by
+a high capacity for responsiveness and innovation [1,118].
+ADR policies imply the use of technologies to remove debris frag­
+ments and intact objects from orbit. This is an ex-post mitigation policy
+equivalent to a negative emission. ADR mitigation proposals are limited
+to the study of the development of alternative technologies for debris
+removal. Due to several factors, practical implementation of ADR pol­
+icies is complex. First, no individual agent (nations or private firms) has
+incentives to pursue this policy as there are no property rights in space
+(except spacecraft ownership). Second, any ADR technology is of dual
+use: it can be used to eliminate orbital debris but also used against
+enemy spacecraft as a space weapon. However, these technologies are
+expensive and need help for practical implementation as no scheme for
+distributing the cost among operators is available. Finally, there is the
+dual-use nature of debris removal technologies, which can be considered
+anti-satellite weapon systems. ADR technologies have, by definition, a
+dual-use nature. Robotic arms, nets, harpoons, and other capture
+mechanisms designed to remove debris can also be repurposed for
+disabling or capturing operational satellites. This creates a security
+dilemma for main spacefaring states: while ADR policies enhance orbital
+safety, the existence of any ADR spacecraft can be perceived as a po­
+tential threat to both military and civil satellites [96].
+However, no active coordinated policy has been implemented to
+reduce the generation of new debris or to remove existing debris from
+orbit. Weeden [119] and Mark and Kamath [120] survey active
+debris-removal methods currently in development (e.g., laser, ion beam,
+tether, sail, satellite, foam) to clean up polluted orbital regions. Mark
+and Kamath [120] note that these technologies are, at best, still in the
+experimental stage and will require a substantial research effort before
+they reach maturity. Moreover, even when operational, current inter­
+national treaties applicable to space will likely hinder the emergence of
+a market for orbital debris removal [119,121]. On the one hand, objects
+in orbit come under the jurisdiction of the launching countries. Sec­
+ondly, any damage caused during a mission in orbit is the responsibility
+of the country of origin in the event of a fault.
+
+9.1. Orbital debris mitigation policies
+Managerial and technological solutions to assess the problem caused
+by debris in orbit can be classified into three categories: emissions
+mitigation, adaptation, and active debris removal (ADR) policies.
+Emissions mitigation refers to actions aimed at reducing the creation of
+debris, such as limiting accidental break-ups, improving the ability to
+spot debris and maneuver satellites during operational lifetime, and deorbiting end-of-life satellites. Adaptation involves designing more robust
+satellites to reduce damage risk and debris generation in collisions with
+the use of shields. Bongers et al. [73] study the evolution of the debris
+population when firms can endogenously choose the extent of satellite
+shielding. In general, ADR policies represent an ex-post intervention and
+imply cleaning the space by using some technology to reduce the
+number of orbital debris.
+The Inter-Agency Space Debris Coordination Committee (IADC) and
+the Committee on the Peaceful Uses of Outer Space of the United Nations
+have established a set of space debris mitigation guidelines to be fol­
+lowed by the governmental space agencies in the design of spacecraft
+and launch systems to reduce or eliminate the generation of debris.
+Importantly, these recommendations are non-binding, and current
+compliance rates must be increased to prevent further growth in the
+space debris population ([117], annual report). Rao et al. [56] warn
+against the risk of relying exclusively on managerial and technological
+solutions. Even if the mitigation guidelines were thoroughly followed
+and a dynamic debris removal market was organized, it should be borne
+in mind that these solutions treat the symptoms but not the cause of the
+problem. Admittedly, they will slow down the accumulation of debris
+and delay the moment when the risk of collision will warn the space
+industry. However, by increasing the profitability of the satellite
+
+9.2. Militarization and in-orbit services
+The development of an in-orbit services industry also faces similar
+problems to ADR policies. The in-orbit services (IOS) industry,
+12
+
+A. Bongers et al.
+
+Space Policy xxx (xxxx) xxx
+
+encompassing satellite maintenance, upgrades, repair, refueling, deor­
+biting, is emerging as a critical component of the commercial space
+economy. These services have the potential to extend satellite lifespans,
+reduce replacement costs, enhance operational resilience, and improve
+the sustainability of orbital operations. The militarization of space,
+while enhancing national security, presents significant obstacles to the
+in-orbit services industry. Dual-use ambiguities, restricted access to
+strategic orbital zones, legal and liability constraints, and operational
+challenges all impede satellite servicing, repair, refueling, and debris
+mitigation.
+The IOS industry is projected to become a multibillion-dollar sector
+over the next decade. It includes activities such as satellite refueling
+which would extend the operational life of satellites; repair and up­
+grades, servicing satellites to replace components or upgrading tech­
+nology, and reducing the need for costly satellite replacements; and
+orbital assembly of satellite constellations and large infrastructure for
+telecommunications or Earth observation.
+These services rely on precision rendezvous, autonomous robotic
+manipulation, and proximity operations, all of which require access to
+orbital paths near client satellites. The militarization of space creates
+several specific obstacles for the IOS industry. First, dual-Use Technol­
+ogy Concerns. Many IOS technologies, robotic arms, grappling mecha­
+nisms, refueling interfaces, and proximity operations, are inherently
+dual use. While they are intended for servicing satellites, militarized
+states may perceive these capabilities as tools for espionage, sabotage, or
+offensive actions against military satellites. Second, strategic risk
+perception: Militarized states may restrict commercial servicing mis­
+sions near military or dual-use satellites, fearing that a servicing
+spacecraft could interfere with or manipulate sensitive assets. For
+example, the U.S. National Reconnaissance Office (NRO) maintains
+classified satellite constellations whose positions and maneuvers are
+sensitive information. Commercial servicing missions cannot operate
+near these assets without extensive coordination, limiting available
+operational space. Third, access denial: Companies may be barred from
+servicing satellites in certain orbital zones, limiting potential markets
+and increasing operational complexity. All these factors generate regu­
+latory and operational uncertainty for IOS firms, which may delay in­
+vestment and deployment.
+To mitigate the impact of militarization on the in-orbit servicing
+(IOS) industry, several policy measures are recommended. First,
+confidence-building measures: implementing advance notification pro­
+tocols and international verification mechanisms can help reduce
+mistrust around the servicing of spacecraft near militarized satellites.
+Second, dual-use clarification: establishing international norms that
+distinguish IOS technologies from offensive capabilities would help
+diminish perceived threats. Third, protected service corridors could be
+formally designated for commercial IOS activities, enabling safe prox­
+imity operations without compromising military security. Finally,
+government-commercial collaboration can integrate security re­
+quirements into IOS operations, allowing for the safe servicing of sat­
+ellites while maintaining national defense objectives. These measures
+would support the commercial potential of the IOS industry while
+respecting military concerns, fostering its responsible and sustainable
+growth.
+
+contributions to this new field. Outer space as an international common
+alerts us to potential market failures and the need for regulation. Given
+the increasing value of outer space, more economic studies are expected
+to emerge in this new and largely unexplored area.
+The development of space economics will require adapting existing
+economic models to the unique physical characteristics of space and its
+new resource and technological constraints. It may necessitate the
+development of new theoretical frameworks to address emerging eco­
+nomic issues as human presence in space increases. An open question is
+which standard economic analysis tools can be applied to space eco­
+nomics. In principle, space economics will share several issues with wellestablished economic fields, and hence, tools from these fields could be
+applied to similar issues observed on Earth. However, the physical
+characteristics of space will play a role, and new types of theoretical
+models combining economic and physical variables of space will be
+necessary.
+More branches of space economics, connected to several economic
+branches, such as natural resources, environmental economics, trans­
+portation, energy, new product industries, R&D, tourism, and defense,
+are expected to develop. Three important areas are likely to attract more
+attention from economists. The first concerns the regulatory framework.
+Commercial activities in outer space will require an international reg­
+ulatory framework to assign property rights at different altitudes. The
+second main research area will be space environment [2]. In a short
+period, the space environment has become highly polluted with space
+debris. Investigating optimal environmental policies for space and the
+most appropriate abatement instruments will require the development
+of space-economy integrated assessment models in the tradition of the
+DICE model by Nordhaus [68]. Finally, military considerations will be a
+critical challenge for both cleaning space from debris and the develop­
+ment of the in-orbit industry, as in both cases necessary technologies are
+dual-use. Without careful coordination and international norms, mili­
+tarization could slow the growth of a sector vital to orbital sustainability
+and
+the
+economic
+viability
+of
+satellite
+constellations.
+Confidence-building measures, dual-use clarifications, and protected
+orbital corridors are essential to reconcile the objectives of military se­
+curity with the commercial expansion of the IOS industry. Ultimately,
+the long-term success of in-orbit services depends on balancing strategic
+concerns with technological and commercial imperatives.
+
+10. Concluding remarks
+
+CRediT authorship contribution statement
+
+Apart from previous studies, other dimensions of the economics of
+outer space remain to be explored. Humankind is just beginning to
+explore outer space, but significant progress has been made over the past
+sixty years. The space economy is in its infancy, but several economic
+issues are emerging alongside its growth due to expanding human ac­
+tivities in space. These issues demand attention from the economic
+profession. Although space economics is a nascent field, there have been
+several recent contributions to investigate the economic consequence of
+human activity in space. This review covers most of the initial
+
+Anelí Bongers: Data curation, Investigation, Supervision, Writing –
+original draft. Benedetto Molinari: Formal analysis, Funding acquisi­
+tion, Investigation, Methodology, Project administration, Supervision,
+Validation, Writing – original draft, Writing – review & editing.
+Sébastien Rouillon: Supervision, Validation, Writing – original draft,
+Writing – review & editing. José L. Torres: Conceptualization, Data
+curation, Formal analysis, Investigation, Project administration, Re­
+sources, Supervision, Validation, Writing – original draft.
+
+Authors’ declaration
+All authors listed in this submission declare hereby that.
+• the work described has not been published previously except in the
+form of a preprint, an abstract, a published lecture, academic thesis
+or registered report.
+• the article is not under consideration for publication elsewhere.
+• the article's publication is approved by all authors and tacitly or
+explicitly by the responsible authorities where the work was carried
+out.
+• if accepted, the article will not be published elsewhere in the same
+form, in English or in any other language, including electronically,
+without the written consent of the copyright-holder.
+
+13
+
+A. Bongers et al.
+
+Space Policy xxx (xxxx) xxx
+
+Declaration of competing interest
+
+[32] W. Pritchard, Economics of satellite communications systems, Acta Astronaut. 8
+(11–12) (1981) 1321–1341.
+[33] G.C. Wihlborg, P.M. Wijkman, Outer space resources in efficient and equitable
+use: new frontiers for old principles, J. Law Econ. 24 (1) (1981) article 3.
+[34] H.J. Levin, Spectrum negotiations and the geostationary satellites, N. Y. Law Sch.
+J. Int. Comp. Law 4 (1) (1982) 77–81.
+[35] M.K. Macauley, Out of space? Regulation and technical change in
+communications satellites, Am. Econ. Rev. 76 (2) (1986) 280–284.
+[36] H.J. Levin, Emergent markets for orbit spectrum assignments – an idea whose
+time has come, Telecommun. Policy 12 (1) (1988) 57–76.
+[37] H.J. Levin, Trading orbit spectrum assignments in the space satellite industry,
+Am. Econ. Rev. 81 (2) (1991) 42–45.
+[38] J.C. Thompson, Space for rent: the international telecommunications union, space
+law, and orbit/spectrum leasing space law, and orbit/spectrum leasing, J. Air Law
+Commer. 62 (1) (1996). Article 10.
+[39] M.K. Macauley, Allocation of orbit and spectrum resources for regional
+communications: what's at stake? J. Law Econ. 41 (S2) (1998) 737–764.
+[40] H. Shibusawa, An economic analysis of outer space: optimal location of
+telecommunications satellites, Stud. Reg. Sci. 30 (3) (1999) 71–83.
+[41] M.K. Macauley, Economics of space, in: E. Sadeh (Ed.), Space Politics and Policy.
+an Evolutionary Perspective, 2004, pp. 181–200.
+[42] N. Adilov, B.M. Cunningham, P.J. Alexander, J. Duvall, D.R. Shiman, Left for
+dead: anti-competitive behavior in orbital space, Econ. Inq. 57 (3) (2019)
+1497–1509.
+[43] N. Adilov, V. Braun, P. Alexander, B.M. Cunningham, The economics of satellites
+deorbiting performance bonds, Econ. Lett. 228 (2023) 111150.
+[44] I. Brownhall, D. Kaffine, M. Lifson, S. Bhattarai, E. Stevenson, S. Lemmens,
+F. Letizia, Understanding the Effect of Fiscal Interventions on the Future Space
+Debris Environment, 2025. Manuscript.
+[45] J. Guyot, S. Rouillon, Sustainable management of space activity in low Earth
+orbit, Journal of Environmental Economics and Policy 13 (2) (2023) 188–212.
+[46] J. Guyot, A. Rao, S. Rouillon, Oligopoly competition between satellite
+constellations will reduce economic welfare from orbit use, Proc. Natl. Acad. Sci.
+USA 120 (43) (2023) e2221343120.
+[47] P. Bernhard, M. Deschamps, G. Zaccour, Large satellite constellations and space
+debris: exploratory analysis of strategic management of the space commons, Eur.
+J. Oper. Res. 304 (2023) 1140–1157.
+[48] S. Rouillon, Monopolistic competition in a limited orbital space, Environ. Resour.
+Econ. 88 (4) (2025) 1009–1038.
+[49] J.C. Liou, N.L. Johnson, Risks in space from orbiting debris, Science 311 (2006)
+340–341.
+[50] D.J. Kessler, B.G. Cour-Palais, Collision frequency of artificial satellites: the
+creation of a debris belt, J. Geophys. Res. 83 (A6) (1978) 2637–2646.
+[51] OECD, Measuring the economic impact of the space sector. Key indicators and
+options to improve data, in: Background Paper for the G20 Space Economy
+Leaders' Meeting. Saudi Arabia, October 2020, 2020.
+[52] NASA, Orbital Debris Quarterly News 27 (4) (2023). October.
+[53] N. Adilov, P.J. Alexander, B.M. Cunningham, An economic analysis of earth orbit
+pollution, Environ. Resour. Econ. 60 (2015) 81–98.
+[54] N. Adilov, P.J. Alexander, B.M. Cunningham, An economic "Kessler Syndrome": a
+dynamic model of earth orbit debris, Econ. Lett. 166 (2018) 79–82.
+[55] M.K. Macauley, The economics of space debris: estimating the costs and benefits
+of debris mitigation, Acta Astronaut. 115 (2015) 160–164.
+[56] A. Rao, M.G. Burgess, D. Kaffine, Orbital-use fees could more than quadruple the
+value of the space industry, Proc. Natl. Acad. Sci. USA 117 (23) (2020)
+12756–12762.
+[57] S. Rouillon, A phyco-economic model of low Earth orbit management, Environ.
+Resour. Econ. 77 (2020) 695–723.
+[58] S.C. Salop, Monopolistic competition with outside goods, Bell J. Econ. 10 (1)
+(1979) 141–156.
+[59] A. Bongers, J.L. Torres, Orbital debris and the market of satellites, Ecol. Econ. 209
+(2023) 107831.
+[60] R. Klima, D. Bloembergen, R. Savani, K. Tuyls, D. Hennes, D. Izzo, Space debris
+removal: a game theoretic analysis, Games 7 (3) (2016) 20.
+[61] R. Klima, A. Bloembergen, R. Savani, A. Tuyls, A. Sapera, D. Izzo, Space debris
+removal: learning to cooperate and the price of anarchy, Frontiers in Robotic and
+IA 5 (2018) article 54.
+[62] N. Adilov, P.J. Alexander, B.M. Cunningham, The economics of orbital debris
+generation, accumulation, mitigation, and remediation, Journal of Space Safety
+Engineering 7 (3) (2020) 447–450.
+[63] K. Nomura, S. Rella, H. Merrit, M. Baltussen, D. Bird, A. Tjuka, D. Falk, Tipping
+points of space debris in low Earth orbit, Int. J. Commons 18 (1) (2024) 17–31.
+[64] A. Rao, G. Rondina, The Economics of Orbit Use: Open Access, External Costs, and
+Runaway Debris Growth, Association of Environmental and Resource Economists,
+Forthcoming, 2024.
+[65] J. Guyot, S. Rouillon, Designing Satellites to Cope with Orbital Debris, 2021.
+Bordeaux Economics Working Paper, 2021-16.
+[66] Z. Grzelka, J. Wagner, Managing satellite debris in low-earth orbit: incentivizing
+ex ante satellite quality and ex post take-back programs, Environ. Resour. Econ.
+74 (1) (2019) 319–336.
+[67] S. Béal, M. Deschamps, H. Moulin, Taxing congestion of the space commons, Acta
+Astronaut. 177 (2020) 313–319.
+[68] W. Nordhaus, A Question of Balance. Weighing the Options on Global Warming
+Policies, Yale University Press, 2008.
+[69] A. Rao, F. Letizia, An Integrated Debris Environment Assessment Model, 2022
+05205 arXiv preprint 2205.
+
+The authors declare no financial interests/personal relationships
+which may be considered as potential competing interests. Bongers,
+Molinari and Torres report financial support was provided by Spain
+Ministry of Science, Innovation, and Universities with funding grant
+PID2023-152748OB-I00. Other authors declare that they have no
+known competing financial interests or personal relationships that could
+have appeared to influence the work reported in this paper.
+Data availability
+Data will be made available on request.
+References
+[1] M. Weinzierl, Space, the final economic frontier, J. Econ. Perspect. 32 (2018)
+173–192.
+[2] N. Adilov, P.J. Alexander, B.M. Cunningham, Understanding the economics of
+orbital pollution through the lens of terrestrial climate change, Space Policy 59
+(2022) 101471.
+[3] T. Prater, N. Werkheiser, F. Ledbetter, Toward a multimaterial fabrication
+laboratory. In space manufacturing as an enabling technology for long-endurance
+human space flight, J. Br. Interplanet. Soc. (JBIS) 71 (2018) 27–35.
+[4] S.D. Ross, Near-earth asteroid mining, Caltech Space Industry Report (2001).
+[5] W. Peeters, From suborbital space tourism to commercial personal spaceflight,
+Acta Astronaut. 66 (11–12) (2010) 1625–1632.
+[6] G.K. O'Neill, The High Frontier: Human Colonies in Space, Space Studies Institute
+Press, 1977.
+[7] T. Sandler, W. Shulze, The economics of outer space, Nat. Resour. J. 21 (1981)
+371–393.
+[8] P. Krugman, The theory of interstellar trade, Econ. Inq. 48 (2010) 1119–1123.
+[9] NASA, Orbital Debris Quarterly News 11 (2) (2007). April.
+[10] NASA, Monthly number of objects in Earth orbit by object type, Orbital Debris
+Quarterly News 29 (1) (2025) 8.
+[11] ESA, Space debris by the number. https://www.esa.int/Space_Safety/Space_De
+bris/Space_debris_by_the_numbers, 2025.
+[12] K. Whealan-George, The economic impacts of the commercial space industry,
+Space Policy 47 (2019) 181–186.
+[13] Bureau of Economic Analysis, New and Revised Statistics for the U.S. Space
+Economy, 2012-2021, 2023. (Accessed 27 June 2023).
+[14] Space Foundation, The Space Report Q2, The Space Foundation, 2023.
+[15] Satellite Industry Association, State of the satellite industry report 2024, Satellite
+Industry Association (2024).
+[16] L. Corrado, S. Grassi, A. Paolillo, E. Silgado-Gómez, The macroeconomic
+spillovers from space activity, Proc. Natl. Acad. Sci. USA 120 (43) (2023)
+e2221342120.
+[17] N. Adilov, V. Braun, P. Alexander, B.M. Cunningham, An estimate of expected
+economic losses from satellite collisions with orbital debris, Journal of Space
+Safety Engineering 10 (1) (2023) 66–69.
+[18] N. Adilov, P.J. Alexander, V. Braun, B.M. Cunningham, An Economic Indicator of
+the Orbital Debris Environment, Journal of Space Safety Engineering,
+forthcoming, 2024.
+[19] D. Martin-Lawson, S. Paladini, K. Saha, E. Yerushalmi, The cost of (Un)regulation:
+shrinking Earth's orbits and the need for sustainable space governance,
+J. Environ. Manag. 349 (2024) 119382.
+[20] F. Lyall, P.B. Larsen, Space Law: a Treatise, second ed., Routledge, 2018.
+[21] P. Blount, Legal issues related to satellite orbits, in: P. Read (Ed.), Oxford
+Research Encyclopedia of Planetary Science, Oxford University Press, 2022,
+pp. 1–15.
+[22] G. Hardin, The tragedy of the commons, Science 162 (1968) 1243–1248.
+[23] E. Ostrom, Governing the Commons, Cambridge University Press, Cambridge,
+1998.
+[24] E. Ostrom, Beyond markets and states. Polycentric governance of complex
+economic systems, Am. Econ. Rev. 100 (2010) 1–33.
+[25] M.K. Macauley, Regulation on the final frontier, Regulation 26 (2) (2003) 36–41.
+[26] B.C. Weeden, T. Chow, Taking a common-pool resources approach to space
+sustainability: a framework and potential policies, Space Policy 28 (2012)
+166–172.
+[27] T. Dietz, E. Ostrom, P.C. Stern, The struggle to govern the commons, Science 302
+(12) (2003) 1907–1912.
+[28] B.G. Chow, Space arms control: a hybrid approach, Strategic Studies Quarterly 12
+(2) (2018) 107–132.
+[29] H.R. Hertzfeld, S.N. Pace, International cooperation on human lunar heritage,
+Science 342 (2013) 1049–1050.
+[30] M.S. Snow, Investment cost minimization for communications satellite capacity:
+refinement and application of the Chenery-Manne-Srinivasan model, Bell J. Econ.
+6 (2) (1975) 621–643.
+[31] L.B. Early, C. Reber, P. Caughran, Economics of communications satellite systems1976, Acta Astronaut. 5 (3–4) (1978) 261–273.
+
+14
+
+A. Bongers et al.
+
+Space Policy xxx (xxxx) xxx
+
+[70] A. Rao, M. Moretto, M. Holzinger, D. Kaffine, B. Weeden, OPUS: an Integrated
+Model for Satellites and Orbital Debris, 2023 arXiv preprint 2309.10252.
+[71] W. Nozawa, K. Kurita, T. Tamaki, S. Managi, To what extent will orbital debris
+impact the economy? Space Policy 66 (2023) 101580.
+[72] A. Bongers, C. Ortiz, J.L. Torres, DISE: a dynamic integrated space-economy
+model for orbital debris mitigation policy evaluation, Environ. Resour. Econ. 88
+(8) (2025) 2125–2156.
+[73] A. Bongers, B. Molinari, J.L. Torres, Optimal Satellite Shielding and Orbital
+Debris, 2026. Journal of Industrial and Business Economics.
+[74] M.K. Macauley, M.A. Toman, Providing earth observation data from space:
+economics and institutions, Am. Econ. Rev. 81 (2) (1991) 38–41.
+[75] M.K. Macauley, M.A. Toman, Supplying earth-observation data from space, Space
+Policy 8 (1) (1998) 16–22.
+[76] T.A. Croft, Nighttime images of the Earth from space, Sci. Am. 239 (1) (1978)
+86–101.
+[77] D. Donalson, A. Storeygard, The view from above: applications of satellite data in
+economics, J. Econ. Perspect. 30 (4) (2016) 171–198.
+[78] J. Gibson, S. Olivia, G. Boe-Gibson, Night lights in economics: sources and uses,
+J. Econ. Surv. 34 (5) (2020) 955–980.
+[79] G.D. Elvidge, K.E. Baugh, E.R. Kihn, H.W. Kroehl, E.R. Davis, C.W. Davis, Relation
+between satellites' observed visible-near-infrared emissions, population, and
+energy consumption, Int. J. Rem. Sens. 18 (1997) 1373–1379.
+[80] P.C. Sutton, R. Costanza, Global estimates of market and non-market values
+derived from nighttime satellite imagery, land cover, and ecosystem service
+valuation, Ecol. Econ. 41 (3) (2002) 507–527.
+[81] Steve Ebener, Christopher Murray, Ajay Tandon, Christopher Elvidge, From
+wealth to health: modeling the distribution of income per capita at the subnational level using nighttime lights imagery, Int. J. Health Geogr. 4 (5) (2005)
+5–14.
+[82] C.N. Doll, J.P. Muller, J.G. Morley, Mapping regional economic activity from
+night-time light satellite imagery, Ecol. Econ. 57 (1) (2006) 75–92.
+[83] M. Burchfield, H.G. Overman, D. Puga, M.A. Turner, Causes of sprawl: a portrait
+from space, Q. J. Econ. 121 (2) (2006) 587–633.
+[84] J.V. Henderson, A. Storeygard, D.N. Weil, A bright idea for measuring economic
+growth, Am. Econ. Rev. 101 (3) (2011) 194–199.
+[85] J.V. Henderson, A. Storeygard, D.N. Weil, Measuring economic growth from the
+outer space, Am. Econ. Rev. 102 (29) (2012) 994–1028.
+[86] J.K. Galimberti, Forecasting GDP growth from outer space, Oxf. Bull. Econ. Stat.
+82 (4) (2020) 697–722.
+[87] X. Chen, W.D. Nordhaus, VIIRS nighttime lights in the estimation of crosssectional and time-series GDP, Remote Sens. 11 (9) (2019) 1057.
+[88] P.C. Sutton, C.D. Elvidge, T. Ghosh, Estimation of gross domestic product at subnational scales using nighttime satellite imagery, Int. J. Ecol. Econ. Stat. 8 (S07)
+(2007) 5–21.
+[89] X. Chen, W.D. Nordhaus, Using luminosity data as a proxy for economic statistics,
+Proc. Natl. Acad. Sci. USA 108 (21) (2011) 8589–8594.
+[90] M. Pinkovskiy, X. Sala-i-Martin, Lights, camera…income! illuminating the
+national accounts-household surveys debate, Q. J. Econ. 131 (2) (2016) 579–631.
+[91] M. Pinkovskiy, X. Sala-i-Martin, Shining a light on purchasing power parities, Am.
+Econ. J. Macroecon. 23 (4) (2020) 71–108.
+[92] Y. Hu, J. Yao, Illuminating economic growth, J. Econom. 228 (2) (2022)
+359–378.
+[93] D. Koplow, ASAT-Isfaction: Customary international law and the regulation of
+anti-satellite weapons, Mich. J. Int. Law 30 (2009) 2009.
+
+[94] A. White, Space War: the Militarization and Weaponization of Space, Michigan
+State University College of Law International Law Review, February, 2017.
+[95] D. Wright, The Space Environment: 2011, Union of Concerned Scientists, 2011.
+https://www.ucsusa.org/.
+[96] B. Dobos, J. Prazak, To clear or to eliminate? Active debris removal systems as
+antisatellite weapons, Space Policy 47 (2019) 217–223.
+[97] P.J. Phillips, G. Pohl, Space junk: behavioural economics and the prioritisation of
+solutions, Defence Peace Econ. 32 (8) (2021) 956–971.
+[98] P. Bernat, The inevitability of militarization of outer space, Safety and Defense 5
+(1) (2019) 1–6.
+[99] A. Bongers, J.L. Torres, Star wars: anti-satellite weapons and orbital debris,
+Defense and Peace Economics 35 (7) (2024) 826–845.
+[100] McKinsey, Space: the $1.8 Trillion Opportunity for Global Economic Growth,
+2024. Report.
+[101] L.W. Wood, A.Q. Gilbert, Space-based solar power as a catalyst for space
+development, Space Policy 59 (2022) 101451.
+[102] Fortune Business Insights, Global Navigation Satellite System Market Size, Share
+and Industry Analysis, 2024. Report.
+[103] Precedence Research, Satellite Communications (SATCOM) Market Size and
+Forecast 2025 to 2034, 2025. Report.
+[104] Space Foundation, The Space Report Q2, The Space Foundation, 2025.
+[105] M.J. Sonter, The technical and economic feasibility of mining the near-Earth
+asteroids, Acta Astronaut. 41 (4–10) (1997) 637–647.
+[106] A.M. Hein, R. Matheson, D. Fries, A techno-economic analysis of asteroid mining,
+Acta Astronaut. 168 (2020) 104–115.
+[107] A. Sommariva, L. Gori, B. Chizzolini, M. Pianorsi, The economics of moon mining,
+Acta Astronaut. 170 (2020) 712–718.
+[108] M.L. Weitzman, Pricing the limits to growth from minerals depletion, Q. J. Econ.
+114 (2) (1999) 691–706.
+[109] F.M. Paterson, A model of mining and exploring exhaustible resources, J. Environ.
+Econ. Manag. 5 (1978), 326-251.
+[110] C. Dahl, B. Gilbert, I. Lange, Mineral scarcity on Earth: are asteroids the answers,
+Mineral Economics 33 (2020) 29–41.
+[111] M. Fleming, I. Lange, S. Shojaeinia, M. Stuermer, Mining in space could spur
+sustainable growth, Proc. Natl. Acad. Sci. USA 120 (43) (2023) e2221345120.
+[112] M.K. Macauley, J.F. Davis, An economic assessment of space solar power as a
+source of electricity for space-based activities, Space Policy 18 (1) (2002) 45–55.
+[113] E. Cohen, S. Spector, Space Tourism: the Elusive Dream, EmeralD Publishing,
+2019.
+[114] S. Spector, J.E.S. Higham, Space tourism in the anthropocene, Ann. Tourism Res.
+79 (2019) 102772.
+[115] Y. Zhang, L. Wang, Progress in space tourism studies: a systematic literature
+review, Tour. Recreat. Res. 47 (4) (2020) 372–383.
+[116] Market Research Future, Space-Based Solar Power Market Research Report, 2025.
+[117] ESA, Annual Report, ESA, 2023.
+[118] N. Adilov, B.M. Cunningham, P.J. Alexander, N. Albertson, An analysis of launch
+cost reductions for low Earth orbit satellites, Econ. Bull. 42 (3) (2022) 1–15.
+[119] B.C. Weeden, Overview of the legal and policy challenges of orbital debris
+removal, Space Policy 28 (3) (2011) 38–43.
+[120] C.P. Mark, S. Kamath, Review of active space debris removal methods, Space
+Policy 47 (2019) 194–206.
+[121] A.W. Salter, Space debris: a law and economics analysis of the orbital commons,
+Stanford Technol. Law Rev. 19 (2016) 221–238.
+
+15
+
+

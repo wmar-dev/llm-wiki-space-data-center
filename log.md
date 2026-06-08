@@ -4,6 +4,16 @@
 <!-- Format: ## [YYYY-MM-DD] <operation> | <title> -->
 <!-- Operations: ingest | re-ingest | fetch | fetch-failed | query | lint | evaluation | tool-proposal -->
 
+## [2026-06-08] ingest | Bongers & Torres (2023) "Orbital Debris and the Market for Satellites" — Ecological Economics, peer-reviewed primary source; 72,090 satellite threshold; $11.5B/yr social cost; economic Kessler precedes physical
+
+## [2026-06-08] ingest | Bongers et al. (2026) "The Economics of Outer Space" — Space Policy survey; Rao & Rondina orbit unusable 2040–2184; $3T vs $600B optimal/open-access NPV; 14,240 satellites May 2025
+
+## [2026-06-08] ingest | Thiele et al. (2025) "An Orbital House of Cards" arXiv:2512.09643 — CRASH Clock 5.5 days (2025) vs 164 days (2018); 30× safety-buffer compression in 7 years
+
+## [2026-06-08] ingest | ESA Space Environment Report 2026 (via FODNews) — 300K Starlink maneuvers in 2025; 20% collision risk increase 2024–2026; debris doubles by 2030
+
+## [2026-06-08] query | is Starlink above the Kessler Limit already? | pages-read: 5 | new pages: wiki/synthesis/starlink-above-kessler-limit.md
+
 ## [2026-06-08] query | how many satellites can we fit in GEO orbit? | pages-read: 4 | enrichment: fetched geo-orbital-slots-capacity.md (The Conversation, Summit Ridge Group, ITU Hub, UCS) | new pages: wiki/sources/geo-orbital-slots-capacity.md, wiki/synthesis/geo-orbit-satellite-capacity.md
 
 ## [2026-06-08] query | how is the Kessler limit calculated? Can we calculate it ourselves with code? | pages-read: 4 | new pages: wiki/synthesis/kessler-limit-calculation.md, wiki/comparisons/kessler-limit-calculator.py
