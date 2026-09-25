@@ -295,3 +295,13 @@ Peer-reviewed NASA technical paper presenting algorithms for ORDEM 3.0 debris ri
 ## [2026-06-08] lint | 6 errors, 0 warnings, 0 info — all errors fixed (broken raw/ source filename references corrected in 5 pages)
 
 ## [2026-06-08] query | Thermal management: engineering scale gap vs physics breakthrough needed? | pages-read: 5
+
+## [2026-09-24] fetch | https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/
+
+## [2026-09-24] fetch | https://blog.google/innovation-and-ai/technology/research/google-project-suncatcher/
+
+## [2026-09-24] ingest | Project Suncatcher: Space-Based AI Infrastructure System Design (Google Research)
+
+Fetched via WebFetch. Primary Google source (technical blog + companion announcement). Key additions: 81-satellite/1km-radius cluster design at ~650km dawn-dusk SSO; Trillium v6e TPU proton-beam radiation results (tolerant to ~3x anticipated 5yr mission dose, no hard TID failures to 15 krad(Si)); 800 Gbps each-way optical ISL demonstrated; <$200/kg mid-2030s launch cost threshold confirmed (matches figure previously known only secondhand via Scientific American). Created entity page wiki/entities/google-suncatcher.md and updated Google Suncatcher section of space-datacenter-companies-landscape.md. No contradictions — new detail is consistent with and supersedes the thin secondhand coverage that existed prior.
+
+## [2026-09-24] query | how does google suncatcher stack up with respect to data centers in space? | pages-read: 5

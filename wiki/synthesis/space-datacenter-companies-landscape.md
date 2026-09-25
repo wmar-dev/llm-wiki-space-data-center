@@ -11,7 +11,7 @@ sources:
   - "starcloud-revenue-openai-orbital-data-centers.md"
 status: "current"
 created: "2026-06-07"
-last_updated: "2026-06-08"
+last_updated: "2026-09-24"
 ---
 
 # Companies Working on Space-Based Data Centers — Landscape
@@ -59,10 +59,22 @@ operational AI compute in orbit.
 
 ### Google — Project Suncatcher
 
-- Solar-powered satellite constellation with AI chips
-- Published feasibility study November 2025
-- Requires launch costs below **$200/kg by 2035** for viability
-- Demo mission targeting 2027 [[wiki/sources/scientific-american-space-datacenters.md]] *(news_article)*
+- Solar-powered satellite constellation with Google's own Trillium v6e TPU
+  chips — the only tracked entrant not flying an NVIDIA GPU
+- Published feasibility study November 2025; illustrative design is an
+  81-satellite, 1 km-radius cluster in a ~650 km dawn-dusk sun-synchronous orbit
+  [[wiki/sources/google-suncatcher-research-technical.md]]
+- Proton-beam radiation testing shows TPU/HBM tolerance to ~3× the anticipated
+  5-year mission dose, with no hard TID failures up to 15 krad(Si)
+  [[wiki/sources/google-suncatcher-research-technical.md]]
+- Demonstrated 800 Gbps each-way (1.6 Tbps total) optical inter-satellite links
+  [[wiki/sources/google-suncatcher-research-technical.md]]
+- Requires launch costs below **$200/kg by mid-2030s** for viability — same
+  threshold as the rest of the industry, not a more favorable case
+  [[wiki/sources/scientific-american-space-datacenters.md]] *(news_article)*,
+  [[wiki/sources/google-suncatcher-research-technical.md]]
+- Two prototype satellites with Planet targeted for early 2027; no compute
+  hardware in orbit yet as of Sept 2026 [[wiki/entities/google-suncatcher.md]]
 
 ### SpaceX
 
@@ -111,7 +123,7 @@ Xingshidai is the only confirmed operational AI-in-orbit constellation beyond St
 |---|---|---|---|
 | Starcloud | Yes (Nov 2025) | Unknown | Contested |
 | Lonestar | Yes (Mar 2025) | Unknown | Niche |
-| Google Suncatcher | No (demo 2027) | No | Requires $200/kg by 2035 |
+| Google Suncatcher | No (proto. 2027) | No | Requires $200/kg by mid-2030s |
 | Orbital | No (PoC 2027) | No | Explicitly not yet (CEO) |
 | Cowboy/Aetherflux | No | No | Pre-pivot; unclear |
 | SpaceX | Filing stage | No | Depends on Starship |
@@ -133,6 +145,8 @@ Xingshidai is the only confirmed operational AI-in-orbit constellation beyond St
 - [[wiki/entities/orbital.md]]
 - [[wiki/entities/starcloud.md]]
 - [[wiki/entities/spacex.md]]
+- [[wiki/entities/google-suncatcher.md]]
 - [[wiki/sources/scientific-american-space-datacenters.md]]
 - [[wiki/sources/orbital-startup-economics-register-2026.md]]
 - [[wiki/sources/space-data-center-wikipedia.md]]
+- [[wiki/sources/google-suncatcher-research-technical.md]]
